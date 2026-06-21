@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Engineering Calculus 1</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="study-header">
+      <a class="brand" href="#/" aria-label="Engineering Calculus 1 home">
+        <span>Engineering Calculus 1</span>
+        <small>Personal OCW study dashboard</small>
+      </a>
+
+      <label class="search-shell" for="search-input">
+        <span>Search</span>
+        <input id="search-input" type="search" placeholder="limits, exam 2, Taylor, polar">
+      </label>
+
+      <nav class="header-actions" aria-label="Primary">
+        <a href="#/">Home</a>
+        <a href="#/plan">Plan</a>
+        <a href="course-map.json" target="_blank" rel="noopener">Map</a>
+        <a href="ocw-source/index.html" target="_blank" rel="noopener">OCW</a>
+      </nav>
+    </header>
+
+    <div class="progress-ribbon" aria-label="Course progress">
+      <div>
+        <strong id="progress-count">0%</strong>
+        <span id="progress-meta">0 of 0 complete</span>
+      </div>
+      <div class="progress-track" aria-hidden="true">
+        <span id="progress-bar"></span>
+      </div>
+    </div>
+
+    <nav id="module-nav" class="module-rail" aria-label="Course modules"></nav>
+
+    <section id="search-overlay" class="search-overlay" hidden></section>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <p>
+        Course materials are from MIT OpenCourseWare 18.01SC Single Variable Calculus, Fall 2010.
+        This personal dashboard is unofficial and is not endorsed by MIT.
+      </p>
+      <p>
+        MIT OCW materials are licensed under
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">Creative Commons BY-NC-SA 4.0</a>.
+      </p>
+    </footer>
+
+    <script src="site-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

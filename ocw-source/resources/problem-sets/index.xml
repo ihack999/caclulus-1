@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT18_01SC_pset1prb.pdf</title>
+      <link>/resources/mit18_01sc_pset1prb-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset1prb-1/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem sets of differentiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset1sol.pdf</title>
+      <link>/resources/mit18_01sc_pset1sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset1sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to differentiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset2prb.pdf</title>
+      <link>/resources/mit18_01sc_pset2prb-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset2prb-1/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem sets of applications of differentiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset2sol.pdf</title>
+      <link>/resources/mit18_01sc_pset2sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset2sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of applications of differentiation problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset3prb.pdf</title>
+      <link>/resources/mit18_01sc_pset3prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset3prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem sets of integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset3sol.pdf</title>
+      <link>/resources/mit18_01sc_pset3sol-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset3sol-1/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of integration problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset4prb.pdf</title>
+      <link>/resources/mit18_01sc_pset4prb-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset4prb-2/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem sets of applications of integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset4sol.pdf</title>
+      <link>/resources/mit18_01sc_pset4sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset4sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of applications of integration problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset5prb.pdf</title>
+      <link>/resources/mit18_01sc_pset5prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset5prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem sets of integration techniques.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SC_pset5sol.pdf</title>
+      <link>/resources/mit18_01sc_pset5sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01sc_pset5sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of integration technique problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex01prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex01prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex01prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to secants and tangents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex01sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex01sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex01sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to derivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex02prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex02prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex02prb/data.json</guid>
+      <description>&lt;p&gt;this resource contains problem statements related to derivatives of |x|.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex02sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex02sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex02sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to derivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex03prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex03prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex03prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to checking account balances.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex03sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex03sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex03sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to derivative as a rate of change.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex04prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex04prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex04prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to continuous but not smooth.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex04sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex04sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex04sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to limits and continuity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex05prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex05prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex05prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to limits and discontinuity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex05sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex05sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex05sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to discontinuity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex07prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex07prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex07prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to derivatives of sine and cosine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex07sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex07sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex07sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to derivatives of sine and cosine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex08prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex08prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex08prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to the function |x|.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex08sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex08sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex08sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to limits of sine and cosine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex09prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex09prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex09prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to piecewise polynomial.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex09sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex09sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex09sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to product rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex100sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex100sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex100sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the operations on power series and taylor series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex101prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex101prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex101prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to Taylor&amp;rsquo;s series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex101sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex101sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex101sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problems related to the hyperbolic sine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex10prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex10prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex10prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to quotient rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex10sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex10sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex10sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to quotient rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex11prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex11prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex11prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to quotient rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex11sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex11sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex11sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to chain rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex12prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex12prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex12prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to repeated differentiation of sine and cosine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex12sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex12sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex12sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to higher derivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex13prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex13prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex13prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to implicit differentiation and the second derivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex13sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex13sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex13sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to implicit differentiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex14prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex14prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex14prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to the implicit differentiation and the chain rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex14sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex14sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex14sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to examples of implicit differentiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex15prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex15prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex15prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to derivative of the square root function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex15sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex15sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex15sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to implicit differentiation and inverse functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex16prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex16prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex16prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to compound interest.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex16sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex16sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex16sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to the deriative of a^x.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex17prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex17prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex17prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to solving equations with e and ln x.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex17sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex17sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex17sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to the exponential unction, its derivative and its inverse.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex19aprb.pdf</title>
+      <link>/resources/mit18_01scf10_ex19aprb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex19aprb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to the evaluating an interesting limit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex19asol.pdf</title>
+      <link>/resources/mit18_01scf10_ex19asol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex19asol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to an interesting limit involving e.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex19bprb.pdf</title>
+      <link>/resources/mit18_01scf10_ex19bprb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex19bprb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to evaluating an interest using the limit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex19bsol.pdf</title>
+      <link>/resources/mit18_01scf10_ex19bsol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex19bsol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to interesting limit involving e.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex20prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex20prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex20prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to hyperbolic angle sum formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex20sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex20sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex20sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to hyperbolic functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex23prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex23prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex23prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to linear approximation to calculator computations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex23sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex23sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex23sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to linear approximations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex24prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex24prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex24prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to product of linear approximation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex24sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex24sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex24sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to examples of linear approximations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex25prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex25prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex25prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to comparing quadratic approximations to calculator computations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex25sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex25sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex25sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to quadratic approximation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex26prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex26prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex26prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to finding a formula for the best degree n approximation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex26sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex26sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex26sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to quadratic approximations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex28prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex28prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex28prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to graph features.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex28sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex28sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex28sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to sketching graphs II.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex30prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex30prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex30prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to can design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex30sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex30sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex30sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to optimization problems II.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex31prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex31prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex31prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to solving an optimization problem using implicit differentiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex31sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex31sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex31sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to related rates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex33prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex33prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex33prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to cube root of x.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex33sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex33sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex33sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to newton&amp;rsquo;s method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex34prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex34prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex34prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to mean value theorem and taylor&amp;rsquo;s theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex34sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex34sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex34sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to mean value theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex35prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex35prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex35prb/data.json</guid>
+      <description>&lt;p&gt;this resource contains problem statements related to mean value theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex35sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex35sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex35sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to using mean value theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex36prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex36prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex36prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to using differentials to study dynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex36sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex36sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex36sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to differentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex37prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex37prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex37prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related anti - derivative rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex37sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex37sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex37sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to antiderivatives.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex38prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex38prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex38prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to anti derivative of tax sec 2 x.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex38sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex38sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex38sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to integration by subsitution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex39prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex39prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex39prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex39sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex39sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex39sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex40prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex40prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex40prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to exponential growth and inhibited growth.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex40sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex40sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex40sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to separation of variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex43prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex43prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex43prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integration intuition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex43sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex43sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex43sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to definite integrals,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex44prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex44prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex44prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to summation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex44sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex44sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex44sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to adding areas of rectangles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex45prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex45prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex45prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integral of |x|.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex45sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex45sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex45sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to easy integrals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex46prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex46prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex46prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to Riemann sum practice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex46sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex46sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex46sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to Riemann sums.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex47prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex47prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex47prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to definite integrals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex47sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex47sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex47sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to fundamental theorem of calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex48prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex48prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex48prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integral of sin (x) + cos (x).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex48sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex48sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex48sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to fundamental theorem of calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex49prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex49prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex49prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integration by change of variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex49sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex49sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex49sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to applications of the fundamental theorem of calculus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex50prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex50prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex50prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to estimating ln (5).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex50sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex50sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex50sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to combining theorem and the mean value theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex54prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex54prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex54prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to logs and exponents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex54sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex54sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex54sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to the second fundamental theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex55prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex55prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex55prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to probability function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex55sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex55sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex55sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to second fundamental theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex56prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex56prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex56prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related area of smile.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex56sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex56sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex56sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to geometric interpretation of definite integrals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex57prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex57prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex57prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to revolution about x-axis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex57sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex57sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex57sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to calculating volumes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex58prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex58prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex58prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to volume of a spheroid.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex58sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex58sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex58sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to volume of a sphere, revolving about x-axis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex59prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex59prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex59prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to volume of revolution via washers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex59sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex59sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex59sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to volume of a parabaloid, revolving about x-axis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex60prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex60prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex60prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to average work balance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex60sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex60sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex60sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to integrals and averages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex61prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex61prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex61prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to weighted average.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex61sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex61sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex61sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to integrals and weighted averages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex63prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex63prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex63prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to numerical integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex63sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex63sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex63sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to numerical integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex64prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex64prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex64prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to Simpson&amp;rsquo;s rule for normal distribution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex64sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex64sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex64sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to numerical integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex68prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex68prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex68prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integral of sin^n(x) cos^m(x) and odd exponents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex68sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex68sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex68sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to trigonometric powers, and completing the square.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex69prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex69prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex69prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integral of sin^n(x) cos^m(x) and even exponents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex69sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex69sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex69sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to inetgral of sin^n(x) and even exponents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex70prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex70prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex70prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to alternate solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex70sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex70sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex70sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to trig substitution and polar coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex71prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex71prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex71prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integrals involving secant, co secant and cotangent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex71sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex71sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex71sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions related to integrals involving secant, cosecant and cotangent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex72prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex72prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex72prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related trig substitution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex72sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex72sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex72sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to trig substitution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex73prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex73prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex73prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to completing the square.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex73sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex73sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex73sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to completing the square.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex74prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex74prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex74prb/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex74sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex74sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex74sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex75aprb.pdf</title>
+      <link>/resources/mit18_01scf10_ex75aprb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex75aprb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to advanced partial fractions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex75asol.pdf</title>
+      <link>/resources/mit18_01scf10_ex75asol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex75asol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to advanced partial fractions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex75bprb.pdf</title>
+      <link>/resources/mit18_01scf10_ex75bprb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex75bprb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to advanced partial fractions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex75bsol.pdf</title>
+      <link>/resources/mit18_01scf10_ex75bsol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex75bsol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to advanced partial fractions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex76prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex76prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex76prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integration by parts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex76sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex76sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex76sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to integration by parts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex78prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex78prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex78prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to computation of length of a curve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex78sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex78sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex78sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to computing the length of a curve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex79prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex79prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex79prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related surface area.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex79sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex79sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex79sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements related to surface area.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex80prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex80prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex80prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to parametric curves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex80sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex80sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex80sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the exploring a parametric curve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex81prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex81prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex81prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to parametrized curves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex81sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex81sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex81sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the path of a falling object.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex84prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex84prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex84prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to polar coordinates and graphing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex84sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex84sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex84sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the lemniscate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex87prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex87prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex87prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to L&amp;rsquo;hospital&amp;rsquo;s rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex87sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex87sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex87sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the L&amp;rsquo;Hospital&amp;rsquo;s Rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex88prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex88prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex88prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to L&amp;rsquo;hospital&amp;rsquo;s rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex88sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex88sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex88sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the rational expressions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex90prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex90prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex90prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to advanced examples of L&amp;rsquo;hospital&amp;rsquo;s rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex90sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex90sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex90sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the extension of l’Hˆopital’s rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex91prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex91prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex91prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to improper integrals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex91sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex91sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex91sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the Integrating 1/(5x+2)^2 from 1 to inﬁnity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex92prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex92prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex92prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to integral comparison.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex92sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex92sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex92sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the conﬁrming an integral converges.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex94prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex94prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex94prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to infinite series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex94sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex94sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex94sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the summing the geometric series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex95prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex95prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex95prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to series comparison.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex95sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex95sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex95sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the using the ratio test.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex97prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex97prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex97prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to power series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex97sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex97sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex97sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the finding the radius of convergence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex98prb.pdf</title>
+      <link>/resources/mit18_01scf10_ex98prb/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex98prb/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements related to Taylor&amp;rsquo;s series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_ex98sol.pdf</title>
+      <link>/resources/mit18_01scf10_ex98sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ex98sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains the solutions for the problems related to the function equal its Taylor series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_Ses63d.pdf</title>
+      <link>/resources/mit18_01scf10_ses63d/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ses63d/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about numerical integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_Ses87d.pdf</title>
+      <link>/resources/mit18_01scf10_ses87d/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_ses87d/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations related to l&amp;rsquo;hospital&amp;rsquo;s rule.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

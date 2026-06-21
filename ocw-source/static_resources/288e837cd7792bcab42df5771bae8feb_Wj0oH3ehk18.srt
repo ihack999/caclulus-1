@@ -1,0 +1,805 @@
+1
+00:00:00,000 --> 00:00:07,370
+JOEL LEWIS: Hi.
+
+2
+00:00:07,370 --> 00:00:08,860
+Welcome back to recitation.
+
+3
+00:00:08,860 --> 00:00:11,470
+You've been doing some
+work on trig integration.
+
+4
+00:00:11,470 --> 00:00:13,240
+I have a nice example
+here of a problem
+
+5
+00:00:13,240 --> 00:00:15,910
+that requires trig
+integration in order to solve.
+
+6
+00:00:15,910 --> 00:00:20,330
+So what I'd like you to do is to
+compute the volume of the solid
+
+7
+00:00:20,330 --> 00:00:24,640
+that you get when you take one
+hump of the curve y equals sine
+
+8
+00:00:24,640 --> 00:00:27,390
+a*x and you revolve
+it around the x-axis.
+
+9
+00:00:27,390 --> 00:00:32,250
+So you take the curve between
+two consecutive roots,
+
+10
+00:00:32,250 --> 00:00:35,000
+and then you, you know,
+revolve that around the x-axis
+
+11
+00:00:35,000 --> 00:00:37,190
+and that gives you
+some, I don't know,
+
+12
+00:00:37,190 --> 00:00:39,580
+vaguely football-shaped thing.
+
+13
+00:00:39,580 --> 00:00:41,890
+And so then the
+question is, what's
+
+14
+00:00:41,890 --> 00:00:43,150
+the volume of that solid?
+
+15
+00:00:43,150 --> 00:00:46,029
+So why don't you pause the
+video, take a little while
+
+16
+00:00:46,029 --> 00:00:48,570
+to work that out, come back,
+and we can work it out together.
+
+17
+00:00:57,423 --> 00:00:59,400
+Welcome back.
+
+18
+00:00:59,400 --> 00:01:02,210
+In order to solve
+this problem, we just
+
+19
+00:01:02,210 --> 00:01:03,910
+are going to apply
+our usual methods
+
+20
+00:01:03,910 --> 00:01:08,550
+for computing a volume
+of a solid of rotation.
+
+21
+00:01:08,550 --> 00:01:11,270
+So in order to do that, remember
+that one of the things you need
+
+22
+00:01:11,270 --> 00:01:15,790
+is you need to know the region
+over which you're integrating,
+
+23
+00:01:15,790 --> 00:01:17,920
+and you need to choose
+a method of integration.
+
+24
+00:01:17,920 --> 00:01:20,690
+So in this case,
+looking at this region,
+
+25
+00:01:20,690 --> 00:01:25,440
+here, I'm rotating
+it around the x-axis.
+
+26
+00:01:25,440 --> 00:01:27,780
+It looks to me-- so
+we have two choices.
+
+27
+00:01:27,780 --> 00:01:31,350
+We could do shells with
+horizontal rectangles,
+
+28
+00:01:31,350 --> 00:01:34,320
+or we could do disks
+with vertical rectangles.
+
+29
+00:01:34,320 --> 00:01:36,140
+Looks to me like
+vertical rectangles
+
+30
+00:01:36,140 --> 00:01:38,770
+are going to be the way
+to go for this function.
+
+31
+00:01:38,770 --> 00:01:42,670
+Nice, simple, have their
+base on the x-axis.
+
+32
+00:01:42,670 --> 00:01:46,090
+You know, this is a
+nice setup for disks.
+
+33
+00:01:46,090 --> 00:01:50,514
+So we're going to take
+vertical disks here, like this.
+
+34
+00:01:50,514 --> 00:01:51,930
+Vertical rectangles
+that are going
+
+35
+00:01:51,930 --> 00:01:54,780
+to spin into vertical disks.
+
+36
+00:01:54,780 --> 00:01:56,910
+And so we're going to
+integrate all these disks,
+
+37
+00:01:56,910 --> 00:02:00,580
+we're going to add them
+up starting at x equals 0,
+
+38
+00:02:00,580 --> 00:02:02,357
+and going until the
+end of this region.
+
+39
+00:02:02,357 --> 00:02:04,690
+So we need to figure out what
+the end of that region is,
+
+40
+00:02:04,690 --> 00:02:08,900
+so we need sine
+a*x to be 0, again.
+
+41
+00:02:08,900 --> 00:02:14,920
+Well, the first 0, the first
+time sine is 0 after 0 is
+
+42
+00:02:14,920 --> 00:02:18,090
+at pi, so we need a*x to be pi.
+
+43
+00:02:18,090 --> 00:02:23,700
+So this value is at pi over a.
+
+44
+00:02:23,700 --> 00:02:24,200
+OK.
+
+45
+00:02:24,200 --> 00:02:29,120
+So that's the setup
+for the problem.
+
+46
+00:02:29,120 --> 00:02:31,430
+And now we just need
+to remember, you know,
+
+47
+00:02:31,430 --> 00:02:32,710
+how to do a problem like this.
+
+48
+00:02:32,710 --> 00:02:35,000
+So we have each of these disks.
+
+49
+00:02:35,000 --> 00:02:37,330
+Well, its height
+here is the height
+
+50
+00:02:37,330 --> 00:02:40,630
+of the function, which
+is y, in this case.
+
+51
+00:02:40,630 --> 00:02:45,790
+So the area of a
+little disk-- sorry.
+
+52
+00:02:45,790 --> 00:02:49,351
+The area of a disk,
+the little-- oh, dear.
+
+53
+00:02:49,351 --> 00:02:52,570
+The element of volume, the
+little bit of volume that we
+
+54
+00:02:52,570 --> 00:02:58,210
+get is equal to-- well, the area
+of the disk is pi y squared,
+
+55
+00:02:58,210 --> 00:03:03,210
+which is pi sine squared of a*x.
+
+56
+00:03:03,210 --> 00:03:07,150
+And then the thickness of
+the disk is a little dx.
+
+57
+00:03:07,150 --> 00:03:10,920
+So this is our little
+element dV of volume.
+
+58
+00:03:10,920 --> 00:03:12,690
+And now to get the
+whole volume, we just
+
+59
+00:03:12,690 --> 00:03:15,060
+integrate this over
+the appropriate range.
+
+60
+00:03:15,060 --> 00:03:19,590
+So this means V is equal to the
+integral from 0 to, as we said,
+
+61
+00:03:19,590 --> 00:03:32,510
+to pi over a of pi times
+sine squared of a*x dx.
+
+62
+00:03:32,510 --> 00:03:35,880
+So this is just like
+the sorts of integrals
+
+63
+00:03:35,880 --> 00:03:37,739
+you were doing in class.
+
+64
+00:03:37,739 --> 00:03:38,780
+It's a definite integral.
+
+65
+00:03:38,780 --> 00:03:41,740
+I guess most of the ones you
+did were just anti-derivatives,
+
+66
+00:03:41,740 --> 00:03:43,990
+but of course, that's
+an easy translation
+
+67
+00:03:43,990 --> 00:03:47,580
+to make by via the
+fundamental theorem.
+
+68
+00:03:47,580 --> 00:03:49,940
+So, OK, so we have
+this a*x here.
+
+69
+00:03:49,940 --> 00:03:51,300
+You know, it's up to you.
+
+70
+00:03:51,300 --> 00:03:54,050
+I think my life will be
+simpler if I just make a little
+
+71
+00:03:54,050 --> 00:03:55,850
+u-substitution,
+get rid of the a*x,
+
+72
+00:03:55,850 --> 00:03:58,266
+and then I don't have to think
+about it very much anymore.
+
+73
+00:03:58,266 --> 00:04:04,290
+So I can take u equals
+a*x, so du equals a*dx,
+
+74
+00:04:04,290 --> 00:04:08,530
+or dx equals 1 over a du.
+
+75
+00:04:11,410 --> 00:04:13,430
+So I, OK, so I make
+this quick substitution.
+
+76
+00:04:13,430 --> 00:04:17,670
+When x is 0, u is also 0.
+
+77
+00:04:17,670 --> 00:04:21,280
+When x is pi over
+a, u is just pi.
+
+78
+00:04:21,280 --> 00:04:24,155
+So this becomes
+the integral from 0
+
+79
+00:04:24,155 --> 00:04:27,310
+to pi-- I can pull
+this pi out front.
+
+80
+00:04:27,310 --> 00:04:33,720
+And I can pull-- so I'm going
+to get pi times sine squared
+
+81
+00:04:33,720 --> 00:04:37,860
+u times dx is 1 over a du.
+
+82
+00:04:37,860 --> 00:04:42,710
+So I'm going to pull the 1
+over a out front, as well.
+
+83
+00:04:42,710 --> 00:04:45,780
+So it's pi over a times the
+integral from 0 to pi of sine
+
+84
+00:04:45,780 --> 00:04:47,200
+squared u du.
+
+85
+00:04:47,200 --> 00:04:47,750
+OK.
+
+86
+00:04:47,750 --> 00:04:50,010
+So now we've just simplified
+it to the situation where
+
+87
+00:04:50,010 --> 00:04:54,154
+we've just got a trig integral,
+no other complications at all.
+
+88
+00:04:54,154 --> 00:04:55,070
+How do we do this one?
+
+89
+00:04:55,070 --> 00:04:57,650
+Well, OK, so this is not
+one of those nice ones
+
+90
+00:04:57,650 --> 00:05:00,870
+where we have an odd power
+for either sine or cosine.
+
+91
+00:05:00,870 --> 00:05:03,820
+We have sine is appearing
+to the even power of 2,
+
+92
+00:05:03,820 --> 00:05:05,550
+and cosine, well,
+it doesn't appear.
+
+93
+00:05:05,550 --> 00:05:08,150
+It appears to the even
+power 0, if you like.
+
+94
+00:05:08,150 --> 00:05:09,700
+You could say it that way.
+
+95
+00:05:09,700 --> 00:05:11,330
+So when we have
+a situation where
+
+96
+00:05:11,330 --> 00:05:14,400
+sine and cosine both appear in
+even powers, what we need to do
+
+97
+00:05:14,400 --> 00:05:17,020
+is we need to use one
+of our trig identities.
+
+98
+00:05:17,020 --> 00:05:19,790
+We need to use a
+half angle identity.
+
+99
+00:05:19,790 --> 00:05:22,400
+So the identity in particular
+that we want to use
+
+100
+00:05:22,400 --> 00:05:27,460
+is we want to replace sine
+squared u with something
+
+101
+00:05:27,460 --> 00:05:30,940
+like a cosine of 2u somehow.
+
+102
+00:05:30,940 --> 00:05:32,790
+So in order to do that,
+we need to remember
+
+103
+00:05:32,790 --> 00:05:35,470
+the appropriate identity.
+
+104
+00:05:35,470 --> 00:05:40,990
+So one of the double angle
+identities is cosine of 2t
+
+105
+00:05:40,990 --> 00:05:45,890
+equals 1 minus 2
+sine squared t, which
+
+106
+00:05:45,890 --> 00:05:52,660
+we can rewrite as the half angle
+identity sine squared t equals
+
+107
+00:05:52,660 --> 00:05:57,510
+1 minus cosine 2t over 2.
+
+108
+00:05:57,510 --> 00:06:00,060
+So this is true for any value t.
+
+109
+00:06:00,060 --> 00:06:03,086
+In particular, it's true
+when t is equal to u.
+
+110
+00:06:03,086 --> 00:06:03,710
+Back over here.
+
+111
+00:06:03,710 --> 00:06:09,430
+So we can rewrite this by
+replacing sine squared u
+
+112
+00:06:09,430 --> 00:06:13,330
+with 1 minus cosine
+of 2u divided by 2.
+
+113
+00:06:13,330 --> 00:06:18,340
+So this integral becomes, so
+our integral is equal to-- well,
+
+114
+00:06:18,340 --> 00:06:22,630
+we've still got the pi over a
+in the front-- integral from 0
+
+115
+00:06:22,630 --> 00:06:34,240
+to pi of 1 minus
+cosine of 2u over 2 du.
+
+116
+00:06:34,240 --> 00:06:35,880
+OK, and so now we integrate it.
+
+117
+00:06:35,880 --> 00:06:38,160
+So 1 over 2, that's easy.
+
+118
+00:06:38,160 --> 00:06:43,050
+That's just-- so, OK, so the pi
+over a is still out in front.
+
+119
+00:06:43,050 --> 00:06:47,340
+1 over 2 integrates,
+just gives us u over 2.
+
+120
+00:06:47,340 --> 00:06:51,020
+How about cosine of 2u?
+
+121
+00:06:51,020 --> 00:06:54,510
+Well, so minus
+cosine of 2u, so that
+
+122
+00:06:54,510 --> 00:06:55,860
+should give us a minus sine.
+
+123
+00:06:55,860 --> 00:06:56,700
+Right?
+
+124
+00:06:56,700 --> 00:06:59,780
+Derivative of sine is cosine,
+derivative of minus sine
+
+125
+00:06:59,780 --> 00:07:01,000
+is minus cosine.
+
+126
+00:07:01,000 --> 00:07:07,430
+So its minus sine of 2u,
+and then because it's 2u,
+
+127
+00:07:07,430 --> 00:07:10,330
+we're going to have
+to divide by 2 again.
+
+128
+00:07:10,330 --> 00:07:12,810
+So over 4.
+
+129
+00:07:16,240 --> 00:07:16,741
+All right.
+
+130
+00:07:16,741 --> 00:07:18,198
+If you don't believe
+me, of course,
+
+131
+00:07:18,198 --> 00:07:20,590
+you could always check by
+differentiating this expression
+
+132
+00:07:20,590 --> 00:07:24,730
+and making sure that it matches
+that expression, the integrand,
+
+133
+00:07:24,730 --> 00:07:25,650
+here.
+
+134
+00:07:25,650 --> 00:07:28,370
+And OK, and so we need
+to take that between u
+
+135
+00:07:28,370 --> 00:07:30,802
+equals 0 and u equals pi.
+
+136
+00:07:30,802 --> 00:07:32,760
+So luckily we changed
+our bounds of integration
+
+137
+00:07:32,760 --> 00:07:36,950
+and we don't have to go all
+the way back to x again.
+
+138
+00:07:36,950 --> 00:07:46,740
+OK, so this is pi
+over a times-- OK,
+
+139
+00:07:46,740 --> 00:07:54,310
+so u over 2 minus sine, 2u
+over 4 when u is pi over 2
+
+140
+00:07:54,310 --> 00:07:57,200
+minus sine of 2 pi.
+
+141
+00:07:57,200 --> 00:07:59,990
+That's just 0, right?
+
+142
+00:07:59,990 --> 00:08:01,550
+Yes, that's just 0.
+
+143
+00:08:01,550 --> 00:08:02,050
+Good.
+
+144
+00:08:02,050 --> 00:08:03,440
+So this term is just 0.
+
+145
+00:08:03,440 --> 00:08:07,680
+pi over 2 minus-- OK, now
+when we put in 0, here,
+
+146
+00:08:07,680 --> 00:08:12,700
+well, we get 0 minus sine
+of 0, so that's just 0-- so
+
+147
+00:08:12,700 --> 00:08:13,631
+just pi over 2.
+
+148
+00:08:13,631 --> 00:08:14,130
+OK.
+
+149
+00:08:14,130 --> 00:08:20,380
+So the answer, then,
+is pi squared over 2a.
+
+150
+00:08:20,380 --> 00:08:22,440
+So that's the volume
+we were looking for.
+
+151
+00:08:22,440 --> 00:08:29,950
+So just to quickly recap, we
+have our solid of revolution
+
+152
+00:08:29,950 --> 00:08:34,180
+here that we get by spinning
+this region around the x-axis.
+
+153
+00:08:34,180 --> 00:08:37,220
+We use our typical methods
+for computing volumes
+
+154
+00:08:37,220 --> 00:08:38,660
+of solids of revolution.
+
+155
+00:08:38,660 --> 00:08:43,090
+We've got a, when we do that,
+the integral that we set up
+
+156
+00:08:43,090 --> 00:08:45,670
+is a trig integral with
+a sine squared in it.
+
+157
+00:08:45,670 --> 00:08:48,290
+So both sine and cosine
+appear to an even power
+
+158
+00:08:48,290 --> 00:08:49,610
+in this trig integral.
+
+159
+00:08:49,610 --> 00:08:51,370
+When you're in that
+situation, you're
+
+160
+00:08:51,370 --> 00:08:54,550
+going to have to use your
+half angle formulas, like so.
+
+161
+00:08:54,550 --> 00:08:56,310
+Once you do that,
+you'll simplify.
+
+162
+00:08:56,310 --> 00:08:59,330
+Sometimes life is hard, you'll
+have to do it more than once.
+
+163
+00:08:59,330 --> 00:09:02,250
+In this case, we only
+had to do that once,
+
+164
+00:09:02,250 --> 00:09:05,730
+so we got-- then
+we-- that reduces
+
+165
+00:09:05,730 --> 00:09:09,160
+the integral to something
+that's easy to compute,
+
+166
+00:09:09,160 --> 00:09:11,350
+where you have one
+of sine or cosine
+
+167
+00:09:11,350 --> 00:09:13,040
+always appearing
+to an odd power.
+
+168
+00:09:13,040 --> 00:09:15,350
+In this case, very simple.
+
+169
+00:09:15,350 --> 00:09:17,060
+You just had a cosine.
+
+170
+00:09:17,060 --> 00:09:21,240
+And then you integrate it,
+and this was our final answer.
+
+171
+00:09:21,240 --> 00:09:22,463
+I'll end there.

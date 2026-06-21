@@ -1,0 +1,383 @@
+1
+00:00:07,191 --> 00:00:07,690
+Hi.
+
+2
+00:00:07,690 --> 00:00:09,200
+Welcome to recitation.
+
+3
+00:00:09,200 --> 00:00:13,640
+Last time in lecture we graphed
+some trigonometric functions
+
+4
+00:00:13,640 --> 00:00:15,560
+and some inverse
+trigonometric functions.
+
+5
+00:00:15,560 --> 00:00:18,480
+And there was a slight
+error in one of the graphs
+
+6
+00:00:18,480 --> 00:00:19,650
+that Professor Jerison did.
+
+7
+00:00:19,650 --> 00:00:21,460
+So I just wanted to
+talk a little bit
+
+8
+00:00:21,460 --> 00:00:24,280
+about it and about
+what the problem was
+
+9
+00:00:24,280 --> 00:00:25,590
+and with the correction is.
+
+10
+00:00:25,590 --> 00:00:28,960
+So the function in
+question is the arctangent
+
+11
+00:00:28,960 --> 00:00:29,950
+or the inverse tangent.
+
+12
+00:00:29,950 --> 00:00:33,980
+And so I like to write arctan,
+where Professor Jerison usually
+
+13
+00:00:33,980 --> 00:00:35,732
+writes tan to the minus 1.
+
+14
+00:00:35,732 --> 00:00:37,940
+But they just mean-- they're
+just two different names
+
+15
+00:00:37,940 --> 00:00:39,140
+for the same function.
+
+16
+00:00:39,140 --> 00:00:41,010
+So the inverse
+function of tangent.
+
+17
+00:00:41,010 --> 00:00:43,400
+Now I've got a
+graph set up here.
+
+18
+00:00:43,400 --> 00:00:45,650
+And what I've graphed
+are the lines,
+
+19
+00:00:45,650 --> 00:00:48,820
+y equals x-- that's
+this diagonal line--
+
+20
+00:00:48,820 --> 00:00:54,830
+and the graph y equals tangent
+of x-- so that's this curve--
+
+21
+00:00:54,830 --> 00:00:59,410
+and here I've got one
+of the asymptotes of y
+
+22
+00:00:59,410 --> 00:01:01,620
+equals tangent x at pi over 2.
+
+23
+00:01:01,620 --> 00:01:02,120
+Right?
+
+24
+00:01:02,120 --> 00:01:06,300
+So as x approaches pi over 2
+from the right, tangent of x
+
+25
+00:01:06,300 --> 00:01:10,170
+shoots off to infinity getting
+closer and closer to this line.
+
+26
+00:01:10,170 --> 00:01:12,880
+And, you know, it does
+something similar down here.
+
+27
+00:01:12,880 --> 00:01:14,860
+And then of course,
+it's a periodic function
+
+28
+00:01:14,860 --> 00:01:16,890
+so there are many
+copies of this.
+
+29
+00:01:16,890 --> 00:01:19,370
+So one thing to
+notice about this
+
+30
+00:01:19,370 --> 00:01:24,680
+is that the tangent
+comes in here.
+
+31
+00:01:24,680 --> 00:01:27,310
+The graph y equals
+tan x comes in
+
+32
+00:01:27,310 --> 00:01:32,250
+and it is tangent to the line
+y equals x at the origin.
+
+33
+00:01:32,250 --> 00:01:36,990
+So the slope of tan x
+is just its derivative.
+
+34
+00:01:36,990 --> 00:01:40,010
+So we saw in an
+earlier recitation
+
+35
+00:01:40,010 --> 00:01:48,650
+that d over dx of tan x is
+equal to secant squared of x.
+
+36
+00:01:48,650 --> 00:01:52,540
+And so the derivative
+at 0 is secant squared
+
+37
+00:01:52,540 --> 00:01:57,260
+of 0, which is 1 over 1
+squared, which is just 1.
+
+38
+00:01:57,260 --> 00:01:58,400
+So the slope is 1.
+
+39
+00:01:58,400 --> 00:02:02,150
+And in fact, a
+stronger thing is true,
+
+40
+00:02:02,150 --> 00:02:08,070
+which is that for positive x,
+tangent of x is larger than x.
+
+41
+00:02:08,070 --> 00:02:09,390
+So this falls away.
+
+42
+00:02:09,390 --> 00:02:11,320
+So you can figure
+that out, for example
+
+43
+00:02:11,320 --> 00:02:13,810
+by looking at the difference
+and higher derivatives
+
+44
+00:02:13,810 --> 00:02:16,330
+if you wanted to.
+
+45
+00:02:16,330 --> 00:02:20,260
+So the result of this, is that
+the graph of the arctangent,
+
+46
+00:02:20,260 --> 00:02:22,120
+that is what you
+get when you reflect
+
+47
+00:02:22,120 --> 00:02:24,310
+this graph across
+the line y equals x,
+
+48
+00:02:24,310 --> 00:02:27,310
+and because of the way
+these graphs-- because
+
+49
+00:02:27,310 --> 00:02:29,140
+of this property
+that this graph has,
+
+50
+00:02:29,140 --> 00:02:33,060
+that it lies above the line
+y equals x for positive x,
+
+51
+00:02:33,060 --> 00:02:36,670
+when you reflect it what you
+get is something that lies just
+
+52
+00:02:36,670 --> 00:02:38,120
+below the line y equals x.
+
+53
+00:02:38,120 --> 00:02:42,381
+When you reflect this whole
+picture, that the piece,
+
+54
+00:02:42,381 --> 00:02:46,000
+this piece gets reflected
+and comes entirely
+
+55
+00:02:46,000 --> 00:02:49,560
+on the other side of that line.
+
+56
+00:02:49,560 --> 00:02:56,470
+So the height here
+will be pi over 2.
+
+57
+00:02:56,470 --> 00:03:00,410
+That'll be the
+horizontal asymptote.
+
+58
+00:03:00,410 --> 00:03:12,470
+And it'll come below-- so
+this is y equals arctan x.
+
+59
+00:03:12,470 --> 00:03:14,110
+So it will come below that line.
+
+60
+00:03:14,110 --> 00:03:18,840
+And similarly, over here it'll
+come, it'll be the reflection,
+
+61
+00:03:18,840 --> 00:03:21,380
+so it'll come above that line.
+
+62
+00:03:21,380 --> 00:03:27,470
+And again it has an asymptote,
+horizontal asymptote,
+
+63
+00:03:27,470 --> 00:03:32,000
+at minus pi over 2.
+
+64
+00:03:32,000 --> 00:03:34,070
+So the one feature
+I want to point out
+
+65
+00:03:34,070 --> 00:03:37,770
+is specifically these two curves
+only intersect at the origin.
+
+66
+00:03:37,770 --> 00:03:40,850
+So in the graph Professor
+Jerison showed you,
+
+67
+00:03:40,850 --> 00:03:43,060
+they looked more
+like square root
+
+68
+00:03:43,060 --> 00:03:45,920
+of x and x squared, which have
+a later intersection point.
+
+69
+00:03:45,920 --> 00:03:49,080
+But here, for x bigger
+than 0, y equals
+
+70
+00:03:49,080 --> 00:03:52,340
+tan x is always bigger than
+x, which is always bigger
+
+71
+00:03:52,340 --> 00:03:53,950
+than y equals arctan x.
+
+72
+00:03:53,950 --> 00:03:57,330
+And then they come in and right
+at the origin, their tangent
+
+73
+00:03:57,330 --> 00:04:00,900
+to each other, they both
+have derivative 1 here.
+
+74
+00:04:00,900 --> 00:04:04,760
+And then for negative
+x, and then they cross.
+
+75
+00:04:04,760 --> 00:04:08,860
+And so arctan x is larger
+than x is larger than tan x
+
+76
+00:04:08,860 --> 00:04:11,190
+when x is less than 0.
+
+77
+00:04:11,190 --> 00:04:13,880
+So that was all I wanted
+to share with you,
+
+78
+00:04:13,880 --> 00:04:16,240
+just this slightly
+cleaner picture
+
+79
+00:04:16,240 --> 00:04:20,120
+of the arctan of x that I get
+by being able to put it up
+
+80
+00:04:20,120 --> 00:04:21,600
+on the board ahead of time.
+
+81
+00:04:21,600 --> 00:04:23,360
+So that's that.

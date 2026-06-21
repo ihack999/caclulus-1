@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>18.01SC Final Exam</title>
+      <link>/resources/mit18_01scf10_final/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_final/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem statements of final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>18.01SC Final Exam Solutions</title>
+      <link>/resources/mit18_01scf10_finalsol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_finalsol/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding final exam solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_exam1.pdf</title>
+      <link>/resources/mit18_01scf10_exam1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_exam1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_exam1sol.pdf</title>
+      <link>/resources/mit18_01scf10_exam1sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_exam1sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_exam2.pdf</title>
+      <link>/resources/mit18_01scf10_exam2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_exam2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_exam2sol.pdf</title>
+      <link>/resources/mit18_01scf10_exam2sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_exam2sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_exam3.pdf</title>
+      <link>/resources/mit18_01scf10_exam3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_exam3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_exam3sol.pdf</title>
+      <link>/resources/mit18_01scf10_exam3sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_exam3sol/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_exam4.pdf</title>
+      <link>/resources/mit18_01scf10_exam4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_exam4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_01SCF10_exam4sol.pdf</title>
+      <link>/resources/mit18_01scf10_exam4sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_01scf10_exam4sol/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,456 @@
+1
+00:00:06,757 --> 00:00:07,340
+PROFESSOR: Hi.
+
+2
+00:00:07,340 --> 00:00:08,924
+Welcome back to recitation.
+
+3
+00:00:08,924 --> 00:00:10,590
+You've been talking
+about differentials.
+
+4
+00:00:10,590 --> 00:00:11,970
+And one of the things
+that you've shown
+
+5
+00:00:11,970 --> 00:00:13,580
+is that some of the
+stuff that we've
+
+6
+00:00:13,580 --> 00:00:15,350
+been doing with
+derivatives can also
+
+7
+00:00:15,350 --> 00:00:17,290
+be phrased in terms
+of differentials.
+
+8
+00:00:17,290 --> 00:00:20,450
+That for many purposes they
+form a just a different language
+
+9
+00:00:20,450 --> 00:00:21,980
+to compute the same things.
+
+10
+00:00:21,980 --> 00:00:25,650
+So in particular one example of
+that is linear approximation.
+
+11
+00:00:25,650 --> 00:00:29,150
+So I have a problem here that's
+a linear approximation problem,
+
+12
+00:00:29,150 --> 00:00:32,130
+but I'd like you to do it using
+the method of differentials.
+
+13
+00:00:32,130 --> 00:00:35,130
+So in particular I'd like you
+to approximate the square root
+
+14
+00:00:35,130 --> 00:00:36,140
+of 21.
+
+15
+00:00:36,140 --> 00:00:37,780
+And the way I'd like
+you to do that is
+
+16
+00:00:37,780 --> 00:00:40,100
+by using a linear
+approximation to the function
+
+17
+00:00:40,100 --> 00:00:44,620
+f of x equals the square root
+of 10x minus x squared based
+
+18
+00:00:44,620 --> 00:00:48,760
+at the point 2, x_0 equals 2.
+
+19
+00:00:48,760 --> 00:00:51,300
+Note that, you know,
+why are we using
+
+20
+00:00:51,300 --> 00:00:53,700
+this function to approximate
+square root of 21?
+
+21
+00:00:53,700 --> 00:00:57,540
+Well because at 3, the
+function value at 3, f of 3,
+
+22
+00:00:57,540 --> 00:01:00,020
+is exactly equal to
+the square root of 21.
+
+23
+00:01:00,020 --> 00:01:02,330
+So to approximate
+the square root
+
+24
+00:01:02,330 --> 00:01:06,130
+21 means approximate
+the function value at 3.
+
+25
+00:01:06,130 --> 00:01:11,460
+And so, you know, this function
+has a nice value at x equals 2,
+
+26
+00:01:11,460 --> 00:01:14,390
+so we can use linear
+approximation at 2
+
+27
+00:01:14,390 --> 00:01:17,120
+to try and compute
+an approximation
+
+28
+00:01:17,120 --> 00:01:20,810
+to the function at x equals 3.
+
+29
+00:01:20,810 --> 00:01:23,860
+So why don't you take a couple
+of minutes, work this out,
+
+30
+00:01:23,860 --> 00:01:25,610
+come back and we can
+work it out together.
+
+31
+00:01:32,750 --> 00:01:34,020
+All right, welcome back.
+
+32
+00:01:34,020 --> 00:01:36,707
+So we're doing linear
+approximation here.
+
+33
+00:01:36,707 --> 00:01:38,290
+And we're doing it
+with differentials.
+
+34
+00:01:38,290 --> 00:01:42,990
+So, in general, when we use
+the method of differentials
+
+35
+00:01:42,990 --> 00:01:45,590
+to compute a linear
+approximation, what we have is
+
+36
+00:01:45,590 --> 00:01:53,720
+that if y equals f of x, so if
+y is given as a function of x,
+
+37
+00:01:53,720 --> 00:01:59,640
+then we have that-- so if we
+want to change x a little bit
+
+38
+00:01:59,640 --> 00:02:02,050
+and figure out what
+the change in y is,
+
+39
+00:02:02,050 --> 00:02:04,680
+we have this formula,
+which is that f
+
+40
+00:02:04,680 --> 00:02:11,350
+of x plus dx-- so the function
+value at a nearby point--
+
+41
+00:02:11,350 --> 00:02:17,220
+is approximately
+equal to y plus dy.
+
+42
+00:02:17,220 --> 00:02:20,130
+So this is our formula
+for linear approximation
+
+43
+00:02:20,130 --> 00:02:22,420
+in terms of differentials.
+
+44
+00:02:22,420 --> 00:02:25,740
+So in our case we have that
+our-- that the point we want
+
+45
+00:02:25,740 --> 00:02:30,360
+is x equals 2 and y equals 4.
+
+46
+00:02:30,360 --> 00:02:33,660
+And so we have, we
+know what dx is also,
+
+47
+00:02:33,660 --> 00:02:36,580
+because we want the
+approximation at the point 3.
+
+48
+00:02:36,580 --> 00:02:41,530
+So we want dx to be equal
+to 1 for this approximation.
+
+49
+00:02:41,530 --> 00:02:44,760
+And so the question is,
+what is dy going to be?
+
+50
+00:02:44,760 --> 00:02:46,790
+So that's the value
+that we're after.
+
+51
+00:02:46,790 --> 00:02:49,060
+That tells us how much the
+function value changes.
+
+52
+00:02:49,060 --> 00:02:56,370
+So to compute dy, well dy is the
+differential of the function.
+
+53
+00:02:56,370 --> 00:03:01,070
+So this is d of the
+square root of 10x
+
+54
+00:03:01,070 --> 00:03:04,840
+minus x squared, quantity.
+
+55
+00:03:04,840 --> 00:03:06,680
+OK, so to compute
+this differential now,
+
+56
+00:03:06,680 --> 00:03:09,620
+we just use our straight-forward
+rules for doing this.
+
+57
+00:03:09,620 --> 00:03:14,110
+So we take a derivative and then
+we have dx's where necessary.
+
+58
+00:03:14,110 --> 00:03:17,760
+So this is d of square root
+of 10x minus x squared.
+
+59
+00:03:17,760 --> 00:03:20,430
+So the outermost function
+is the square root function.
+
+60
+00:03:20,430 --> 00:03:27,940
+So this is going to be
+1/2 times 10x minus x
+
+61
+00:03:27,940 --> 00:03:30,370
+squared to the minus 1/2.
+
+62
+00:03:30,370 --> 00:03:34,280
+So that's 1 over the square
+root of 10x minus x squared.
+
+63
+00:03:34,280 --> 00:03:36,940
+And now I need to
+multiply by the derivative
+
+64
+00:03:36,940 --> 00:03:44,810
+of the inside function,
+which is 10 minus 2x dx.
+
+65
+00:03:44,810 --> 00:03:49,020
+So really it's 10dx minus
+2x*dx but I just, you know,
+
+66
+00:03:49,020 --> 00:03:50,640
+pulled that dx out in front.
+
+67
+00:03:50,640 --> 00:03:54,220
+So we have a differential
+equal to a differential.
+
+68
+00:03:54,220 --> 00:03:55,700
+OK, and so, but
+we want this value
+
+69
+00:03:55,700 --> 00:03:57,840
+at this particular
+point in question.
+
+70
+00:03:57,840 --> 00:03:59,680
+So at this particular
+point in question
+
+71
+00:03:59,680 --> 00:04:02,690
+we have x equals 2
+and dx is equal to 1.
+
+72
+00:04:02,690 --> 00:04:10,410
+So the value of dy that we
+want is equal to 1/2 times--
+
+73
+00:04:10,410 --> 00:04:16,650
+well this is again, OK, 10 times
+2 minus 2 squared, that's 16.
+
+74
+00:04:16,650 --> 00:04:22,720
+To the minus 1/2, times--
+so here x equals 2.
+
+75
+00:04:22,720 --> 00:04:26,410
+10 minus 4 is 6.
+
+76
+00:04:26,410 --> 00:04:30,900
+Times dx is just this 1
+that we're interested in.
+
+77
+00:04:30,900 --> 00:04:34,630
+OK so 16 to the minus
+1/2, 16 to the 1/2
+
+78
+00:04:34,630 --> 00:04:38,900
+is 4, so 16 to the
+minus 1/2 is 1/4.
+
+79
+00:04:38,900 --> 00:04:43,070
+So this is 1/2
+times 1/4 times 6.
+
+80
+00:04:43,070 --> 00:04:49,630
+So that's 6/8, which is 3/4.
+
+81
+00:04:49,630 --> 00:04:52,280
+So our dy is 3/4.
+
+82
+00:04:52,280 --> 00:04:54,010
+So that means our
+linear approximation
+
+83
+00:04:54,010 --> 00:05:01,420
+that we're after is just
+f of 3, f of x plus dx
+
+84
+00:05:01,420 --> 00:05:05,260
+is approximately
+equal to our value y
+
+85
+00:05:05,260 --> 00:05:10,030
+that we, at our original point,
+which was 4, plus the dy.
+
+86
+00:05:10,030 --> 00:05:12,222
+So plus 3/4.
+
+87
+00:05:12,222 --> 00:05:13,680
+So the linear
+approximation that we
+
+88
+00:05:13,680 --> 00:05:16,070
+get from this method
+of differentials
+
+89
+00:05:16,070 --> 00:05:17,930
+is exactly the
+same approximation
+
+90
+00:05:17,930 --> 00:05:19,940
+that we would get if we
+did this the other way.
+
+91
+00:05:19,940 --> 00:05:21,970
+But I think it's
+kind of nice to do it
+
+92
+00:05:21,970 --> 00:05:23,570
+in this differential form.
+
+93
+00:05:23,570 --> 00:05:27,170
+Somehow it seems a little more
+straightforward sometimes.
+
+94
+00:05:27,170 --> 00:05:32,280
+And OK, and so the answer that
+we get out of it is 4 plus 3/4.
+
+95
+00:05:32,280 --> 00:05:34,101
+All right, so that's that.

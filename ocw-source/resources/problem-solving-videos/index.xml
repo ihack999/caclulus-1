@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Videos on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-videos/</link>
+    <description>Recent content in Problem-Solving Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Solid With Finite Volume and Inﬁnite Cross Section</title>
+      <link>/resources/a-solid-with-finite-volume-and-infinite-cross-section/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/a-solid-with-finite-volume-and-infinite-cross-section/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Antidifferentiation by Substitution</title>
+      <link>/resources/antidifferentiation-by-substitution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/antidifferentiation-by-substitution/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Applying the Second Fundamental Theorem</title>
+      <link>/resources/applying-the-second-fundamental-theorem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/applying-the-second-fundamental-theorem/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arc Length of y=x3/2</title>
+      <link>/resources/arc-length-of-y-x3-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/arc-length-of-y-x3-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Area Between the Graphs of Sine and Cosine</title>
+      <link>/resources/area-between-the-graphs-of-sine-and-cosine/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/area-between-the-graphs-of-sine-and-cosine/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Area Between y=x3 and y=3x-2</title>
+      <link>/resources/area-between-y-x3-and-y-3x-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/area-between-y-x3-and-y-3x-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Average Velocity</title>
+      <link>/resources/average-velocity/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/average-velocity/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Average x-Coordinate in a Region</title>
+      <link>/resources/average-x-coordinate-in-a-region/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/average-x-coordinate-in-a-region/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chain Rule</title>
+      <link>/resources/chain-rule/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chain-rule/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Closest Point to the Origin</title>
+      <link>/resources/closest-point-to-the-origin/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/closest-point-to-the-origin/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comparing Functions Using the MVT</title>
+      <link>/resources/comparing-functions-using-the-mvt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/comparing-functions-using-the-mvt/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comparison Tests</title>
+      <link>/resources/comparison-tests/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/comparison-tests/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computing Antiderivatives</title>
+      <link>/resources/computing-antiderivatives/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/computing-antiderivatives/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computing Differentials</title>
+      <link>/resources/computing-differentials/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/computing-differentials/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computing the Volume of a Paraboloid</title>
+      <link>/resources/computing-the-volume-of-a-paraboloid/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/computing-the-volume-of-a-paraboloid/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Constant Multiple Rule</title>
+      <link>/resources/constant-multiple-rule/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/constant-multiple-rule/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Converting From Polar to Rectangular Coordinates</title>
+      <link>/resources/converting-from-polar-to-rectangular-coordinates/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/converting-from-polar-to-rectangular-coordinates/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Definite Integral by Substitution</title>
+      <link>/resources/definite-integral-by-substitution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/definite-integral-by-substitution/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Definite Integrals of tan (x)</title>
+      <link>/resources/definite-integrals-of-tan-x/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/definite-integrals-of-tan-x/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Definition of Derivative</title>
+      <link>/resources/definition-of-derivative/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/definition-of-derivative/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Derivative of the Arccos Function</title>
+      <link>/resources/derivative-of-the-arccos-function/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/derivative-of-the-arccos-function/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Derivative With a Discontinuity</title>
+      <link>/resources/derivative-with-a-discontinuity/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/derivative-with-a-discontinuity/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Derivatives of Sine and Cosine</title>
+      <link>/resources/derivatives-of-sine-and-cosine/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/derivatives-of-sine-and-cosine/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diffusion of a Chemical</title>
+      <link>/resources/diffusion-of-a-chemical/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/diffusion-of-a-chemical/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Explanation of Simpson&#39;s Rule</title>
+      <link>/resources/explanation-of-simpsons-rule/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/explanation-of-simpsons-rule/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finding Taylor&#39;s Series</title>
+      <link>/resources/finding-taylors-series/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/finding-taylors-series/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finding u and v&#39; When Integrating by Parts</title>
+      <link>/resources/finding-u-and-v-when-integrating-by-parts/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/finding-u-and-v-when-integrating-by-parts/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph of r = 1 &#43; cos (&amp;theta;/2)</title>
+      <link>/resources/graph-of-r-1-cos-theta-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/graph-of-r-1-cos-theta-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphing a Derivative Function</title>
+      <link>/resources/graphing-a-derivative-function/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/graphing-a-derivative-function/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphing the Arctan Function</title>
+      <link>/resources/graphing-the-arctan-function/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/graphing-the-arctan-function/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hyperbolic Trig Functions</title>
+      <link>/resources/hyperbolic-trig-functions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hyperbolic-trig-functions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hyperbolic Trig Substitution</title>
+      <link>/resources/hyperbolic-trig-substitution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hyperbolic-trig-substitution/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Implicit Differentiation</title>
+      <link>/resources/implicit-differentiation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/implicit-differentiation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Implicit Differentiation and Linear Approximation</title>
+      <link>/resources/implicit-differentiation-and-linear-approximation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/implicit-differentiation-and-linear-approximation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Improper Integrals</title>
+      <link>/resources/improper-integrals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/improper-integrals/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Increasing or Decreasing</title>
+      <link>/resources/increasing-or-decreasing/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/increasing-or-decreasing/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indeterminate Forms</title>
+      <link>/resources/indeterminate-forms/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/indeterminate-forms/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inflating a Balloon</title>
+      <link>/resources/inflating-a-balloon/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/inflating-a-balloon/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integral of tan^4(theta)</title>
+      <link>/resources/integral-of-tan4theta/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integral-of-tan4theta/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integral of xn e(-x)</title>
+      <link>/resources/integral-of-xn-e-x/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integral-of-xn-e-x/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integral Test for Convergence</title>
+      <link>/resources/integral-test-for-convergence/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integral-test-for-convergence/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integrating sinn(x) Using Reduction</title>
+      <link>/resources/integrating-sinn-x-using-reduction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integrating-sinn-x-using-reduction/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration by Completing the Square</title>
+      <link>/resources/integration-by-completing-the-square/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integration-by-completing-the-square/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration of Taylor&#39;s Series</title>
+      <link>/resources/integration-of-taylors-series/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integration-of-taylors-series/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration Practice I</title>
+      <link>/resources/integration-practice-i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integration-practice-i/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration Practice II</title>
+      <link>/resources/integration-practice-ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integration-practice-ii/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration Practice III</title>
+      <link>/resources/integration-practice-iii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integration-practice-iii/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration Practice IV</title>
+      <link>/resources/integration-practice-iv/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/integration-practice-iv/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>L&#39;Hospital Practice</title>
+      <link>/resources/lhospital-practice/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lhospital-practice/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Limit of a Series</title>
+      <link>/resources/limit-of-a-series/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/limit-of-a-series/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Approximation with Differentials</title>
+      <link>/resources/linear-approximation-with-differentials/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linear-approximation-with-differentials/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Log and Exponent Derivatives</title>
+      <link>/resources/log-and-exponent-derivatives/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/log-and-exponent-derivatives/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maximum Surface Area</title>
+      <link>/resources/maximum-surface-area/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/maximum-surface-area/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minimum Triangle Area</title>
+      <link>/resources/minimum-triangle-area/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/minimum-triangle-area/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Parametric Arc Length</title>
+      <link>/resources/parametric-arc-length-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/parametric-arc-length-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partial Fractions Decomposition</title>
+      <link>/resources/partial-fractions-decomposition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/partial-fractions-decomposition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Series Practice</title>
+      <link>/resources/power-series-practice/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/power-series-practice/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product Rule</title>
+      <link>/resources/product-rule/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/product-rule/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quadratic Approximation of a Product</title>
+      <link>/resources/quadratic-approximation-of-a-product/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quadratic-approximation-of-a-product/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quadratic Approximation of an Exponential Function</title>
+      <link>/resources/quadratic-approximation-of-an-exponential-function/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quadratic-approximation-of-an-exponential-function/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotient Rule</title>
+      <link>/resources/quotient-rule/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quotient-rule/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Radius of Convergence</title>
+      <link>/resources/radius-of-convergence/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/radius-of-convergence/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ratio Test for Convergence</title>
+      <link>/resources/ratio-test-for-convergence/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ratio-test-for-convergence/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recitation Introduction</title>
+      <link>/resources/recitation-introduction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation-introduction/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Riemann Sum</title>
+      <link>/resources/riemann-sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/riemann-sum/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rules of Logs</title>
+      <link>/resources/rules-of-logs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rules-of-logs/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Second Fundamental Theorem and Chain Rule</title>
+      <link>/resources/second-fundamental-theorem-and-chain-rule/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/second-fundamental-theorem-and-chain-rule/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Second Fundamental Theorem and Quadratic Approximation</title>
+      <link>/resources/second-fundamental-theorem-and-quadratic-approximation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/second-fundamental-theorem-and-quadratic-approximation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Series Calculation Using a Riemann Sum</title>
+      <link>/resources/series-calculation-using-a-riemann-sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/series-calculation-using-a-riemann-sum/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sketching a Curve</title>
+      <link>/resources/sketching-a-curve/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sketching-a-curve/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sliding Ladder</title>
+      <link>/resources/sliding-ladder/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sliding-ladder/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smoothing a Piecewise Function</title>
+      <link>/resources/smoothing-a-piecewise-function/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smoothing-a-piecewise-function/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Summation Notation Practice</title>
+      <link>/resources/summation-notation-practice/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/summation-notation-practice/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surface Area of a Torus</title>
+      <link>/resources/surface-area-of-a-torus/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/surface-area-of-a-torus/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tangent to Graph of Polynomial</title>
+      <link>/resources/tangent-to-graph-of-polynomial/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tangent-to-graph-of-polynomial/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taylor&#39;s Series for sec(x)</title>
+      <link>/resources/taylors-series-for-sec-x/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/taylors-series-for-sec-x/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taylor&#39;s Series of a Polynomial</title>
+      <link>/resources/taylors-series-of-a-polynomial/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/taylors-series-of-a-polynomial/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trig Integral Practice</title>
+      <link>/resources/trig-integral-practice/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/trig-integral-practice/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trig Integrals and a Volume of Revolution</title>
+      <link>/resources/trig-integrals-and-a-volume-of-revolution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/trig-integrals-and-a-volume-of-revolution/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Using Newton&#39;s Method</title>
+      <link>/resources/using-newtons-method/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/using-newtons-method/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Using the Integral Test for Estimation</title>
+      <link>/resources/using-the-integral-test-for-estimation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/using-the-integral-test-for-estimation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Using the Trapezoid and Simpson&#39;s Rules</title>
+      <link>/resources/using-the-trapezoid-and-simpsons-rules/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/using-the-trapezoid-and-simpsons-rules/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Volume of a Paraboloid via Disks</title>
+      <link>/resources/volume-of-a-paraboloid-via-disks/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/volume-of-a-paraboloid-via-disks/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Volume of Revolution via Shells</title>
+      <link>/resources/volume-of-revolution-via-shells/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/volume-of-revolution-via-shells/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>xy&#39;=(x2&#43;x)(y2&#43;1)</title>
+      <link>/resources/xy-x2-x-y2-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/xy-x2-x-y2-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>y&#34;=6x</title>
+      <link>/resources/y-6x-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/y-6x-1/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

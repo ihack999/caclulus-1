@@ -1,0 +1,582 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.330
+JOEL LEWIS: Hi.
+
+00:00:07.330 --> 00:00:08.830
+Welcome back to recitation.
+
+00:00:08.830 --> 00:00:11.070
+We've been talking about Taylor
+series and different
+
+00:00:11.070 --> 00:00:13.340
+sorts of manipulations you can
+do with them, and different
+
+00:00:13.340 --> 00:00:15.030
+examples of Taylor series.
+
+00:00:15.030 --> 00:00:16.490
+So I have an example here
+that I don't think
+
+00:00:16.490 --> 00:00:17.620
+you've seen in lecture.
+
+00:00:17.620 --> 00:00:22.150
+So this is the Taylor series 1
+plus 2x plus 3x squared plus
+
+00:00:22.150 --> 00:00:26.510
+4x cubed plus 5x to the fourth,
+and, and so on.
+
+00:00:26.510 --> 00:00:29.310
+I'm going to tell you that this
+is a Taylor series for a
+
+00:00:29.310 --> 00:00:31.550
+fairly nice function.
+
+00:00:31.550 --> 00:00:33.570
+And what I'd like you to do,
+is try and figure out what
+
+00:00:33.570 --> 00:00:34.700
+that function is.
+
+00:00:34.700 --> 00:00:38.100
+Now, I'm kind of sending you
+off onto this task without
+
+00:00:38.100 --> 00:00:40.390
+giving you much guidance, so let
+me give you a little bit
+
+00:00:40.390 --> 00:00:44.160
+of a hint, which is that the
+thing to do here, is you have
+
+00:00:44.160 --> 00:00:46.000
+a bunch of different tools
+that you know how to
+
+00:00:46.000 --> 00:00:47.590
+manipulate Taylor series by.
+
+00:00:47.590 --> 00:00:50.880
+So you know how to, you know, do
+calculus on Taylor series,
+
+00:00:50.880 --> 00:00:53.260
+you can take derivatives and
+integrals, you know how to add
+
+00:00:53.260 --> 00:00:57.040
+and multiply and perform these
+sorts of manipulations.
+
+00:00:57.040 --> 00:00:59.560
+So you might think of a
+manipulation you could perform
+
+00:00:59.560 --> 00:01:02.980
+on this Taylor series that'll
+make it a simpler expression,
+
+00:01:02.980 --> 00:01:05.440
+or something you're already
+familiar with, or so on.
+
+00:01:05.440 --> 00:01:10.390
+So let me give you some
+time to work on that.
+
+00:01:10.390 --> 00:01:11.710
+Think about it for a while.
+
+00:01:11.710 --> 00:01:13.430
+Try and come up with
+the expression
+
+00:01:13.430 --> 00:01:14.640
+for this Taylor series.
+
+00:01:14.640 --> 00:01:16.900
+And come back, and we can
+work on it together.
+
+00:01:26.320 --> 00:01:28.450
+So hopefully you had some luck
+working on this problem, and
+
+00:01:28.450 --> 00:01:31.880
+figured out what the right
+manipulation to use is.
+
+00:01:31.880 --> 00:01:35.920
+I didn't, I kind of tossed it at
+you without a whole lot of
+
+00:01:35.920 --> 00:01:37.830
+guidance, and I don't think
+you've done a lot of examples
+
+00:01:37.830 --> 00:01:38.880
+like this before.
+
+00:01:38.880 --> 00:01:42.400
+So it's a little tricky.
+
+00:01:42.400 --> 00:01:44.960
+So what I suggested was that
+you think about things that
+
+00:01:44.960 --> 00:01:48.920
+you, you know how to
+do that could be
+
+00:01:48.920 --> 00:01:51.930
+used to simplify this.
+
+00:01:51.930 --> 00:01:56.270
+So looking at it, it's just
+one Taylor series.
+
+00:01:56.270 --> 00:01:59.540
+So it's not clear that sort of
+Taylor series arithmetic is
+
+00:01:59.540 --> 00:02:00.740
+going to help you very much.
+
+00:02:00.740 --> 00:02:04.700
+It's not obviously a
+substitution of some value
+
+00:02:04.700 --> 00:02:07.740
+into some other Taylor series
+that you're familiar with.
+
+00:02:07.740 --> 00:02:12.840
+It's not obviously, say, a sum
+of two Taylor series that you
+
+00:02:12.840 --> 00:02:15.150
+already know very well.
+
+00:02:15.150 --> 00:02:19.890
+So those things don't, aren't
+immediately, it's not clear
+
+00:02:19.890 --> 00:02:22.320
+where to go with them.
+
+00:02:22.320 --> 00:02:26.180
+One thing that does pop
+out-- well, OK.
+
+00:02:26.180 --> 00:02:27.900
+So let's talk about
+some of the other
+
+00:02:27.900 --> 00:02:29.320
+tools that I mentioned.
+
+00:02:29.320 --> 00:02:30.600
+We have calculus on
+Taylor series.
+
+00:02:30.600 --> 00:02:32.650
+So we have differentiation.
+
+00:02:32.650 --> 00:02:35.350
+And if you take-- so we see here
+that the coefficients are
+
+00:02:35.350 --> 00:02:37.410
+sort of a linear polynomial.
+
+00:02:37.410 --> 00:02:40.740
+If you take a derivative, what
+happens is, well, this becomes
+
+00:02:40.740 --> 00:02:46.080
+2 plus 6x plus 12x squared
+plus 20x cubed.
+
+00:02:46.080 --> 00:02:50.410
+And those coefficients, 2, 6,
+12, 20, those are given by a
+
+00:02:50.410 --> 00:02:51.730
+quadratic polynomial.
+
+00:02:51.730 --> 00:02:55.360
+So that makes our life kind of
+more complicated, somehow.
+
+00:02:55.360 --> 00:03:00.450
+But if we look at this, we see
+that integrating this power
+
+00:03:00.450 --> 00:03:02.110
+series is really easy to do.
+
+00:03:02.110 --> 00:03:05.170
+This power series has a really
+nice antiderivative.
+
+00:03:05.170 --> 00:03:07.390
+So what I'm going to do, is I'm
+going to call this power
+
+00:03:07.390 --> 00:03:11.980
+series by the name f of x.
+
+00:03:11.980 --> 00:03:15.245
+And then what I'd like you
+to notice, is that the
+
+00:03:15.245 --> 00:03:20.270
+antiderivative of f of x dx--
+well, we can integrate power
+
+00:03:20.270 --> 00:03:21.480
+series termwise.
+
+00:03:21.480 --> 00:03:24.160
+And so what we get is--
+well, so all right.
+
+00:03:24.160 --> 00:03:26.290
+So I'm going to do, I'm going
+to put the constant of
+
+00:03:26.290 --> 00:03:28.830
+integration first. So
+the antiderivative
+
+00:03:28.830 --> 00:03:31.330
+of this is c plus--
+
+00:03:31.330 --> 00:03:36.660
+well, 1, you take its integral
+and you get x.
+
+00:03:36.660 --> 00:03:39.520
+And 2x, you take its
+integral, and you
+
+00:03:39.520 --> 00:03:41.550
+just get plus x squared.
+
+00:03:41.550 --> 00:03:45.373
+And 3x squared, you take its
+integral and you get plus x
+
+00:03:45.373 --> 00:03:48.470
+cubed, and plus x to the fourth
+from the next one, and
+
+00:03:48.470 --> 00:03:53.240
+plus x to the fifth,
+and so on.
+
+00:03:53.240 --> 00:03:53.860
+So, OK.
+
+00:03:53.860 --> 00:03:57.260
+So I put the c here, right?
+
+00:03:57.260 --> 00:04:02.490
+So any power series of this form
+is an antiderivative of
+
+00:04:02.490 --> 00:04:04.020
+the power series that
+we started with.
+
+00:04:04.020 --> 00:04:08.190
+Any power series of this form
+has a, has the derivative
+
+00:04:08.190 --> 00:04:09.860
+equal to thing that we're
+interested in.
+
+00:04:09.860 --> 00:04:13.140
+And since we really care about
+what f is, and not what its
+
+00:04:13.140 --> 00:04:15.130
+antiderivative is, we
+can choose c to be
+
+00:04:15.130 --> 00:04:17.620
+any convenient value.
+
+00:04:17.620 --> 00:04:21.760
+So I'm gonna, in particular,
+look at the power series where
+
+00:04:21.760 --> 00:04:22.950
+c is equal to 1.
+
+00:04:22.950 --> 00:04:24.000
+And why am I going to
+make that choice?
+
+00:04:24.000 --> 00:04:25.740
+Well, because we've seen a power
+series that looks very
+
+00:04:25.740 --> 00:04:28.040
+much like this before,
+with the 1 there.
+
+00:04:28.040 --> 00:04:39.200
+So we know 1 plus x plus x
+squared plus x cubed plus x to
+
+00:04:39.200 --> 00:04:41.900
+the fourth and so on.
+
+00:04:41.900 --> 00:04:47.930
+We know that this is equal
+to 1 over 1 minus x.
+
+00:04:47.930 --> 00:04:48.700
+OK?
+
+00:04:48.700 --> 00:04:51.690
+So since we know that this is
+the case, that means that our
+
+00:04:51.690 --> 00:04:54.560
+power series, f of x, is just
+the derivative of this.
+
+00:04:54.560 --> 00:04:56.240
+That's what we just
+showed here.
+
+00:04:56.240 --> 00:05:06.398
+So, f of x is equal to d over
+dx of 1 over-- whoops, that
+
+00:05:06.398 --> 00:05:07.648
+should be--
+
+00:05:11.910 --> 00:05:15.490
+over 1 minus x.
+
+00:05:15.490 --> 00:05:15.850
+OK?
+
+00:05:15.850 --> 00:05:18.115
+And notice that, you know if I'd
+chosen a different choice
+
+00:05:18.115 --> 00:05:21.260
+of constant here, it would
+be killed off by this
+
+00:05:21.260 --> 00:05:21.930
+differentiation.
+
+00:05:21.930 --> 00:05:24.340
+So it really was irrelevant.
+
+00:05:24.340 --> 00:05:26.620
+So d over dx of 1
+over 1 minus x.
+
+00:05:29.590 --> 00:05:29.986
+Yes, of d over dx of 1 minus x.
+
+00:05:29.986 --> 00:05:30.250
+And, OK.
+
+00:05:30.250 --> 00:05:32.210
+Well, this is an easy derivative
+to compute.
+
+00:05:32.210 --> 00:05:36.350
+This is 1 minus x to the minus
+1, so you do a little chain
+
+00:05:36.350 --> 00:05:39.530
+rule thing, and I think what you
+get out is that this is 1
+
+00:05:39.530 --> 00:05:43.720
+over 1 minus x squared.
+
+00:05:46.300 --> 00:05:50.800
+So this gives me a nice
+formula for this
+
+00:05:50.800 --> 00:05:51.760
+function f of x.
+
+00:05:51.760 --> 00:05:54.650
+If you wanted to check, one
+thing you could do, is you
+
+00:05:54.650 --> 00:05:58.420
+could set about computing a few
+terms, the power series
+
+00:05:58.420 --> 00:06:03.270
+for this function, for 1 over
+1 minus x squared, 1 over 1
+
+00:06:03.270 --> 00:06:04.520
+minus x quantity squared
+I should say.
+
+00:06:06.220 --> 00:06:08.500
+So you could do that either by
+using your derivative formula,
+
+00:06:08.500 --> 00:06:10.380
+which is easy enough to do.
+
+00:06:10.380 --> 00:06:12.900
+Another thing you could do, is
+you could realize that this is
+
+00:06:12.900 --> 00:06:16.380
+1 over 1 minus x times 1 over
+1 minus x, so you could try
+
+00:06:16.380 --> 00:06:20.140
+multiplying that polynomial by
+itself and that power series
+
+00:06:20.140 --> 00:06:24.120
+by itself, and see if it's easy
+to get back this formula
+
+00:06:24.120 --> 00:06:25.140
+that we had.
+
+00:06:25.140 --> 00:06:28.160
+But any of those ways is a good
+way to double check that
+
+00:06:28.160 --> 00:06:30.610
+this is really true, that this
+function, that this power
+
+00:06:30.610 --> 00:06:34.350
+series here, f of x, has
+this functional form.
+
+00:06:34.350 --> 00:06:37.080
+Now of course, I haven't said
+anything about the radius of
+
+00:06:37.080 --> 00:06:42.390
+convergence, but the thing to
+remember when you're doing
+
+00:06:42.390 --> 00:06:45.280
+calculus on power series,
+is that when you take a
+
+00:06:45.280 --> 00:06:47.550
+derivative or an antiderivative
+of a power
+
+00:06:47.550 --> 00:06:49.930
+series, you don't change the
+radius of convergence.
+
+00:06:49.930 --> 00:06:52.290
+Sometimes you can fiddle with
+what happens at the endpoints,
+
+00:06:52.290 --> 00:06:56.310
+but the radius of convergence
+stays the same.
+
+00:06:56.310 --> 00:06:59.540
+So this is going to be true
+whenever x is between
+
+00:06:59.540 --> 00:07:00.680
+negative 1 and 1.
+
+00:07:00.680 --> 00:07:03.160
+And in fact, this series
+diverges at this endpoint.
+
+00:07:03.160 --> 00:07:05.030
+That's pretty easy to check.
+
+00:07:05.030 --> 00:07:06.700
+So there we go.
+
+00:07:06.700 --> 00:07:09.300
+So this is the functional form
+for this power series.
+
+00:07:09.300 --> 00:07:11.850
+It's valid whenever x is between
+negative 1 and 1.
+
+00:07:11.850 --> 00:07:16.220
+That's its range
+of convergence.
+
+00:07:16.220 --> 00:07:19.270
+And so here we have a cute
+little trick for figuring out
+
+00:07:19.270 --> 00:07:20.670
+some forms of power series.
+
+00:07:20.670 --> 00:07:22.850
+And of course if you were
+interested, so like I said,
+
+00:07:22.850 --> 00:07:25.410
+now you had a, ypu could look
+at the derivative of this,
+
+00:07:25.410 --> 00:07:27.990
+which I mentioned had some
+coefficients that were given
+
+00:07:27.990 --> 00:07:29.510
+by some quadratic polynomial.
+
+00:07:29.510 --> 00:07:32.900
+Now that you have a functional
+form, you could figure out,
+
+00:07:32.900 --> 00:07:36.990
+you know, "Oh what, you know,
+what is the function whose
+
+00:07:36.990 --> 00:07:39.310
+power series has that quadratic
+polynomial as
+
+00:07:39.310 --> 00:07:42.240
+coefficients?" And you can do
+a whole bunch of other stuff
+
+00:07:42.240 --> 00:07:44.790
+by similarly taking derivatives
+of other power
+
+00:07:44.790 --> 00:07:47.430
+series that you're familiar
+with, or integrals.
+
+00:07:47.430 --> 00:07:49.600
+So I'll stop there.

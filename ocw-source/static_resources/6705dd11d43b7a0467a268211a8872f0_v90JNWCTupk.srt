@@ -1,0 +1,820 @@
+1
+00:00:06,867 --> 00:00:07,450
+PROFESSOR: Hi.
+
+2
+00:00:07,450 --> 00:00:09,050
+Welcome back to recitation.
+
+3
+00:00:09,050 --> 00:00:11,710
+We've been talking in lecture
+about antiderivatives.
+
+4
+00:00:11,710 --> 00:00:13,850
+So I have here a
+problem for you.
+
+5
+00:00:13,850 --> 00:00:16,310
+Just an exercise about
+computing an antiderivative.
+
+6
+00:00:16,310 --> 00:00:18,710
+So the question is to
+compute an antiderivative
+
+7
+00:00:18,710 --> 00:00:20,510
+of this big fraction.
+
+8
+00:00:20,510 --> 00:00:24,180
+So on top it's got x to
+the eighth plus 2x cubed
+
+9
+00:00:24,180 --> 00:00:30,330
+minus x to the 2/3 minus 3,
+that whole thing over x squared.
+
+10
+00:00:30,330 --> 00:00:33,760
+So just a quick
+linguistic note about why
+
+11
+00:00:33,760 --> 00:00:37,430
+I said an antiderivative
+instead of the antiderivative,
+
+12
+00:00:37,430 --> 00:00:39,370
+and then I'll let you
+work on it a little.
+
+13
+00:00:39,370 --> 00:00:40,660
+So an antiderivative.
+
+14
+00:00:40,660 --> 00:00:43,772
+There are many functions whose
+derivative is this function.
+
+15
+00:00:43,772 --> 00:00:44,630
+Right?
+
+16
+00:00:44,630 --> 00:00:49,450
+So they all differ from
+each other by constants.
+
+17
+00:00:49,450 --> 00:00:53,230
+So I would be happy with any one
+as an answer to this question.
+
+18
+00:00:53,230 --> 00:00:57,350
+That's why I chose the
+word an antiderivative.
+
+19
+00:00:57,350 --> 00:00:59,810
+So I'm looking for a
+function whose derivative
+
+20
+00:00:59,810 --> 00:01:01,600
+is equal to this function.
+
+21
+00:01:01,600 --> 00:01:04,620
+So why don't you take a
+couple minutes, work this out,
+
+22
+00:01:04,620 --> 00:01:07,350
+come back and you can check
+your answer against my work.
+
+23
+00:01:16,880 --> 00:01:17,680
+OK, welcome back.
+
+24
+00:01:17,680 --> 00:01:21,290
+So we were just talking about
+this antiderivative here.
+
+25
+00:01:21,290 --> 00:01:24,024
+So one thing you'll
+notice about this function
+
+26
+00:01:24,024 --> 00:01:26,190
+is that I've written this
+in a sort of a silly form.
+
+27
+00:01:26,190 --> 00:01:29,120
+And it's probably
+a lot easier to get
+
+28
+00:01:29,120 --> 00:01:31,060
+a feel for what this
+function is if you
+
+29
+00:01:31,060 --> 00:01:33,790
+break this fraction apart
+into its several pieces.
+
+30
+00:01:33,790 --> 00:01:37,060
+So for example, x to the
+eighth over x squared
+
+31
+00:01:37,060 --> 00:01:38,960
+is just x-- So,
+well OK, so let me,
+
+32
+00:01:38,960 --> 00:01:41,130
+this antiderivative
+that I'm interested in,
+
+33
+00:01:41,130 --> 00:01:46,340
+antiderivative of x to the
+eighth plus 2x cubed minus x
+
+34
+00:01:46,340 --> 00:01:52,620
+to the 2/3 minus 3,
+over x squared dx.
+
+35
+00:01:52,620 --> 00:01:54,440
+So I've written
+this in a silly form
+
+36
+00:01:54,440 --> 00:01:56,210
+and you can get
+it in a nicer form
+
+37
+00:01:56,210 --> 00:01:58,170
+if you just realize
+that, you know,
+
+38
+00:01:58,170 --> 00:02:00,760
+this is just a
+sum of powers of x
+
+39
+00:02:00,760 --> 00:02:04,740
+that I've put over this
+silly common denominator.
+
+40
+00:02:04,740 --> 00:02:07,560
+So our life will be a little
+simpler if we write this out
+
+41
+00:02:07,560 --> 00:02:11,440
+by splitting it up into
+the separate fractions.
+
+42
+00:02:11,440 --> 00:02:14,460
+So if I do that, this is just
+equal to the antiderivative
+
+43
+00:02:14,460 --> 00:02:18,000
+of well, x to the
+eighth over x squared.
+
+44
+00:02:18,000 --> 00:02:19,830
+That's x to the sixth.
+
+45
+00:02:19,830 --> 00:02:23,320
+And 2 x cubed over
+x squared is just x.
+
+46
+00:02:23,320 --> 00:02:29,160
+So I have x-- sorry,
+it's 2x-- plus 2x.
+
+47
+00:02:29,160 --> 00:02:34,170
+Now, OK so x to the
+2/3 over x squared.
+
+48
+00:02:34,170 --> 00:02:37,610
+So that's x to the 2/3 minus 2.
+
+49
+00:02:37,610 --> 00:02:44,150
+Which is x to the minus 4/3.
+
+50
+00:02:44,150 --> 00:02:47,860
+And minus 3 over
+x squared, so OK,
+
+51
+00:02:47,860 --> 00:02:51,270
+so we could write that as minus
+3 over x squared, or maybe it's
+
+52
+00:02:51,270 --> 00:02:55,210
+a little more convenient
+to write it as minus 3
+
+53
+00:02:55,210 --> 00:02:59,250
+x to the minus 2, dx.
+
+54
+00:02:59,250 --> 00:03:01,580
+So far I haven't really
+done anything, you know.
+
+55
+00:03:01,580 --> 00:03:03,930
+A little bit of algebra here.
+
+56
+00:03:03,930 --> 00:03:08,180
+OK, but now we know
+that we've seen
+
+57
+00:03:08,180 --> 00:03:10,860
+a formula for
+antidifferentiating
+
+58
+00:03:10,860 --> 00:03:11,980
+a single power of x.
+
+59
+00:03:11,980 --> 00:03:13,950
+I mean we know how
+to differentiate
+
+60
+00:03:13,950 --> 00:03:16,640
+a single power of x, and
+so to do an antiderivative
+
+61
+00:03:16,640 --> 00:03:19,780
+is just the inverse process.
+
+62
+00:03:19,780 --> 00:03:24,730
+And we also know that when you
+have the derivative of a sum,
+
+63
+00:03:24,730 --> 00:03:26,110
+it's the sum of derivatives.
+
+64
+00:03:26,110 --> 00:03:30,420
+And so consequently, if you have
+the antiderivative of a sum,
+
+65
+00:03:30,420 --> 00:03:32,420
+it's just the sum of
+the antiderivatives.
+
+66
+00:03:32,420 --> 00:03:36,510
+So we can write this out
+into its constituent parts.
+
+67
+00:03:36,510 --> 00:03:41,110
+So it's the antiderivative
+of x to the sixth dx
+
+68
+00:03:41,110 --> 00:03:44,890
+plus-- now of course you
+don't have to do this.
+
+69
+00:03:44,890 --> 00:03:48,030
+You could probably proceed
+just from this step onwards,
+
+70
+00:03:48,030 --> 00:03:53,390
+or, but I don't see any harm
+in actually splitting it
+
+71
+00:03:53,390 --> 00:03:54,120
+up myself.
+
+72
+00:03:54,120 --> 00:03:59,340
+So antiderivative
+of 2x*dx minus, OK,
+
+73
+00:03:59,340 --> 00:04:10,470
+x to the minus 4/3 dx plus
+minus 3 x to the minus 2 dx.
+
+74
+00:04:10,470 --> 00:04:12,470
+So I've just split it up
+into a bunch of pieces.
+
+75
+00:04:12,470 --> 00:04:15,034
+I guess this one I sort of
+pulled the minus sign out
+
+76
+00:04:15,034 --> 00:04:15,950
+and this one I didn't.
+
+77
+00:04:15,950 --> 00:04:18,090
+But you know, whatever.
+
+78
+00:04:18,090 --> 00:04:20,020
+Either way.
+
+79
+00:04:20,020 --> 00:04:21,980
+OK so now we just
+need to remember
+
+80
+00:04:21,980 --> 00:04:26,740
+our formulas for taking the
+antiderivative of a power of x.
+
+81
+00:04:26,740 --> 00:04:31,140
+So in order to that, so
+when you take a derivative,
+
+82
+00:04:31,140 --> 00:04:34,510
+the power goes down by one.
+
+83
+00:04:34,510 --> 00:04:36,760
+So if you take an
+antiderivative to the power
+
+84
+00:04:36,760 --> 00:04:38,660
+will always go up by one.
+
+85
+00:04:38,660 --> 00:04:42,290
+So in this case
+you get, so you're
+
+86
+00:04:42,290 --> 00:04:45,880
+going to get x to the seventh.
+
+87
+00:04:45,880 --> 00:04:49,410
+And now when you differentiate
+x to the seventh,
+
+88
+00:04:49,410 --> 00:04:51,170
+a 7 comes down in front, right?
+
+89
+00:04:51,170 --> 00:04:52,940
+You get 7 x to the sixth.
+
+90
+00:04:52,940 --> 00:04:55,360
+So in order to get
+just x to the sixth,
+
+91
+00:04:55,360 --> 00:04:58,320
+we have to also divide
+by that 7 there.
+
+92
+00:04:58,320 --> 00:05:00,250
+So x to the sixth,
+the antiderivative
+
+93
+00:05:00,250 --> 00:05:02,720
+is x to the seventh over 7.
+
+94
+00:05:02,720 --> 00:05:09,560
+2x, so that's going to give
+us plus 2 x squared over 2.
+
+95
+00:05:09,560 --> 00:05:12,500
+Or if you like, you could just
+recognize right away that 2x
+
+96
+00:05:12,500 --> 00:05:16,100
+is the derivative of x squared.
+
+97
+00:05:16,100 --> 00:05:18,870
+Minus-- OK now we've
+got minus powers.
+
+98
+00:05:18,870 --> 00:05:22,600
+Rather, negative powers, so
+that always is a little trickier
+
+99
+00:05:22,600 --> 00:05:24,094
+to keep track of.
+
+100
+00:05:24,094 --> 00:05:25,760
+So again, the same
+thing is true though.
+
+101
+00:05:25,760 --> 00:05:28,390
+You have to, you add
+one to the exponent.
+
+102
+00:05:28,390 --> 00:05:30,890
+The exponent goes up by one
+when you take an antiderivative.
+
+103
+00:05:30,890 --> 00:05:33,440
+It goes down by one when
+you take a derivative.
+
+104
+00:05:33,440 --> 00:05:38,270
+So when you add 1 to minus
+4/3 you get minus 1/3.
+
+105
+00:05:38,270 --> 00:05:43,240
+So we have x to the minus 1/3.
+
+106
+00:05:43,240 --> 00:05:48,100
+And now I have to
+divide by minus 1/3.
+
+107
+00:05:48,100 --> 00:05:52,140
+When I take a derivative here,
+we get-- of x to the minus 1/3,
+
+108
+00:05:52,140 --> 00:05:56,990
+I get minus 1/3 x
+to the minus 4/3.
+
+109
+00:05:56,990 --> 00:05:58,580
+So I need to divide
+by that minus 1/3.
+
+110
+00:05:58,580 --> 00:06:00,040
+OK.
+
+111
+00:06:00,040 --> 00:06:04,620
+And finally here so
+minus 3 x to the minus 2.
+
+112
+00:06:04,620 --> 00:06:06,100
+So OK, so just like
+this first one,
+
+113
+00:06:06,100 --> 00:06:08,250
+you might recognize
+that right off
+
+114
+00:06:08,250 --> 00:06:09,962
+as the derivative
+of x to the minus 3.
+
+115
+00:06:09,962 --> 00:06:14,760
+So this is plus-- Oh!
+
+116
+00:06:14,760 --> 00:06:15,990
+Ha ha!
+
+117
+00:06:15,990 --> 00:06:20,180
+You could do that if you were
+completely confused like me.
+
+118
+00:06:20,180 --> 00:06:25,470
+So right, so x to the minus
+2, it increased by one.
+
+119
+00:06:25,470 --> 00:06:26,570
+Increases by 1.
+
+120
+00:06:26,570 --> 00:06:28,876
+So when it increases by 1,
+you get minus 1 not minus 3.
+
+121
+00:06:28,876 --> 00:06:29,376
+Oh!
+
+122
+00:06:29,376 --> 00:06:30,810
+OK, good.
+
+123
+00:06:30,810 --> 00:06:39,730
+So this is minus 3 times x
+to the minus 1 over minus 1.
+
+124
+00:06:39,730 --> 00:06:40,480
+OK.
+
+125
+00:06:40,480 --> 00:06:41,271
+That's much better.
+
+126
+00:06:41,271 --> 00:06:43,260
+And if you like,
+right, so, OK, so
+
+127
+00:06:43,260 --> 00:06:45,380
+we could-- any constant
+we add to this,
+
+128
+00:06:45,380 --> 00:06:47,400
+it'll still be an
+antiderivative.
+
+129
+00:06:47,400 --> 00:06:49,320
+And now we can do a
+little bit of arithmetic
+
+130
+00:06:49,320 --> 00:06:52,380
+to arrange this into
+nicer forms if you wanted.
+
+131
+00:06:52,380 --> 00:06:55,560
+So you could
+rewrite this as say,
+
+132
+00:06:55,560 --> 00:07:02,770
+x to the seventh
+over 7 plus x squared
+
+133
+00:07:02,770 --> 00:07:14,540
+plus 3 x to the minus 1/3
+plus 3 x to the minus 1
+
+134
+00:07:14,540 --> 00:07:15,370
+plus a constant.
+
+135
+00:07:15,370 --> 00:07:18,350
+Now, suppose you
+got here and suppose
+
+136
+00:07:18,350 --> 00:07:21,850
+that you did the same
+mistake that I just made.
+
+137
+00:07:21,850 --> 00:07:24,084
+And you had accidentally
+thought that this
+
+138
+00:07:24,084 --> 00:07:26,250
+was going to be a minus 1/3
+power instead of a minus
+
+139
+00:07:26,250 --> 00:07:27,280
+first power.
+
+140
+00:07:27,280 --> 00:07:30,120
+So how would you,
+is there any way
+
+141
+00:07:30,120 --> 00:07:32,430
+that you can prevent
+yourself making that mistake?
+
+142
+00:07:32,430 --> 00:07:33,730
+Well there actually is.
+
+143
+00:07:33,730 --> 00:07:36,037
+So one nice thing
+about antiderivatives
+
+144
+00:07:36,037 --> 00:07:37,870
+is that it's really
+easy to check your work.
+
+145
+00:07:37,870 --> 00:07:40,530
+After you've computed an
+antiderivative, or something
+
+146
+00:07:40,530 --> 00:07:42,072
+that you think is
+antiderivative,
+
+147
+00:07:42,072 --> 00:07:44,530
+you can always go back and take
+the derivative of the thing
+
+148
+00:07:44,530 --> 00:07:46,200
+that you've computed
+and check that it's
+
+149
+00:07:46,200 --> 00:07:47,630
+equal to what you started with.
+
+150
+00:07:47,630 --> 00:07:51,240
+So if you, if
+you're ever worried
+
+151
+00:07:51,240 --> 00:07:53,830
+that you made a mistake
+computing an antiderivative,
+
+152
+00:07:53,830 --> 00:07:56,050
+one thing you can always
+do is take a derivative
+
+153
+00:07:56,050 --> 00:07:57,300
+of what you've got at the end.
+
+154
+00:07:57,300 --> 00:07:58,716
+So if we take a
+derivative here we
+
+155
+00:07:58,716 --> 00:08:05,800
+get x to the sixth plus 2x minus
+x to the minus 4/3 minus 3 x
+
+156
+00:08:05,800 --> 00:08:06,575
+to the minus 2.
+
+157
+00:08:06,575 --> 00:08:08,240
+OK?
+
+158
+00:08:08,240 --> 00:08:11,855
+So that was just using our
+rule for powers one by one.
+
+159
+00:08:11,855 --> 00:08:14,960
+And OK, so you say that
+out loud or write it down
+
+160
+00:08:14,960 --> 00:08:16,060
+and then you just check.
+
+161
+00:08:16,060 --> 00:08:16,560
+Right?
+
+162
+00:08:16,560 --> 00:08:19,526
+So I said that, so that's
+exactly the same thing
+
+163
+00:08:19,526 --> 00:08:20,400
+we've got right here.
+
+164
+00:08:20,400 --> 00:08:21,310
+Yeah?
+
+165
+00:08:21,310 --> 00:08:25,340
+So x to the sixth plus 2x
+minus x to the minus 4/3
+
+166
+00:08:25,340 --> 00:08:27,490
+minus 3x to the minus 2.
+
+167
+00:08:27,490 --> 00:08:31,620
+So one of the nicest things
+about antiderivatives,
+
+168
+00:08:31,620 --> 00:08:34,330
+they can be difficult to
+figure out in the first place,
+
+169
+00:08:34,330 --> 00:08:36,220
+but after you've got
+something that you think
+
+170
+00:08:36,220 --> 00:08:39,580
+is antiderivative it's very
+easy to go back and check
+
+171
+00:08:39,580 --> 00:08:42,300
+whether you did it correctly
+by taking the derivative
+
+172
+00:08:42,300 --> 00:08:46,250
+and making sure that it
+matches the thing that you
+
+173
+00:08:46,250 --> 00:08:48,750
+were trying to antidifferentiate
+at the beginning.
+
+174
+00:08:48,750 --> 00:08:50,097
+So that's that.

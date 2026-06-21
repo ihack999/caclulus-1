@@ -1,0 +1,1222 @@
+WEBVTT
+
+00:00:06.910 --> 00:00:08.346
+Welcome back to recitation.
+
+00:00:08.346 --> 00:00:11.890
+In this video, we're going to be
+working on establishing the
+
+00:00:11.890 --> 00:00:15.090
+best technique for finding
+an integral or finding an
+
+00:00:15.090 --> 00:00:16.350
+antiderivative.
+
+00:00:16.350 --> 00:00:18.970
+We'll be doing this, as you've
+seen probably in a lot of
+
+00:00:18.970 --> 00:00:21.020
+these videos, in a row.
+
+00:00:21.020 --> 00:00:23.070
+And so in this one in
+particular, we're going to
+
+00:00:23.070 --> 00:00:24.620
+work on these two.
+
+00:00:24.620 --> 00:00:28.230
+So what I'd like us to find, is
+for the letter A, I'd like
+
+00:00:28.230 --> 00:00:31.530
+us to find an actual value if
+we take the integral from
+
+00:00:31.530 --> 00:00:33.520
+minus 1 to 0 of this fraction.
+
+00:00:33.520 --> 00:00:38.060
+5x squared minus 2x plus 3 over
+the quantity x squared
+
+00:00:38.060 --> 00:00:40.380
+plus 1 times x minus one.
+
+00:00:40.380 --> 00:00:42.440
+And then, the second problem,
+we're just going to be finding
+
+00:00:42.440 --> 00:00:43.630
+an antiderivative.
+
+00:00:43.630 --> 00:00:46.320
+So it's finding an
+antiderivative of the function
+
+00:00:46.320 --> 00:00:49.170
+1 over x plus 1 times the square
+root of negative x
+
+00:00:49.170 --> 00:00:50.750
+squared minus 2x.
+
+00:00:50.750 --> 00:00:54.390
+Now, this does have a domain
+over which this function is
+
+00:00:54.390 --> 00:00:59.065
+well-defined, as long as what's
+inside the square root
+
+00:00:59.065 --> 00:00:59.720
+is positive.
+
+00:00:59.720 --> 00:01:02.410
+And there are values of x for
+which that's positive.
+
+00:01:02.410 --> 00:01:05.020
+I just didn't want us to have
+to compute this one exactly.
+
+00:01:05.020 --> 00:01:07.210
+So we're just looking for
+an antiderivative here.
+
+00:01:07.210 --> 00:01:10.910
+So the goal is, figure out what
+strategy you want to use,
+
+00:01:10.910 --> 00:01:13.150
+work through that strategy,
+and then I'll be back, and
+
+00:01:13.150 --> 00:01:15.610
+I'll show you which strategy
+I picked, and the
+
+00:01:15.610 --> 00:01:16.860
+solution that I got.
+
+00:01:24.820 --> 00:01:25.300
+OK.
+
+00:01:25.300 --> 00:01:26.400
+Welcome back.
+
+00:01:26.400 --> 00:01:27.730
+Well, hopefully you were
+able to make some
+
+00:01:27.730 --> 00:01:29.090
+headway in both of these.
+
+00:01:29.090 --> 00:01:32.170
+And so what we'll do right away,
+is just we'll start with
+
+00:01:32.170 --> 00:01:32.655
+the first one.
+
+00:01:32.655 --> 00:01:34.650
+So on the first one, we should
+be able to get an actual
+
+00:01:34.650 --> 00:01:37.510
+numerical value at the
+conclusion of the problem.
+
+00:01:37.510 --> 00:01:40.060
+And if you look at the first
+one, it's probably pretty
+
+00:01:40.060 --> 00:01:42.730
+obvious you want to use
+partial fraction
+
+00:01:42.730 --> 00:01:45.110
+decomposition.
+
+00:01:45.110 --> 00:01:48.190
+You already have a denominator
+that's factored, and so this
+
+00:01:48.190 --> 00:01:50.110
+is going to be fairly
+easy to do.
+
+00:01:50.110 --> 00:01:51.740
+Now, what's one thing you want
+to check with partial
+
+00:01:51.740 --> 00:01:53.880
+fractions, is you want to make
+sure that the degree of the
+
+00:01:53.880 --> 00:01:58.100
+numerator is smaller than the
+degree of the denominator.
+
+00:01:58.100 --> 00:02:00.570
+Notice that the numerator
+degree is 2 and the
+
+00:02:00.570 --> 00:02:02.930
+denominator degree is 3,
+because we have an x
+
+00:02:02.930 --> 00:02:04.130
+squared times x.
+
+00:02:04.130 --> 00:02:06.330
+So we don't have to do
+any long division.
+
+00:02:06.330 --> 00:02:08.380
+We can just start the problem.
+
+00:02:08.380 --> 00:02:11.520
+So what I'm going to do, is
+I'm going to actually
+
+00:02:11.520 --> 00:02:14.250
+decompose it without showing
+you how I did it.
+
+00:02:14.250 --> 00:02:17.510
+And you've done that practice
+enough, so I'm just going to
+
+00:02:17.510 --> 00:02:19.880
+show you what I got with my
+decomposition, and we'll go
+
+00:02:19.880 --> 00:02:20.870
+from there.
+
+00:02:20.870 --> 00:02:24.180
+So when I decompose
+for letter A, I
+
+00:02:24.180 --> 00:02:26.130
+actually get two integrals.
+
+00:02:26.130 --> 00:02:30.100
+And the first one I get is the
+integral from minus 1 to 0 of
+
+00:02:30.100 --> 00:02:35.800
+2x over x squared plus 1 dx.
+
+00:02:35.800 --> 00:02:42.470
+And the second one I get is the
+integral minus 1 to 0 of 3
+
+00:02:42.470 --> 00:02:45.340
+over x minus 1 dx.
+
+00:02:45.340 --> 00:02:47.150
+Let me just double check
+and make sure-- yes.
+
+00:02:47.150 --> 00:02:50.130
+That's what I got when I did
+this problem earlier.
+
+00:02:50.130 --> 00:02:51.330
+So this is not magic.
+
+00:02:51.330 --> 00:02:52.840
+I actually did this already.
+
+00:02:52.840 --> 00:02:54.420
+That's how I got these.
+
+00:02:54.420 --> 00:02:57.010
+And now from here, we just
+have to determine--
+
+00:02:57.010 --> 00:02:58.940
+we just have to integrate
+both of these.
+
+00:02:58.940 --> 00:03:01.290
+Now, what would be the strategy
+at this point?
+
+00:03:01.290 --> 00:03:02.960
+Well this one--
+
+00:03:02.960 --> 00:03:05.970
+if this had just been a 2 and no
+x, you'd be dealing with an
+
+00:03:05.970 --> 00:03:08.100
+arc tan type of problem.
+
+00:03:08.100 --> 00:03:11.190
+Because you'd be integrating
+1 over x squared plus 1.
+
+00:03:11.190 --> 00:03:14.550
+But actually, because we have
+this 2x here, this is really a
+
+00:03:14.550 --> 00:03:16.130
+substitution problem.
+
+00:03:16.130 --> 00:03:16.390
+Right?
+
+00:03:16.390 --> 00:03:20.950
+The derivative of x squared
+plus 1 is 2x.
+
+00:03:20.950 --> 00:03:21.370
+Right?
+
+00:03:21.370 --> 00:03:24.170
+So we see that really what we're
+integrating is something
+
+00:03:24.170 --> 00:03:26.230
+like du over u.
+
+00:03:26.230 --> 00:03:28.780
+And so if you did this
+substitution problem, you
+
+00:03:28.780 --> 00:03:32.250
+should get something like
+natural log of x
+
+00:03:32.250 --> 00:03:34.050
+squared plus 1.
+
+00:03:34.050 --> 00:03:36.110
+Let me just double check and
+make sure that gives me the
+
+00:03:36.110 --> 00:03:36.810
+derivative here.
+
+00:03:36.810 --> 00:03:39.580
+The derivative of natural log of
+x squared plus 1 is 1 over
+
+00:03:39.580 --> 00:03:41.220
+x squared plus 1 times 2x.
+
+00:03:41.220 --> 00:03:43.230
+That gives me exactly
+what's here.
+
+00:03:43.230 --> 00:03:45.030
+I don't need absolute
+values here, because
+
+00:03:45.030 --> 00:03:46.790
+this is always positive.
+
+00:03:46.790 --> 00:03:50.500
+And I know I need to evaluate
+it at minus 1 and 0.
+
+00:03:50.500 --> 00:03:50.860
+OK?
+
+00:03:50.860 --> 00:03:52.830
+So that takes care
+of the left one.
+
+00:03:52.830 --> 00:03:56.250
+Now, the right one is again,
+it's a pretty straightforward
+
+00:03:56.250 --> 00:03:58.490
+one, because it's just
+3 over x minus 1.
+
+00:03:58.490 --> 00:04:00.160
+That's a natural log again.
+
+00:04:00.160 --> 00:04:02.030
+So this natural log
+is even simpler.
+
+00:04:02.030 --> 00:04:07.710
+It's going to be 3 times the
+natural log absolute x minus 1
+
+00:04:07.710 --> 00:04:09.850
+from minus 1 to 0.
+
+00:04:09.850 --> 00:04:12.130
+And so now we just have
+to plug in everything.
+
+00:04:12.130 --> 00:04:12.470
+OK?
+
+00:04:12.470 --> 00:04:17.190
+So let's just do this one step
+at a time, starting over here.
+
+00:04:17.190 --> 00:04:19.760
+So the natural log, when
+I put in 0, I get the
+
+00:04:19.760 --> 00:04:20.970
+natural log of 1.
+
+00:04:20.970 --> 00:04:23.160
+That's 0.
+
+00:04:23.160 --> 00:04:26.495
+And I subtract what I get when
+I put in negative 1 for x.
+
+00:04:26.495 --> 00:04:29.670
+And negative 1 squared gives
+me 1, so this is minus the
+
+00:04:29.670 --> 00:04:32.530
+natural log of 2.
+
+00:04:32.530 --> 00:04:35.000
+And then I have plus 3 times
+whatever's over here.
+
+00:04:35.000 --> 00:04:36.570
+So now let's look at this.
+
+00:04:36.570 --> 00:04:39.640
+When I plug in 0, I get natural
+log of 0 minus 1
+
+00:04:39.640 --> 00:04:40.350
+absolute value.
+
+00:04:40.350 --> 00:04:41.280
+That's natural log of 1.
+
+00:04:41.280 --> 00:04:42.880
+That's zero again.
+
+00:04:42.880 --> 00:04:44.680
+And then I get a minus.
+
+00:04:44.680 --> 00:04:46.130
+And then I put in negative 1.
+
+00:04:46.130 --> 00:04:49.710
+Negative 1 minus 1, negative
+2, absolute value, so it's
+
+00:04:49.710 --> 00:04:50.960
+natural log of 2.
+
+00:04:54.040 --> 00:04:57.460
+And so if I look it at all the
+way across, I see I have a
+
+00:04:57.460 --> 00:04:59.980
+negative natural log of
+2 and then I have 3
+
+00:04:59.980 --> 00:05:01.410
+natural logs of 2.
+
+00:05:01.410 --> 00:05:06.590
+So the final answer is just
+negative 4 natural log of 2.
+
+00:05:06.590 --> 00:05:07.760
+And that is where we'll
+
+00:05:07.760 --> 00:05:10.340
+stop with A. OK.
+
+00:05:10.340 --> 00:05:13.940
+So let me just remind you,
+actually, before we go to B.
+
+00:05:13.940 --> 00:05:15.900
+What we did in A was we
+did partial fraction
+
+00:05:15.900 --> 00:05:17.340
+decomposition.
+
+00:05:17.340 --> 00:05:20.820
+And I gave you the numerators.
+
+00:05:20.820 --> 00:05:23.480
+And then on the first one,
+we had to use maybe a
+
+00:05:23.480 --> 00:05:24.990
+substitution to figure it out.
+
+00:05:24.990 --> 00:05:27.740
+I didn't write explicitly
+the substitution, but a
+
+00:05:27.740 --> 00:05:30.380
+substitution gives us that
+integral, and this one is
+
+00:05:30.380 --> 00:05:32.950
+directly a natural log.
+
+00:05:32.950 --> 00:05:33.330
+OK.
+
+00:05:33.330 --> 00:05:39.070
+Now let's look at B. So B--
+
+00:05:39.070 --> 00:05:43.410
+let me rewrite the problem,
+because it's now
+
+00:05:43.410 --> 00:05:44.660
+a little far away.
+
+00:05:47.250 --> 00:05:52.270
+I think it's x plus 1 square
+root of negative x
+
+00:05:52.270 --> 00:05:55.420
+squared minus 2x.
+
+00:05:55.420 --> 00:05:56.550
+OK.
+
+00:05:56.550 --> 00:05:58.470
+So B, the reason--
+
+00:05:58.470 --> 00:06:02.610
+I wanted to make sure we did
+a trig substitution in a
+
+00:06:02.610 --> 00:06:04.180
+particular way, because
+I haven't
+
+00:06:04.180 --> 00:06:06.000
+demonstrated those very much.
+
+00:06:06.000 --> 00:06:08.510
+So the denominator wound up
+looking a little awkward, to
+
+00:06:08.510 --> 00:06:11.080
+force you to do it
+in that way.
+
+00:06:11.080 --> 00:06:13.850
+But what we want to do, is we
+want to actually complete the
+
+00:06:13.850 --> 00:06:14.960
+square on what's in here.
+
+00:06:14.960 --> 00:06:17.100
+And that might make you
+a little bit nervous.
+
+00:06:17.100 --> 00:06:20.520
+But let me just do a little
+sidebar work down here, and
+
+00:06:20.520 --> 00:06:22.630
+point out what we get.
+
+00:06:22.630 --> 00:06:26.130
+If we factor out a negative
+here, we get an x
+
+00:06:26.130 --> 00:06:29.540
+squared plus 2x.
+
+00:06:29.540 --> 00:06:29.840
+OK?
+
+00:06:29.840 --> 00:06:31.740
+So we're going to complete
+the square on the inside.
+
+00:06:31.740 --> 00:06:33.350
+Now this might make some
+people nervous.
+
+00:06:33.350 --> 00:06:34.700
+They might say, you've
+a negative
+
+00:06:34.700 --> 00:06:35.800
+under the square root.
+
+00:06:35.800 --> 00:06:39.070
+But I want to point out that I
+have a negative here, but I
+
+00:06:39.070 --> 00:06:42.550
+could always make x squared plus
+2x a negative number, and
+
+00:06:42.550 --> 00:06:43.930
+then I would have--
+
+00:06:43.930 --> 00:06:46.910
+the negative times a negative
+is a positive.
+
+00:06:46.910 --> 00:06:49.740
+For instance, I think negative
+1, right, if I put a negative
+
+00:06:49.740 --> 00:06:54.220
+1 for x, I get negative 2 plus
+1 is a negative value.
+
+00:06:54.220 --> 00:06:56.810
+So if I put a negative 1 for x,
+I'm taking the square root
+
+00:06:56.810 --> 00:06:57.740
+of a positive number.
+
+00:06:57.740 --> 00:07:01.070
+So there are values of x that
+make this under the square
+
+00:07:01.070 --> 00:07:02.310
+root positive.
+
+00:07:02.310 --> 00:07:02.715
+OK?
+
+00:07:02.715 --> 00:07:04.800
+So you don't have to
+worry about that.
+
+00:07:04.800 --> 00:07:06.470
+Now, if I want to complete
+the square on what's in
+
+00:07:06.470 --> 00:07:07.690
+here, what do I do?
+
+00:07:07.690 --> 00:07:10.000
+I have x squared plus 2x.
+
+00:07:10.000 --> 00:07:13.670
+I obviously need to add a 1
+to complete the square.
+
+00:07:13.670 --> 00:07:14.370
+Why is that?
+
+00:07:14.370 --> 00:07:15.990
+Because you take what's here,
+you divide it by 2,
+
+00:07:15.990 --> 00:07:17.270
+and you square it.
+
+00:07:17.270 --> 00:07:22.430
+And so this actually equals
+square root of negative x
+
+00:07:22.430 --> 00:07:25.060
+squared plus 2x plus 1.
+
+00:07:25.060 --> 00:07:27.530
+And I want to subtract 1 so
+that I haven't changed
+
+00:07:27.530 --> 00:07:30.000
+anything, but when I pull it
+out from the negative, it's
+
+00:07:30.000 --> 00:07:31.760
+another plus 1.
+
+00:07:31.760 --> 00:07:32.030
+OK?
+
+00:07:32.030 --> 00:07:33.710
+Let's make sure we buy that.
+
+00:07:33.710 --> 00:07:37.540
+I've added 1 inside here, so
+if I add 1 on the outside,
+
+00:07:37.540 --> 00:07:40.590
+this is actually a minus 1, and
+so this is a plus 1, so
+
+00:07:40.590 --> 00:07:42.420
+together they add up to 0.
+
+00:07:42.420 --> 00:07:45.370
+So I haven't changed what's
+in the square root.
+
+00:07:45.370 --> 00:07:48.100
+So if I come back and put that
+in right here, what do I get?
+
+00:07:48.100 --> 00:07:56.020
+I get the integral dx over x
+plus 1 square root-- let me
+
+00:07:56.020 --> 00:07:56.900
+move this over.
+
+00:07:56.900 --> 00:07:58.260
+I'm going to bring this
+to the front--
+
+00:07:58.260 --> 00:08:03.340
+1 minus x plus 1 squared.
+
+00:08:03.340 --> 00:08:03.810
+All right.
+
+00:08:03.810 --> 00:08:06.750
+So from here, we have to
+do a trig substitution.
+
+00:08:06.750 --> 00:08:08.540
+Now, what trig substitution
+we want to do, we
+
+00:08:08.540 --> 00:08:10.770
+can do sine or cosine.
+
+00:08:10.770 --> 00:08:14.350
+But I'm going to do cosine,
+because I like secants better
+
+00:08:14.350 --> 00:08:18.000
+than cosecants, because I have
+those memorized better.
+
+00:08:18.000 --> 00:08:20.460
+So that's why I'm
+choosing cosine.
+
+00:08:20.460 --> 00:08:24.580
+You'll see why I chose that
+way in a little bit.
+
+00:08:24.580 --> 00:08:26.040
+But it would be, you
+will get the same
+
+00:08:26.040 --> 00:08:28.620
+answer if you do sine.
+
+00:08:28.620 --> 00:08:28.870
+OK.
+
+00:08:28.870 --> 00:08:31.390
+So I'm going to come
+to the other side.
+
+00:08:31.390 --> 00:08:32.120
+Let's see.
+
+00:08:32.120 --> 00:08:37.470
+So I'm choosing cosine theta
+equals x plus 1.
+
+00:08:37.470 --> 00:08:39.650
+That's the substitution
+I'm making.
+
+00:08:39.650 --> 00:08:41.620
+And why am I making
+that substitution?
+
+00:08:41.620 --> 00:08:45.370
+I'm making that substitution
+because when I do 1 minus x
+
+00:08:45.370 --> 00:08:48.520
+plus 1 squared, that's actually
+1 minus cosine
+
+00:08:48.520 --> 00:08:50.540
+squared theta.
+
+00:08:50.540 --> 00:08:53.840
+So that's, this in here
+is sine squared theta.
+
+00:08:53.840 --> 00:08:56.770
+And when I take the square root,
+I just get a sine theta.
+
+00:08:56.770 --> 00:08:58.310
+So that should be pretty
+familiar to you
+
+00:08:58.310 --> 00:08:59.800
+by now, this strategy.
+
+00:08:59.800 --> 00:09:02.800
+But the point I'm making is that
+x plus 1 will be a cosine
+
+00:09:02.800 --> 00:09:05.180
+theta, and this whole
+square root is what
+
+00:09:05.180 --> 00:09:06.300
+becomes a sine theta.
+
+00:09:06.300 --> 00:09:08.050
+So you've seen that a fair
+amount, but just
+
+00:09:08.050 --> 00:09:09.770
+to remind you that.
+
+00:09:09.770 --> 00:09:13.000
+And then the other thing we
+need is to replace the dx.
+
+00:09:13.000 --> 00:09:16.760
+So the dx is going to be,
+derivative of cosine is
+
+00:09:16.760 --> 00:09:18.370
+negative sine, so you're
+going to get negative
+
+00:09:18.370 --> 00:09:21.860
+sine theta d theta.
+
+00:09:21.860 --> 00:09:23.040
+So now we know all the pieces.
+
+00:09:23.040 --> 00:09:26.530
+We said this was cosine, we said
+the square root is sine,
+
+00:09:26.530 --> 00:09:29.440
+and the dx is negative
+sine d theta.
+
+00:09:29.440 --> 00:09:31.285
+So let's rewrite
+that over here.
+
+00:09:34.180 --> 00:09:34.990
+So we have--
+
+00:09:34.990 --> 00:09:37.290
+I'm going to put the negative
+in front, so I don't have to
+
+00:09:37.290 --> 00:09:38.640
+deal with it anymore.
+
+00:09:38.640 --> 00:09:43.420
+Negative sine theta
+over cosine theta
+
+00:09:43.420 --> 00:09:47.030
+sine theta d theta.
+
+00:09:47.030 --> 00:09:50.180
+These divide out, and I get
+negative 1 over cosine theta,
+
+00:09:50.180 --> 00:09:53.330
+which is just equal to negative
+secant theta.
+
+00:09:53.330 --> 00:09:54.320
+OK?
+
+00:09:54.320 --> 00:09:55.900
+So I have negative
+secant theta.
+
+00:09:55.900 --> 00:09:57.060
+Let me actually write
+that here.
+
+00:09:57.060 --> 00:10:00.940
+Negative integral of secant
+theta d theta.
+
+00:10:00.940 --> 00:10:02.200
+And now what is that?
+
+00:10:02.200 --> 00:10:05.820
+Well, we know how to
+integrate secant.
+
+00:10:05.820 --> 00:10:09.180
+So let me write that
+in terms of theta.
+
+00:10:09.180 --> 00:10:13.990
+It's going to be negative
+natural log absolute value
+
+00:10:13.990 --> 00:10:17.670
+secant theta plus
+tangent theta.
+
+00:10:17.670 --> 00:10:19.800
+And then we have the
+plus c out here.
+
+00:10:19.800 --> 00:10:21.990
+What's the point of this?
+
+00:10:21.990 --> 00:10:23.800
+Well, we should maybe
+have this memorized.
+
+00:10:23.800 --> 00:10:25.690
+If you have to look it up, you
+have to look it up, but you
+
+00:10:25.690 --> 00:10:27.080
+saw this one in class.
+
+00:10:27.080 --> 00:10:29.560
+And the negative is just
+dropping down here, so don't
+
+00:10:29.560 --> 00:10:31.610
+think I added that negative
+in when I was taking
+
+00:10:31.610 --> 00:10:32.360
+antiderivative.
+
+00:10:32.360 --> 00:10:33.740
+It was already there.
+
+00:10:33.740 --> 00:10:34.070
+All right.
+
+00:10:34.070 --> 00:10:34.930
+So we're done.
+
+00:10:34.930 --> 00:10:36.130
+Oh, but we're not done.
+
+00:10:36.130 --> 00:10:37.940
+Why are we not done?
+
+00:10:37.940 --> 00:10:40.580
+We're not done, because we
+started off with something in
+
+00:10:40.580 --> 00:10:42.850
+terms of x, and now we have
+something in terms of theta,
+
+00:10:42.850 --> 00:10:44.330
+so we have to finish up.
+
+00:10:44.330 --> 00:10:46.450
+And how we do that, is we
+go back, we look at the
+
+00:10:46.450 --> 00:10:47.520
+substitution we made.
+
+00:10:47.520 --> 00:10:50.870
+If we make a triangle based on
+that substitution, we figure
+
+00:10:50.870 --> 00:10:53.760
+out the values of secant theta
+and tangent theta, and then we
+
+00:10:53.760 --> 00:10:56.340
+can plug those in terms of x.
+
+00:10:56.340 --> 00:10:57.220
+So let's remind ourselves--
+
+00:10:57.220 --> 00:10:59.060
+I'm going to draw the triangle
+in the middle here.
+
+00:10:59.060 --> 00:11:02.290
+Let's remind ourselves of the
+relationship we had between
+
+00:11:02.290 --> 00:11:05.100
+theta and x.
+
+00:11:05.100 --> 00:11:10.270
+If this is theta, we said cosine
+theta, right here,
+
+00:11:10.270 --> 00:11:12.870
+cosine theta was equal
+to x plus 1.
+
+00:11:12.870 --> 00:11:16.300
+Cosine theta is adjacent
+over hypotenuse.
+
+00:11:16.300 --> 00:11:20.500
+So we want to say, this is
+x plus 1, and this is 1.
+
+00:11:20.500 --> 00:11:23.240
+And that implies by the
+Pythagorean theorem, that this
+
+00:11:23.240 --> 00:11:27.856
+is square root of 1 minus
+quantity x plus 1 squared.
+
+00:11:27.856 --> 00:11:29.790
+Let me move that over.
+
+00:11:29.790 --> 00:11:32.290
+Notice, then, this also
+makes sense, why sine
+
+00:11:32.290 --> 00:11:33.300
+theta is what it is.
+
+00:11:33.300 --> 00:11:36.000
+Sine theta is this value
+divided by 1.
+
+00:11:36.000 --> 00:11:38.650
+So that also helps you
+understand that.
+
+00:11:38.650 --> 00:11:39.100
+All right.
+
+00:11:39.100 --> 00:11:40.480
+So now what do we need
+to read off?
+
+00:11:40.480 --> 00:11:41.850
+We need to read off
+secant, and we
+
+00:11:41.850 --> 00:11:43.390
+need to read off tangent.
+
+00:11:43.390 --> 00:11:46.240
+So secant is 1 over cosine, so
+actually, we could have gotten
+
+00:11:46.240 --> 00:11:48.640
+that one for free,
+from the cosine.
+
+00:11:48.640 --> 00:11:52.730
+So this 1 over cosine
+is 1 over x plus 1.
+
+00:11:52.730 --> 00:11:56.650
+So this thing is equal to
+negative natural log absolute
+
+00:11:56.650 --> 00:12:00.110
+value 1 over x plus 1 plus--
+
+00:12:00.110 --> 00:12:01.590
+now, what's tangent?
+
+00:12:01.590 --> 00:12:04.480
+If I come back and look at the
+triangle, tangent theta is
+
+00:12:04.480 --> 00:12:06.910
+opposite over adjacent.
+
+00:12:06.910 --> 00:12:07.460
+Right?
+
+00:12:07.460 --> 00:12:11.380
+So I can actually just put it
+all over x plus 1 if I wanted.
+
+00:12:11.380 --> 00:12:13.760
+But I already started writing
+it separately, so I'll leave
+
+00:12:13.760 --> 00:12:15.090
+it like this.
+
+00:12:15.090 --> 00:12:20.380
+Square root of 1 minus x plus
+1 quantity squared.
+
+00:12:20.380 --> 00:12:23.910
+And then close that,
+and then my plus c.
+
+00:12:23.910 --> 00:12:26.520
+So now I'm actually finished
+with the problem.
+
+00:12:26.520 --> 00:12:31.220
+Because now I have an
+antiderivative in terms of x.
+
+00:12:31.220 --> 00:12:33.540
+So let me just remind you where
+this problem, where we
+
+00:12:33.540 --> 00:12:36.330
+started the problem, kind of
+take us through quickly, and
+
+00:12:36.330 --> 00:12:37.340
+then we'll be done.
+
+00:12:37.340 --> 00:12:42.400
+So back to the beginning, what
+we had, was we had an integral
+
+00:12:42.400 --> 00:12:46.460
+that was a fractional problem,
+but we had an x plus 1 here,
+
+00:12:46.460 --> 00:12:48.240
+and then we had this really
+messy-looking
+
+00:12:48.240 --> 00:12:49.850
+quadratic in here.
+
+00:12:49.850 --> 00:12:52.160
+To make it easy to deal with,
+I factored out a negative
+
+00:12:52.160 --> 00:12:54.880
+sign, and then I saw I could
+complete the square.
+
+00:12:54.880 --> 00:12:58.270
+Once you complete the square,
+you actually get another x
+
+00:12:58.270 --> 00:13:00.930
+plus 1 in there, which helps
+us to see immediately, it
+
+00:13:00.930 --> 00:13:03.080
+should be a trig substitution.
+
+00:13:03.080 --> 00:13:05.410
+So the substitution that's
+natural to make, because you
+
+00:13:05.410 --> 00:13:08.430
+have a 1 minus something
+involving an x, is going to be
+
+00:13:08.430 --> 00:13:09.980
+either cosine or sine.
+
+00:13:09.980 --> 00:13:11.810
+I chose cosine.
+
+00:13:11.810 --> 00:13:13.700
+If you'd chosen sine, you
+probably would have gotten a
+
+00:13:13.700 --> 00:13:17.715
+cosecant up there, instead of a
+secant, when you were taking
+
+00:13:17.715 --> 00:13:19.470
+an antiderivative
+at the very end.
+
+00:13:19.470 --> 00:13:22.450
+So you would have gotten the
+same answer because of the
+
+00:13:22.450 --> 00:13:25.440
+substitutions in the end.
+
+00:13:25.440 --> 00:13:28.370
+But so I chose cosine theta
+is equal to x plus 1.
+
+00:13:28.370 --> 00:13:31.000
+You do that, you can replace
+this with cosine, this with a
+
+00:13:31.000 --> 00:13:34.700
+sine, this becomes a negative
+sine, and then you start
+
+00:13:34.700 --> 00:13:35.450
+simplifying.
+
+00:13:35.450 --> 00:13:38.640
+So once we came over here and
+simplified, we got it into
+
+00:13:38.640 --> 00:13:39.720
+something we recognize.
+
+00:13:39.720 --> 00:13:41.140
+We got it into secant.
+
+00:13:41.140 --> 00:13:45.085
+We know the antiderivative
+for secant, in terms
+
+00:13:45.085 --> 00:13:46.110
+of secant and tangent.
+
+00:13:46.110 --> 00:13:47.730
+We know it's exactly this.
+
+00:13:47.730 --> 00:13:50.730
+And then we went back to the
+relationship we had.
+
+00:13:50.730 --> 00:13:53.680
+We made ourselves a triangle
+in terms of the
+
+00:13:53.680 --> 00:13:55.130
+theta and the x-values.
+
+00:13:55.130 --> 00:13:57.130
+And then we were able
+to substitute in
+
+00:13:57.130 --> 00:13:59.300
+for secant and tangent.
+
+00:13:59.300 --> 00:14:00.040
+All right.
+
+00:14:00.040 --> 00:14:02.140
+So hopefully that was
+successful for you.
+
+00:14:02.140 --> 00:14:04.460
+And that's where I'll stop.

@@ -1,0 +1,235 @@
+WEBVTT
+
+00:00:07.280 --> 00:00:09.110
+PROFESSOR: Welcome back
+to recitation.
+
+00:00:09.110 --> 00:00:12.520
+In this video what we'd like
+to do is to solve a certain
+
+00:00:12.520 --> 00:00:13.500
+differential equation.
+
+00:00:13.500 --> 00:00:15.660
+And I'm not even giving
+you initial condition.
+
+00:00:15.660 --> 00:00:20.030
+So we just want to find a y,
+such that x times dy dx is
+
+00:00:20.030 --> 00:00:23.480
+equal to x squared plus x
+times y squared plus 1.
+
+00:00:23.480 --> 00:00:24.850
+So I'll give you a minute
+to think about it and
+
+00:00:24.850 --> 00:00:26.100
+then I'll be back.
+
+00:00:34.120 --> 00:00:35.450
+Welcome back.
+
+00:00:35.450 --> 00:00:38.610
+I'm going to use the technique
+of separation of variables to
+
+00:00:38.610 --> 00:00:40.620
+solve this differential
+equation problem.
+
+00:00:40.620 --> 00:00:42.470
+Hopefully you thought about
+doing that as well.
+
+00:00:42.470 --> 00:00:44.250
+Because it's really
+set up nicely for
+
+00:00:44.250 --> 00:00:45.930
+separation of variables.
+
+00:00:45.930 --> 00:00:51.460
+So let me let me first get all
+of the values, or terms that
+
+00:00:51.460 --> 00:00:53.450
+involve y on the
+left-hand side.
+
+00:00:53.450 --> 00:00:56.700
+And then I'm going to move the
+dx to the right-hand side and
+
+00:00:56.700 --> 00:01:00.390
+get all the terms that involve
+x to the right-hand side.
+
+00:01:00.390 --> 00:01:04.510
+So I'm going to write dy
+divided by y squared
+
+00:01:04.510 --> 00:01:08.100
+plus 1 is equal to--
+
+00:01:08.100 --> 00:01:11.800
+so I'm going to multiply through
+by dx divided by x.
+
+00:01:11.800 --> 00:01:16.200
+So I'm going to get x squared
+plus x over x dx.
+
+00:01:16.200 --> 00:01:19.360
+Now if x is 0, I have a little
+problem but we're going to
+
+00:01:19.360 --> 00:01:20.540
+ignore that for the moment.
+
+00:01:20.540 --> 00:01:27.420
+So I can rewrite this
+as x plus 1 dx.
+
+00:01:27.420 --> 00:01:31.150
+And now I'm totally set up
+with my next step in
+
+00:01:31.150 --> 00:01:34.340
+separation of variables and so
+I can integrate both sides.
+
+00:01:34.340 --> 00:01:36.950
+So let's see what happens
+when I integrate
+
+00:01:36.950 --> 00:01:37.710
+the left-hand side.
+
+00:01:37.710 --> 00:01:40.370
+OK?
+
+00:01:40.370 --> 00:01:44.020
+What is an antiderivative to
+1 over y squared plus 1?
+
+00:01:44.020 --> 00:01:47.580
+Well that's arctangent, that's
+arctangent of y.
+
+00:01:47.580 --> 00:01:50.760
+So the derivative of arctangent
+of y is 1 over y
+
+00:01:50.760 --> 00:01:51.640
+squared plus 1.
+
+00:01:51.640 --> 00:01:54.110
+And so on the left-hand
+side I get arctan y.
+
+00:02:01.790 --> 00:02:06.340
+If you wrote tangent to the
+minus 1 y, that's the same
+
+00:02:06.340 --> 00:02:09.570
+thing, the inverse tangent of
+y, that's the same thing.
+
+00:02:09.570 --> 00:02:11.570
+And on the right-hand
+side what do I get?
+
+00:02:11.570 --> 00:02:15.360
+Well this is a nice easy
+thing to integrate.
+
+00:02:15.360 --> 00:02:17.960
+When I integrate x, I get
+x squared over 2.
+
+00:02:17.960 --> 00:02:19.320
+And here I just get an x.
+
+00:02:19.320 --> 00:02:22.610
+And then I should add
+in my constants.
+
+00:02:22.610 --> 00:02:27.780
+So x squared over 2 plus
+x plus a constant.
+
+00:02:27.780 --> 00:02:31.390
+So this is, so far I'm
+doing everything OK.
+
+00:02:31.390 --> 00:02:33.600
+Now I need to figure out
+how to isolate the y.
+
+00:02:33.600 --> 00:02:36.870
+Well arctan y is the inverse
+of the tangent function.
+
+00:02:36.870 --> 00:02:39.930
+So if I want to isolate y I have
+to take the tangent of
+
+00:02:39.930 --> 00:02:40.950
+both sides.
+
+00:02:40.950 --> 00:02:44.200
+So when I take tangent of
+arctangent of y I just get y.
+
+00:02:44.200 --> 00:02:49.660
+Then over your I get tangent
+of x squared over 2 plus x
+
+00:02:49.660 --> 00:02:52.140
+plus C.
+
+00:02:52.140 --> 00:02:54.530
+And now because I didn't give
+you any initial conditions, we
+
+00:02:54.530 --> 00:02:57.590
+can't say anything about C. But
+if I gave you some initial
+
+00:02:57.590 --> 00:03:00.620
+conditions then we could
+evaluate and solve for C. Now
+
+00:03:00.620 --> 00:03:03.030
+how do I go about checking to
+make sure that this works?
+
+00:03:03.030 --> 00:03:05.330
+Well, what I do is actually
+take the derivative.
+
+00:03:05.330 --> 00:03:09.480
+So you may want to take the
+derivative of the right-hand
+
+00:03:09.480 --> 00:03:11.410
+side, take dy dx.
+
+00:03:11.410 --> 00:03:15.430
+Evaluate what that is when you
+have y equals tangent of x
+
+00:03:15.430 --> 00:03:20.250
+squared over 2 plus x plus C and
+see if you in fact get the
+
+00:03:20.250 --> 00:03:22.220
+relationship you're
+supposed to get.
+
+00:03:22.220 --> 00:03:23.930
+But I'll stop there.

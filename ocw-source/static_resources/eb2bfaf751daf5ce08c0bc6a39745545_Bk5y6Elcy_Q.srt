@@ -1,0 +1,896 @@
+1
+00:00:06,830 --> 00:00:08,339
+Welcome back to recitation.
+
+2
+00:00:08,339 --> 00:00:10,880
+In this video, I'd like us to
+do the following problem, which
+
+3
+00:00:10,880 --> 00:00:14,720
+is going to be relating polar
+and Cartesian coordinates.
+
+4
+00:00:14,720 --> 00:00:17,885
+So I want you to write each
+of the following in Cartesian
+
+5
+00:00:17,885 --> 00:00:20,010
+coordinates, and that means
+our (x, y) coordinates,
+
+6
+00:00:20,010 --> 00:00:22,420
+and then describe the curve.
+
+7
+00:00:22,420 --> 00:00:27,020
+So the first one is r squared
+equals 4r cosine theta,
+
+8
+00:00:27,020 --> 00:00:31,854
+and the second one is r equals
+9 tangent theta secant theta.
+
+9
+00:00:31,854 --> 00:00:34,270
+So again, what I'd like you
+to do is convert each of these
+
+10
+00:00:34,270 --> 00:00:37,450
+to something in the Cartesian
+coordinates, in the (x, y)
+
+11
+00:00:37,450 --> 00:00:39,860
+coordinates, and then I
+want you to describe what
+
+12
+00:00:39,860 --> 00:00:41,284
+the curve actually looks like.
+
+13
+00:00:41,284 --> 00:00:43,200
+So I'll give you a little
+while to work on it,
+
+14
+00:00:43,200 --> 00:00:45,408
+and then when I come back,
+I'll show you how I do it.
+
+15
+00:00:54,390 --> 00:00:55,430
+OK, welcome back.
+
+16
+00:00:55,430 --> 00:00:57,570
+Well, hopefully you were
+able to get pretty far
+
+17
+00:00:57,570 --> 00:01:02,300
+in describing these two
+curves in (x, y) coordinates.
+
+18
+00:01:02,300 --> 00:01:05,730
+And I will show you how I
+attacked these problems.
+
+19
+00:01:05,730 --> 00:01:08,070
+So we'll start with (a).
+
+20
+00:01:08,070 --> 00:01:13,160
+So for (a)-- I'm going to
+rewrite the problem up here,
+
+21
+00:01:13,160 --> 00:01:17,870
+so we can just be focused
+on what's up here.
+
+22
+00:01:17,870 --> 00:01:22,360
+So we had r squared
+equals 4r cosine theta.
+
+23
+00:01:22,360 --> 00:01:24,000
+Well, we know what r squared is.
+
+24
+00:01:24,000 --> 00:01:26,250
+That's nice in terms
+of x and y coordinates.
+
+25
+00:01:26,250 --> 00:01:28,620
+That's just x squared
+plus y squared.
+
+26
+00:01:28,620 --> 00:01:32,710
+So we know that, so
+we'll replace that.
+
+27
+00:01:32,710 --> 00:01:35,940
+And then we can actually replace
+all the r's and thetas over
+
+28
+00:01:35,940 --> 00:01:37,480
+here pretty easily, as well.
+
+29
+00:01:37,480 --> 00:01:41,270
+Because we know r cosine
+theta describes x.
+
+30
+00:01:41,270 --> 00:01:44,570
+So the Cartesian coordinate
+x is the polar coordinate--
+
+31
+00:01:44,570 --> 00:01:47,790
+or described in polar
+coordinates as r cosine theta.
+
+32
+00:01:47,790 --> 00:01:50,500
+So we can just write that as 4x.
+
+33
+00:01:50,500 --> 00:01:54,410
+And the reason I asked you to
+describe the curve is because
+
+34
+00:01:54,410 --> 00:01:56,310
+from here, you could
+say, oh, well I wrote it
+
+35
+00:01:56,310 --> 00:01:58,910
+in the Cartesian coordinates.
+
+36
+00:01:58,910 --> 00:02:00,910
+I wrote it in x, y,
+and so now I'm done.
+
+37
+00:02:00,910 --> 00:02:03,450
+But the point is
+that you can actually
+
+38
+00:02:03,450 --> 00:02:07,172
+work on this equation right
+here and get into a form
+
+39
+00:02:07,172 --> 00:02:08,130
+that you can recognize.
+
+40
+00:02:08,130 --> 00:02:10,320
+That it'll be a
+recognizable curve.
+
+41
+00:02:10,320 --> 00:02:12,710
+So let's see if we can sort
+of play around with this,
+
+42
+00:02:12,710 --> 00:02:15,060
+and come up with something
+that looks familiar.
+
+43
+00:02:15,060 --> 00:02:19,590
+And what you might think to
+do, would be, say, you know,
+
+44
+00:02:19,590 --> 00:02:22,170
+subtract off the x squared,
+or subtract off the y squared.
+
+45
+00:02:22,170 --> 00:02:24,606
+Try and solve for
+x or solve for y.
+
+46
+00:02:24,606 --> 00:02:26,980
+But that can be a little bit
+dangerous in this situation,
+
+47
+00:02:26,980 --> 00:02:30,470
+because in fact, y might
+not be a function of x.
+
+48
+00:02:30,470 --> 00:02:32,310
+So we might run into
+some trouble there.
+
+49
+00:02:32,310 --> 00:02:34,590
+But if you'll notice,
+there's something kind of,
+
+50
+00:02:34,590 --> 00:02:36,940
+a glaring way we should go.
+
+51
+00:02:36,940 --> 00:02:38,720
+And that's because we
+have this x squared
+
+52
+00:02:38,720 --> 00:02:42,880
+plus y squared together-- this
+maybe could look something
+
+53
+00:02:42,880 --> 00:02:45,320
+like a circle or an ellipse
+or something like that,
+
+54
+00:02:45,320 --> 00:02:47,540
+if we could figure out
+a way to put this part
+
+55
+00:02:47,540 --> 00:02:50,260
+in with the x squared.
+
+56
+00:02:50,260 --> 00:02:52,910
+So this is kind
+of-- it's a good way
+
+57
+00:02:52,910 --> 00:02:56,320
+to think about what direction
+to head in this problem.
+
+58
+00:02:56,320 --> 00:02:59,607
+In particular, it would be
+a bad idea for this problem
+
+59
+00:02:59,607 --> 00:03:01,190
+for you to subtract
+x squared and take
+
+60
+00:03:01,190 --> 00:03:03,070
+the square root of both sides.
+
+61
+00:03:03,070 --> 00:03:05,590
+Because you would lose
+some information about what
+
+62
+00:03:05,590 --> 00:03:06,860
+this curve was.
+
+63
+00:03:06,860 --> 00:03:07,360
+OK?
+
+64
+00:03:07,360 --> 00:03:08,810
+Because when you
+take the square root,
+
+65
+00:03:08,810 --> 00:03:09,990
+you would have to
+say, well, do I
+
+66
+00:03:09,990 --> 00:03:11,100
+want the positive
+square root, or do I
+
+67
+00:03:11,100 --> 00:03:12,349
+want the negative square root?
+
+68
+00:03:12,349 --> 00:03:14,170
+We'd lose a little
+bit of information.
+
+69
+00:03:14,170 --> 00:03:16,250
+So we do not want
+to solve for y.
+
+70
+00:03:16,250 --> 00:03:17,850
+So let's do what I said.
+
+71
+00:03:17,850 --> 00:03:21,890
+Let's try and figure out a way
+to get this 4x into something
+
+72
+00:03:21,890 --> 00:03:23,610
+to do with this x squared term.
+
+73
+00:03:23,610 --> 00:03:31,360
+So I'm going to subtract 4x
+and rewrite the equation here.
+
+74
+00:03:31,360 --> 00:03:33,155
+And so you might
+say, well, Christine,
+
+75
+00:03:33,155 --> 00:03:35,130
+this doesn't really
+seem that helpful.
+
+76
+00:03:35,130 --> 00:03:37,812
+It's just the same
+thing moved around.
+
+77
+00:03:37,812 --> 00:03:40,020
+But we're going to use one
+of our favorite techniques
+
+78
+00:03:40,020 --> 00:03:43,250
+from integration, which
+is completing the square.
+
+79
+00:03:43,250 --> 00:03:47,230
+So we can actually complete
+the square on this guy right
+
+80
+00:03:47,230 --> 00:03:50,670
+here, and turn it
+into a perfect square.
+
+81
+00:03:50,670 --> 00:03:52,580
+We'll have to add an
+extra term, but once we
+
+82
+00:03:52,580 --> 00:03:55,200
+do that, we'll have a perfect
+square, an extra term,
+
+83
+00:03:55,200 --> 00:03:56,060
+and a y squared.
+
+84
+00:03:56,060 --> 00:03:58,310
+And we're getting more into
+the form of something that
+
+85
+00:03:58,310 --> 00:03:59,630
+actually looks like a circle.
+
+86
+00:03:59,630 --> 00:04:00,280
+So let's see.
+
+87
+00:04:00,280 --> 00:04:02,380
+Completing the
+square on this, it's
+
+88
+00:04:02,380 --> 00:04:06,140
+going to be x squared
+minus 4x plus 4.
+
+89
+00:04:06,140 --> 00:04:07,110
+How did I know that?
+
+90
+00:04:07,110 --> 00:04:09,430
+Well, if I want to complete
+the square on this,
+
+91
+00:04:09,430 --> 00:04:11,430
+I need something
+that, multiplied by 2,
+
+92
+00:04:11,430 --> 00:04:13,260
+gives me negative 4.
+
+93
+00:04:13,260 --> 00:04:14,250
+That's 2.
+
+94
+00:04:14,250 --> 00:04:16,030
+And then 2 squared is 4.
+
+95
+00:04:16,030 --> 00:04:17,700
+So that's where the 4 comes in.
+
+96
+00:04:17,700 --> 00:04:21,960
+To keep this equal, I'll add
+4 to the other side, as well.
+
+97
+00:04:21,960 --> 00:04:25,010
+So if I add 4 to both sides, I
+haven't changed the equality,
+
+98
+00:04:25,010 --> 00:04:28,269
+and I keep my y squared
+along for the ride.
+
+99
+00:04:28,269 --> 00:04:29,560
+So now I have a perfect square.
+
+100
+00:04:29,560 --> 00:04:30,640
+What does this give me?
+
+101
+00:04:30,640 --> 00:04:35,620
+This gives me x minus 2
+quantity squared plus 4-- plus 4
+
+102
+00:04:35,620 --> 00:04:38,380
+squared-- plus y squared.
+
+103
+00:04:38,380 --> 00:04:40,450
+So x minus 2 quantity
+squared-- that came
+
+104
+00:04:40,450 --> 00:04:44,850
+from these three terms--
+plus y squared equals four.
+
+105
+00:04:44,850 --> 00:04:48,070
+And now it's a curve we
+can describe, clearly.
+
+106
+00:04:48,070 --> 00:04:49,110
+What curve is this?
+
+107
+00:04:49,110 --> 00:04:52,370
+Well, it's obviously a circle.
+
+108
+00:04:52,370 --> 00:04:57,280
+It's centered at the point 2
+comma 0, and it has radius 2.
+
+109
+00:04:57,280 --> 00:05:00,920
+We've talked, or you've seen
+this in the lecture videos,
+
+110
+00:05:00,920 --> 00:05:04,600
+I believe, what the
+form for a circle is.
+
+111
+00:05:04,600 --> 00:05:07,970
+x minus a quality squared plus
+y minus b quantity squared
+
+112
+00:05:07,970 --> 00:05:09,290
+equals r squared.
+
+113
+00:05:09,290 --> 00:05:14,800
+So this is, a is 2,
+b is 0, and r is 2.
+
+114
+00:05:14,800 --> 00:05:18,230
+so it's a circle of radius
+2, centered at 2 comma 0.
+
+115
+00:05:18,230 --> 00:05:22,070
+So we have a good way to
+describe what started off
+
+116
+00:05:22,070 --> 00:05:23,630
+in polar coordinates.
+
+117
+00:05:23,630 --> 00:05:27,030
+We can now describe it
+in (x, y) coordinates.
+
+118
+00:05:27,030 --> 00:05:28,320
+OK.
+
+119
+00:05:28,320 --> 00:05:31,590
+So now let's move on to (b).
+
+120
+00:05:31,590 --> 00:05:34,340
+And I'm going to rewrite
+(b) over here as well,
+
+121
+00:05:34,340 --> 00:05:38,220
+so we don't have to worry
+about it, looking back.
+
+122
+00:05:38,220 --> 00:05:45,311
+r equals 9 tan
+theta secant theta.
+
+123
+00:05:45,311 --> 00:05:45,810
+OK.
+
+124
+00:05:45,810 --> 00:05:46,726
+So let's look at this.
+
+125
+00:05:46,726 --> 00:05:49,280
+Now, there's some
+information buried in here,
+
+126
+00:05:49,280 --> 00:05:51,120
+in terms of (x, y) coordinates.
+
+127
+00:05:51,120 --> 00:05:53,020
+And one thing that
+should stand out to you
+
+128
+00:05:53,020 --> 00:05:55,580
+is, what is secant theta?
+
+129
+00:05:55,580 --> 00:05:58,291
+Secant theta is 1
+over cosine theta.
+
+130
+00:05:58,291 --> 00:05:58,790
+Right?
+
+131
+00:05:58,790 --> 00:06:01,500
+And if we have 1 over
+cosine theta over here,
+
+132
+00:06:01,500 --> 00:06:03,800
+we can multiply both
+sides by cosine theta,
+
+133
+00:06:03,800 --> 00:06:06,257
+and we get an r cosine
+theta over here.
+
+134
+00:06:06,257 --> 00:06:07,590
+So I'm going to write that down.
+
+135
+00:06:07,590 --> 00:06:10,320
+That this actually
+is in the same--
+
+136
+00:06:10,320 --> 00:06:16,750
+this is the same as r cosine
+theta equals 9 tan theta.
+
+137
+00:06:16,750 --> 00:06:19,370
+Right?
+
+138
+00:06:19,370 --> 00:06:22,050
+I mean, you could get
+mad at me about where
+
+139
+00:06:22,050 --> 00:06:23,700
+this is defined
+in terms of theta,
+
+140
+00:06:23,700 --> 00:06:26,500
+but I'm not worrying about
+that in this situation,
+
+141
+00:06:26,500 --> 00:06:27,540
+just right now.
+
+142
+00:06:27,540 --> 00:06:29,160
+We're just trying
+to figure out how
+
+143
+00:06:29,160 --> 00:06:31,320
+we could write this in x and y.
+
+144
+00:06:31,320 --> 00:06:33,870
+We know what our
+cosine theta is.
+
+145
+00:06:33,870 --> 00:06:36,830
+Again, it's x, as it was before.
+
+146
+00:06:36,830 --> 00:06:39,090
+What about tan theta?
+
+147
+00:06:39,090 --> 00:06:41,950
+Tangent theta,
+remember, if you recall,
+
+148
+00:06:41,950 --> 00:06:46,610
+this tangent theta is
+opposite over adjacent, right?
+
+149
+00:06:46,610 --> 00:06:50,100
+And in this case, opposite is
+the y, and adjacent is the x.
+
+150
+00:06:50,100 --> 00:06:51,860
+This is something
+you saw a picture of,
+
+151
+00:06:51,860 --> 00:06:54,190
+you can see a picture
+of pretty easily.
+
+152
+00:06:54,190 --> 00:06:58,841
+So this is x is equal
+to 9 times y over x.
+
+153
+00:06:58,841 --> 00:06:59,340
+Right?
+
+154
+00:06:59,340 --> 00:07:05,770
+Which is x squared is equal 9y.
+
+155
+00:07:05,770 --> 00:07:07,920
+So this is in fact
+how you could write
+
+156
+00:07:07,920 --> 00:07:12,740
+this expression that's in r
+and theta in terms of x and y.
+
+157
+00:07:12,740 --> 00:07:14,630
+And so this, if you
+look at it, is actually
+
+158
+00:07:14,630 --> 00:07:17,730
+a parabola that goes
+through the point (0, 0),
+
+159
+00:07:17,730 --> 00:07:22,814
+and is stretched by a
+factor of 9, or 1/9.
+
+160
+00:07:22,814 --> 00:07:24,230
+Well, I guess you
+can say, there's
+
+161
+00:07:24,230 --> 00:07:27,302
+a vertical stretch or
+horizontal stretch,
+
+162
+00:07:27,302 --> 00:07:28,510
+you can pick which one it is.
+
+163
+00:07:28,510 --> 00:07:31,940
+And in one case, it's
+going to be by 3 or 1/3.
+
+164
+00:07:31,940 --> 00:07:33,100
+I always mix those up.
+
+165
+00:07:33,100 --> 00:07:33,990
+I'd have to check.
+
+166
+00:07:33,990 --> 00:07:35,520
+Or by 9 or 1/9.
+
+167
+00:07:35,520 --> 00:07:39,230
+So essentially, it's going to be
+a parabola with some stretching
+
+168
+00:07:39,230 --> 00:07:40,240
+on it.
+
+169
+00:07:40,240 --> 00:07:44,274
+Now, the problem is that
+you might say, well,
+
+170
+00:07:44,274 --> 00:07:45,440
+it's not really all of that.
+
+171
+00:07:45,440 --> 00:07:46,840
+Because secant
+theta is not going
+
+172
+00:07:46,840 --> 00:07:50,170
+to be defined for all
+theta the way cosine is.
+
+173
+00:07:50,170 --> 00:07:52,350
+So you do potentially
+run into some problems.
+
+174
+00:07:52,350 --> 00:07:55,710
+You might have to worry
+about what part of the domain
+
+175
+00:07:55,710 --> 00:07:58,306
+makes sense for theta, so
+that this is well-defined.
+
+176
+00:07:58,306 --> 00:07:59,680
+And so that this
+is well-defined,
+
+177
+00:07:59,680 --> 00:08:01,510
+what part of the
+curve is carved out.
+
+178
+00:08:01,510 --> 00:08:03,110
+That's a little more
+technical than I
+
+179
+00:08:03,110 --> 00:08:04,680
+want to go in this video.
+
+180
+00:08:04,680 --> 00:08:07,560
+But some of you might look
+at it and say, oh, she's
+
+181
+00:08:07,560 --> 00:08:08,720
+missing something.
+
+182
+00:08:08,720 --> 00:08:12,730
+Yeah, you caught something that
+I'm intentionally ignoring.
+
+183
+00:08:12,730 --> 00:08:14,700
+So the main point
+of this was just so
+
+184
+00:08:14,700 --> 00:08:20,310
+that you could see how you
+can take these functions of r
+
+185
+00:08:20,310 --> 00:08:23,820
+and theta and turn them
+into functions of x and y,
+
+186
+00:08:23,820 --> 00:08:27,330
+and then figure out kind of
+what the curves might look like.
+
+187
+00:08:27,330 --> 00:08:29,600
+So I'm going to stop there.
+
+188
+00:08:29,600 --> 00:08:31,080
+Hopefully this was
+a good exercise
+
+189
+00:08:31,080 --> 00:08:35,680
+to get you understanding how
+these different coordinates
+
+190
+00:08:35,680 --> 00:08:37,240
+relate to one another.
+
+191
+00:08:37,240 --> 00:08:40,810
+And yeah, that's
+where we'll leave it.

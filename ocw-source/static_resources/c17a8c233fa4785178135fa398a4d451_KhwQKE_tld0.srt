@@ -1,0 +1,3631 @@
+1
+00:00:00,000 --> 00:00:02,330
+The following content is
+provided under a Creative
+
+2
+00:00:02,330 --> 00:00:04,076
+Commons license.
+
+3
+00:00:04,076 --> 00:00:05,990
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:05,990 --> 00:00:09,930
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:09,930 --> 00:00:12,590
+To make a donation, or to
+view additional materials
+
+6
+00:00:12,590 --> 00:00:15,850
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:15,850 --> 00:00:21,770
+at ocw.mit.edu.
+
+8
+00:00:21,770 --> 00:00:30,090
+PROFESSOR: Now, today we are
+continuing with this last unit.
+
+9
+00:00:30,090 --> 00:00:36,650
+Unit 5, continued.
+
+10
+00:00:36,650 --> 00:00:48,490
+The informal title of this
+unit is Dealing With Infinity.
+
+11
+00:00:48,490 --> 00:00:51,210
+That's really the
+extra little piece
+
+12
+00:00:51,210 --> 00:00:55,150
+that we're putting in to
+our discussions of things
+
+13
+00:00:55,150 --> 00:01:01,080
+like limits and integrals.
+
+14
+00:01:01,080 --> 00:01:09,680
+To start out with today,
+I'd like to recall for you,
+
+15
+00:01:09,680 --> 00:01:20,290
+L'Hôpital's Rule.
+
+16
+00:01:20,290 --> 00:01:22,260
+And in keeping with
+the spirit here,
+
+17
+00:01:22,260 --> 00:01:32,670
+we're just going to do the
+infinity / infinity case.
+
+18
+00:01:32,670 --> 00:01:35,010
+I stated this a little
+differently last time,
+
+19
+00:01:35,010 --> 00:01:37,750
+and I want to state
+it again today.
+
+20
+00:01:37,750 --> 00:01:39,870
+Just to make clear
+what the hypotheses are
+
+21
+00:01:39,870 --> 00:01:43,880
+and what the conclusion is.
+
+22
+00:01:43,880 --> 00:01:47,350
+We start out with,
+really, three hypotheses.
+
+23
+00:01:47,350 --> 00:01:50,160
+Two of them are kind of obvious.
+
+24
+00:01:50,160 --> 00:01:55,660
+The three hypotheses are
+that f(x) tends to infinity,
+
+25
+00:01:55,660 --> 00:01:58,660
+g(x) tends to
+infinity, that's what
+
+26
+00:01:58,660 --> 00:02:02,380
+it means to be in this
+infinity / infinity case.
+
+27
+00:02:02,380 --> 00:02:08,590
+And then the last assumption
+is that f'(x) / g'(x) tends
+
+28
+00:02:08,590 --> 00:02:15,660
+to a limit, L. And this is
+all as x tends to some a.
+
+29
+00:02:15,660 --> 00:02:18,180
+Some limit a.
+
+30
+00:02:18,180 --> 00:02:27,090
+And then the conclusion
+is that f(x) / g(x) also
+
+31
+00:02:27,090 --> 00:02:37,260
+tends to L, as x goes to a.
+
+32
+00:02:37,260 --> 00:02:38,900
+Now, so that's the way it is.
+
+33
+00:02:38,900 --> 00:02:40,750
+So it's three limits.
+
+34
+00:02:40,750 --> 00:02:43,030
+But presumably
+these are obvious,
+
+35
+00:02:43,030 --> 00:02:49,180
+and this one is exactly what
+we were going to check anyway.
+
+36
+00:02:49,180 --> 00:02:52,790
+Gives us this one limit.
+
+37
+00:02:52,790 --> 00:02:54,390
+So that's the statement.
+
+38
+00:02:54,390 --> 00:02:59,340
+And then the other little
+interesting point here,
+
+39
+00:02:59,340 --> 00:03:02,900
+which is consistent with this
+idea of dealing with infinity,
+
+40
+00:03:02,900 --> 00:03:07,200
+is that a equals plus
+or minus infinity
+
+41
+00:03:07,200 --> 00:03:11,590
+and L equals plus or
+minus infinity are OK.
+
+42
+00:03:11,590 --> 00:03:15,780
+That is, the numbers capital
+L, the limit capital L,
+
+43
+00:03:15,780 --> 00:03:21,090
+and the number a can
+also be infinite.
+
+44
+00:03:21,090 --> 00:03:26,770
+Now in recitation yesterday, you
+should have discussed something
+
+45
+00:03:26,770 --> 00:03:31,830
+about rates of growth,
+which follow from what
+
+46
+00:03:31,830 --> 00:03:34,680
+I said in lecture last
+time and also maybe
+
+47
+00:03:34,680 --> 00:03:37,260
+from some more detailed
+discussions that you
+
+48
+00:03:37,260 --> 00:03:40,440
+had in recitation.
+
+49
+00:03:40,440 --> 00:03:44,130
+And I'm going to introduce a
+notation to compare functions.
+
+50
+00:03:44,130 --> 00:03:49,580
+Namely, we say that f(x)
+is a lot less than g(x)
+
+51
+00:03:49,580 --> 00:03:58,060
+if-- So this means that the
+limit, as it goes to infinity,
+
+52
+00:03:58,060 --> 00:03:59,280
+this tends to 0.
+
+53
+00:03:59,280 --> 00:04:04,700
+As x goes to infinity,
+this would be.
+
+54
+00:04:04,700 --> 00:04:07,490
+So this is a notation,
+a new notation for us.
+
+55
+00:04:07,490 --> 00:04:10,160
+f is a lot less than g.
+
+56
+00:04:10,160 --> 00:04:13,150
+And it's meant to be
+read only asymptotically.
+
+57
+00:04:13,150 --> 00:04:17,890
+It's only in the limit as x goes
+to infinity that this happens.
+
+58
+00:04:17,890 --> 00:04:20,120
+And implicitly here,
+I'm always assuming
+
+59
+00:04:20,120 --> 00:04:23,570
+that these are positive
+quantities. f and g are
+
+60
+00:04:23,570 --> 00:04:28,130
+positive.
+
+61
+00:04:28,130 --> 00:04:31,050
+What you saw in
+recitation was that you
+
+62
+00:04:31,050 --> 00:04:34,159
+can make a systematic comparison
+of all the standard functions
+
+63
+00:04:34,159 --> 00:04:34,950
+that we know about.
+
+64
+00:04:34,950 --> 00:04:38,050
+For example, the log
+function goes to infinity.
+
+65
+00:04:38,050 --> 00:04:41,500
+But a lot more slowly
+than x to a power.
+
+66
+00:04:41,500 --> 00:04:44,920
+A lot more slowly then e^x.
+
+67
+00:04:44,920 --> 00:04:48,220
+A lot more slowly
+than, say, e^(x^2).
+
+68
+00:04:48,220 --> 00:04:50,850
+So this one is slow.
+
+69
+00:04:50,850 --> 00:04:54,580
+This one is moderate.
+
+70
+00:04:54,580 --> 00:04:56,810
+And this one is fast.
+
+71
+00:04:56,810 --> 00:05:00,740
+And this one is very fast.
+
+72
+00:05:00,740 --> 00:05:02,900
+Going to infinity.
+
+73
+00:05:02,900 --> 00:05:04,650
+Tends to infinity,
+and this is of course
+
+74
+00:05:04,650 --> 00:05:07,570
+as x goes to infinity.
+
+75
+00:05:07,570 --> 00:05:12,270
+All of them go to infinity,
+but at quite different rates.
+
+76
+00:05:12,270 --> 00:05:14,860
+And, analogous to
+this, and today
+
+77
+00:05:14,860 --> 00:05:20,430
+we're going to be doing this,
+needing to do this quite a bit,
+
+78
+00:05:20,430 --> 00:05:24,850
+is rates of decay, which are
+more or less the opposite
+
+79
+00:05:24,850 --> 00:05:26,460
+of rates of growth.
+
+80
+00:05:26,460 --> 00:05:30,270
+So rates of decay are rates
+at which things tend to 0.
+
+81
+00:05:30,270 --> 00:05:39,820
+So the rate of decay, and for
+that I'm just going to take
+
+82
+00:05:39,820 --> 00:05:41,890
+reciprocals of these numbers.
+
+83
+00:05:41,890 --> 00:05:45,820
+So 1 / ln x tends to 0.
+
+84
+00:05:45,820 --> 00:05:47,260
+But rather slowly.
+
+85
+00:05:47,260 --> 00:05:51,220
+It's much bigger than 1 / x^p.
+
+86
+00:05:51,220 --> 00:05:53,490
+Oh, I didn't mention
+that this exponent
+
+87
+00:05:53,490 --> 00:05:55,750
+p is meant to be positive.
+
+88
+00:05:55,750 --> 00:05:58,360
+That's a convention that
+I'm using without saying.
+
+89
+00:05:58,360 --> 00:06:00,310
+I should've told you that.
+
+90
+00:06:00,310 --> 00:06:06,660
+So think x^(1/2), x^1, x^2,
+they're all in this sort
+
+91
+00:06:06,660 --> 00:06:09,000
+of moderate intermediate range.
+
+92
+00:06:09,000 --> 00:06:15,350
+And then that, in turn, goes to
+0 but much more slowly then 1 /
+
+93
+00:06:15,350 --> 00:06:19,220
+e^x, also known as e^(-x).
+
+94
+00:06:19,220 --> 00:06:27,830
+And that, in turn, this guy
+here goes to 0 incredibly fast.
+
+95
+00:06:27,830 --> 00:06:28,780
+e^(-x^2).
+
+96
+00:06:28,780 --> 00:06:32,950
+vanishes really, really fast.
+
+97
+00:06:32,950 --> 00:06:37,130
+So this is a review
+of L'Hôpital's Rule.
+
+98
+00:06:37,130 --> 00:06:39,860
+What we said last time,
+and the application of it,
+
+99
+00:06:39,860 --> 00:06:42,920
+which is to rates of
+growth and tells us
+
+100
+00:06:42,920 --> 00:06:50,860
+what these rates of growth are.
+
+101
+00:06:50,860 --> 00:07:01,830
+Today, I want to talk
+about improper integrals.
+
+102
+00:07:01,830 --> 00:07:05,160
+And improper integrals,
+we've already
+
+103
+00:07:05,160 --> 00:07:09,050
+really seen one or two of
+them on your exercises.
+
+104
+00:07:09,050 --> 00:07:11,805
+And we mention them a
+little bit, briefly.
+
+105
+00:07:11,805 --> 00:07:13,180
+I'm just going to
+go through them
+
+106
+00:07:13,180 --> 00:07:15,110
+more carefully and more
+systematically now.
+
+107
+00:07:15,110 --> 00:07:17,530
+And we want to get
+just exactly what's
+
+108
+00:07:17,530 --> 00:07:19,930
+going on with these
+rates of decay
+
+109
+00:07:19,930 --> 00:07:21,940
+and their relationship
+with improper integrals.
+
+110
+00:07:21,940 --> 00:07:26,350
+So I need for you to
+understand, on the spectrum
+
+111
+00:07:26,350 --> 00:07:28,470
+of the range of
+functions like this,
+
+112
+00:07:28,470 --> 00:07:32,940
+which ones are suitable
+for integration
+
+113
+00:07:32,940 --> 00:07:38,320
+as x goes to infinity.
+
+114
+00:07:38,320 --> 00:07:43,130
+Well, let's start out
+with the definition.
+
+115
+00:07:43,130 --> 00:07:47,360
+The integral from a
+to infinity of f(x) dx
+
+116
+00:07:47,360 --> 00:07:50,170
+is, by definition,
+the limit as N
+
+117
+00:07:50,170 --> 00:07:56,620
+goes to infinity of the
+ordinary definite integral
+
+118
+00:07:56,620 --> 00:08:00,430
+up to some fixed, finite level.
+
+119
+00:08:00,430 --> 00:08:01,760
+That's the definition.
+
+120
+00:08:01,760 --> 00:08:05,990
+And there's a word
+that we use here,
+
+121
+00:08:05,990 --> 00:08:09,250
+which is that we
+say the integral,
+
+122
+00:08:09,250 --> 00:08:20,560
+so this is terminology for it,
+converges if the limit exists.
+
+123
+00:08:20,560 --> 00:08:28,630
+And diverges if not.
+
+124
+00:08:28,630 --> 00:08:34,340
+Well, these are the
+key words for today.
+
+125
+00:08:34,340 --> 00:08:39,870
+So here's the issue that
+we're going to be addressing.
+
+126
+00:08:39,870 --> 00:08:42,430
+Which is whether the
+limit exists or not.
+
+127
+00:08:42,430 --> 00:08:50,820
+In other words, whether the
+integral converges or diverges.
+
+128
+00:08:50,820 --> 00:08:53,800
+These notions have
+a geometric analog,
+
+129
+00:08:53,800 --> 00:08:56,190
+which you should always be
+thinking of at the same time
+
+130
+00:08:56,190 --> 00:08:57,730
+in the back of your head.
+
+131
+00:08:57,730 --> 00:09:00,390
+I'll draw a picture
+of the function.
+
+132
+00:09:00,390 --> 00:09:02,510
+Here it's starting out at a.
+
+133
+00:09:02,510 --> 00:09:05,790
+And maybe it's going
+down like this.
+
+134
+00:09:05,790 --> 00:09:09,840
+And it's interpreting
+it geometrically.
+
+135
+00:09:09,840 --> 00:09:15,520
+This would only work
+if f is positive.
+
+136
+00:09:15,520 --> 00:09:25,900
+Then the convergent case is the
+case where the area is finite.
+
+137
+00:09:25,900 --> 00:09:29,660
+So the total area is
+finite under this curve.
+
+138
+00:09:29,660 --> 00:09:43,750
+And the other case is the
+total area is infinite.
+
+139
+00:09:43,750 --> 00:09:46,920
+I claim that both of
+these things are possible.
+
+140
+00:09:46,920 --> 00:09:50,460
+Although this thing
+goes on forever,
+
+141
+00:09:50,460 --> 00:09:53,070
+if you stop it at one
+stage, N, then of course
+
+142
+00:09:53,070 --> 00:09:54,310
+it's a finite number.
+
+143
+00:09:54,310 --> 00:09:56,270
+But as you go further
+and further and further,
+
+144
+00:09:56,270 --> 00:09:58,290
+there's more and
+more and more area.
+
+145
+00:09:58,290 --> 00:10:00,420
+And there are two possibilities.
+
+146
+00:10:00,420 --> 00:10:04,700
+Either as you go all the
+way out here to infinity,
+
+147
+00:10:04,700 --> 00:10:08,900
+the total that you get
+adds up to a finite total.
+
+148
+00:10:08,900 --> 00:10:11,280
+Or else, maybe there's
+infinitely much.
+
+149
+00:10:11,280 --> 00:10:13,700
+For instance, if it's a
+straight line going across,
+
+150
+00:10:13,700 --> 00:10:23,340
+there's clearly infinitely
+much area underneath.
+
+151
+00:10:23,340 --> 00:10:25,500
+So we need to do a
+bunch of examples.
+
+152
+00:10:25,500 --> 00:10:28,660
+And that's really our
+main job for the day,
+
+153
+00:10:28,660 --> 00:10:30,700
+and to make sure
+that we know exactly
+
+154
+00:10:30,700 --> 00:10:34,810
+what to expect in all cases.
+
+155
+00:10:34,810 --> 00:10:42,200
+The first example is the
+integral from 0 to infinity
+
+156
+00:10:42,200 --> 00:10:45,410
+of e^(-kx) dx.
+
+157
+00:10:45,410 --> 00:10:48,550
+Where k is going to be
+some positive number.
+
+158
+00:10:48,550 --> 00:10:54,080
+Some positive constant.
+
+159
+00:10:54,080 --> 00:11:02,919
+This is the most fundamental, by
+far, of the definite integrals.
+
+160
+00:11:02,919 --> 00:11:03,710
+Improper integrals.
+
+161
+00:11:03,710 --> 00:11:07,370
+And in order to handle this,
+the thing that I need to do is
+
+162
+00:11:07,370 --> 00:11:13,000
+to check the integral from
+0 up to N, e^(-kx) dx.
+
+163
+00:11:13,000 --> 00:11:15,960
+And since this is an easy
+integral to evaluate,
+
+164
+00:11:15,960 --> 00:11:17,650
+we're going to do it.
+
+165
+00:11:17,650 --> 00:11:22,590
+It's -1/k e^(-kx), that's
+the antiderivative.
+
+166
+00:11:22,590 --> 00:11:30,370
+Evaluated at 0 and N. And that,
+if I plug in these values,
+
+167
+00:11:30,370 --> 00:11:39,730
+is -1/k e^(-kN), minus--
+and if I evaluate it at 0,
+
+168
+00:11:39,730 --> 00:11:42,600
+I get a -1/k e^0.
+
+169
+00:11:46,860 --> 00:11:48,690
+So there's the answer.
+
+170
+00:11:48,690 --> 00:11:50,180
+And now we have to
+think about what
+
+171
+00:11:50,180 --> 00:11:54,040
+happens as N goes to infinity.
+
+172
+00:11:54,040 --> 00:11:59,050
+So as N goes to infinity,
+what's happening
+
+173
+00:11:59,050 --> 00:12:03,400
+is the second term
+here stays unchanged.
+
+174
+00:12:03,400 --> 00:12:06,784
+But the first term is e
+to some negative power.
+
+175
+00:12:06,784 --> 00:12:08,700
+And the exponent is
+getting larger and larger.
+
+176
+00:12:08,700 --> 00:12:10,830
+That's because k
+is positive here.
+
+177
+00:12:10,830 --> 00:12:12,590
+You've definitely
+got to pay attention.
+
+178
+00:12:12,590 --> 00:12:15,020
+Even though I'm doing this
+with general variables here,
+
+179
+00:12:15,020 --> 00:12:17,922
+you've got to pay attention
+to signs of things.
+
+180
+00:12:17,922 --> 00:12:20,130
+Because otherwise you'll
+always get the wrong answer.
+
+181
+00:12:20,130 --> 00:12:22,710
+So you have to pay very
+close attention here.
+
+182
+00:12:22,710 --> 00:12:24,990
+So this is, if you like,
+e to the minus infinity
+
+183
+00:12:24,990 --> 00:12:26,720
+in the limit, which is 0.
+
+184
+00:12:26,720 --> 00:12:30,720
+And so in the limit,
+this thing tends to 0.
+
+185
+00:12:30,720 --> 00:12:33,870
+And this thing is
+just equal to 1/k.
+
+186
+00:12:33,870 --> 00:12:36,100
+And so all told,
+the answer is 1/k.
+
+187
+00:12:36,100 --> 00:12:43,610
+And that's it.
+
+188
+00:12:43,610 --> 00:12:46,074
+Now we're going to
+abbreviate this a little bit.
+
+189
+00:12:46,074 --> 00:12:47,490
+This thought
+process, you're going
+
+190
+00:12:47,490 --> 00:12:50,070
+to have to go through every
+single time you do this.
+
+191
+00:12:50,070 --> 00:12:52,830
+But after a while you
+also get good enough at it
+
+192
+00:12:52,830 --> 00:12:55,770
+that you can make it a
+little bit less cluttered.
+
+193
+00:12:55,770 --> 00:13:09,350
+So let me show you a shorthand
+for this same calculation.
+
+194
+00:13:09,350 --> 00:13:14,650
+Namely, I write 0 to
+infinity e^(-kx) dx.
+
+195
+00:13:14,650 --> 00:13:23,890
+And that's equal to -1/k
+e^(-kx) 0 to infinity.
+
+196
+00:13:23,890 --> 00:13:27,710
+That was cute.
+
+197
+00:13:27,710 --> 00:13:35,600
+Not small enough, however.
+
+198
+00:13:35,600 --> 00:13:36,374
+So, here we are.
+
+199
+00:13:36,374 --> 00:13:38,290
+We have the same calculation
+as we had before.
+
+200
+00:13:38,290 --> 00:13:40,130
+But now we're thinking,
+really, in our minds
+
+201
+00:13:40,130 --> 00:13:43,100
+that this infinity is some
+very, very enormous number.
+
+202
+00:13:43,100 --> 00:13:44,790
+And we're going to plug it in.
+
+203
+00:13:44,790 --> 00:13:47,060
+And you can either do
+this in your head or not.
+
+204
+00:13:47,060 --> 00:13:50,760
+You say -1/k e^(-infinity).
+
+205
+00:13:50,760 --> 00:13:53,510
+Here's where I've used the
+fact that k is positive.
+
+206
+00:13:53,510 --> 00:13:57,300
+Because e to the -k times a
+large number is minus infinity.
+
+207
+00:13:57,300 --> 00:14:01,570
+And then here plus 1/k--
+minus -1/k, let write it
+
+208
+00:14:01,570 --> 00:14:05,780
+the same way I did before.
+
+209
+00:14:05,780 --> 00:14:11,840
+And that's just equal to 0 +
+1/k, which is what we want.
+
+210
+00:14:11,840 --> 00:14:17,240
+So this is the same calculation,
+just slightly abbreviated.
+
+211
+00:14:17,240 --> 00:14:17,740
+Yeah.
+
+212
+00:14:17,740 --> 00:14:18,240
+Question.
+
+213
+00:14:18,240 --> 00:14:29,050
+STUDENT: [INAUDIBLE]
+
+214
+00:14:29,050 --> 00:14:30,385
+PROFESSOR: Good question.
+
+215
+00:14:30,385 --> 00:14:31,885
+The question is,
+what about the case
+
+216
+00:14:31,885 --> 00:14:34,830
+when the limit is infinity?
+
+217
+00:14:34,830 --> 00:14:37,710
+I'm distinguishing
+between something existing
+
+218
+00:14:37,710 --> 00:14:39,690
+and its limit being
+infinity here.
+
+219
+00:14:39,690 --> 00:14:45,660
+Whenever I make a discussion of
+limits, I say a finite limit,
+
+220
+00:14:45,660 --> 00:14:49,100
+or in this case, it works
+for infinite limits.
+
+221
+00:14:49,100 --> 00:14:50,920
+So in other words,
+when I say exists,
+
+222
+00:14:50,920 --> 00:14:54,970
+I mean exists and is finite.
+
+223
+00:14:54,970 --> 00:14:57,535
+So here, when I say
+that it converges and I
+
+224
+00:14:57,535 --> 00:14:58,910
+say the limit
+exists, what I mean
+
+225
+00:14:58,910 --> 00:15:00,500
+is that it's a finite number.
+
+226
+00:15:00,500 --> 00:15:02,630
+And so that's indeed
+what I said here.
+
+227
+00:15:02,630 --> 00:15:04,570
+The total area is finite.
+
+228
+00:15:04,570 --> 00:15:06,100
+And, similarly, over here.
+
+229
+00:15:06,100 --> 00:15:07,720
+I might add, however,
+that there is
+
+230
+00:15:07,720 --> 00:15:09,770
+another part of this subject.
+
+231
+00:15:09,770 --> 00:15:11,410
+Which I'm skipping entirely.
+
+232
+00:15:11,410 --> 00:15:13,020
+Which is a little bit subtle.
+
+233
+00:15:13,020 --> 00:15:14,330
+Which is the following.
+
+234
+00:15:14,330 --> 00:15:17,860
+If f changes sign, there
+can be some cancellation
+
+235
+00:15:17,860 --> 00:15:19,040
+and oscillation.
+
+236
+00:15:19,040 --> 00:15:21,040
+And then sometimes
+the limit exists,
+
+237
+00:15:21,040 --> 00:15:23,760
+but the total area, if you
+counted it all positively,
+
+238
+00:15:23,760 --> 00:15:25,680
+is actually still infinite.
+
+239
+00:15:25,680 --> 00:15:29,120
+And we're going to
+avoid that case.
+
+240
+00:15:29,120 --> 00:15:31,820
+We're just going to treat
+these positive cases.
+
+241
+00:15:31,820 --> 00:15:33,460
+So don't worry
+about that for now.
+
+242
+00:15:33,460 --> 00:15:35,600
+That's the next
+layer of complexity
+
+243
+00:15:35,600 --> 00:15:38,432
+which we're not
+addressing in this class.
+
+244
+00:15:38,432 --> 00:15:39,140
+Another question.
+
+245
+00:15:39,140 --> 00:15:45,610
+STUDENT: [INAUDIBLE]
+
+246
+00:15:45,610 --> 00:15:48,260
+PROFESSOR: The question is,
+would this be OK on tests.
+
+247
+00:15:48,260 --> 00:15:49,870
+The answer is, absolutely yes.
+
+248
+00:15:49,870 --> 00:15:51,550
+I want to encourage
+you to do this.
+
+249
+00:15:51,550 --> 00:15:53,660
+If you can think
+about it correctly.
+
+250
+00:15:53,660 --> 00:15:55,170
+The subtle point
+is just, you have
+
+251
+00:15:55,170 --> 00:15:57,270
+to plug in infinity correctly.
+
+252
+00:15:57,270 --> 00:15:59,830
+Namely, you have to
+realize that this only
+
+253
+00:15:59,830 --> 00:16:01,115
+works if k is positive.
+
+254
+00:16:01,115 --> 00:16:03,240
+This is the step where
+you're plugging in infinity.
+
+255
+00:16:03,240 --> 00:16:06,630
+And I'm letting you put
+this infinity up here
+
+256
+00:16:06,630 --> 00:16:08,390
+as an endpoint value.
+
+257
+00:16:08,390 --> 00:16:12,470
+So in fact that's
+exactly the theme.
+
+258
+00:16:12,470 --> 00:16:16,800
+The theme is dealing
+with infinity here.
+
+259
+00:16:16,800 --> 00:16:18,550
+And I want you to be
+able to deal with it.
+
+260
+00:16:18,550 --> 00:16:20,440
+That's my goal.
+
+261
+00:16:20,440 --> 00:16:32,660
+STUDENT: [INAUDIBLE]
+
+262
+00:16:32,660 --> 00:16:35,060
+PROFESSOR: OK, so
+another question is,
+
+263
+00:16:35,060 --> 00:16:37,940
+so let's be sure here
+when the limit exists,
+
+264
+00:16:37,940 --> 00:16:40,640
+I say it has to be finite.
+
+265
+00:16:40,640 --> 00:16:46,910
+That means it's
+finite, not infinite.
+
+266
+00:16:46,910 --> 00:16:48,270
+The limit can be 0.
+
+267
+00:16:48,270 --> 00:16:50,790
+It can also be -1.
+
+268
+00:16:50,790 --> 00:16:51,880
+It can be anything.
+
+269
+00:16:51,880 --> 00:16:58,590
+Doesn't have to be
+a positive number.
+
+270
+00:16:58,590 --> 00:17:04,840
+Other questions.
+
+271
+00:17:04,840 --> 00:17:07,180
+So we've had our first example.
+
+272
+00:17:07,180 --> 00:17:23,650
+And now I just want to add one
+physical interpretation here.
+
+273
+00:17:23,650 --> 00:17:29,430
+This is Example 1, if you like.
+
+274
+00:17:29,430 --> 00:17:32,930
+And this is something that was
+on your problem set, remember.
+
+275
+00:17:32,930 --> 00:17:36,680
+That we talked about the
+probability, or the number,
+
+276
+00:17:36,680 --> 00:17:42,540
+if you like, the
+number of particles
+
+277
+00:17:42,540 --> 00:18:02,540
+on average that decay in
+some radioactive substance.
+
+278
+00:18:02,540 --> 00:18:09,870
+Say, in time between
+0 and some capital
+
+279
+00:18:09,870 --> 00:18:15,990
+T. And then that would be
+this integral, 0 to capital
+
+280
+00:18:15,990 --> 00:18:22,560
+T, some total quantity
+times this integral here.
+
+281
+00:18:22,560 --> 00:18:28,000
+This is the typical kind
+of radioactive decay number
+
+282
+00:18:28,000 --> 00:18:29,800
+that one gets.
+
+283
+00:18:29,800 --> 00:18:38,620
+Now, in the limit, so this
+is some number of particles.
+
+284
+00:18:38,620 --> 00:18:42,720
+If the substance is
+radioactive, then in the limit,
+
+285
+00:18:42,720 --> 00:18:47,610
+we have this.
+
+286
+00:18:47,610 --> 00:18:56,070
+Which is equal to the
+total number of particles.
+
+287
+00:18:56,070 --> 00:18:57,970
+And that's something
+that's going
+
+288
+00:18:57,970 --> 00:19:00,424
+to be important for
+normalizing and understanding.
+
+289
+00:19:00,424 --> 00:19:01,840
+How much does the
+whole substance,
+
+290
+00:19:01,840 --> 00:19:04,840
+how many moles do we
+have of this stuff.
+
+291
+00:19:04,840 --> 00:19:05,960
+What is it.
+
+292
+00:19:05,960 --> 00:19:08,390
+And so this is a number
+that is going to come up.
+
+293
+00:19:08,390 --> 00:19:14,040
+Now, I emphasize that this
+notion of T going to infinity
+
+294
+00:19:14,040 --> 00:19:16,890
+is just an idealization.
+
+295
+00:19:16,890 --> 00:19:20,800
+We don't really believe that
+we're going to wait forever
+
+296
+00:19:20,800 --> 00:19:23,580
+for this substance to decay.
+
+297
+00:19:23,580 --> 00:19:27,980
+Nevertheless, as theorists,
+we write down this quantity.
+
+298
+00:19:27,980 --> 00:19:29,110
+And we use it.
+
+299
+00:19:29,110 --> 00:19:31,970
+All the time.
+
+300
+00:19:31,970 --> 00:19:34,740
+Furthermore, there's other
+good reasons for using it,
+
+301
+00:19:34,740 --> 00:19:36,930
+and why physicists
+accept it immediately.
+
+302
+00:19:36,930 --> 00:19:39,850
+Even though it's not really
+completely physically realistic
+
+303
+00:19:39,850 --> 00:19:43,890
+ever to let time go very,
+very far into the future.
+
+304
+00:19:43,890 --> 00:19:47,710
+And the reason is, if you
+notice this answer here,
+
+305
+00:19:47,710 --> 00:19:53,330
+look at how much simpler
+this number is, 1/k,
+
+306
+00:19:53,330 --> 00:19:57,940
+than the numbers that I got in
+the intermediate stages here.
+
+307
+00:19:57,940 --> 00:20:01,800
+These are all ugly,
+the limits are simple.
+
+308
+00:20:01,800 --> 00:20:04,040
+And this is a theme
+that I've been trying
+
+309
+00:20:04,040 --> 00:20:05,790
+to emphasize all semester.
+
+310
+00:20:05,790 --> 00:20:07,755
+Namely, that the
+infinitesimal, the things
+
+311
+00:20:07,755 --> 00:20:09,630
+that you get when you
+do differentiation, are
+
+312
+00:20:09,630 --> 00:20:10,580
+the easier formulas.
+
+313
+00:20:10,580 --> 00:20:13,610
+The algebraic ones, the
+things in the process
+
+314
+00:20:13,610 --> 00:20:16,500
+of getting to the limit,
+are the ugly ones.
+
+315
+00:20:16,500 --> 00:20:18,650
+These are the easy ones,
+these are the hard ones.
+
+316
+00:20:18,650 --> 00:20:20,930
+So in fact, infinity
+is basically easier
+
+317
+00:20:20,930 --> 00:20:23,040
+than any finite number.
+
+318
+00:20:23,040 --> 00:20:27,110
+And a lot of appealing
+formulas come from those kinds
+
+319
+00:20:27,110 --> 00:20:28,470
+of calculations.
+
+320
+00:20:28,470 --> 00:20:31,840
+Another question.
+
+321
+00:20:31,840 --> 00:20:39,310
+STUDENT: [INAUDIBLE]
+
+322
+00:20:39,310 --> 00:20:43,040
+PROFESSOR: The question is,
+shouldn't the answer be A?
+
+323
+00:20:43,040 --> 00:20:47,070
+Well, the answer
+turns out to be A/k.
+
+324
+00:20:47,070 --> 00:20:49,660
+Which means that when you
+set up your arithmetic,
+
+325
+00:20:49,660 --> 00:20:53,750
+and you model this to a
+collection of particles.
+
+326
+00:20:53,750 --> 00:20:56,110
+So you said it should
+be A. But that's
+
+327
+00:20:56,110 --> 00:20:58,290
+because you made an assumption.
+
+328
+00:20:58,290 --> 00:21:01,190
+Which was that A was the
+total number of particles.
+
+329
+00:21:01,190 --> 00:21:03,200
+But that's just false, right?
+
+330
+00:21:03,200 --> 00:21:04,810
+This is the total
+number of particles.
+
+331
+00:21:04,810 --> 00:21:06,599
+So therefore, if you
+want to set it up,
+
+332
+00:21:06,599 --> 00:21:08,140
+you want set up so
+that this number's
+
+333
+00:21:08,140 --> 00:21:11,500
+the total number of particles.
+
+334
+00:21:11,500 --> 00:21:13,010
+And that's how you
+set up a model,
+
+335
+00:21:13,010 --> 00:21:14,593
+is you do all the
+calculations and you
+
+336
+00:21:14,593 --> 00:21:16,040
+see what it's coming out to be.
+
+337
+00:21:16,040 --> 00:21:24,490
+And that's why you need to
+do this kind of calculation.
+
+338
+00:21:24,490 --> 00:21:25,085
+OK, so.
+
+339
+00:21:25,085 --> 00:21:27,710
+The main thing is, you shouldn't
+make assumptions about models.
+
+340
+00:21:27,710 --> 00:21:29,950
+You have to follow what
+the calculations tell you.
+
+341
+00:21:29,950 --> 00:21:32,110
+They're not lying.
+
+342
+00:21:32,110 --> 00:21:34,990
+OK, so now.
+
+343
+00:21:34,990 --> 00:21:36,300
+We carried this out.
+
+344
+00:21:36,300 --> 00:21:40,640
+There's one other
+example which we talked
+
+345
+00:21:40,640 --> 00:21:42,830
+about earlier in the class.
+
+346
+00:21:42,830 --> 00:21:44,470
+And I just wanted
+to mention it again.
+
+347
+00:21:44,470 --> 00:21:48,800
+It's probably the most
+famous after this one.
+
+348
+00:21:48,800 --> 00:21:51,390
+Namely, the integral from
+minus infinity to infinity
+
+349
+00:21:51,390 --> 00:21:53,740
+of e^(-x^2) dx.
+
+350
+00:21:53,740 --> 00:21:56,930
+Which turns out, amazingly,
+to be able to be evaluated.
+
+351
+00:21:56,930 --> 00:21:59,500
+It turns out to be
+the square root of pi.
+
+352
+00:21:59,500 --> 00:22:04,340
+So this one is also great.
+
+353
+00:22:04,340 --> 00:22:07,350
+This is the constant
+which allows
+
+354
+00:22:07,350 --> 00:22:12,230
+you to compute all kinds
+of things in probability.
+
+355
+00:22:12,230 --> 00:22:22,760
+So this is a key
+number in probability.
+
+356
+00:22:22,760 --> 00:22:25,740
+It basically is the key
+to understanding things
+
+357
+00:22:25,740 --> 00:22:28,210
+like standard
+deviation and basically
+
+358
+00:22:28,210 --> 00:22:31,010
+any other thing in the
+subject of probability.
+
+359
+00:22:31,010 --> 00:22:35,910
+It's also what's driving
+these polls that tell you
+
+360
+00:22:35,910 --> 00:22:40,390
+within 4% accuracy we
+know that people are
+
+361
+00:22:40,390 --> 00:22:42,430
+going to vote this way or that.
+
+362
+00:22:42,430 --> 00:22:44,830
+So in order to interpret all
+of those kinds of things,
+
+363
+00:22:44,830 --> 00:22:48,360
+you need to know this number.
+
+364
+00:22:48,360 --> 00:22:51,860
+And this number
+was only calculated
+
+365
+00:22:51,860 --> 00:22:58,750
+numerically starting in the
+1700s or so by people who--
+
+366
+00:22:58,750 --> 00:23:01,050
+actually, by one guy whose
+name was de Moivre, who
+
+367
+00:23:01,050 --> 00:23:04,950
+was selling his services
+to various royalty who
+
+368
+00:23:04,950 --> 00:23:06,390
+were running lotteries.
+
+369
+00:23:06,390 --> 00:23:09,190
+In those days they
+ran lotteries, too.
+
+370
+00:23:09,190 --> 00:23:13,530
+And he was able to tell
+them what the chances were
+
+371
+00:23:13,530 --> 00:23:15,590
+of the various games.
+
+372
+00:23:15,590 --> 00:23:17,720
+And he worked out this number.
+
+373
+00:23:17,720 --> 00:23:19,314
+He realized that
+this was the pattern.
+
+374
+00:23:19,314 --> 00:23:21,730
+Although he didn't know that
+it was the square root of pi,
+
+375
+00:23:21,730 --> 00:23:23,390
+he knew it to
+sufficient accuracy
+
+376
+00:23:23,390 --> 00:23:25,580
+that he could tell
+them the correct answer
+
+377
+00:23:25,580 --> 00:23:29,770
+to how much money their
+lotteries would make.
+
+378
+00:23:29,770 --> 00:23:33,070
+And of course we do
+this nowadays, too.
+
+379
+00:23:33,070 --> 00:23:34,530
+In all kinds of ways.
+
+380
+00:23:34,530 --> 00:23:45,440
+Including slightly more legit
+businesses like insurance.
+
+381
+00:23:45,440 --> 00:23:49,920
+So now, I'm going to give
+you some more examples.
+
+382
+00:23:49,920 --> 00:23:54,910
+And the other examples
+are much more close
+
+383
+00:23:54,910 --> 00:23:59,320
+to the edge between
+infinite and finite.
+
+384
+00:23:59,320 --> 00:24:02,500
+This distinction between
+convergence and divergence.
+
+385
+00:24:02,500 --> 00:24:07,090
+And let me just-- Maybe I'll
+say one more word about why
+
+386
+00:24:07,090 --> 00:24:10,690
+we care about this very gross
+issue of whether something
+
+387
+00:24:10,690 --> 00:24:12,630
+is finite or infinite.
+
+388
+00:24:12,630 --> 00:24:14,670
+When you're talking
+about something
+
+389
+00:24:14,670 --> 00:24:18,660
+like this normal
+curve here, there's
+
+390
+00:24:18,660 --> 00:24:24,290
+an issue of how far
+out you have to go
+
+391
+00:24:24,290 --> 00:24:29,280
+before you can ignore the rest.
+
+392
+00:24:29,280 --> 00:24:34,399
+So we're going to ignore
+what's called the tail here.
+
+393
+00:24:34,399 --> 00:24:36,440
+Somehow you want to know
+that this is negligible.
+
+394
+00:24:36,440 --> 00:24:38,790
+And you want to know
+how negligible it is.
+
+395
+00:24:38,790 --> 00:24:41,350
+And this is the job
+of a mathematician,
+
+396
+00:24:41,350 --> 00:24:44,249
+is to know what finite
+region you have to consider
+
+397
+00:24:44,249 --> 00:24:46,290
+and which one you're going
+to carefully calculate
+
+398
+00:24:46,290 --> 00:24:46,846
+numerically.
+
+399
+00:24:46,846 --> 00:24:48,470
+And then the rest,
+you're going to have
+
+400
+00:24:48,470 --> 00:24:50,690
+to take care of by some
+theoretical reasoning.
+
+401
+00:24:50,690 --> 00:24:52,731
+You're going to have to
+know that these tails are
+
+402
+00:24:52,731 --> 00:24:54,360
+small enough that
+they don't matter
+
+403
+00:24:54,360 --> 00:24:57,150
+in your finite calculation.
+
+404
+00:24:57,150 --> 00:24:59,070
+And so, we care very
+much about the tails.
+
+405
+00:24:59,070 --> 00:25:02,700
+Because they're the only thing
+that the machine won't tell us.
+
+406
+00:25:02,700 --> 00:25:05,090
+So that's the part
+that we have to know.
+
+407
+00:25:05,090 --> 00:25:06,830
+And these tails
+are also something
+
+408
+00:25:06,830 --> 00:25:09,870
+which are discussed all the
+time in financial mathematics.
+
+409
+00:25:09,870 --> 00:25:11,830
+They're very worried
+about fat tails.
+
+410
+00:25:11,830 --> 00:25:16,270
+That is, unlikely events that
+nevertheless happen sometimes.
+
+411
+00:25:16,270 --> 00:25:18,570
+And they get burned fairly
+regularly with them.
+
+412
+00:25:18,570 --> 00:25:25,440
+As they have recently,
+with the mortgage scandal.
+
+413
+00:25:25,440 --> 00:25:28,416
+So, these things
+are pretty serious
+
+414
+00:25:28,416 --> 00:25:30,540
+and they really are spending
+a lot of time on them.
+
+415
+00:25:30,540 --> 00:25:32,922
+Of course, there are lots
+of other practical issues
+
+416
+00:25:32,922 --> 00:25:34,130
+besides just the mathematics.
+
+417
+00:25:34,130 --> 00:25:37,340
+But you've got to get
+the math right, too.
+
+418
+00:25:37,340 --> 00:25:40,860
+So we're going to now talk
+about some borderline cases
+
+419
+00:25:40,860 --> 00:25:42,950
+for these fat tails.
+
+420
+00:25:42,950 --> 00:25:45,820
+Just how fat do they have to
+be before they become infinite
+
+421
+00:25:45,820 --> 00:25:51,820
+and overwhelm the central bump.
+
+422
+00:25:51,820 --> 00:25:56,120
+So we'll save this
+for just a second.
+
+423
+00:25:56,120 --> 00:25:58,734
+And what I'm saving up here
+is the borderline case,
+
+424
+00:25:58,734 --> 00:26:00,150
+which I'm going
+to concentrate on,
+
+425
+00:26:00,150 --> 00:26:07,500
+which is this moderate
+rate, which is x to powers.
+
+426
+00:26:07,500 --> 00:26:09,570
+Here's our next example.
+
+427
+00:26:09,570 --> 00:26:13,230
+I guess we'll call
+this Example 3.
+
+428
+00:26:13,230 --> 00:26:17,540
+It's the integral from
+1 to infinity dx / x.
+
+429
+00:26:17,540 --> 00:26:20,800
+That's the power p = 1.
+
+430
+00:26:20,800 --> 00:26:23,980
+And this turns out to
+be a borderline case.
+
+431
+00:26:23,980 --> 00:26:26,790
+So it's worth carrying
+out carefully.
+
+432
+00:26:26,790 --> 00:26:29,820
+Now, again I'm going to do
+it by the slower method.
+
+433
+00:26:29,820 --> 00:26:31,290
+Rather than the
+shorthand method.
+
+434
+00:26:31,290 --> 00:26:36,100
+But ultimately, you can do it by
+the short method if you'd like.
+
+435
+00:26:36,100 --> 00:26:38,960
+I break it up into
+an integral that
+
+436
+00:26:38,960 --> 00:26:44,260
+goes up to some large number,
+N. I see that it's the logarithm
+
+437
+00:26:44,260 --> 00:26:47,060
+function is the antiderivative.
+
+438
+00:26:47,060 --> 00:26:51,740
+And so what I get is ln N
+minus ln 1, which is just 0.
+
+439
+00:26:51,740 --> 00:26:53,710
+So this is just
+log N. In any case,
+
+440
+00:26:53,710 --> 00:26:57,860
+it tends to infinity
+as N. goes to infinity.
+
+441
+00:26:57,860 --> 00:27:01,430
+So the conclusion is, since
+the limit is infinite,
+
+442
+00:27:01,430 --> 00:27:12,020
+that this thing diverges.
+
+443
+00:27:12,020 --> 00:27:16,560
+Now, I'm going to do
+this systematically now
+
+444
+00:27:16,560 --> 00:27:20,830
+with all powers p,
+to see what happens.
+
+445
+00:27:20,830 --> 00:27:22,050
+I'll look at the integral.
+
+446
+00:27:22,050 --> 00:27:23,900
+Sorry, I'm going to
+have to start at 1 here.
+
+447
+00:27:23,900 --> 00:27:27,820
+From 1 to infinity, dx / x^p.
+
+448
+00:27:27,820 --> 00:27:29,480
+and see what happens with these.
+
+449
+00:27:29,480 --> 00:27:32,200
+And you'll see that p =
+1 is a borderline when
+
+450
+00:27:32,200 --> 00:27:35,720
+I do this calculation.
+
+451
+00:27:35,720 --> 00:27:39,059
+This time I'm going to do
+the calculation the hard way.
+
+452
+00:27:39,059 --> 00:27:41,350
+But now you're going to have
+to think and pay attention
+
+453
+00:27:41,350 --> 00:27:43,225
+to see what it is
+that I'm doing.
+
+454
+00:27:43,225 --> 00:27:45,350
+First of all, I'm going to
+take the antiderivative.
+
+455
+00:27:45,350 --> 00:27:53,590
+And this is x^(-p), so it's
+- -p + 1 divided by -p + 1.
+
+456
+00:27:53,590 --> 00:28:00,960
+That's the antiderivative of
+the function 1/x^p or x^(-p).
+
+457
+00:28:00,960 --> 00:28:07,710
+And then I have to evaluate
+that at 1 and infinity.
+
+458
+00:28:07,710 --> 00:28:10,600
+So now, I'll write this down.
+
+459
+00:28:10,600 --> 00:28:13,990
+But I'm going to be
+particularly careful here.
+
+460
+00:28:13,990 --> 00:28:14,880
+I'll write it down.
+
+461
+00:28:14,880 --> 00:28:27,040
+It's infinity to the -p
++ 1 over -p + 1 minus,
+
+462
+00:28:27,040 --> 00:28:29,160
+so I plug in 1 here.
+
+463
+00:28:29,160 --> 00:28:30,450
+So I get 1/(-p+1).
+
+464
+00:28:34,870 --> 00:28:36,440
+So this is what I'm getting.
+
+465
+00:28:36,440 --> 00:28:38,730
+Again, what you should
+be thinking here
+
+466
+00:28:38,730 --> 00:28:45,410
+is this is a very large
+number to this power.
+
+467
+00:28:45,410 --> 00:28:47,770
+Now, there are two cases.
+
+468
+00:28:47,770 --> 00:28:48,880
+There are two cases.
+
+469
+00:28:48,880 --> 00:28:52,530
+And they exactly split at p = 1.
+
+470
+00:28:52,530 --> 00:28:55,280
+When p = 1, this number is 0.
+
+471
+00:28:55,280 --> 00:28:57,380
+This exponent is 0, and
+in fact this expression
+
+472
+00:28:57,380 --> 00:29:01,310
+doesn't make any sense because
+the denominator is also 0.
+
+473
+00:29:01,310 --> 00:29:05,310
+But for all of the other values,
+the denominator makes sense.
+
+474
+00:29:05,310 --> 00:29:09,780
+But what's going on is
+that this is infinite
+
+475
+00:29:09,780 --> 00:29:13,420
+when this exponent is
+infinity to a positive power.
+
+476
+00:29:13,420 --> 00:29:20,070
+And it's 0 when it's
+infinity to a negative power.
+
+477
+00:29:20,070 --> 00:29:22,970
+So I'm going to say it here,
+and you must check this at home.
+
+478
+00:29:22,970 --> 00:29:24,785
+Because this is
+exactly what I'm going
+
+479
+00:29:24,785 --> 00:29:27,060
+to ask you about on the exam.
+
+480
+00:29:27,060 --> 00:29:28,590
+This is it.
+
+481
+00:29:28,590 --> 00:29:33,360
+This type of thing, maybe with
+a specific value of p here.
+
+482
+00:29:33,360 --> 00:29:45,660
+When p < 1, this
+thing is infinite.
+
+483
+00:29:45,660 --> 00:29:53,560
+On the other hand, when
+p > 1, this thing is 0.
+
+484
+00:29:53,560 --> 00:29:59,260
+So when p > 1, this thing is 0.
+
+485
+00:29:59,260 --> 00:30:01,040
+It's just equal to 0.
+
+486
+00:30:01,040 --> 00:30:09,125
+And so the answer is 1/(p-1).
+
+487
+00:30:09,125 --> 00:30:10,250
+Because that's this number.
+
+488
+00:30:10,250 --> 00:30:12,970
+Minus the quantity 1/(-p+1).
+
+489
+00:30:15,720 --> 00:30:17,480
+This is a finite number here.
+
+490
+00:30:17,480 --> 00:30:20,390
+Notice that the answer would be
+weird if this thing went away
+
+491
+00:30:20,390 --> 00:30:22,840
+in the p < 1 case.
+
+492
+00:30:22,840 --> 00:30:24,740
+Then it would be
+a negative number.
+
+493
+00:30:24,740 --> 00:30:28,420
+It would be a very strange
+answer to this question.
+
+494
+00:30:28,420 --> 00:30:29,920
+So, in fact that's
+not what happens.
+
+495
+00:30:29,920 --> 00:30:32,477
+What happens is that the
+answer doesn't make sense.
+
+496
+00:30:32,477 --> 00:30:33,060
+It's infinite.
+
+497
+00:30:33,060 --> 00:30:35,620
+So let me just write this
+down again, under here.
+
+498
+00:30:35,620 --> 00:30:42,160
+This is a test in
+a particular case.
+
+499
+00:30:42,160 --> 00:30:47,190
+And here's the conclusion.
+
+500
+00:30:47,190 --> 00:30:48,027
+Ah.
+
+501
+00:30:48,027 --> 00:30:48,610
+No, I'm sorry.
+
+502
+00:30:48,610 --> 00:31:03,760
+I think I was going to write
+it over on this board here.
+
+503
+00:31:03,760 --> 00:31:11,770
+So the conclusion is that the
+integral from 1 to infinity dx
+
+504
+00:31:11,770 --> 00:31:21,000
+/ x^p diverges if p <= 1.
+
+505
+00:31:21,000 --> 00:31:33,130
+And converges if p > 1.
+
+506
+00:31:33,130 --> 00:31:35,550
+And in fact, we can
+actually evaluate it.
+
+507
+00:31:35,550 --> 00:31:38,380
+It's equal to 1/(p-1).
+
+508
+00:31:38,380 --> 00:31:44,050
+It's got a nice,
+clean formula even.
+
+509
+00:31:44,050 --> 00:31:45,820
+Alright, now let me remind you.
+
+510
+00:31:45,820 --> 00:31:47,870
+So I didn't spell the word
+diverges right, did I?
+
+511
+00:31:47,870 --> 00:31:49,170
+Oh no, that's an r.
+
+512
+00:31:49,170 --> 00:31:55,530
+I guess that's right.
+
+513
+00:31:55,530 --> 00:31:57,040
+Diverges if p <= 1.
+
+514
+00:31:57,040 --> 00:31:59,910
+So really, I needed
+both of these arguments,
+
+515
+00:31:59,910 --> 00:32:02,310
+which are sitting above
+it, in order to do it.
+
+516
+00:32:02,310 --> 00:32:06,510
+Because the second argument
+didn't work at all when p = 1
+
+517
+00:32:06,510 --> 00:32:09,184
+because the formula for the
+antiderivative is wrong.
+
+518
+00:32:09,184 --> 00:32:10,600
+The formula for
+the antiderivative
+
+519
+00:32:10,600 --> 00:32:13,570
+is given by the log
+function when p = 1.
+
+520
+00:32:13,570 --> 00:32:15,780
+So I had to do this
+calculation too.
+
+521
+00:32:15,780 --> 00:32:21,420
+This is the borderline case,
+between p > 1 and p < 1.
+
+522
+00:32:21,420 --> 00:32:23,820
+When p > 1, we got convergence.
+
+523
+00:32:23,820 --> 00:32:27,140
+We could calculate the integral.
+
+524
+00:32:27,140 --> 00:32:30,290
+When p < 1, when we got
+divergence and we calculated
+
+525
+00:32:30,290 --> 00:32:31,510
+the integral over there.
+
+526
+00:32:31,510 --> 00:32:34,220
+And here in the borderline
+case, we got a logarithm,
+
+527
+00:32:34,220 --> 00:32:35,940
+and we also got divergence.
+
+528
+00:32:35,940 --> 00:32:39,520
+So it failed at the edge.
+
+529
+00:32:39,520 --> 00:32:46,980
+Now, this takes care
+of all the powers.
+
+530
+00:32:46,980 --> 00:32:54,490
+Now, there are a number
+of different things
+
+531
+00:32:54,490 --> 00:32:58,320
+that one can deduce from this.
+
+532
+00:32:58,320 --> 00:33:02,390
+And let me carry them out.
+
+533
+00:33:02,390 --> 00:33:04,180
+So this is more or
+less the second thing
+
+534
+00:33:04,180 --> 00:33:07,030
+that you'll want to do.
+
+535
+00:33:07,030 --> 00:33:12,440
+And I'm going to emphasize
+maybe one aspect of it.
+
+536
+00:33:12,440 --> 00:33:14,510
+I guess we'll get rid of this.
+
+537
+00:33:14,510 --> 00:33:17,500
+But it's still the issue
+that we're discussing here.
+
+538
+00:33:17,500 --> 00:33:20,230
+Is whether this
+area is fat or thin.
+
+539
+00:33:20,230 --> 00:33:24,500
+I'll remind you of that.
+
+540
+00:33:24,500 --> 00:33:29,240
+So here's the next idea.
+
+541
+00:33:29,240 --> 00:33:34,250
+Something called
+limit comparison.
+
+542
+00:33:34,250 --> 00:33:35,850
+Limit comparison is
+what you're going
+
+543
+00:33:35,850 --> 00:33:39,100
+to use when, instead
+of being able actually
+
+544
+00:33:39,100 --> 00:33:41,670
+to calculate the
+number, you don't yet
+
+545
+00:33:41,670 --> 00:33:42,670
+know what the number is.
+
+546
+00:33:42,670 --> 00:33:44,720
+But you can make a
+comparison to something
+
+547
+00:33:44,720 --> 00:33:48,940
+whose convergence properties
+you already understand.
+
+548
+00:33:48,940 --> 00:33:50,780
+Now, here's the statement.
+
+549
+00:33:50,780 --> 00:33:57,090
+If a function, f, is similar
+to a function, asymptotically
+
+550
+00:33:57,090 --> 00:34:00,830
+the same as a function,
+g, as x goes to infinity,
+
+551
+00:34:00,830 --> 00:34:03,830
+I'll remind you what
+that means in a second.
+
+552
+00:34:03,830 --> 00:34:08,890
+Then the integral
+starting at some
+
+553
+00:34:08,890 --> 00:34:20,380
+point out to infinity of
+f(x) dx, and the other one,
+
+554
+00:34:20,380 --> 00:34:22,230
+converge and diverge
+at the same time.
+
+555
+00:34:22,230 --> 00:34:30,320
+So both, either, either-- sorry,
+let's try it the other way.
+
+556
+00:34:30,320 --> 00:34:31,940
+Either, both.
+
+557
+00:34:31,940 --> 00:34:42,700
+Either both converge,
+or both diverge.
+
+558
+00:34:42,700 --> 00:34:44,840
+They behave exactly
+the same way.
+
+559
+00:34:44,840 --> 00:34:50,800
+In terms of whether
+they're infinite or not.
+
+560
+00:34:50,800 --> 00:34:56,650
+And, let me remind you
+what this tilde means.
+
+561
+00:34:56,650 --> 00:35:14,750
+This thing means that
+f(x) / g(x) tends to 1.
+
+562
+00:35:14,750 --> 00:35:19,820
+So if you have a couple
+of functions like that,
+
+563
+00:35:19,820 --> 00:35:21,990
+then their behavior is the same.
+
+564
+00:35:21,990 --> 00:35:25,050
+This is more or less obvious.
+
+565
+00:35:25,050 --> 00:35:29,710
+It's just because
+far enough out,
+
+566
+00:35:29,710 --> 00:35:34,712
+this is for large
+a, if you like.
+
+567
+00:35:34,712 --> 00:35:36,670
+We're not paying any
+attention to what happens.
+
+568
+00:35:36,670 --> 00:35:40,400
+It just has to do with the
+tail, and after a while
+
+569
+00:35:40,400 --> 00:35:42,290
+f(x) and g(x) are
+comparable to each other.
+
+570
+00:35:42,290 --> 00:35:46,980
+So their integrals are
+comparable to each other.
+
+571
+00:35:46,980 --> 00:35:51,290
+So let's just do a
+couple of examples here.
+
+572
+00:35:51,290 --> 00:35:56,500
+If you take the integral from 0
+to infinity dx over the square
+
+573
+00:35:56,500 --> 00:36:09,400
+root of x^2+10, then I claim
+that the square root of x^2+10
+
+574
+00:36:09,400 --> 00:36:16,220
+resembles the square root
+of x^2, which is just x.
+
+575
+00:36:16,220 --> 00:36:19,830
+So this thing is going
+to be like-- So now I'm
+
+576
+00:36:19,830 --> 00:36:22,570
+going to have to do
+one thing to you here.
+
+577
+00:36:22,570 --> 00:36:26,180
+Which is, I'm going
+to change this to 1.
+
+578
+00:36:26,180 --> 00:36:28,870
+To infinity.
+
+579
+00:36:28,870 --> 00:36:30,900
+dx/x.
+
+580
+00:36:30,900 --> 00:36:35,756
+And the reason is that
+this x = 0 is extraneous.
+
+581
+00:36:35,756 --> 00:36:37,380
+Doesn't have anything
+to do with what's
+
+582
+00:36:37,380 --> 00:36:39,710
+going on with this problem.
+
+583
+00:36:39,710 --> 00:36:45,640
+This guy here, the
+piece of it from--
+
+584
+00:36:45,640 --> 00:36:54,660
+So we're going to ignore the
+part integral from 0 to 1 dx /
+
+585
+00:36:54,660 --> 00:37:01,480
+square root of x^2+10,
+which is finite anyway.
+
+586
+00:37:01,480 --> 00:37:03,340
+And unimportant.
+
+587
+00:37:03,340 --> 00:37:06,300
+Whereas, unfortunately,
+the integral of dx
+
+588
+00:37:06,300 --> 00:37:08,310
+will have a
+singularity at x = 0.
+
+589
+00:37:08,310 --> 00:37:12,040
+So we can't make the
+comparison there.
+
+590
+00:37:12,040 --> 00:37:14,910
+Anyway, this one is infinite.
+
+591
+00:37:14,910 --> 00:37:21,490
+So this is divergent.
+
+592
+00:37:21,490 --> 00:37:27,340
+Using what I knew from before.
+
+593
+00:37:27,340 --> 00:37:27,840
+Yeah.
+
+594
+00:37:27,840 --> 00:37:33,680
+STUDENT: [INAUDIBLE]
+
+595
+00:37:33,680 --> 00:37:39,770
+PROFESSOR: The question is,
+why did we switch from 0 to 1?
+
+596
+00:37:39,770 --> 00:37:43,280
+So I'm going to say a little
+bit more about that later.
+
+597
+00:37:43,280 --> 00:37:48,750
+But let me just make
+it a warning here.
+
+598
+00:37:48,750 --> 00:37:58,010
+Which is that this guy here
+is infinite for other reasons.
+
+599
+00:37:58,010 --> 00:38:04,310
+Unrelated reasons.
+
+600
+00:38:04,310 --> 00:38:07,650
+The comparison that we are
+trying to make is with the tail
+
+601
+00:38:07,650 --> 00:38:09,400
+as x goes to infinity.
+
+602
+00:38:09,400 --> 00:38:11,920
+So another way of
+saying this is that I
+
+603
+00:38:11,920 --> 00:38:16,940
+should stick an a here and an
+a here and stay away from 0.
+
+604
+00:38:16,940 --> 00:38:18,770
+So, say a = 1.
+
+605
+00:38:18,770 --> 00:38:21,820
+If I make these both
+1, that would be OK.
+
+606
+00:38:21,820 --> 00:38:24,700
+If I make them both
+2, that would be OK.
+
+607
+00:38:24,700 --> 00:38:27,250
+If I make them both
+100, that would be OK.
+
+608
+00:38:27,250 --> 00:38:29,450
+So let's leave it
+as 100 right now.
+
+609
+00:38:29,450 --> 00:38:30,640
+And it's acceptable.
+
+610
+00:38:30,640 --> 00:38:33,360
+I want you to stay away
+from the origin here.
+
+611
+00:38:33,360 --> 00:38:36,820
+Because that's
+another bad point.
+
+612
+00:38:36,820 --> 00:38:40,380
+And just talk about what's
+happening with the tail.
+
+613
+00:38:40,380 --> 00:38:45,530
+So this is a tail, and I also
+had a different name for it
+
+614
+00:38:45,530 --> 00:38:46,580
+up top.
+
+615
+00:38:46,580 --> 00:38:47,810
+Which is emphasizing this.
+
+616
+00:38:47,810 --> 00:38:49,770
+Which is limit comparison.
+
+617
+00:38:49,770 --> 00:38:52,740
+It's only what's happening at
+the very end of the picture
+
+618
+00:38:52,740 --> 00:38:53,920
+that we're interested in.
+
+619
+00:38:53,920 --> 00:38:56,710
+So again, this is as
+x goes to infinity.
+
+620
+00:38:56,710 --> 00:38:59,880
+That's the limit we're talking
+about, the limiting behavior.
+
+621
+00:38:59,880 --> 00:39:01,770
+And we're trying
+not to pay attention
+
+622
+00:39:01,770 --> 00:39:10,890
+to what's happening
+for small values of x.
+
+623
+00:39:10,890 --> 00:39:13,450
+So to be consistent, if
+I'm going to do it up
+
+624
+00:39:13,450 --> 00:39:17,440
+to 100 I'm ignoring what's
+happening up to the first 100
+
+625
+00:39:17,440 --> 00:39:25,240
+values.
+
+626
+00:39:25,240 --> 00:39:28,950
+In any case, this guy diverged.
+
+627
+00:39:28,950 --> 00:39:33,120
+And let me give you
+another example.
+
+628
+00:39:33,120 --> 00:39:36,050
+This one, you could
+have computed.
+
+629
+00:39:36,050 --> 00:39:38,040
+This one you could
+have computed, right?
+
+630
+00:39:38,040 --> 00:39:43,930
+Because it's a square
+root of quadratic,
+
+631
+00:39:43,930 --> 00:39:48,420
+so there's a trig substitution
+that evaluates this one.
+
+632
+00:39:48,420 --> 00:39:51,400
+The advantage of this
+limit comparison method
+
+633
+00:39:51,400 --> 00:39:53,432
+is, it makes no
+difference whether you
+
+634
+00:39:53,432 --> 00:39:54,640
+can compute the thing or not.
+
+635
+00:39:54,640 --> 00:39:57,840
+You can still decide whether
+it's finite or infinite, fairly
+
+636
+00:39:57,840 --> 00:39:58,820
+easily.
+
+637
+00:39:58,820 --> 00:40:10,850
+So let me give you
+an example of that.
+
+638
+00:40:10,850 --> 00:40:13,030
+So here we have another example.
+
+639
+00:40:13,030 --> 00:40:21,560
+We'll take the integral
+dx, square root of x^3 + 3.
+
+640
+00:40:21,560 --> 00:40:25,080
+Let's say, for the
+sake of argument.
+
+641
+00:40:25,080 --> 00:40:28,970
+From 0 to infinity.
+
+642
+00:40:28,970 --> 00:40:35,200
+Let's leave off, let's make
+it 10 to infinity, whatever.
+
+643
+00:40:35,200 --> 00:40:42,360
+Now this one is
+problematic for you.
+
+644
+00:40:42,360 --> 00:40:44,910
+You're not going to be able
+to evaluate it, I promise.
+
+645
+00:40:44,910 --> 00:40:53,660
+So on the other hand 1 over
+the square root of x^3 + 3 is
+
+646
+00:40:53,660 --> 00:40:56,950
+similar to 1 over the
+square root of x^3,
+
+647
+00:40:56,950 --> 00:41:00,580
+which is 1/x^(3/2).
+
+648
+00:41:00,580 --> 00:41:10,680
+So this thing is going to
+resemble this integral here.
+
+649
+00:41:10,680 --> 00:41:16,870
+Which is convergent.
+
+650
+00:41:16,870 --> 00:41:25,660
+According to our rule.
+
+651
+00:41:25,660 --> 00:41:31,950
+So those are the, more or
+less the main ingredients.
+
+652
+00:41:31,950 --> 00:41:34,740
+Let me just mention one
+other integral, which was
+
+653
+00:41:34,740 --> 00:41:37,900
+the one that we had over here.
+
+654
+00:41:37,900 --> 00:41:39,830
+This one here.
+
+655
+00:41:39,830 --> 00:41:42,300
+If you look at this
+integral, of course
+
+656
+00:41:42,300 --> 00:41:45,270
+we can compute it so we
+know the area is finite.
+
+657
+00:41:45,270 --> 00:41:51,910
+But the way that you would
+actually carry this out,
+
+658
+00:41:51,910 --> 00:41:54,040
+if you didn't know
+the number and you
+
+659
+00:41:54,040 --> 00:41:58,860
+wanted to check that this
+integral were finite,
+
+660
+00:41:58,860 --> 00:42:00,880
+then you would make the
+following comparison.
+
+661
+00:42:00,880 --> 00:42:04,170
+This one is not so
+difficult. First of all,
+
+662
+00:42:04,170 --> 00:42:07,300
+you would write it as twice
+the integral from 0 to infinity
+
+663
+00:42:07,300 --> 00:42:11,770
+of e^(-x^2) dx.
+
+664
+00:42:11,770 --> 00:42:15,340
+This is a new example
+here, and we're just
+
+665
+00:42:15,340 --> 00:42:18,970
+checking for convergence only.
+
+666
+00:42:18,970 --> 00:42:25,700
+Not evaluation.
+
+667
+00:42:25,700 --> 00:42:36,459
+And now, I'm going to
+make a comparison here,
+
+668
+00:42:36,459 --> 00:42:38,750
+Rather than a limit, comparison
+I'm actually just going
+
+669
+00:42:38,750 --> 00:42:40,041
+to make an ordinary comparison.
+
+670
+00:42:40,041 --> 00:42:42,170
+That's because this
+thing vanishes so fast.
+
+671
+00:42:42,170 --> 00:42:44,387
+It's so favorable that
+we can only put something
+
+672
+00:42:44,387 --> 00:42:46,470
+on top of it, we can't get
+something underneath it
+
+673
+00:42:46,470 --> 00:42:48,280
+that exactly balances with it.
+
+674
+00:42:48,280 --> 00:42:50,280
+In other words, this
+wiggle was something
+
+675
+00:42:50,280 --> 00:42:53,050
+which had the same growth
+rate as the function involved.
+
+676
+00:42:53,050 --> 00:42:54,870
+This thing just vanishes
+incredibly fast.
+
+677
+00:42:54,870 --> 00:42:55,830
+It's great.
+
+678
+00:42:55,830 --> 00:42:58,500
+It's too good for us,
+for this comparison.
+
+679
+00:42:58,500 --> 00:43:00,110
+So instead what
+I'm going to make
+
+680
+00:43:00,110 --> 00:43:02,810
+is the following comparison.
+
+681
+00:43:02,810 --> 00:43:07,650
+e^(-x^2) <= e^(-x).
+
+682
+00:43:07,650 --> 00:43:10,990
+At least for x >= 1.
+
+683
+00:43:10,990 --> 00:43:20,150
+When x >= 1, then x^2
+>= x, and so -x^2 < -x.
+
+684
+00:43:20,150 --> 00:43:22,830
+And so e^(-x^2)
+is less than this.
+
+685
+00:43:22,830 --> 00:43:26,440
+So this is the
+reasoning involved.
+
+686
+00:43:26,440 --> 00:43:29,350
+And so what we have
+here is two pieces.
+
+687
+00:43:29,350 --> 00:43:33,460
+We have 2, the integral
+from 0 to 1, of e^(-x^2).
+
+688
+00:43:33,460 --> 00:43:35,430
+That's just a finite part.
+
+689
+00:43:35,430 --> 00:43:37,330
+And then we have
+this other part,
+
+690
+00:43:37,330 --> 00:43:42,490
+which I'm going to replace
+with the e^(-x) here.
+
+691
+00:43:42,490 --> 00:43:50,310
+2 times 1 to infinity e^(-x) dx.
+
+692
+00:43:50,310 --> 00:43:53,939
+So this is, if you like,
+this is ordinary comparison
+
+693
+00:43:53,939 --> 00:43:54,480
+of integrals.
+
+694
+00:43:54,480 --> 00:43:57,021
+It's something that we did way
+at the beginning of the class.
+
+695
+00:43:57,021 --> 00:43:59,750
+Or much earlier on, when we
+were dealing with integrals.
+
+696
+00:43:59,750 --> 00:44:04,750
+Which is that if you have
+a larger integrand, then
+
+697
+00:44:04,750 --> 00:44:07,519
+the integral gets larger.
+
+698
+00:44:07,519 --> 00:44:08,810
+So we've replaced the integral.
+
+699
+00:44:08,810 --> 00:44:11,360
+We've got the same
+integrand on 0 to 1.
+
+700
+00:44:11,360 --> 00:44:14,120
+And we have a larger
+integrand on--
+
+701
+00:44:14,120 --> 00:44:20,680
+So this one is larger integrand.
+
+702
+00:44:20,680 --> 00:44:23,200
+And this one we know is finite.
+
+703
+00:44:23,200 --> 00:44:24,830
+This one is a
+convergent integral.
+
+704
+00:44:24,830 --> 00:44:29,760
+So the whole business
+is convergent.
+
+705
+00:44:29,760 --> 00:44:31,970
+But of course we replaced
+it by a much larger thing.
+
+706
+00:44:31,970 --> 00:44:34,053
+So we're not getting the
+right number out of this.
+
+707
+00:44:34,053 --> 00:44:47,920
+We're just showing
+that it converges.
+
+708
+00:44:47,920 --> 00:44:51,060
+So these are the
+main ingredients.
+
+709
+00:44:51,060 --> 00:44:54,380
+As I say, once the thing gets
+really, really fast-decaying,
+
+710
+00:44:54,380 --> 00:44:57,310
+it's relatively straightforward.
+
+711
+00:44:57,310 --> 00:45:04,790
+There's lots of room to
+show that it converges.
+
+712
+00:45:04,790 --> 00:45:07,020
+Now, there's one
+last item of business
+
+713
+00:45:07,020 --> 00:45:10,080
+here which I have
+to promise you.
+
+714
+00:45:10,080 --> 00:45:16,630
+Which I promised you, which
+had to do with dealing
+
+715
+00:45:16,630 --> 00:45:22,220
+with this bottom piece here.
+
+716
+00:45:22,220 --> 00:45:24,210
+So I have to deal
+with what happens
+
+717
+00:45:24,210 --> 00:45:26,050
+when there's a singularity.
+
+718
+00:45:26,050 --> 00:45:56,800
+This is known as an improper
+integral of the second type.
+
+719
+00:45:56,800 --> 00:46:01,200
+And the idea of these
+examples is the following.
+
+720
+00:46:01,200 --> 00:46:06,010
+You might have
+something like this.
+
+721
+00:46:06,010 --> 00:46:11,200
+Something like this.
+
+722
+00:46:11,200 --> 00:46:16,770
+Or something like this.
+
+723
+00:46:16,770 --> 00:46:20,690
+These are typical
+sorts of examples.
+
+724
+00:46:20,690 --> 00:46:27,300
+And before actually
+describing what happens,
+
+725
+00:46:27,300 --> 00:46:28,540
+I just want to mention.
+
+726
+00:46:28,540 --> 00:46:31,020
+So first of all,
+the key point here
+
+727
+00:46:31,020 --> 00:46:32,760
+is you can just
+calculate these things.
+
+728
+00:46:32,760 --> 00:46:37,940
+And plug in 0 and it works and
+you'll get the right answer.
+
+729
+00:46:37,940 --> 00:46:40,254
+So you'll determine,
+you'll figure out,
+
+730
+00:46:40,254 --> 00:46:42,170
+that it turns out that
+this one will converge,
+
+731
+00:46:42,170 --> 00:46:44,211
+this one will diverge,
+and this one will diverge.
+
+732
+00:46:44,211 --> 00:46:46,340
+That's what will
+turn out to happen.
+
+733
+00:46:46,340 --> 00:46:50,610
+However, I want to warn you
+that you can fool yourself.
+
+734
+00:46:50,610 --> 00:46:53,150
+And so let me give you a
+slightly different example.
+
+735
+00:46:53,150 --> 00:46:58,410
+Let's consider
+this integral here.
+
+736
+00:46:58,410 --> 00:47:01,360
+The integral from
+-1 to 1 dx / x^2.
+
+737
+00:47:05,850 --> 00:47:09,246
+If you carry out this
+integral without thinking,
+
+738
+00:47:09,246 --> 00:47:11,370
+what will happen is, you'll
+get the antiderivative,
+
+739
+00:47:11,370 --> 00:47:16,250
+which is -x^(-1),
+evaluated at -1 and 1.
+
+740
+00:47:16,250 --> 00:47:20,550
+And you plug it in.
+
+741
+00:47:20,550 --> 00:47:21,520
+And what do you get?
+
+742
+00:47:21,520 --> 00:47:30,880
+You get -1^(-1) minus,
+uh-oh, minus (-1)^(-1).
+
+743
+00:47:30,880 --> 00:47:33,610
+There's a lot of
+-1's in this problem.
+
+744
+00:47:33,610 --> 00:47:35,090
+OK, so that's -1.
+
+745
+00:47:35,090 --> 00:47:37,010
+And this one, if
+you work it all out,
+
+746
+00:47:37,010 --> 00:47:39,340
+as I sometimes don't get the
+signs right, but this time
+
+747
+00:47:39,340 --> 00:47:41,160
+I really paid attention.
+
+748
+00:47:41,160 --> 00:47:44,480
+It's -1, I'm telling
+you that's what it is.
+
+749
+00:47:44,480 --> 00:47:46,880
+So that comes out to be -2.
+
+750
+00:47:46,880 --> 00:47:50,450
+Now, this is ridiculous.
+
+751
+00:47:50,450 --> 00:48:01,400
+This function here
+looks like this.
+
+752
+00:48:01,400 --> 00:48:04,140
+It's positive, right?
+
+753
+00:48:04,140 --> 00:48:06,000
+1/x^2 is positive.
+
+754
+00:48:06,000 --> 00:48:10,030
+How exactly is it that
+the area between -1 and 1
+
+755
+00:48:10,030 --> 00:48:13,990
+came out to be a
+negative number?
+
+756
+00:48:13,990 --> 00:48:16,510
+That can't be.
+
+757
+00:48:16,510 --> 00:48:18,420
+There was clearly
+something wrong with this.
+
+758
+00:48:18,420 --> 00:48:21,210
+And this is the kind of thing
+that you'll get regularly
+
+759
+00:48:21,210 --> 00:48:25,740
+if you don't pay attention
+to convergence of integrals.
+
+760
+00:48:25,740 --> 00:48:29,640
+So what's going on here is
+actually that this area in here
+
+761
+00:48:29,640 --> 00:48:33,130
+is infinite.
+
+762
+00:48:33,130 --> 00:48:38,090
+And this calculation
+that I made is nonsense.
+
+763
+00:48:38,090 --> 00:48:41,060
+So it doesn't work.
+
+764
+00:48:41,060 --> 00:48:42,010
+This is wrong.
+
+765
+00:48:42,010 --> 00:48:50,237
+Because it's divergent.
+
+766
+00:48:50,237 --> 00:48:52,070
+Actually, when you get
+to imaginary numbers,
+
+767
+00:48:52,070 --> 00:48:56,710
+it'll turn out that there's
+a way of rescuing it.
+
+768
+00:48:56,710 --> 00:48:58,980
+But, still, it means something
+totally different when
+
+769
+00:48:58,980 --> 00:49:03,160
+that integral is thought to -2.
+
+770
+00:49:03,160 --> 00:49:04,000
+So.
+
+771
+00:49:04,000 --> 00:49:07,570
+What I want you to
+do here, so I think
+
+772
+00:49:07,570 --> 00:49:11,590
+we'll have to finish this
+up very briefly next time.
+
+773
+00:49:11,590 --> 00:49:13,270
+We'll do these
+three calculations
+
+774
+00:49:13,270 --> 00:49:20,500
+and you'll see that these two
+guys are divergent and this one
+
+775
+00:49:20,500 --> 00:49:21,990
+converges.
+
+776
+00:49:21,990 --> 00:49:24,110
+And we'll do that next time.

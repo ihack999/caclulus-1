@@ -1,0 +1,3966 @@
+1
+00:00:00,060 --> 00:00:02,330
+The following content is
+provided under a Creative
+
+2
+00:00:02,330 --> 00:00:03,950
+Commons license.
+
+3
+00:00:03,950 --> 00:00:05,990
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:05,990 --> 00:00:10,230
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,230 --> 00:00:12,550
+To make a donation or to
+view additional materials
+
+6
+00:00:12,550 --> 00:00:15,850
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:15,850 --> 00:00:21,950
+at ocw.mit.edu.
+
+8
+00:00:21,950 --> 00:00:25,000
+PROFESSOR: Today we're going
+to continue our discussion
+
+9
+00:00:25,000 --> 00:00:26,780
+of parametric curves.
+
+10
+00:00:26,780 --> 00:00:29,960
+I have to tell you
+about arc length.
+
+11
+00:00:29,960 --> 00:00:33,590
+And let me remind me where
+we left off last time.
+
+12
+00:00:33,590 --> 00:00:45,820
+This is parametric
+curves, continued.
+
+13
+00:00:45,820 --> 00:00:50,380
+Last time, we talked about
+the parametric representation
+
+14
+00:00:50,380 --> 00:00:51,730
+for the circle.
+
+15
+00:00:51,730 --> 00:00:55,960
+Or one of the parametric
+representations for the circle.
+
+16
+00:00:55,960 --> 00:00:59,210
+Which was this one here.
+
+17
+00:00:59,210 --> 00:01:05,590
+And first we noted that
+this does parameterize,
+
+18
+00:01:05,590 --> 00:01:07,770
+as we say, the circle.
+
+19
+00:01:07,770 --> 00:01:10,390
+That satisfies the
+equation for the circle.
+
+20
+00:01:10,390 --> 00:01:17,990
+And it's traced
+counterclockwise.
+
+21
+00:01:17,990 --> 00:01:20,590
+The picture looks like this.
+
+22
+00:01:20,590 --> 00:01:22,350
+Here's the circle.
+
+23
+00:01:22,350 --> 00:01:25,400
+And it starts out here
+at t = 0 and it gets up
+
+24
+00:01:25,400 --> 00:01:31,820
+to here at time t = pi / 2.
+
+25
+00:01:31,820 --> 00:01:41,330
+So now I have to talk
+to you about arc length.
+
+26
+00:01:41,330 --> 00:01:43,840
+In this parametric form.
+
+27
+00:01:43,840 --> 00:01:46,170
+And the results should
+be the same as arc length
+
+28
+00:01:46,170 --> 00:01:48,830
+around this circle ordinarily.
+
+29
+00:01:48,830 --> 00:01:55,840
+And we start out with this
+basic differential relationship.
+
+30
+00:01:55,840 --> 00:02:00,080
+ds^2 is dx^2 + dy^2.
+
+31
+00:02:00,080 --> 00:02:04,880
+And then I'm going to take
+the square root, divide by dt,
+
+32
+00:02:04,880 --> 00:02:08,540
+so the rate of change
+with respect to t of s
+
+33
+00:02:08,540 --> 00:02:10,780
+is going to be the square root.
+
+34
+00:02:10,780 --> 00:02:13,220
+Well, maybe I'll write
+it without dividing.
+
+35
+00:02:13,220 --> 00:02:15,130
+Just write it as ds.
+
+36
+00:02:15,130 --> 00:02:24,640
+So this would be
+(dx/dt)^2 + (dy/dt)^2, dt.
+
+37
+00:02:24,640 --> 00:02:27,050
+So this is what you get
+formally from this equation.
+
+38
+00:02:27,050 --> 00:02:28,920
+If you take its
+square roots and you
+
+39
+00:02:28,920 --> 00:02:32,470
+divide by dt squared
+in the-- inside
+
+40
+00:02:32,470 --> 00:02:35,510
+the square root, and you
+multiply by dt outside,
+
+41
+00:02:35,510 --> 00:02:36,630
+so that those cancel.
+
+42
+00:02:36,630 --> 00:02:39,220
+And this is the formal
+connection between the two.
+
+43
+00:02:39,220 --> 00:02:41,600
+We'll be saying just
+a few more words
+
+44
+00:02:41,600 --> 00:02:48,430
+in a few minutes about how to
+make sense of that rigorously.
+
+45
+00:02:48,430 --> 00:02:55,020
+Alright so that's the set of
+formulas for the infinitesimal,
+
+46
+00:02:55,020 --> 00:02:57,110
+the differential of arc length.
+
+47
+00:02:57,110 --> 00:03:00,820
+And so to figure it out, I have
+to differentiate x with respect
+
+48
+00:03:00,820 --> 00:03:02,810
+to t.
+
+49
+00:03:02,810 --> 00:03:04,225
+And remember x is up here.
+
+50
+00:03:04,225 --> 00:03:11,330
+It's defined by a cos t, so
+its derivative is -a sin t.
+
+51
+00:03:11,330 --> 00:03:19,850
+And similarly, dy/dt = a cos t.
+
+52
+00:03:19,850 --> 00:03:22,000
+And so I can plug this in.
+
+53
+00:03:22,000 --> 00:03:23,620
+And I get the arc
+length element,
+
+54
+00:03:23,620 --> 00:03:36,920
+which is the square root of
+(-a sin t)^2 + (a cos t)^2, dt.
+
+55
+00:03:36,920 --> 00:03:44,670
+Which just becomes the square
+root of a^2, dt, or a dt.
+
+56
+00:03:44,670 --> 00:03:46,370
+Now, I was about to divide by t.
+
+57
+00:03:46,370 --> 00:03:48,630
+Let me do that now.
+
+58
+00:03:48,630 --> 00:03:52,050
+We can also write the rate
+of change of arc length
+
+59
+00:03:52,050 --> 00:03:53,430
+with respect to t.
+
+60
+00:03:53,430 --> 00:03:55,640
+And that's a, in this case.
+
+61
+00:03:55,640 --> 00:04:01,420
+And this gets
+interpreted as the speed
+
+62
+00:04:01,420 --> 00:04:03,180
+of the particle going around.
+
+63
+00:04:03,180 --> 00:04:07,270
+So not only, let me
+trade these two guys,
+
+64
+00:04:07,270 --> 00:04:14,020
+not only do we have the
+direction is counterclockwise,
+
+65
+00:04:14,020 --> 00:04:20,010
+but we also have that the speed
+is, if you like, it's uniform.
+
+66
+00:04:20,010 --> 00:04:21,740
+It's constant speed.
+
+67
+00:04:21,740 --> 00:04:23,650
+And the rate is a.
+
+68
+00:04:23,650 --> 00:04:26,810
+So that's ds/dt.
+
+69
+00:04:26,810 --> 00:04:30,840
+Travelling around.
+
+70
+00:04:30,840 --> 00:04:34,310
+And that means that we can
+play around with the speed.
+
+71
+00:04:34,310 --> 00:04:37,650
+And I just want to point out--
+So the standard thing, what
+
+72
+00:04:37,650 --> 00:04:39,430
+you'll have to get
+used to, and this
+
+73
+00:04:39,430 --> 00:04:42,520
+is a standard presentation,
+you'll see this everywhere.
+
+74
+00:04:42,520 --> 00:04:45,710
+In your physics classes and
+your other math classes,
+
+75
+00:04:45,710 --> 00:04:51,230
+if you want to change
+the speed, so a new speed
+
+76
+00:04:51,230 --> 00:05:01,440
+going around this would be, if
+I set up the equations this way.
+
+77
+00:05:01,440 --> 00:05:05,650
+Now I'm tracing around
+the same circle.
+
+78
+00:05:05,650 --> 00:05:08,120
+But the speed is
+going to turn out
+
+79
+00:05:08,120 --> 00:05:11,470
+to be, if you figure
+it out, there'll
+
+80
+00:05:11,470 --> 00:05:13,200
+be an extra factor of k.
+
+81
+00:05:13,200 --> 00:05:16,460
+So it'll be ak.
+
+82
+00:05:16,460 --> 00:05:19,540
+That's what we'll work
+out to be the speed.
+
+83
+00:05:19,540 --> 00:05:22,290
+Provided k is positive
+and a is positive.
+
+84
+00:05:22,290 --> 00:05:30,490
+So we're making
+these conventions.
+
+85
+00:05:30,490 --> 00:05:37,180
+The constants that we're
+using are positive.
+
+86
+00:05:37,180 --> 00:05:40,980
+Now, that's the first
+and most basic example.
+
+87
+00:05:40,980 --> 00:05:42,730
+The one that comes
+up constantly.
+
+88
+00:05:42,730 --> 00:05:46,120
+Now, let me just make those
+comments about notation
+
+89
+00:05:46,120 --> 00:05:47,860
+that I wanted to make.
+
+90
+00:05:47,860 --> 00:05:51,884
+And we've been treating these
+squared differentials here
+
+91
+00:05:51,884 --> 00:05:53,300
+for a little while
+and I just want
+
+92
+00:05:53,300 --> 00:05:54,810
+to pay attention
+a little bit more
+
+93
+00:05:54,810 --> 00:05:57,280
+carefully to these
+manipulations.
+
+94
+00:05:57,280 --> 00:05:59,660
+And what's allowed
+and what's not.
+
+95
+00:05:59,660 --> 00:06:01,890
+And what's justified
+and what's not.
+
+96
+00:06:01,890 --> 00:06:06,680
+So the basis for this was this
+approximate calculation that we
+
+97
+00:06:06,680 --> 00:06:11,440
+had, that (delta s)^2 was
+(delta x)^2 + (delta y)^2.
+
+98
+00:06:11,440 --> 00:06:16,370
+This is how we justified the
+arc length formula before.
+
+99
+00:06:16,370 --> 00:06:19,530
+And let me just show you
+that the formula that I
+
+100
+00:06:19,530 --> 00:06:22,410
+have up here, this
+basic formula for arc
+
+101
+00:06:22,410 --> 00:06:24,760
+length in the
+parametric form, follows
+
+102
+00:06:24,760 --> 00:06:26,520
+just as the other one did.
+
+103
+00:06:26,520 --> 00:06:31,370
+And now I'm going to do it
+slightly more rigorously.
+
+104
+00:06:31,370 --> 00:06:34,400
+I do the division really
+in disguise before I take
+
+105
+00:06:34,400 --> 00:06:36,310
+the limit of the infinitesimal.
+
+106
+00:06:36,310 --> 00:06:40,349
+So all I'm really doing
+is I'm doing this.
+
+107
+00:06:40,349 --> 00:06:42,390
+Dividing through by this,
+and sorry this is still
+
+108
+00:06:42,390 --> 00:06:43,340
+approximately equal.
+
+109
+00:06:43,340 --> 00:06:46,760
+So I'm not dividing by something
+that's 0 or infinitesimal.
+
+110
+00:06:46,760 --> 00:06:49,320
+I'm dividing by
+something nonzero.
+
+111
+00:06:49,320 --> 00:06:54,120
+And here I have ((delta
+x)/(delta t))^2 + ((delta
+
+112
+00:06:54,120 --> 00:06:58,560
+y)/(delta t))^2 And
+then in the limit,
+
+113
+00:06:58,560 --> 00:07:04,170
+I have ds/dt is equal to
+the square root of this guy.
+
+114
+00:07:04,170 --> 00:07:13,820
+Or, if you like, the
+square of it, so.
+
+115
+00:07:13,820 --> 00:07:17,200
+So it's legal to divide by
+something that's almost 0
+
+116
+00:07:17,200 --> 00:07:20,340
+and then take the
+limit as we go to 0.
+
+117
+00:07:20,340 --> 00:07:22,280
+This is really what
+derivatives are all about.
+
+118
+00:07:22,280 --> 00:07:24,850
+That we get a limit here.
+
+119
+00:07:24,850 --> 00:07:27,010
+As the denominator goes to 0.
+
+120
+00:07:27,010 --> 00:07:31,510
+Because the numerator's
+going to 0 too.
+
+121
+00:07:31,510 --> 00:07:32,770
+So that's the notation.
+
+122
+00:07:32,770 --> 00:07:38,060
+And now I want to warn you,
+maybe just a little bit,
+
+123
+00:07:38,060 --> 00:07:42,420
+about misuses, if you
+like, of the notation.
+
+124
+00:07:42,420 --> 00:07:45,820
+We don't do absolutely
+everything this way.
+
+125
+00:07:45,820 --> 00:07:49,280
+This expression that
+came up with the squares,
+
+126
+00:07:49,280 --> 00:07:55,130
+you should never
+write it as this.
+
+127
+00:07:55,130 --> 00:08:01,600
+This, put it on the board
+but very quickly, never.
+
+128
+00:08:01,600 --> 00:08:02,420
+OK.
+
+129
+00:08:02,420 --> 00:08:07,130
+Don't do that.
+
+130
+00:08:07,130 --> 00:08:08,700
+We use these square
+differentials,
+
+131
+00:08:08,700 --> 00:08:12,840
+but we don't do it
+with these ratios here.
+
+132
+00:08:12,840 --> 00:08:15,900
+But there was another place
+which is slightly confusing.
+
+133
+00:08:15,900 --> 00:08:17,680
+It looks very
+similar, where we did
+
+134
+00:08:17,680 --> 00:08:20,247
+use the square of the
+differential in a denominator.
+
+135
+00:08:20,247 --> 00:08:22,580
+And I just want to point out
+to you that it's different.
+
+136
+00:08:22,580 --> 00:08:23,940
+It's not the same.
+
+137
+00:08:23,940 --> 00:08:25,810
+And it is OK.
+
+138
+00:08:25,810 --> 00:08:31,660
+And that was this one.
+
+139
+00:08:31,660 --> 00:08:33,970
+This thing here.
+
+140
+00:08:33,970 --> 00:08:36,900
+This is a second derivative,
+it's something else.
+
+141
+00:08:36,900 --> 00:08:39,300
+And it's got a dt^2
+in the denominator.
+
+142
+00:08:39,300 --> 00:08:41,230
+So it looks rather similar.
+
+143
+00:08:41,230 --> 00:08:49,230
+But what this represents is
+the quantity d/dt squared.
+
+144
+00:08:49,230 --> 00:08:51,840
+And you can see the
+squares came in.
+
+145
+00:08:51,840 --> 00:08:53,790
+And squared the two expressions.
+
+146
+00:08:53,790 --> 00:08:58,970
+And then there's
+also an x over here.
+
+147
+00:08:58,970 --> 00:09:00,600
+So that's legal.
+
+148
+00:09:00,600 --> 00:09:02,550
+Those are notations
+that we do use.
+
+149
+00:09:02,550 --> 00:09:04,070
+And we can even calculate this.
+
+150
+00:09:04,070 --> 00:09:05,650
+It has a perfectly good meaning.
+
+151
+00:09:05,650 --> 00:09:07,540
+It's the same as the
+derivative with respect
+
+152
+00:09:07,540 --> 00:09:10,870
+to t of the derivative of x,
+which we already know was minus
+
+153
+00:09:10,870 --> 00:09:17,530
+sine-- sorry, a sin t, I guess.
+
+154
+00:09:17,530 --> 00:09:21,120
+Not this example,
+but the previous one.
+
+155
+00:09:21,120 --> 00:09:21,870
+Up here.
+
+156
+00:09:21,870 --> 00:09:24,340
+So the derivative
+is this and so I can
+
+157
+00:09:24,340 --> 00:09:26,140
+differentiate a second time.
+
+158
+00:09:26,140 --> 00:09:29,850
+And I get -a cos t.
+
+159
+00:09:29,850 --> 00:09:31,760
+So that's a perfectly
+legal operation.
+
+160
+00:09:31,760 --> 00:09:33,440
+Everything in there makes sense.
+
+161
+00:09:33,440 --> 00:09:39,880
+Just don't use that.
+
+162
+00:09:39,880 --> 00:09:41,770
+There's another really
+unfortunate thing,
+
+163
+00:09:41,770 --> 00:09:45,820
+right which is that the 2 creeps
+in funny places with sines.
+
+164
+00:09:45,820 --> 00:09:48,080
+You have sine squared.
+
+165
+00:09:48,080 --> 00:09:50,150
+It would be out here,
+it comes up here
+
+166
+00:09:50,150 --> 00:09:51,810
+for some strange reason.
+
+167
+00:09:51,810 --> 00:09:54,730
+This is just because
+typographers are lazy
+
+168
+00:09:54,730 --> 00:09:56,880
+or somebody somewhere
+in the history
+
+169
+00:09:56,880 --> 00:10:00,620
+of mathematical typography
+decided to let the 2 migrate.
+
+170
+00:10:00,620 --> 00:10:04,650
+It would be like
+putting the 2 over here.
+
+171
+00:10:04,650 --> 00:10:07,940
+There's inconsistency
+in mathematics, right.
+
+172
+00:10:07,940 --> 00:10:11,570
+We're not perfect and people
+just develop these notations.
+
+173
+00:10:11,570 --> 00:10:14,450
+So we have to live with them.
+
+174
+00:10:14,450 --> 00:10:20,210
+The ones that people
+accept as conventions.
+
+175
+00:10:20,210 --> 00:10:23,230
+The next example that
+I want to give you
+
+176
+00:10:23,230 --> 00:10:24,920
+is just slightly different.
+
+177
+00:10:24,920 --> 00:10:29,140
+It'll be a non-constant
+speed parameterization.
+
+178
+00:10:29,140 --> 00:10:32,470
+Here x = 2 sin t.
+
+179
+00:10:32,470 --> 00:10:37,590
+And y is, say, cos t.
+
+180
+00:10:37,590 --> 00:10:40,450
+And let's keep track
+of what this one does.
+
+181
+00:10:40,450 --> 00:10:43,605
+Now, this is a skill
+which I'm going
+
+182
+00:10:43,605 --> 00:10:45,170
+to ask you about quite a bit.
+
+183
+00:10:45,170 --> 00:10:46,690
+And it's one of several skills.
+
+184
+00:10:46,690 --> 00:10:48,970
+You'll have to connect
+this with some kind
+
+185
+00:10:48,970 --> 00:10:50,330
+of rectangular equation.
+
+186
+00:10:50,330 --> 00:10:51,725
+An equation for x and y.
+
+187
+00:10:51,725 --> 00:10:54,230
+And we'll be doing a certain
+amount of this today.
+
+188
+00:10:54,230 --> 00:10:56,240
+In another context.
+
+189
+00:10:56,240 --> 00:11:00,510
+Right here, to see the pattern,
+we know that the relationship
+
+190
+00:11:00,510 --> 00:11:04,160
+we're going to want to use
+is that sin^2 + cos^2 = 1.
+
+191
+00:11:04,160 --> 00:11:11,910
+So in fact the right thing to do
+here is to take 1/4 x^2 + y^2.
+
+192
+00:11:11,910 --> 00:11:17,020
+And that's going to turn
+out to be sin^2 t + cos^2 t.
+
+193
+00:11:17,020 --> 00:11:18,310
+Which is 1.
+
+194
+00:11:18,310 --> 00:11:19,500
+So there's the equation.
+
+195
+00:11:19,500 --> 00:11:24,690
+Here's the rectangular equation
+for this parametric curve.
+
+196
+00:11:24,690 --> 00:11:32,030
+And this describes an ellipse.
+
+197
+00:11:32,030 --> 00:11:35,570
+That's not the only information
+that we can get here.
+
+198
+00:11:35,570 --> 00:11:37,180
+The other information
+that we can get
+
+199
+00:11:37,180 --> 00:11:39,570
+is this qualitative
+information of where
+
+200
+00:11:39,570 --> 00:11:42,360
+we start, where we're
+going, the direction.
+
+201
+00:11:42,360 --> 00:11:46,540
+It starts out, I
+claim, at t = 0.
+
+202
+00:11:46,540 --> 00:11:54,630
+That's when t = 0, this is
+(2 sin 0, cos 0), right?
+
+203
+00:11:54,630 --> 00:12:00,330
+(2 sin 0, cos 0) is equal
+to the point (0, 1).
+
+204
+00:12:00,330 --> 00:12:02,360
+So it starts up up here.
+
+205
+00:12:02,360 --> 00:12:05,140
+At (0, 1).
+
+206
+00:12:05,140 --> 00:12:08,520
+And then the next little
+place, so this is one thing
+
+207
+00:12:08,520 --> 00:12:11,400
+that certainly you
+want to do. t = pi/2
+
+208
+00:12:11,400 --> 00:12:14,510
+is maybe the next
+easy point to plot.
+
+209
+00:12:14,510 --> 00:12:22,830
+And that's going to be
+(2 sin(pi/2), cos(pi/2)).
+
+210
+00:12:22,830 --> 00:12:27,880
+And that's just (2, 0).
+
+211
+00:12:27,880 --> 00:12:31,490
+And so that's over
+here somewhere.
+
+212
+00:12:31,490 --> 00:12:34,422
+This is (2, 0).
+
+213
+00:12:34,422 --> 00:12:36,130
+And we know it travels
+along the ellipse.
+
+214
+00:12:36,130 --> 00:12:40,120
+And we know the minor axis is
+1, and the major axis is 2,
+
+215
+00:12:40,120 --> 00:12:43,000
+so it's doing this.
+
+216
+00:12:43,000 --> 00:12:45,090
+So this is what
+happens at t = 0.
+
+217
+00:12:45,090 --> 00:12:48,390
+This is where we
+are at t = pi/2.
+
+218
+00:12:48,390 --> 00:12:51,510
+And it continues all
+the way around, etc.
+
+219
+00:12:51,510 --> 00:12:53,370
+To the rest of the ellipse.
+
+220
+00:12:53,370 --> 00:12:57,750
+This is the direction.
+
+221
+00:12:57,750 --> 00:13:09,620
+So this one happens
+to be clockwise.
+
+222
+00:13:09,620 --> 00:13:12,640
+Alright, now let's keep
+track of its speed.
+
+223
+00:13:12,640 --> 00:13:25,610
+Let's keep track of the speed,
+and also the arc length.
+
+224
+00:13:25,610 --> 00:13:32,830
+So the speed is the square
+root of the derivatives here.
+
+225
+00:13:32,830 --> 00:13:38,580
+That would be (2 cos
+t)^2 + (sin t)^2.
+
+226
+00:13:42,160 --> 00:13:48,060
+And the arc length is what?
+
+227
+00:13:48,060 --> 00:13:49,840
+Well, if we want to
+go all the way around,
+
+228
+00:13:49,840 --> 00:13:53,540
+we need to know that that
+takes a total of 2 pi.
+
+229
+00:13:53,540 --> 00:13:55,990
+So 0 to 2 pi.
+
+230
+00:13:55,990 --> 00:13:59,310
+And then we have to integrate
+ds, which is this expression,
+
+231
+00:13:59,310 --> 00:14:02,620
+or ds/dt, dt.
+
+232
+00:14:02,620 --> 00:14:11,630
+So that's the square root
+of 4 cos^2 t + sin^2 t, dt.
+
+233
+00:14:20,820 --> 00:14:26,580
+The bad news, if you
+like, is that this is not
+
+234
+00:14:26,580 --> 00:14:38,524
+an elementary integral.
+
+235
+00:14:38,524 --> 00:14:39,940
+In other words,
+no matter how long
+
+236
+00:14:39,940 --> 00:14:44,240
+you try to figure out
+how to antidifferentiate
+
+237
+00:14:44,240 --> 00:14:47,180
+this expression, no matter how
+many substitutions you try,
+
+238
+00:14:47,180 --> 00:14:50,420
+you will fail.
+
+239
+00:14:50,420 --> 00:14:52,030
+That's the bad news.
+
+240
+00:14:52,030 --> 00:14:58,430
+The good news is this is
+not an elementary integral.
+
+241
+00:14:58,430 --> 00:14:59,810
+It's not an elementary integral.
+
+242
+00:14:59,810 --> 00:15:03,330
+Which means that this is
+the answer to a question.
+
+243
+00:15:03,330 --> 00:15:06,230
+Not something that
+you have to work on.
+
+244
+00:15:06,230 --> 00:15:11,680
+So if somebody asks you for
+this arc length, you stop here.
+
+245
+00:15:11,680 --> 00:15:14,550
+That's the answer, so it's
+actually better than it looks.
+
+246
+00:15:14,550 --> 00:15:17,700
+And we'll try to--
+I mean, I don't
+
+247
+00:15:17,700 --> 00:15:21,230
+expect you to know already
+what all of the integrals
+
+248
+00:15:21,230 --> 00:15:22,680
+are that are impossible.
+
+249
+00:15:22,680 --> 00:15:24,680
+And which ones are hard
+and which ones are easy.
+
+250
+00:15:24,680 --> 00:15:27,200
+So we'll try to coach
+you through when
+
+251
+00:15:27,200 --> 00:15:28,390
+you face these things.
+
+252
+00:15:28,390 --> 00:15:31,670
+It's not so easy to decide.
+
+253
+00:15:31,670 --> 00:15:34,345
+I'll give you a few clues, but.
+
+254
+00:15:34,345 --> 00:15:34,845
+OK.
+
+255
+00:15:34,845 --> 00:15:38,310
+So this is the arc length.
+
+256
+00:15:38,310 --> 00:15:42,270
+Now, I want to move on to
+the last thing that we did.
+
+257
+00:15:42,270 --> 00:15:44,410
+Last type of thing
+that we did last time.
+
+258
+00:15:44,410 --> 00:15:54,140
+Which is the surface area.
+
+259
+00:15:54,140 --> 00:15:55,230
+And yeah, question.
+
+260
+00:15:55,230 --> 00:16:03,609
+STUDENT: [INAUDIBLE]
+
+261
+00:16:03,609 --> 00:16:05,650
+PROFESSOR: The question,
+this is a good question.
+
+262
+00:16:05,650 --> 00:16:08,290
+The question is, when
+you draw the ellipse,
+
+263
+00:16:08,290 --> 00:16:11,650
+do you not take into
+account what t is.
+
+264
+00:16:11,650 --> 00:16:16,460
+The answer is that
+this is in disguise.
+
+265
+00:16:16,460 --> 00:16:20,360
+What's going on here
+is we have a trouble
+
+266
+00:16:20,360 --> 00:16:24,720
+with plotting in the plane
+what's really happening.
+
+267
+00:16:24,720 --> 00:16:29,210
+So in other words, it's
+kind of in trouble.
+
+268
+00:16:29,210 --> 00:16:33,940
+So the point is that we have
+two functions of t, not one.
+
+269
+00:16:33,940 --> 00:16:35,660
+x(t) and y(t).
+
+270
+00:16:35,660 --> 00:16:38,970
+So one thing that I can do if
+I plot things in the plane.
+
+271
+00:16:38,970 --> 00:16:41,710
+In other words, the
+main point to make here
+
+272
+00:16:41,710 --> 00:16:45,150
+is that we're not talking
+about the situation
+
+273
+00:16:45,150 --> 00:16:46,480
+y is a function of x.
+
+274
+00:16:46,480 --> 00:16:47,870
+We're out of that realm now.
+
+275
+00:16:47,870 --> 00:16:49,620
+We're somewhere in
+a different part
+
+276
+00:16:49,620 --> 00:16:51,450
+of the universe in our thought.
+
+277
+00:16:51,450 --> 00:16:54,760
+And you should drop
+this point of view.
+
+278
+00:16:54,760 --> 00:16:56,990
+So this depiction is not
+y as a function of x.
+
+279
+00:16:56,990 --> 00:17:00,940
+Well, that's obvious because
+there are two values here,
+
+280
+00:17:00,940 --> 00:17:01,710
+as opposed to one.
+
+281
+00:17:01,710 --> 00:17:02,960
+So we're in trouble with that.
+
+282
+00:17:02,960 --> 00:17:04,750
+And we have that
+background parameter,
+
+283
+00:17:04,750 --> 00:17:07,170
+and that's exactly
+why we're using it.
+
+284
+00:17:07,170 --> 00:17:08,230
+This parameter t.
+
+285
+00:17:08,230 --> 00:17:10,430
+So that we can depict
+the entire curve.
+
+286
+00:17:10,430 --> 00:17:14,200
+And deal with it as one thing.
+
+287
+00:17:14,200 --> 00:17:17,590
+So since I can't really draw
+it, and since t is nowhere
+
+288
+00:17:17,590 --> 00:17:19,840
+on the map, you should
+sort of imagine it as time,
+
+289
+00:17:19,840 --> 00:17:21,760
+and there's some kind of
+trajectory which is travelling
+
+290
+00:17:21,760 --> 00:17:22,260
+around.
+
+291
+00:17:22,260 --> 00:17:25,590
+And then I just labelled
+a couple of the places.
+
+292
+00:17:25,590 --> 00:17:28,370
+If somebody asked you to
+draw a picture of this,
+
+293
+00:17:28,370 --> 00:17:31,230
+well, I'll tell you exactly
+where you need the picture
+
+294
+00:17:31,230 --> 00:17:33,250
+in just one second, alright.
+
+295
+00:17:33,250 --> 00:17:36,690
+It's going to come up
+right now in surface area.
+
+296
+00:17:36,690 --> 00:17:39,450
+But otherwise, if
+nobody asks you to,
+
+297
+00:17:39,450 --> 00:17:44,020
+you don't even have to put
+down t = 0 and t = pi / 2 here.
+
+298
+00:17:44,020 --> 00:17:46,402
+Because nobody
+demanded it of you.
+
+299
+00:17:46,402 --> 00:17:47,110
+Another question.
+
+300
+00:17:47,110 --> 00:17:51,842
+STUDENT: [INAUDIBLE]
+
+301
+00:17:51,842 --> 00:17:53,550
+PROFESSOR: So, another
+very good question
+
+302
+00:17:53,550 --> 00:17:55,890
+which is exactly
+connected to this picture.
+
+303
+00:17:55,890 --> 00:17:58,060
+So how is it that we're
+going to use the picture,
+
+304
+00:17:58,060 --> 00:18:02,190
+and how is it we're going
+to use the notion of the t.
+
+305
+00:18:02,190 --> 00:18:07,040
+The question was, why is
+this from t = 0 to t = 2 pi?
+
+306
+00:18:07,040 --> 00:18:11,000
+That does use the t
+information on this diagram.
+
+307
+00:18:11,000 --> 00:18:13,150
+the point is, we do
+know that t starts here.
+
+308
+00:18:13,150 --> 00:18:17,620
+This is pi / 2, this is pi, this
+is 3 pi / 2, and this is 2 pi.
+
+309
+00:18:17,620 --> 00:18:19,380
+When you go all the
+way around once,
+
+310
+00:18:19,380 --> 00:18:21,240
+it's going to come
+back to itself.
+
+311
+00:18:21,240 --> 00:18:23,720
+These are periodic
+functions of period 2 pi.
+
+312
+00:18:23,720 --> 00:18:26,780
+And they come back to
+themselves exactly at 2 pi.
+
+313
+00:18:26,780 --> 00:18:29,030
+And so that's why we know
+in order to get around once,
+
+314
+00:18:29,030 --> 00:18:32,250
+we need to go from 0 to 2 pi.
+
+315
+00:18:32,250 --> 00:18:34,640
+And the same thing is going
+to come up with surface area
+
+316
+00:18:34,640 --> 00:18:35,370
+right now.
+
+317
+00:18:35,370 --> 00:18:38,720
+That's going to be the
+issue, is what range of t
+
+318
+00:18:38,720 --> 00:18:45,620
+we're going to need when we
+compute the surface area.
+
+319
+00:18:45,620 --> 00:18:52,144
+STUDENT: [INAUDIBLE]
+
+320
+00:18:52,144 --> 00:18:54,185
+PROFESSOR: In a question,
+what you might be asked
+
+321
+00:18:54,185 --> 00:18:56,180
+is what's the
+rectangular equation
+
+322
+00:18:56,180 --> 00:18:57,650
+for a parametric curve?
+
+323
+00:18:57,650 --> 00:19:01,720
+So that would be
+1/4 x^2 + y^2 = 1.
+
+324
+00:19:01,720 --> 00:19:03,430
+And then you might
+be asked, plot it.
+
+325
+00:19:03,430 --> 00:19:06,960
+Well, that would be a
+picture of the ellipse.
+
+326
+00:19:06,960 --> 00:19:10,380
+OK, those are types of questions
+that are legal questions.
+
+327
+00:19:10,380 --> 00:19:27,439
+STUDENT: [INAUDIBLE]
+
+328
+00:19:27,439 --> 00:19:28,980
+PROFESSOR: The
+question is, do I need
+
+329
+00:19:28,980 --> 00:19:30,600
+to know any specific formulas?
+
+330
+00:19:30,600 --> 00:19:33,250
+Any formulas that you know
+and remember will help you.
+
+331
+00:19:33,250 --> 00:19:35,400
+They may be of limited use.
+
+332
+00:19:35,400 --> 00:19:37,640
+I'm not going to ask
+you to memorize anything
+
+333
+00:19:37,640 --> 00:19:40,820
+except, I guarantee you that
+the circle is going to come up.
+
+334
+00:19:40,820 --> 00:19:43,500
+Not the ellipse, the circle
+will come up everywhere
+
+335
+00:19:43,500 --> 00:19:44,320
+in your life.
+
+336
+00:19:44,320 --> 00:19:47,710
+So at least at MIT,
+your life at MIT.
+
+337
+00:19:47,710 --> 00:19:52,002
+We're very round here.
+
+338
+00:19:52,002 --> 00:19:52,960
+Yeah, another question.
+
+339
+00:19:52,960 --> 00:19:56,811
+STUDENT: I'm just a tiny bit
+confused back to the basics.
+
+340
+00:19:56,811 --> 00:19:58,810
+This is more a question
+from yesterday, I guess.
+
+341
+00:19:58,810 --> 00:20:04,390
+But when you have your
+original ds^2 = dx^2 + dy^2,
+
+342
+00:20:04,390 --> 00:20:10,060
+and then you integrate that to
+get arc length, how are you,
+
+343
+00:20:10,060 --> 00:20:14,360
+the integral has dx's and dy's.
+
+344
+00:20:14,360 --> 00:20:18,590
+So how are you just
+integrating with respect to dx?
+
+345
+00:20:18,590 --> 00:20:22,560
+PROFESSOR: OK, the question
+is how are we just integrating
+
+346
+00:20:22,560 --> 00:20:24,200
+with respect to x?
+
+347
+00:20:24,200 --> 00:20:26,880
+So this is a question which
+goes back to last time.
+
+348
+00:20:26,880 --> 00:20:29,120
+And what is it with arc length.
+
+349
+00:20:29,120 --> 00:20:30,370
+So.
+
+350
+00:20:30,370 --> 00:20:35,442
+I'm going to have to answer
+that question in connection
+
+351
+00:20:35,442 --> 00:20:36,400
+with what we did today.
+
+352
+00:20:36,400 --> 00:20:38,420
+So this is a subtle question.
+
+353
+00:20:38,420 --> 00:20:42,450
+But I want you to realize
+that this is actually
+
+354
+00:20:42,450 --> 00:20:44,290
+an important
+conceptual step here.
+
+355
+00:20:44,290 --> 00:20:49,810
+So shhh, everybody, listen.
+
+356
+00:20:49,810 --> 00:20:53,340
+If you're representing
+one-dimensional objects,
+
+357
+00:20:53,340 --> 00:20:56,050
+which are curves,
+maybe, in space.
+
+358
+00:20:56,050 --> 00:20:58,270
+Or in two dimensions.
+
+359
+00:20:58,270 --> 00:21:00,759
+When you're keeping
+track of arc length,
+
+360
+00:21:00,759 --> 00:21:02,800
+you're going to have to
+have an integral which is
+
+361
+00:21:02,800 --> 00:21:05,180
+with respect to some variable.
+
+362
+00:21:05,180 --> 00:21:08,510
+But that variable,
+you get to pick.
+
+363
+00:21:08,510 --> 00:21:12,310
+And we're launching now
+into this variety of choices
+
+364
+00:21:12,310 --> 00:21:13,950
+of variables with
+respect to which you
+
+365
+00:21:13,950 --> 00:21:15,980
+can represent something.
+
+366
+00:21:15,980 --> 00:21:17,580
+Now, there are
+some disadvantages
+
+367
+00:21:17,580 --> 00:21:19,370
+on the circle to
+representing things
+
+368
+00:21:19,370 --> 00:21:21,480
+with respect to the variable x.
+
+369
+00:21:21,480 --> 00:21:24,732
+Because there are two
+points on the circle here.
+
+370
+00:21:24,732 --> 00:21:26,190
+On the other hand,
+you actually can
+
+371
+00:21:26,190 --> 00:21:27,480
+succeed with half the circle.
+
+372
+00:21:27,480 --> 00:21:29,620
+So you can figure out
+the arc length that way.
+
+373
+00:21:29,620 --> 00:21:32,521
+And then you can set it
+up as an integral dx.
+
+374
+00:21:32,521 --> 00:21:34,770
+But you can also set it up
+as an integral with respect
+
+375
+00:21:34,770 --> 00:21:37,240
+to any parameter you want.
+
+376
+00:21:37,240 --> 00:21:40,170
+And the uniform parameter
+is perhaps the easiest one.
+
+377
+00:21:40,170 --> 00:21:43,210
+This one is perhaps
+the easiest one.
+
+378
+00:21:43,210 --> 00:21:47,970
+And so now the thing that's
+strange about this perspective
+
+379
+00:21:47,970 --> 00:21:51,470
+- and I'm going to make this
+point later in the lecture
+
+380
+00:21:51,470 --> 00:21:55,810
+as well - is that the
+letters x and y-- As I say,
+
+381
+00:21:55,810 --> 00:22:00,630
+you should drop this notion
+that y is a function of x.
+
+382
+00:22:00,630 --> 00:22:03,950
+This is what we're throwing
+away at this point.
+
+383
+00:22:03,950 --> 00:22:05,770
+What we're thinking
+of is, you can
+
+384
+00:22:05,770 --> 00:22:08,110
+describe things in terms
+of any coordinate you want.
+
+385
+00:22:08,110 --> 00:22:11,340
+You just have to say what each
+one is in terms of the others.
+
+386
+00:22:11,340 --> 00:22:15,300
+And these x and y
+over here are where
+
+387
+00:22:15,300 --> 00:22:18,380
+we are in the Cartesian
+coordinate system.
+
+388
+00:22:18,380 --> 00:22:20,490
+They're not-- And
+in this case they're
+
+389
+00:22:20,490 --> 00:22:24,610
+functions of some
+other variable.
+
+390
+00:22:24,610 --> 00:22:25,720
+Some other variable.
+
+391
+00:22:25,720 --> 00:22:27,150
+So they're each functions.
+
+392
+00:22:27,150 --> 00:22:29,480
+So the letters x and
+y just changed on you.
+
+393
+00:22:29,480 --> 00:22:33,710
+They mean something different.
+x is no longer the variable.
+
+394
+00:22:33,710 --> 00:22:36,810
+It's the function.
+
+395
+00:22:36,810 --> 00:22:38,542
+Right?
+
+396
+00:22:38,542 --> 00:22:40,250
+You're going to have
+to get used to that.
+
+397
+00:22:40,250 --> 00:22:42,380
+That's because we
+run out of letters.
+
+398
+00:22:42,380 --> 00:22:44,870
+And we kind of want to use
+all of them the way we want.
+
+399
+00:22:44,870 --> 00:22:48,290
+I'll say some more
+about that later.
+
+400
+00:22:48,290 --> 00:22:51,220
+So now I want to do this
+surface area example.
+
+401
+00:22:51,220 --> 00:22:59,150
+I'm going to just take the
+surface area of the ellipsoid.
+
+402
+00:22:59,150 --> 00:23:11,340
+The surface of the
+ellipsoid formed
+
+403
+00:23:11,340 --> 00:23:19,910
+by revolving this previous
+example, which was Example 2.
+
+404
+00:23:19,910 --> 00:23:28,020
+Around the y-axis.
+
+405
+00:23:28,020 --> 00:23:30,410
+So we want to set up that
+surface area integral here
+
+406
+00:23:30,410 --> 00:23:32,490
+for you.
+
+407
+00:23:32,490 --> 00:23:38,160
+Now, I remind you that the
+area element looks like this.
+
+408
+00:23:38,160 --> 00:23:41,190
+If you're revolving
+around the y-axis,
+
+409
+00:23:41,190 --> 00:23:42,815
+that means you're
+going around this way
+
+410
+00:23:42,815 --> 00:23:43,720
+and you have some curve.
+
+411
+00:23:43,720 --> 00:23:44,990
+In this case it's this
+piece of an ellipse.
+
+412
+00:23:44,990 --> 00:23:46,475
+If you sweep it
+around you're going
+
+413
+00:23:46,475 --> 00:23:48,770
+to get what's
+called an ellipsoid.
+
+414
+00:23:48,770 --> 00:23:53,890
+And there's a little chunk here,
+that you're wrapping around.
+
+415
+00:23:53,890 --> 00:23:58,430
+And the important thing you
+need besides this ds, this arc
+
+416
+00:23:58,430 --> 00:24:04,120
+length piece over here, is
+the distance to the axis.
+
+417
+00:24:04,120 --> 00:24:06,320
+So that's this
+horizontal distance here.
+
+418
+00:24:06,320 --> 00:24:09,850
+I'll draw it in another color.
+
+419
+00:24:09,850 --> 00:24:15,520
+And that horizontal
+distance now has a name.
+
+420
+00:24:15,520 --> 00:24:18,670
+And this is, again, the virtue
+of this coordinate system.
+
+421
+00:24:18,670 --> 00:24:20,170
+The t is something else.
+
+422
+00:24:20,170 --> 00:24:21,020
+This has a name.
+
+423
+00:24:21,020 --> 00:24:22,760
+This distance has a name.
+
+424
+00:24:22,760 --> 00:24:27,080
+This distance is called x.
+
+425
+00:24:27,080 --> 00:24:29,570
+And it even has a formula.
+
+426
+00:24:29,570 --> 00:24:36,090
+Its formula is 2 sin t.
+
+427
+00:24:36,090 --> 00:24:38,550
+In terms of t.
+
+428
+00:24:38,550 --> 00:24:41,530
+So the full formula
+up for the integral
+
+429
+00:24:41,530 --> 00:24:46,039
+here is, I have to take
+the circumference when
+
+430
+00:24:46,039 --> 00:24:47,080
+I spin this thing around.
+
+431
+00:24:47,080 --> 00:24:48,950
+And this little
+arc length element.
+
+432
+00:24:48,950 --> 00:24:53,660
+So I have here 2
+pi times 2 sin t.
+
+433
+00:24:53,660 --> 00:24:55,640
+That's the x variable here.
+
+434
+00:24:55,640 --> 00:25:00,560
+And then I have here ds,
+which is kind of a mess.
+
+435
+00:25:00,560 --> 00:25:04,170
+So unfortunately I don't
+quite have room for it.
+
+436
+00:25:04,170 --> 00:25:05,650
+Plan ahead.
+
+437
+00:25:05,650 --> 00:25:15,200
+Square root of 4 cos^2 t + sin^2
+t, is that what it was, dt.
+
+438
+00:25:15,200 --> 00:25:17,740
+Alright, I guess I
+squeezed it in there.
+
+439
+00:25:17,740 --> 00:25:20,090
+So that was the arc
+length, which I re-copied
+
+440
+00:25:20,090 --> 00:25:21,620
+from this board above.
+
+441
+00:25:21,620 --> 00:25:24,310
+That was the ds piece.
+
+442
+00:25:24,310 --> 00:25:29,760
+It's this whole thing
+including the dt.
+
+443
+00:25:29,760 --> 00:25:32,360
+That's the answer
+except for one thing.
+
+444
+00:25:32,360 --> 00:25:33,590
+What else do we need?
+
+445
+00:25:33,590 --> 00:25:35,350
+We don't just need
+the integrand,
+
+446
+00:25:35,350 --> 00:25:37,720
+this is half of
+setting up an integral.
+
+447
+00:25:37,720 --> 00:25:40,990
+The other half of setting up
+an integral is the limits.
+
+448
+00:25:40,990 --> 00:25:42,840
+We need specific limits here.
+
+449
+00:25:42,840 --> 00:25:46,760
+Otherwise we don't have a
+number that we can get out.
+
+450
+00:25:46,760 --> 00:25:50,370
+So we now have to think
+about what the limits are.
+
+451
+00:25:50,370 --> 00:25:52,550
+And maybe somebody can see.
+
+452
+00:25:52,550 --> 00:25:54,429
+It has something to
+do with this diagram
+
+453
+00:25:54,429 --> 00:25:55,470
+of the ellipse over here.
+
+454
+00:25:55,470 --> 00:25:58,520
+Can somebody guess what it is?
+
+455
+00:25:58,520 --> 00:25:59,480
+0 to pi.
+
+456
+00:25:59,480 --> 00:26:02,070
+Well, that was quick.
+
+457
+00:26:02,070 --> 00:26:02,620
+That's it.
+
+458
+00:26:02,620 --> 00:26:04,709
+Because we go from
+the top to the bottom,
+
+459
+00:26:04,709 --> 00:26:06,250
+but we don't want
+to continue around.
+
+460
+00:26:06,250 --> 00:26:07,640
+We don't want to
+go from 0 to 2 pi,
+
+461
+00:26:07,640 --> 00:26:09,723
+because that would be
+duplicating what we're going
+
+462
+00:26:09,723 --> 00:26:12,020
+to get when we spin around.
+
+463
+00:26:12,020 --> 00:26:13,730
+And we know that we start at 0.
+
+464
+00:26:13,730 --> 00:26:15,540
+It's interesting
+because it descends
+
+465
+00:26:15,540 --> 00:26:17,090
+when you change
+variables to think
+
+466
+00:26:17,090 --> 00:26:20,360
+of it in terms of the y variable
+it's going the opposite way.
+
+467
+00:26:20,360 --> 00:26:24,550
+But anyway, just one piece
+of this is what we want.
+
+468
+00:26:24,550 --> 00:26:27,660
+So that's this setup.
+
+469
+00:26:27,660 --> 00:26:36,230
+And now I claim that this is
+actually a doable integral.
+
+470
+00:26:36,230 --> 00:26:37,850
+However, it's long.
+
+471
+00:26:37,850 --> 00:26:39,830
+I'm going to spare
+you, I'll just tell you
+
+472
+00:26:39,830 --> 00:26:41,330
+how you would get started.
+
+473
+00:26:41,330 --> 00:26:45,970
+You would use the
+substitution u = cos t.
+
+474
+00:26:45,970 --> 00:26:53,620
+And then the du is
+going to be -sin t dt.
+
+475
+00:26:53,620 --> 00:26:56,290
+But then, unfortunately,
+there's a lot more.
+
+476
+00:26:56,290 --> 00:26:57,810
+There's another
+trig substitution
+
+477
+00:26:57,810 --> 00:27:01,430
+with some other multiple
+of the cosine and so forth.
+
+478
+00:27:01,430 --> 00:27:02,420
+So it goes on and on.
+
+479
+00:27:02,420 --> 00:27:06,260
+If you want to check
+it yourself, you can.
+
+480
+00:27:06,260 --> 00:27:08,710
+There's an inverse
+trig substitution which
+
+481
+00:27:08,710 --> 00:27:11,590
+isn't compatible with this one.
+
+482
+00:27:11,590 --> 00:27:17,090
+But it can be done.
+
+483
+00:27:17,090 --> 00:27:22,690
+Calculated.
+
+484
+00:27:22,690 --> 00:27:26,980
+In elementary terms.
+
+485
+00:27:26,980 --> 00:27:30,547
+Yeah, another question.
+
+486
+00:27:30,547 --> 00:27:31,380
+STUDENT: [INAUDIBLE]
+
+487
+00:27:31,380 --> 00:27:33,490
+PROFESSOR: So, if you
+get this on an exam,
+
+488
+00:27:33,490 --> 00:27:35,240
+I'm going to have to
+coach you through it.
+
+489
+00:27:35,240 --> 00:27:37,640
+Either I'm going to have to
+tell you don't evaluate it
+
+490
+00:27:37,640 --> 00:27:40,130
+or, you're going to have
+to work really hard.
+
+491
+00:27:40,130 --> 00:27:42,500
+Or here's the first step,
+and then the next step
+
+492
+00:27:42,500 --> 00:27:44,299
+is, keep on going.
+
+493
+00:27:44,299 --> 00:27:44,840
+Or something.
+
+494
+00:27:44,840 --> 00:27:47,890
+I'll have to give you some cues.
+
+495
+00:27:47,890 --> 00:27:49,260
+Because it's quite long.
+
+496
+00:27:49,260 --> 00:27:52,860
+This is way too long for an
+exam, this particular one.
+
+497
+00:27:52,860 --> 00:27:53,650
+OK.
+
+498
+00:27:53,650 --> 00:27:55,359
+It's not too long
+for a problem set.
+
+499
+00:27:55,359 --> 00:27:57,650
+This is where I would leave
+you off if I were giving it
+
+500
+00:27:57,650 --> 00:27:58,320
+to you on a problem set.
+
+501
+00:27:58,320 --> 00:28:00,220
+Just to give you an idea
+of the order of magnitude.
+
+502
+00:28:00,220 --> 00:28:02,761
+Whereas one of the ones that I
+did yesterday, I wouldn't even
+
+503
+00:28:02,761 --> 00:28:11,120
+give you on a problem
+set, it was so long.
+
+504
+00:28:11,120 --> 00:28:17,630
+So now, our next job is to
+move on to polar coordinates.
+
+505
+00:28:17,630 --> 00:28:20,960
+Now, polar coordinates involve
+the geometry of circles.
+
+506
+00:28:20,960 --> 00:28:23,392
+As I said, we really
+love circles here.
+
+507
+00:28:23,392 --> 00:28:24,100
+We're very round.
+
+508
+00:28:24,100 --> 00:28:28,210
+Just as I love 0, the rest of
+the Institute loves circles.
+
+509
+00:28:28,210 --> 00:28:47,380
+So we're going to
+do that right now.
+
+510
+00:28:47,380 --> 00:28:58,900
+What we're going to talk about
+now is polar coordinates.
+
+511
+00:28:58,900 --> 00:29:01,010
+Which are set up in
+the following way.
+
+512
+00:29:01,010 --> 00:29:04,640
+It's a way of describing
+the points in the plane.
+
+513
+00:29:04,640 --> 00:29:07,460
+Here is a point in
+a plane, and here's
+
+514
+00:29:07,460 --> 00:29:10,530
+what we think of as
+the usual x-y axes.
+
+515
+00:29:10,530 --> 00:29:12,860
+And now this point is
+going to be described
+
+516
+00:29:12,860 --> 00:29:15,260
+by a different pair of
+coordinates, different pair
+
+517
+00:29:15,260 --> 00:29:16,190
+of numbers.
+
+518
+00:29:16,190 --> 00:29:26,420
+Namely, the distance
+to the origin.
+
+519
+00:29:26,420 --> 00:29:30,490
+And the second parameter
+here, second number here,
+
+520
+00:29:30,490 --> 00:29:32,550
+is this angle theta.
+
+521
+00:29:32,550 --> 00:29:41,500
+Which is the angle
+of ray from origin
+
+522
+00:29:41,500 --> 00:29:48,670
+with the horizontal axis.
+
+523
+00:29:48,670 --> 00:29:50,620
+So that's what it
+is in language.
+
+524
+00:29:50,620 --> 00:29:53,690
+And you should put this
+in quotation marks,
+
+525
+00:29:53,690 --> 00:29:57,320
+because it's not
+a perfect match.
+
+526
+00:29:57,320 --> 00:30:00,800
+This is geometrically what
+you should always think of,
+
+527
+00:30:00,800 --> 00:30:03,720
+but the technical
+details involve
+
+528
+00:30:03,720 --> 00:30:06,530
+dealing directly with formulas.
+
+529
+00:30:06,530 --> 00:30:09,880
+The first formula is
+the formula for x.
+
+530
+00:30:09,880 --> 00:30:11,590
+And this is the
+fundamental, these two
+
+531
+00:30:11,590 --> 00:30:12,750
+are the fundamental ones.
+
+532
+00:30:12,750 --> 00:30:16,120
+Namely, x = r cos theta.
+
+533
+00:30:16,120 --> 00:30:17,860
+The second formula
+is the formula
+
+534
+00:30:17,860 --> 00:30:21,380
+for y, which is r sin theta.
+
+535
+00:30:21,380 --> 00:30:25,420
+So these are the
+unambiguous definitions
+
+536
+00:30:25,420 --> 00:30:27,100
+of polar coordinates.
+
+537
+00:30:27,100 --> 00:30:28,790
+This is it.
+
+538
+00:30:28,790 --> 00:30:32,590
+And this is the thing from
+which all other almost correct
+
+539
+00:30:32,590 --> 00:30:37,180
+statements almost follow.
+
+540
+00:30:37,180 --> 00:30:39,320
+But this is the one you
+should trust always.
+
+541
+00:30:39,320 --> 00:30:44,980
+This is the
+unambiguous statement.
+
+542
+00:30:44,980 --> 00:30:47,360
+So let me give you an
+example something that's
+
+543
+00:30:47,360 --> 00:30:52,040
+close to being a good
+formula and is certainly
+
+544
+00:30:52,040 --> 00:30:57,530
+useful in its way.
+
+545
+00:30:57,530 --> 00:31:04,180
+Namely, you can think of r as
+being the square root of x^2 +
+
+546
+00:31:04,180 --> 00:31:05,810
+y^2.
+
+547
+00:31:05,810 --> 00:31:07,336
+That's easy enough
+to derive, it's
+
+548
+00:31:07,336 --> 00:31:08,460
+the distance to the origin.
+
+549
+00:31:08,460 --> 00:31:11,320
+That's pretty obvious.
+
+550
+00:31:11,320 --> 00:31:14,690
+And the formula for theta,
+which you can also derive,
+
+551
+00:31:14,690 --> 00:31:17,480
+which is that it's the
+inverse tangent of y y/x.
+
+552
+00:31:21,050 --> 00:31:24,310
+However, let me just warn
+you that these formulas are
+
+553
+00:31:24,310 --> 00:31:26,870
+slightly ambiguous.
+
+554
+00:31:26,870 --> 00:31:33,357
+So somewhat ambiguous.
+
+555
+00:31:33,357 --> 00:31:35,440
+In other words, you can't
+just apply them blindly.
+
+556
+00:31:35,440 --> 00:31:37,023
+You actually have
+to look at a picture
+
+557
+00:31:37,023 --> 00:31:38,180
+in order to get them right.
+
+558
+00:31:38,180 --> 00:31:43,690
+In particular, r could
+be plus or minus here.
+
+559
+00:31:43,690 --> 00:31:47,950
+And when you take
+the inverse tangent,
+
+560
+00:31:47,950 --> 00:31:52,510
+there's an ambiguity between,
+it's the same as the inverse
+
+561
+00:31:52,510 --> 00:31:56,330
+tangent of (-y)/(-x).
+
+562
+00:31:56,330 --> 00:32:00,550
+So these minus signs are a
+plague on your existence.
+
+563
+00:32:00,550 --> 00:32:05,050
+And you're not going to get a
+completely unambiguous answer
+
+564
+00:32:05,050 --> 00:32:07,760
+out of these formulas
+without paying attention
+
+565
+00:32:07,760 --> 00:32:08,430
+to the diagram.
+
+566
+00:32:08,430 --> 00:32:10,550
+On the other hand, the
+formula up in the box
+
+567
+00:32:10,550 --> 00:32:14,337
+there always works.
+
+568
+00:32:14,337 --> 00:32:15,920
+So when people mean
+polar coordinates,
+
+569
+00:32:15,920 --> 00:32:17,370
+they always mean that.
+
+570
+00:32:17,370 --> 00:32:22,370
+And then they have conventions,
+which sometimes match things up
+
+571
+00:32:22,370 --> 00:32:27,550
+with the formulas over
+on this next board.
+
+572
+00:32:27,550 --> 00:32:32,670
+Let me give you various
+examples here first.
+
+573
+00:32:32,670 --> 00:32:36,260
+But maybe first I
+should I should draw
+
+574
+00:32:36,260 --> 00:32:38,100
+the two coordinate systems.
+
+575
+00:32:38,100 --> 00:32:40,560
+So the coordinate system
+that we're used to
+
+576
+00:32:40,560 --> 00:32:43,360
+is the rectangular
+coordinate system.
+
+577
+00:32:43,360 --> 00:32:49,190
+And maybe I'll draw it
+in orange and green here.
+
+578
+00:32:49,190 --> 00:32:59,430
+So these are the coordinate
+lines y = 0, y = 1, y = 2.
+
+579
+00:32:59,430 --> 00:33:01,950
+That's how the
+coordinate system works.
+
+580
+00:33:01,950 --> 00:33:08,427
+And over here we have the
+rest of the coordinate system.
+
+581
+00:33:08,427 --> 00:33:10,510
+And this is the way we're
+thinking of x and y now.
+
+582
+00:33:10,510 --> 00:33:12,570
+We're no longer thinking of
+y as a function of x and x
+
+583
+00:33:12,570 --> 00:33:13,986
+as a function of
+y, we're thinking
+
+584
+00:33:13,986 --> 00:33:16,960
+of x as a label of
+a place in a plane.
+
+585
+00:33:16,960 --> 00:33:20,900
+And y as a label of
+a place in a plane.
+
+586
+00:33:20,900 --> 00:33:27,770
+So here we have x =
+0, x = 1, x = 2, etc.
+
+587
+00:33:27,770 --> 00:33:30,740
+Here's x = -1.
+
+588
+00:33:30,740 --> 00:33:31,900
+So forth.
+
+589
+00:33:31,900 --> 00:33:37,100
+So that's what the rectangular
+coordinate system looks like.
+
+590
+00:33:37,100 --> 00:33:41,380
+And now I should draw the other
+coordinate system that we have.
+
+591
+00:33:41,380 --> 00:33:47,900
+Which is this guy here.
+
+592
+00:33:47,900 --> 00:33:49,610
+Well, close enough.
+
+593
+00:33:49,610 --> 00:33:54,720
+And these guys here.
+
+594
+00:33:54,720 --> 00:33:57,730
+Kind of this bulls-eye
+or target operation.
+
+595
+00:33:57,730 --> 00:34:01,480
+And this one is,
+say, theta = pi/2.
+
+596
+00:34:01,480 --> 00:34:03,870
+This is theta = 0.
+
+597
+00:34:03,870 --> 00:34:07,710
+This is theta = -pi/4.
+
+598
+00:34:07,710 --> 00:34:11,380
+For instance, so I've
+just labeled for you three
+
+599
+00:34:11,380 --> 00:34:17,870
+of the rays on this diagram.
+
+600
+00:34:17,870 --> 00:34:23,130
+It's kind of like
+a radar screen.
+
+601
+00:34:23,130 --> 00:34:28,840
+And then in pink, this is
+maybe r = 2, the radius 2.
+
+602
+00:34:28,840 --> 00:34:33,980
+And inside is r = 1.
+
+603
+00:34:33,980 --> 00:34:38,090
+So it's a different coordinate
+system for the plane.
+
+604
+00:34:38,090 --> 00:34:42,120
+And again, the letter
+r represents measuring
+
+605
+00:34:42,120 --> 00:34:44,930
+how far we are from the origin.
+
+606
+00:34:44,930 --> 00:34:47,060
+The theta represents
+something about the angle,
+
+607
+00:34:47,060 --> 00:34:50,250
+which ray we're on.
+
+608
+00:34:50,250 --> 00:34:52,260
+And they're just two
+different variables.
+
+609
+00:34:52,260 --> 00:35:10,880
+And this is a very different
+kind of coordinate system.
+
+610
+00:35:10,880 --> 00:35:15,391
+OK so, our main job is
+just to get used to this.
+
+611
+00:35:15,391 --> 00:35:15,890
+For now.
+
+612
+00:35:15,890 --> 00:35:18,350
+You will be using
+this a lot in 18.02.
+
+613
+00:35:18,350 --> 00:35:20,570
+It's very useful in physics.
+
+614
+00:35:20,570 --> 00:35:25,680
+And our job is just to
+get started with it.
+
+615
+00:35:25,680 --> 00:35:29,990
+And so, let's try a
+few examples here.
+
+616
+00:35:29,990 --> 00:35:31,220
+Tons of examples.
+
+617
+00:35:31,220 --> 00:35:34,590
+We'll start out very slow.
+
+618
+00:35:34,590 --> 00:35:41,860
+If you have (x, y) = (1, -1),
+that's a point in the plane.
+
+619
+00:35:41,860 --> 00:35:44,380
+I can draw that point.
+
+620
+00:35:44,380 --> 00:35:46,460
+It's down here, right?
+
+621
+00:35:46,460 --> 00:35:50,630
+This is -1 and this is 1,
+and here's my point, (1, -1).
+
+622
+00:35:50,630 --> 00:35:53,550
+I can figure out what
+the representative is
+
+623
+00:35:53,550 --> 00:35:56,670
+of this in polar coordinates.
+
+624
+00:35:56,670 --> 00:36:03,040
+So in polar coordinates,
+there are actually
+
+625
+00:36:03,040 --> 00:36:05,130
+a bunch of choices here.
+
+626
+00:36:05,130 --> 00:36:09,250
+First of all, I'll
+tell you one choice.
+
+627
+00:36:09,250 --> 00:36:10,970
+If I start with the
+angle horizontally,
+
+628
+00:36:10,970 --> 00:36:14,200
+I wrap all the way
+around, that would
+
+629
+00:36:14,200 --> 00:36:19,350
+be to this ray here--
+Let's do it in green again.
+
+630
+00:36:19,350 --> 00:36:21,820
+Alright, I labeled
+it actually as -pi/4,
+
+631
+00:36:21,820 --> 00:36:27,310
+but another way of looking at
+it is that it's this angle here.
+
+632
+00:36:27,310 --> 00:36:31,440
+So that would be r
+= square root of 2.
+
+633
+00:36:31,440 --> 00:36:34,210
+Theta = 7pi/4.
+
+634
+00:36:38,150 --> 00:36:41,750
+So that's one possibility of
+the angle and the distance.
+
+635
+00:36:41,750 --> 00:36:45,380
+I know the distance is a square
+root of 2, that's not hard.
+
+636
+00:36:45,380 --> 00:36:47,930
+Another way of looking
+at it is the way
+
+637
+00:36:47,930 --> 00:36:49,640
+which was suggested
+when I labeled this
+
+638
+00:36:49,640 --> 00:36:51,230
+with a negative angle.
+
+639
+00:36:51,230 --> 00:36:56,850
+And that would be r = square
+root of 2, theta = -pi/4.
+
+640
+00:36:56,850 --> 00:36:58,370
+And these are both legal.
+
+641
+00:36:58,370 --> 00:37:00,736
+These are perfectly
+legal representatives.
+
+642
+00:37:00,736 --> 00:37:02,110
+And that's what
+I meant by saying
+
+643
+00:37:02,110 --> 00:37:06,180
+that these representations over
+here are somewhat ambiguous.
+
+644
+00:37:06,180 --> 00:37:08,900
+There's more than one answer
+to this question, of what
+
+645
+00:37:08,900 --> 00:37:11,860
+the polar representation is.
+
+646
+00:37:11,860 --> 00:37:17,190
+A third possibility, which is
+even more dicey but also legal,
+
+647
+00:37:17,190 --> 00:37:21,890
+is r equals minus
+square root of 2.
+
+648
+00:37:21,890 --> 00:37:25,360
+Theta = 3pi/4.
+
+649
+00:37:25,360 --> 00:37:30,080
+Now, what that corresponds to
+doing is going around to here.
+
+650
+00:37:30,080 --> 00:37:33,490
+We're pointing out
+3/4 pi direction.
+
+651
+00:37:33,490 --> 00:37:37,130
+But then going negative
+square root of 2 distance.
+
+652
+00:37:37,130 --> 00:37:39,710
+We're going backwards.
+
+653
+00:37:39,710 --> 00:37:42,250
+So we're landing
+in the same place.
+
+654
+00:37:42,250 --> 00:37:44,380
+So this is also legal.
+
+655
+00:37:44,380 --> 00:37:44,880
+Yeah.
+
+656
+00:37:44,880 --> 00:37:51,324
+STUDENT: [INAUDIBLE]
+
+657
+00:37:51,324 --> 00:37:53,240
+PROFESSOR: The question
+is, don't the radiuses
+
+658
+00:37:53,240 --> 00:37:54,989
+have to be positive
+because they represent
+
+659
+00:37:54,989 --> 00:37:56,620
+a distance to the origin?
+
+660
+00:37:56,620 --> 00:38:00,620
+The answer is I
+lied to you here.
+
+661
+00:38:00,620 --> 00:38:04,770
+All of these things that I said
+are wrong, except for this.
+
+662
+00:38:04,770 --> 00:38:09,020
+Which is the rule for what
+polar coordinates mean.
+
+663
+00:38:09,020 --> 00:38:21,170
+So it's maybe plus or minus the
+distance, is what it is always.
+
+664
+00:38:21,170 --> 00:38:29,090
+I try not to lie to you
+too much, but I do succeed.
+
+665
+00:38:29,090 --> 00:38:36,270
+Now, let's do a little
+bit more practice here.
+
+666
+00:38:36,270 --> 00:38:38,330
+There are some easy
+examples, which
+
+667
+00:38:38,330 --> 00:38:40,580
+I will run through
+very quickly. r = a,
+
+668
+00:38:40,580 --> 00:38:44,100
+we already know
+this is a circle.
+
+669
+00:38:44,100 --> 00:38:51,280
+And the 3 theta equals
+a constant is a ray.
+
+670
+00:38:51,280 --> 00:38:54,820
+However, this involves an
+implicit assumption, which
+
+671
+00:38:54,820 --> 00:38:57,360
+I want to point out to you.
+
+672
+00:38:57,360 --> 00:38:59,040
+So this is Example 3.
+
+673
+00:38:59,040 --> 00:39:01,060
+Theta's equal to a
+constant is a ray.
+
+674
+00:39:01,060 --> 00:39:14,070
+But this implicitly
+assumes 0 <= r < infinity.
+
+675
+00:39:14,070 --> 00:39:19,400
+If you really wanted to allow
+minus infinity < r < infinity
+
+676
+00:39:19,400 --> 00:39:22,890
+in this example, you
+would get a line.
+
+677
+00:39:22,890 --> 00:39:28,540
+Gives the whole line.
+
+678
+00:39:28,540 --> 00:39:30,050
+It gives everything behind.
+
+679
+00:39:30,050 --> 00:39:33,085
+So you go out on some ray,
+you go backwards on that ray
+
+680
+00:39:33,085 --> 00:39:36,460
+and you get the whole line
+through the origin, both ways.
+
+681
+00:39:36,460 --> 00:39:39,740
+If you allow r going to
+minus infinity as well.
+
+682
+00:39:39,740 --> 00:39:42,310
+So the typical
+conventions, so here
+
+683
+00:39:42,310 --> 00:39:49,680
+are the typical conventions.
+
+684
+00:39:49,680 --> 00:39:53,140
+And you will see people assume
+this without even telling you.
+
+685
+00:39:53,140 --> 00:39:55,340
+So you need to watch out for it.
+
+686
+00:39:55,340 --> 00:39:57,450
+The typical conventions
+are certainly this one,
+
+687
+00:39:57,450 --> 00:40:00,270
+which is a nice thing to do.
+
+688
+00:40:00,270 --> 00:40:04,240
+Pretty much all the time,
+although not all the time.
+
+689
+00:40:04,240 --> 00:40:05,360
+Most of the time.
+
+690
+00:40:05,360 --> 00:40:11,950
+And then you might have
+theta ranging from minus pi
+
+691
+00:40:11,950 --> 00:40:15,730
+to pi, so in other words
+symmetric around 0.
+
+692
+00:40:15,730 --> 00:40:21,630
+Or, another very popular
+choice is this one.
+
+693
+00:40:21,630 --> 00:40:25,890
+Theta's >= 0 and
+strictly less than 2pi.
+
+694
+00:40:25,890 --> 00:40:29,660
+So these are the
+two typical ranges
+
+695
+00:40:29,660 --> 00:40:33,930
+in which all of these
+variables are chosen.
+
+696
+00:40:33,930 --> 00:40:34,900
+But not always.
+
+697
+00:40:34,900 --> 00:40:43,210
+You'll find that
+it's not consistent.
+
+698
+00:40:43,210 --> 00:40:46,010
+As I said, our job is
+to get used to this.
+
+699
+00:40:46,010 --> 00:40:49,600
+And I need to work up
+to some slightly more
+
+700
+00:40:49,600 --> 00:40:51,420
+complicated examples.
+
+701
+00:40:51,420 --> 00:40:57,840
+Some of which I'll give
+you on next Tuesday.
+
+702
+00:40:57,840 --> 00:41:05,780
+But let's do a few more.
+
+703
+00:41:05,780 --> 00:41:10,820
+So, I guess this is Example 4.
+
+704
+00:41:10,820 --> 00:41:14,980
+Example 4, I'm
+going to take y = 1.
+
+705
+00:41:14,980 --> 00:41:20,650
+That's awfully simple in
+rectangular coordinates.
+
+706
+00:41:20,650 --> 00:41:23,960
+But interestingly,
+you might conceivably
+
+707
+00:41:23,960 --> 00:41:26,050
+want to deal with it
+in polar coordinates.
+
+708
+00:41:26,050 --> 00:41:29,580
+If you do, so here's how
+you make the translation.
+
+709
+00:41:29,580 --> 00:41:32,850
+But this translation
+is not so terrible.
+
+710
+00:41:32,850 --> 00:41:39,080
+What you do is, you plug
+in y = r sin(theta).
+
+711
+00:41:39,080 --> 00:41:40,710
+That's all you have to do.
+
+712
+00:41:40,710 --> 00:41:42,760
+And so that's going
+to be equal to 1.
+
+713
+00:41:42,760 --> 00:41:46,240
+And that's going to give
+us our polar equation.
+
+714
+00:41:46,240 --> 00:41:50,330
+The polar equation is
+r = 1 / sin(theta).
+
+715
+00:41:50,330 --> 00:41:54,360
+There it is.
+
+716
+00:41:54,360 --> 00:41:58,120
+And let's draw a picture of it.
+
+717
+00:41:58,120 --> 00:42:03,480
+So here's a picture
+of the line y = 1.
+
+718
+00:42:03,480 --> 00:42:11,950
+And now we see that if we take
+our rays going out from here,
+
+719
+00:42:11,950 --> 00:42:17,240
+they collide with the
+line at various lengths.
+
+720
+00:42:17,240 --> 00:42:19,760
+So if you take an angle,
+theta, here there'll
+
+721
+00:42:19,760 --> 00:42:21,364
+be a distance r
+corresponding to that
+
+722
+00:42:21,364 --> 00:42:23,030
+and you'll hit this
+in exactly one spot.
+
+723
+00:42:23,030 --> 00:42:26,600
+For each theta you'll
+have a different radius.
+
+724
+00:42:26,600 --> 00:42:27,810
+And it's a variable radius.
+
+725
+00:42:27,810 --> 00:42:30,740
+It's given by this formula here.
+
+726
+00:42:30,740 --> 00:42:33,210
+And so to trace this
+line out, you actually
+
+727
+00:42:33,210 --> 00:42:36,120
+have to realize that there's
+one more thing involved.
+
+728
+00:42:36,120 --> 00:42:40,160
+Which is the possible
+range of theta.
+
+729
+00:42:40,160 --> 00:42:41,730
+Again, when you're
+doing integrations
+
+730
+00:42:41,730 --> 00:42:44,104
+you're going to need to know
+those limits of integration.
+
+731
+00:42:44,104 --> 00:42:46,360
+So you're going to
+need to know this.
+
+732
+00:42:46,360 --> 00:42:48,990
+The range here goes
+from theta = 0,
+
+733
+00:42:48,990 --> 00:42:51,230
+that's sort of when
+it's out at infinity.
+
+734
+00:42:51,230 --> 00:42:53,140
+That's when the
+denominator is 0 here.
+
+735
+00:42:53,140 --> 00:42:55,800
+And it goes all the way to pi.
+
+736
+00:42:55,800 --> 00:42:57,940
+Swing around just one half-turn.
+
+737
+00:42:57,940 --> 00:43:03,610
+So the range here
+is 0 < theta < pi.
+
+738
+00:43:03,610 --> 00:43:04,620
+Yeah, question.
+
+739
+00:43:04,620 --> 00:43:09,676
+STUDENT: [INAUDIBLE]
+
+740
+00:43:09,676 --> 00:43:11,050
+PROFESSOR: The
+question is, is it
+
+741
+00:43:11,050 --> 00:43:13,940
+typical to express r
+as a function of theta,
+
+742
+00:43:13,940 --> 00:43:16,550
+or vice versa, or
+does it matter?
+
+743
+00:43:16,550 --> 00:43:19,790
+The answer is that for the
+purposes of this course,
+
+744
+00:43:19,790 --> 00:43:24,420
+we're almost always going to
+be writing things in this form.
+
+745
+00:43:24,420 --> 00:43:27,070
+r as a function of theta.
+
+746
+00:43:27,070 --> 00:43:30,050
+And you can do
+whatever you want.
+
+747
+00:43:30,050 --> 00:43:33,920
+This turns out to be what
+we'll be doing in this course,
+
+748
+00:43:33,920 --> 00:43:37,040
+exclusively.
+
+749
+00:43:37,040 --> 00:43:40,570
+As you'll see when we
+get to other examples,
+
+750
+00:43:40,570 --> 00:43:42,160
+it's the traditional
+sort of thing
+
+751
+00:43:42,160 --> 00:43:45,060
+to do when you're thinking
+about observing a planet
+
+752
+00:43:45,060 --> 00:43:48,650
+or something like that.
+
+753
+00:43:48,650 --> 00:43:52,930
+You see the angle, and then
+you guess far away it is.
+
+754
+00:43:52,930 --> 00:43:55,600
+But it's not necessary.
+
+755
+00:43:55,600 --> 00:43:58,940
+The formulas are
+often easier this way.
+
+756
+00:43:58,940 --> 00:44:00,370
+For the examples that we have.
+
+757
+00:44:00,370 --> 00:44:02,610
+Because it's usually a
+trig function of theta.
+
+758
+00:44:02,610 --> 00:44:05,110
+Whereas the other way, it would
+be an inverse trig function.
+
+759
+00:44:05,110 --> 00:44:08,930
+So it's an uglier expression.
+
+760
+00:44:08,930 --> 00:44:10,540
+As you can see.
+
+761
+00:44:10,540 --> 00:44:12,860
+The real reason is that we
+choose this thing that's
+
+762
+00:44:12,860 --> 00:44:19,410
+easier to deal with.
+
+763
+00:44:19,410 --> 00:44:22,200
+So now let me give you a
+slightly more complicated
+
+764
+00:44:22,200 --> 00:44:24,410
+example of the same type.
+
+765
+00:44:24,410 --> 00:44:28,930
+Where we use a shortcut.
+
+766
+00:44:28,930 --> 00:44:31,680
+This is a standard example.
+
+767
+00:44:31,680 --> 00:44:33,960
+And it comes up a lot.
+
+768
+00:44:33,960 --> 00:44:40,730
+And so this is an
+off-center circle.
+
+769
+00:44:40,730 --> 00:44:44,000
+A circle is really easy
+to describe, but not
+
+770
+00:44:44,000 --> 00:44:54,170
+necessarily if the center
+is on the rim of the circle.
+
+771
+00:44:54,170 --> 00:44:56,550
+So that's a different problem.
+
+772
+00:44:56,550 --> 00:44:59,990
+And let's do this with
+a circle of radius a.
+
+773
+00:44:59,990 --> 00:45:06,120
+So this is the point (a,
+0) and this is (2a, 0).
+
+774
+00:45:06,120 --> 00:45:08,550
+And actually, if you
+know these two numbers,
+
+775
+00:45:08,550 --> 00:45:11,080
+you'll be able to remember the
+result of this calculation.
+
+776
+00:45:11,080 --> 00:45:13,780
+Which you'll do about five
+or six times and then finally
+
+777
+00:45:13,780 --> 00:45:17,310
+you'll memorize it during 18.02
+when you will need it a lot.
+
+778
+00:45:17,310 --> 00:45:21,220
+So this is a standard
+calculation here.
+
+779
+00:45:21,220 --> 00:45:24,350
+So the starting place is
+the rectangular equation.
+
+780
+00:45:24,350 --> 00:45:27,170
+And we're going to pass to
+the polar representation.
+
+781
+00:45:27,170 --> 00:45:33,550
+The rectangular representation
+is (x-a)^2 + y^2 = a^2.
+
+782
+00:45:33,550 --> 00:45:40,290
+So this is a circle centered
+at (a, 0) of radius a.
+
+783
+00:45:40,290 --> 00:45:44,110
+And now, if you like, the
+slow way of doing this
+
+784
+00:45:44,110 --> 00:45:50,145
+would be to plug in x = r
+cos(theta), y = r sin(theta).
+
+785
+00:45:50,145 --> 00:45:51,520
+The way I did in
+this first step.
+
+786
+00:45:51,520 --> 00:45:53,500
+And that works perfectly well.
+
+787
+00:45:53,500 --> 00:45:56,980
+But I'm going to do it
+more quickly than that.
+
+788
+00:45:56,980 --> 00:46:00,070
+Because I can sort of see in
+advance how it's going to work.
+
+789
+00:46:00,070 --> 00:46:09,810
+I'm just going to
+expand this out.
+
+790
+00:46:09,810 --> 00:46:13,160
+And now I see the a^2's cancel.
+
+791
+00:46:13,160 --> 00:46:17,120
+And not only that,
+but x^2 + y^2 = r^2.
+
+792
+00:46:17,120 --> 00:46:19,670
+So this becomes r^2.
+
+793
+00:46:19,670 --> 00:46:28,590
+That's x^2 + y^2 - 2ax = 0.
+
+794
+00:46:28,590 --> 00:46:32,360
+The r came from the fact
+that r^2 = x^2 + y^2.
+
+795
+00:46:36,100 --> 00:46:37,890
+So I'm doing this the rapid way.
+
+796
+00:46:37,890 --> 00:46:40,260
+You can do it by
+plugging in, as I said.
+
+797
+00:46:40,260 --> 00:46:43,900
+r equals-- So now that
+I've simplified it,
+
+798
+00:46:43,900 --> 00:46:45,720
+I am going to use
+that procedure.
+
+799
+00:46:45,720 --> 00:46:47,570
+I'm going to plug in.
+
+800
+00:46:47,570 --> 00:46:57,120
+So here I have r^2 -
+2ar cos(theta) = 0.
+
+801
+00:46:57,120 --> 00:47:00,146
+I just plugged in for x.
+
+802
+00:47:00,146 --> 00:47:02,270
+As I said, I could have
+done that at the beginning.
+
+803
+00:47:02,270 --> 00:47:06,430
+I just simplified first.
+
+804
+00:47:06,430 --> 00:47:11,780
+And now, this is the same
+thing as r^2 = 2ar cos(theta).
+
+805
+00:47:11,780 --> 00:47:13,530
+And we're almost done.
+
+806
+00:47:13,530 --> 00:47:19,230
+There's a boring part of this
+equation, which is r = 0.
+
+807
+00:47:19,230 --> 00:47:21,530
+And then there's,
+if I divide by r,
+
+808
+00:47:21,530 --> 00:47:23,430
+there's the interesting
+part of the equation.
+
+809
+00:47:23,430 --> 00:47:25,830
+Which is this.
+
+810
+00:47:25,830 --> 00:47:28,810
+So this is or r = 0.
+
+811
+00:47:28,810 --> 00:47:33,690
+Which is already included
+in that equation anyway.
+
+812
+00:47:33,690 --> 00:47:36,890
+So I'm allowed to divide by r
+because in the case of r = 0,
+
+813
+00:47:36,890 --> 00:47:39,781
+this is represented anyway.
+
+814
+00:47:39,781 --> 00:47:40,280
+Question.
+
+815
+00:47:40,280 --> 00:47:44,390
+STUDENT: [INAUDIBLE]
+
+816
+00:47:44,390 --> 00:47:46,270
+PROFESSOR: r = 0
+is just one case.
+
+817
+00:47:46,270 --> 00:47:48,380
+That is, it's the
+union of these two.
+
+818
+00:47:48,380 --> 00:47:49,550
+It's both.
+
+819
+00:47:49,550 --> 00:47:50,670
+Both are possible.
+
+820
+00:47:50,670 --> 00:47:53,270
+So r = 0 is one point on it.
+
+821
+00:47:53,270 --> 00:47:56,150
+And this is all of it.
+
+822
+00:47:56,150 --> 00:48:01,230
+So we can just ignore this.
+
+823
+00:48:01,230 --> 00:48:04,500
+So now I want to say one
+more important thing.
+
+824
+00:48:04,500 --> 00:48:06,600
+You need to understand
+the range of this.
+
+825
+00:48:06,600 --> 00:48:10,840
+So wait a second and we're going
+to figure out the range here.
+
+826
+00:48:10,840 --> 00:48:13,710
+The range is very important,
+because otherwise you'll
+
+827
+00:48:13,710 --> 00:48:18,280
+never be able to integrate
+using this representation here.
+
+828
+00:48:18,280 --> 00:48:19,840
+So this is the representation.
+
+829
+00:48:19,840 --> 00:48:25,190
+But notice when theta =
+0, we're out here at 2a.
+
+830
+00:48:25,190 --> 00:48:26,780
+That's consistent,
+and that's actually
+
+831
+00:48:26,780 --> 00:48:29,020
+how you remember
+this factor 2a here.
+
+832
+00:48:29,020 --> 00:48:31,570
+Because if you remember this
+picture and where you land when
+
+833
+00:48:31,570 --> 00:48:34,830
+theta = 0.
+
+834
+00:48:34,830 --> 00:48:36,370
+So that's the theta = 0 part.
+
+835
+00:48:36,370 --> 00:48:39,440
+But now as I tip
+up like this, you
+
+836
+00:48:39,440 --> 00:48:43,780
+see that when we get to
+vertical, we're done.
+
+837
+00:48:43,780 --> 00:48:44,630
+With the circle.
+
+838
+00:48:44,630 --> 00:48:46,463
+It's gotten shorter and
+shorter and shorter,
+
+839
+00:48:46,463 --> 00:48:49,020
+and at theta = pi/2,
+we're down at 0.
+
+840
+00:48:49,020 --> 00:48:51,720
+Because that's cos(pi/2) = 0.
+
+841
+00:48:51,720 --> 00:48:53,770
+So it swings up like this.
+
+842
+00:48:53,770 --> 00:48:55,400
+And it gets up to pi/2.
+
+843
+00:48:55,400 --> 00:48:57,110
+Similarly, we swing
+down like this.
+
+844
+00:48:57,110 --> 00:48:59,000
+And then we're done.
+
+845
+00:48:59,000 --> 00:49:04,510
+So the range is
+-pi/2 < theta < pi/2.
+
+846
+00:49:04,510 --> 00:49:06,650
+Or, if you want to
+throw in the r = 0 case,
+
+847
+00:49:06,650 --> 00:49:08,700
+you can throw in this,
+this is repeating,
+
+848
+00:49:08,700 --> 00:49:11,200
+if you like, at the ends.
+
+849
+00:49:11,200 --> 00:49:14,100
+So this is the range
+of this circle.
+
+850
+00:49:14,100 --> 00:49:17,150
+And let's see.
+
+851
+00:49:17,150 --> 00:49:21,300
+Next time we'll figure out
+area in polar coordinates.

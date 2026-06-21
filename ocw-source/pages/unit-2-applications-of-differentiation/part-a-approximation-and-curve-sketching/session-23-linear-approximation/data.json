@@ -1,0 +1,6 @@
+
+{
+  "title":"Session 23: Linear Approximation",
+  "content":"« Previous | Next »\nOverview Linear approximation is a powerful application of a simple idea. Very small sections of a smooth curve are nearly straight; up close, a curve is very similar to its tangent line. We calculate linear approximations (i.e. equations of tangent lines) near x=0 for some popular functions; we can then change variables to get approximations near x=a.\nLecture Video and Notes Video Excerpts Clip 1: Introduction to Linear Approximation\nClip 2: Linear Approximation to ln x at x=1\nClip 3: Linear Approximation and the Definition of the Derivative\nClip 4: Approximations at 0 for Sine, Cosine and Exponential Functions\nWorked Example Comparing Linear Approximations and Calculator Computations\nProblem (PDF) Solution (PDF) Lecture Video and Notes Video Excerpts Clip 1: Approximations at 0 for ln(1+x) and (1+x)r\n« Previous | Next »\n"}
+
+

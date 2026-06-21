@@ -1,0 +1,815 @@
+1
+00:00:06,977 --> 00:00:07,560
+PROFESSOR: Hi.
+
+2
+00:00:07,560 --> 00:00:09,140
+Welcome back to recitation.
+
+3
+00:00:09,140 --> 00:00:12,210
+Today we're going to do another
+example of a definite integral.
+
+4
+00:00:12,210 --> 00:00:14,220
+This time, it's going
+to be one that you're
+
+5
+00:00:14,220 --> 00:00:16,329
+going to need to do
+some substitution for.
+
+6
+00:00:16,329 --> 00:00:18,370
+You're not going to know
+the antiderivative right
+
+7
+00:00:18,370 --> 00:00:19,820
+off the top of
+your head, I think.
+
+8
+00:00:19,820 --> 00:00:21,710
+So, I've got it on
+the board behind me.
+
+9
+00:00:21,710 --> 00:00:24,760
+So it's compute the
+integral from minus 2 to 2
+
+10
+00:00:24,760 --> 00:00:28,500
+of the function x squared
+cosine of the quantity
+
+11
+00:00:28,500 --> 00:00:30,570
+x cubed over 8 dx.
+
+12
+00:00:30,570 --> 00:00:34,430
+So, this is a kind
+of a weird integrand.
+
+13
+00:00:34,430 --> 00:00:37,380
+Roughly, you know,
+very, very rough graph
+
+14
+00:00:37,380 --> 00:00:38,740
+of kind of what it looks like.
+
+15
+00:00:38,740 --> 00:00:41,600
+So this is sort of the
+area of this region.
+
+16
+00:00:41,600 --> 00:00:43,870
+It's a positive function
+over this interval.
+
+17
+00:00:43,870 --> 00:00:48,700
+So it's the area of this region
+that I'm asking you to compute.
+
+18
+00:00:48,700 --> 00:00:51,690
+So, all right, so
+definite integral.
+
+19
+00:00:51,690 --> 00:00:53,950
+Why don't you pause the
+video, take a couple minutes,
+
+20
+00:00:53,950 --> 00:00:55,689
+work this out
+yourself, come back, we
+
+21
+00:00:55,689 --> 00:00:56,730
+can work it out together.
+
+22
+00:01:03,780 --> 00:01:04,890
+All right, welcome back.
+
+23
+00:01:04,890 --> 00:01:07,750
+So, from looking at
+this integrand here,
+
+24
+00:01:07,750 --> 00:01:10,610
+it seems to me that I
+don't know immediately
+
+25
+00:01:10,610 --> 00:01:13,620
+off the top of my head
+what its antiderivative is.
+
+26
+00:01:13,620 --> 00:01:17,760
+So, I can't just sort of
+apply the fundamental theorem
+
+27
+00:01:17,760 --> 00:01:20,437
+of calculus directly without
+a little bit of work.
+
+28
+00:01:20,437 --> 00:01:22,020
+So there are two
+different ways that I
+
+29
+00:01:22,020 --> 00:01:25,188
+can go about computing
+this then, about computing
+
+30
+00:01:25,188 --> 00:01:26,250
+this definite integral.
+
+31
+00:01:26,250 --> 00:01:28,770
+One is, that I can
+forget for the minute
+
+32
+00:01:28,770 --> 00:01:31,760
+that it's a definite integral
+and compute the antiderivative
+
+33
+00:01:31,760 --> 00:01:34,180
+and then use the fundamental
+theorem of calculus.
+
+34
+00:01:34,180 --> 00:01:37,270
+So, let's try that way first and
+then we'll do it a second way
+
+35
+00:01:37,270 --> 00:01:37,930
+as well.
+
+36
+00:01:37,930 --> 00:01:56,620
+So, method one is to
+compute the antiderivative.
+
+37
+00:01:56,620 --> 00:02:01,600
+So we compute the
+antiderivative of x squared
+
+38
+00:02:01,600 --> 00:02:06,404
+cosine of x cubed over 8 dx.
+
+39
+00:02:06,404 --> 00:02:08,320
+So here, it's not a
+definite integral anymore.
+
+40
+00:02:08,320 --> 00:02:10,410
+Now I'm just looking
+at the antiderivative.
+
+41
+00:02:10,410 --> 00:02:13,660
+And so, OK, so
+either by intelligent
+
+42
+00:02:13,660 --> 00:02:17,544
+guessing or that--
+I forget if that's
+
+43
+00:02:17,544 --> 00:02:18,960
+what Professor
+Jerison called it--
+
+44
+00:02:18,960 --> 00:02:21,580
+or by just a
+substitution method.
+
+45
+00:02:21,580 --> 00:02:23,860
+So, a good thing
+to substitute here,
+
+46
+00:02:23,860 --> 00:02:28,200
+is we see inside this function
+we have this x cubed part
+
+47
+00:02:28,200 --> 00:02:30,670
+and then outside we
+have an x squared part.
+
+48
+00:02:30,670 --> 00:02:33,360
+So x squared dx,
+that's closely related
+
+49
+00:02:33,360 --> 00:02:37,120
+to the differential of x cubed.
+
+50
+00:02:37,120 --> 00:02:40,940
+So we might try
+the substitution--
+
+51
+00:02:40,940 --> 00:02:44,184
+we might try the substitution
+u equals-- well we can maybe
+
+52
+00:02:44,184 --> 00:02:45,850
+get rid of all of
+that at once-- so make
+
+53
+00:02:45,850 --> 00:02:48,970
+u equals x cubed over 8.
+
+54
+00:02:48,970 --> 00:02:57,550
+So in that case, du is
+equal to 3/8 x squared dx.
+
+55
+00:02:57,550 --> 00:03:03,820
+And so this integral is equal
+to the integral of-- well so,
+
+56
+00:03:03,820 --> 00:03:06,130
+x squared dx, we have that.
+
+57
+00:03:06,130 --> 00:03:08,730
+So we need to multiply
+and divide by 3/8.
+
+58
+00:03:08,730 --> 00:03:16,470
+So this is, 8/3 cosine of u du.
+
+59
+00:03:16,470 --> 00:03:19,132
+All right, and so
+now, OK, so the 8/3,
+
+60
+00:03:19,132 --> 00:03:20,090
+that's just a constant.
+
+61
+00:03:20,090 --> 00:03:21,089
+That pulls out in front.
+
+62
+00:03:21,089 --> 00:03:22,140
+That's not hard.
+
+63
+00:03:22,140 --> 00:03:24,540
+So then the
+antiderivative of cosine
+
+64
+00:03:24,540 --> 00:03:26,820
+u du, that's something we know.
+
+65
+00:03:26,820 --> 00:03:37,246
+So this is 8/3 of minus
+sine-- sorry not minus;
+
+66
+00:03:37,246 --> 00:03:39,620
+I was doing the derivative
+instead of the antiderivative.
+
+67
+00:03:39,620 --> 00:03:42,280
+Just 8/3 sine u.
+
+68
+00:03:42,280 --> 00:03:42,780
+OK.
+
+69
+00:03:42,780 --> 00:03:44,215
+And good.
+
+70
+00:03:44,215 --> 00:03:46,090
+So that's the anti--
+plus the constant, which
+
+71
+00:03:46,090 --> 00:03:47,355
+we don't need
+because we're going
+
+72
+00:03:47,355 --> 00:03:49,479
+to plug this in the
+fundamental theorem of calculus
+
+73
+00:03:49,479 --> 00:03:50,100
+in a minute.
+
+74
+00:03:50,100 --> 00:03:51,640
+So it's 8/3 sine u.
+
+75
+00:03:53,915 --> 00:03:55,290
+And, OK, so, but
+that's not good.
+
+76
+00:03:55,290 --> 00:03:56,706
+I need it back in
+terms of my x's.
+
+77
+00:03:56,706 --> 00:03:58,410
+And so I have to
+back-substitute.
+
+78
+00:03:58,410 --> 00:04:08,930
+So this is 8/3 sine
+of x cubed over 8.
+
+79
+00:04:08,930 --> 00:04:11,540
+All right, now I've
+got an antiderivative
+
+80
+00:04:11,540 --> 00:04:12,560
+of this expression.
+
+81
+00:04:12,560 --> 00:04:14,410
+So now I can take
+this antiderivative
+
+82
+00:04:14,410 --> 00:04:17,270
+and apply fundamental
+theorem of calculus, Right?
+
+83
+00:04:17,270 --> 00:04:22,192
+So, the integral
+from minus 2 to 2
+
+84
+00:04:22,192 --> 00:04:31,915
+of x squared cosine of x cubed
+over 8 dx is equal to-- well
+
+85
+00:04:31,915 --> 00:04:38,312
+it's equal to this
+antiderivative-- 8/3 sine x
+
+86
+00:04:38,312 --> 00:04:48,480
+cubed over 8 taken between x
+equals minus 2 and x equals 2.
+
+87
+00:04:48,480 --> 00:05:00,670
+So this is equal to 8/3 times
+sine of 1 minus 8/3 times
+
+88
+00:05:00,670 --> 00:05:03,720
+sine of minus 1.
+
+89
+00:05:03,720 --> 00:05:07,230
+OK, and sine of minus x
+is equal to minus sine x.
+
+90
+00:05:07,230 --> 00:05:14,396
+So we could rewrite this
+as 16/3 times sine of 1.
+
+91
+00:05:14,396 --> 00:05:15,270
+So that's the answer.
+
+92
+00:05:15,270 --> 00:05:17,490
+That's the value
+of this integral.
+
+93
+00:05:17,490 --> 00:05:20,520
+And we did this first
+method by first computing
+
+94
+00:05:20,520 --> 00:05:22,740
+the antiderivative
+and then using it
+
+95
+00:05:22,740 --> 00:05:24,530
+with the fundamental
+theorem of calculus.
+
+96
+00:05:24,530 --> 00:05:26,570
+The second way we
+can do it is the one
+
+97
+00:05:26,570 --> 00:05:28,570
+that we just learned
+more recently in lecture.
+
+98
+00:05:28,570 --> 00:05:30,540
+Which is to use
+substitution directly
+
+99
+00:05:30,540 --> 00:05:32,010
+in the definite integral.
+
+100
+00:05:32,010 --> 00:05:34,640
+So let me come over
+here and do that.
+
+101
+00:05:34,640 --> 00:05:35,690
+So, method two.
+
+102
+00:05:55,210 --> 00:06:00,150
+So now, when we do it this way,
+mostly this looks the same.
+
+103
+00:06:00,150 --> 00:06:02,670
+So we start off, we don't
+go back to antiderivative.
+
+104
+00:06:02,670 --> 00:06:04,514
+We start off with the
+definite integral.
+
+105
+00:06:04,514 --> 00:06:05,555
+So that's one difference.
+
+106
+00:06:10,350 --> 00:06:12,780
+We can use the exact
+same substitution.
+
+107
+00:06:12,780 --> 00:06:15,000
+So we can use exactly
+the substitution
+
+108
+00:06:15,000 --> 00:06:17,740
+that we used before, which
+was u equals x cubed over 8.
+
+109
+00:06:17,740 --> 00:06:18,880
+That doesn't change.
+
+110
+00:06:24,300 --> 00:06:31,950
+And we still have the same du
+is equal to 3 x squared over 8,
+
+111
+00:06:31,950 --> 00:06:35,345
+but what does
+change-- sorry, dx.
+
+112
+00:06:35,345 --> 00:06:37,190
+Good.
+
+113
+00:06:37,190 --> 00:06:42,830
+You need a differential always
+to be equal to a differential.
+
+114
+00:06:42,830 --> 00:06:46,767
+So what does change
+is that this-- I need
+
+115
+00:06:46,767 --> 00:06:47,642
+to change the bounds.
+
+116
+00:06:47,642 --> 00:06:48,290
+Right?
+
+117
+00:06:48,290 --> 00:06:50,498
+If I'm keeping it as definite
+integrals all the time,
+
+118
+00:06:50,498 --> 00:06:54,330
+so I'm changing here from
+an integral with respect
+
+119
+00:06:54,330 --> 00:06:57,060
+to x to an integral
+with respect to u.
+
+120
+00:06:57,060 --> 00:06:58,780
+And so that means
+that when I write down
+
+121
+00:06:58,780 --> 00:07:00,810
+the second integral
+with respect to u,
+
+122
+00:07:00,810 --> 00:07:04,410
+the bounds that I write down
+have to be the bounds for u.
+
+123
+00:07:04,410 --> 00:07:05,430
+Not for x.
+
+124
+00:07:05,430 --> 00:07:08,610
+So when x is equal
+to minus 2, I need
+
+125
+00:07:08,610 --> 00:07:11,220
+to know what the
+corresponding value of u is.
+
+126
+00:07:11,220 --> 00:07:13,620
+So in this case, when
+x is equal to minus 2,
+
+127
+00:07:13,620 --> 00:07:15,820
+we see that the
+lower bound here--
+
+128
+00:07:15,820 --> 00:07:18,970
+when x is equal to minus
+2-- the lower bound on u
+
+129
+00:07:18,970 --> 00:07:24,220
+becomes u equals, well,
+minus 2 cubed over 8.
+
+130
+00:07:24,220 --> 00:07:25,650
+That's minus 1.
+
+131
+00:07:25,650 --> 00:07:29,140
+And when x is equal
+to 2, the upper bound,
+
+132
+00:07:29,140 --> 00:07:31,030
+u becomes 2 cubed over 8.
+
+133
+00:07:31,030 --> 00:07:32,170
+So u becomes 1.
+
+134
+00:07:32,170 --> 00:07:34,530
+So we have this extra step
+when we do it this way,
+
+135
+00:07:34,530 --> 00:07:36,990
+of changing the bounds.
+
+136
+00:07:36,990 --> 00:07:38,310
+OK, so I do that.
+
+137
+00:07:38,310 --> 00:07:39,850
+So now I get the integral.
+
+138
+00:07:39,850 --> 00:07:41,780
+So I'm going to write
+u equals minus 1
+
+139
+00:07:41,780 --> 00:07:47,070
+here just to remind myself
+that I made this change to 1.
+
+140
+00:07:47,070 --> 00:07:50,000
+OK, and now the inside
+transforms exactly the same.
+
+141
+00:07:50,000 --> 00:07:58,340
+So it's 8/3 times cosine u du.
+
+142
+00:07:58,340 --> 00:08:01,650
+OK, and now again, this is
+something for which I already
+
+143
+00:08:01,650 --> 00:08:02,910
+know the antiderivative.
+
+144
+00:08:02,910 --> 00:08:05,880
+So I apply the fundamental
+theorem of calculus here.
+
+145
+00:08:05,880 --> 00:08:13,600
+So I get the integral is
+equal to 8/3 sine of u,
+
+146
+00:08:13,600 --> 00:08:17,210
+where u goes between
+minus 1 and 1.
+
+147
+00:08:17,210 --> 00:08:20,120
+So the other thing that's
+changed here is that now I
+
+148
+00:08:20,120 --> 00:08:22,800
+don't have to change this
+back in terms of x's.
+
+149
+00:08:22,800 --> 00:08:26,050
+I have the values that I'm
+going to plug in here already
+
+150
+00:08:26,050 --> 00:08:27,250
+in terms of u.
+
+151
+00:08:27,250 --> 00:08:29,410
+So I don't have to switch
+back in terms of x's.
+
+152
+00:08:29,410 --> 00:08:31,870
+And so I just plug these values
+in and take the difference.
+
+153
+00:08:31,870 --> 00:08:42,770
+So this is equal to 8/3 sine
+of 1 minus 8/3 sine of minus 1,
+
+154
+00:08:42,770 --> 00:08:49,119
+which as we said before
+is 16/3 times sine of 1.
+
+155
+00:08:49,119 --> 00:08:50,910
+OK, so we have these
+two different methods.
+
+156
+00:08:50,910 --> 00:08:53,980
+They're very, very, very,
+similar in how you apply them.
+
+157
+00:08:53,980 --> 00:08:56,590
+The key differences
+are, that when
+
+158
+00:08:56,590 --> 00:08:59,140
+you do it, the substitution in
+terms of definite integrals,
+
+159
+00:08:59,140 --> 00:09:01,400
+you have to change your
+bounds of integration.
+
+160
+00:09:01,400 --> 00:09:04,680
+And what you get for changing
+your bounds of integration is
+
+161
+00:09:04,680 --> 00:09:08,960
+at the end you don't have to
+switch back from u's into x's.
+
+162
+00:09:08,960 --> 00:09:12,820
+Whereas, if you do it by first
+computing the antiderivative,
+
+163
+00:09:12,820 --> 00:09:15,090
+well, you don't have any
+bounds of integration
+
+164
+00:09:15,090 --> 00:09:16,840
+when you compute the
+antiderivative so you
+
+165
+00:09:16,840 --> 00:09:18,090
+don't have to change them.
+
+166
+00:09:18,090 --> 00:09:20,390
+But once you computed
+the antiderivative,
+
+167
+00:09:20,390 --> 00:09:23,490
+then you have to go and
+make your back substitution.
+
+168
+00:09:23,490 --> 00:09:26,340
+Put everything back in
+terms of x's before going on
+
+169
+00:09:26,340 --> 00:09:29,450
+to compute the definite
+integral that you started with.
+
+170
+00:09:29,450 --> 00:09:32,380
+So the those are the
+two different ways
+
+171
+00:09:32,380 --> 00:09:35,140
+you can do substitution
+in definite integrals
+
+172
+00:09:35,140 --> 00:09:37,678
+and I'll end with that.

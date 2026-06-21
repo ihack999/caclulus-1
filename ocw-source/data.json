@@ -1,0 +1,23 @@
+{
+  "course_title":"Single Variable Calculus",
+  "course_description":"This calculus course covers differentiation and integration of functions of one variable, and concludes with a brief discussion of infinite series. Calculus is fundamental to many scientific disciplines including physics, engineering, and economics.\n\nCourse Format\n\nThis course has been designed for independent study. It includes all of the materials you will need to understand the concepts covered in this subject. The materials in this course include:\n\n- **Lecture Videos** with supporting written notes\n- **Recitation Videos** of problem-solving tips\n- **Worked Examples** with detailed solutions to sample problems\n- **Problem sets** with solutions\n- **Exams** with solutions\n- **Interactive Java Applets** (\"Mathlets\") to reinforce key concepts\n\nContent Development\n\nDavid Jerison     \nArthur Mattuck     \nHaynes Miller     \nBenjamin Brubaker     \nJeremy Orloff\n\nHeidi Burgiel     \nChristine Breiner     \nDavid Jordan     \nJoel Lewis\n\nAbout OCW Scholar\n\nOCW Scholar courses are designed specifically for OCW's single largest audience: independent learners. These courses are substantially more complete than typical OCW courses, and include new custom-created content as well as materials repurposed from previously published courses.",
+  "course_description_html":"<p>This calculus course covers differentiation and integration of functions of one variable, and concludes with a brief discussion of infinite series. Calculus is fundamental to many scientific disciplines including physics, engineering, and economics.</p>\n<p>Course Format</p>\n<p>This course has been designed for independent study. It includes all of the materials you will need to understand the concepts covered in this subject. The materials in this course include:</p>\n<ul>\n<li><strong>Lecture Videos</strong> with supporting written notes</li>\n<li><strong>Recitation Videos</strong> of problem-solving tips</li>\n<li><strong>Worked Examples</strong> with detailed solutions to sample problems</li>\n<li><strong>Problem sets</strong> with solutions</li>\n<li><strong>Exams</strong> with solutions</li>\n<li><strong>Interactive Java Applets</strong> (&ldquo;Mathlets&rdquo;) to reinforce key concepts</li>\n</ul>\n<p>Content Development</p>\n<p>David Jerison   <br>\nArthur Mattuck   <br>\nHaynes Miller   <br>\nBenjamin Brubaker   <br>\nJeremy Orloff</p>\n<p>Heidi Burgiel   <br>\nChristine Breiner   <br>\nDavid Jordan   <br>\nJoel Lewis</p>\n<p>About OCW Scholar</p>\n<p>OCW Scholar courses are designed specifically for OCW&rsquo;s single largest audience: independent learners. These courses are substantially more complete than typical OCW courses, and include new custom-created content as well as materials repurposed from previously published courses.</p>\n",
+  "site_uid":"d6bc0650-9f4e-4ea9-a3fc-75b00f499f3a",
+  "legacy_uid":"bfe41979-b959-3362-793f-d930b36efa01","instructors": [{
+    "first_name":"David",
+    "last_name":"Jerison",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. David Jerison"}],"department_numbers":["18"],
+  "learning_resource_types":["Lecture Notes","Lecture Videos","Problem-solving Videos","Problem Sets","Problem Set Solutions","Exams","Exam Solutions"],
+  "topics":[["Mathematics","Calculus"],["Mathematics","Differential Equations"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"18.01SC",
+  "extra_course_numbers":"",
+  "term":"Fall",
+  "year":"2010",
+  "level":["Undergraduate"],
+  "hide_download":false,
+  "image_src":"./static_resources/7b739fdc0a8fb0302fdbe037fbaa89a3_CHP_secant.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"","draft":false,"file":"/courses/18-01sc-single-variable-calculus-fall-2010/7b739fdc0a8fb0302fdbe037fbaa89a3_CHP_secant.jpg","file_size":44731,"file_type":"image/jpeg","image_metadata":{"caption":"Secant approximation mathlet from the d'Arbeloff Interactive Math Project. Image courtesy of Haynes Miller, Heidi Burgiel, and J.-M. Claus.","credit":"Image courtesy of Haynes Miller, Heidi Burgiel, and J.-M. Claus.","image-alt":"A graph of three lines, red, yellow, and blue that represent secant approximation. "},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"CHP_secant.jpg","uid":"7b739fdc-0a8f-b030-2fdb-e037fbaa89a3"}}
+

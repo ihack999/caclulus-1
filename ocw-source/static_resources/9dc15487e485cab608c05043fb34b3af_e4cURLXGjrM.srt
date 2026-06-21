@@ -1,0 +1,767 @@
+1
+00:00:06,861 --> 00:00:07,360
+Hi.
+
+2
+00:00:07,360 --> 00:00:09,030
+Welcome back to recitation.
+
+3
+00:00:09,030 --> 00:00:11,945
+In lecture, you've been learning
+about computing-- rather,
+
+4
+00:00:11,945 --> 00:00:15,600
+not computing, but
+determining whether series
+
+5
+00:00:15,600 --> 00:00:18,470
+converge or diverge, and
+different tests for that.
+
+6
+00:00:18,470 --> 00:00:20,470
+In particular, you've
+learned the integral test.
+
+7
+00:00:20,470 --> 00:00:24,270
+So here are a couple of series
+that you haven't seen before.
+
+8
+00:00:24,270 --> 00:00:27,550
+The sum from n equals
+2 to infinity-- 2,
+
+9
+00:00:27,550 --> 00:00:29,530
+just so I don't have
+any funny business here
+
+10
+00:00:29,530 --> 00:00:33,320
+of dividing by 0-- of 1
+over n times log of n.
+
+11
+00:00:33,320 --> 00:00:35,670
+And a second series,
+sum from n equals 2
+
+12
+00:00:35,670 --> 00:00:39,970
+to infinity of 1 over n times
+log of n quantity squared.
+
+13
+00:00:39,970 --> 00:00:42,360
+So the question is, do these
+series converge or diverge?
+
+14
+00:00:42,360 --> 00:00:44,570
+So why you pause the
+video, take some time
+
+15
+00:00:44,570 --> 00:00:46,329
+to work on this
+question, come back,
+
+16
+00:00:46,329 --> 00:00:47,620
+and we can work on it together.
+
+17
+00:00:56,710 --> 00:00:57,550
+Welcome back.
+
+18
+00:00:57,550 --> 00:01:00,197
+Before you left, I
+gave you a little hint
+
+19
+00:01:00,197 --> 00:01:01,780
+that these might be
+questions that are
+
+20
+00:01:01,780 --> 00:01:04,430
+amenable to the integral test.
+
+21
+00:01:04,430 --> 00:01:06,452
+One thing we can do--
+you know, if you,
+
+22
+00:01:06,452 --> 00:01:09,830
+if I hadn't given you that hint,
+how could you figure this out?
+
+23
+00:01:09,830 --> 00:01:12,910
+Well, you can look
+at these integrands.
+
+24
+00:01:12,910 --> 00:01:15,190
+And they don't really
+look a lot like anything
+
+25
+00:01:15,190 --> 00:01:16,800
+you've seen before.
+
+26
+00:01:16,800 --> 00:01:19,260
+But the associated
+functions, right--
+
+27
+00:01:19,260 --> 00:01:28,240
+so this is the associated
+function, 1 over x log x.
+
+28
+00:01:28,240 --> 00:01:30,740
+This continuous
+function is a function
+
+29
+00:01:30,740 --> 00:01:34,220
+that we have-- you know, it
+looks sort of like some things
+
+30
+00:01:34,220 --> 00:01:35,920
+that we've integrated before.
+
+31
+00:01:35,920 --> 00:01:37,814
+So that's one hint
+for the integral test.
+
+32
+00:01:37,814 --> 00:01:39,230
+Another hint for
+the integral test
+
+33
+00:01:39,230 --> 00:01:42,280
+is, you just don't know
+very many tests right now.
+
+34
+00:01:42,280 --> 00:01:46,780
+So it's kind of a small
+selection of options.
+
+35
+00:01:46,780 --> 00:01:48,850
+Another thing is
+that, you know, it's
+
+36
+00:01:48,850 --> 00:01:50,520
+not going to be a nice series.
+
+37
+00:01:50,520 --> 00:01:52,700
+It's not going to have
+a nice numerical value.
+
+38
+00:01:52,700 --> 00:01:55,890
+This log n thing
+is behaving badly.
+
+39
+00:01:55,890 --> 00:01:59,060
+You're not going to be able to
+compute values, exact values,
+
+40
+00:01:59,060 --> 00:02:02,120
+of the partial sums, any
+nicer than they looked just
+
+41
+00:02:02,120 --> 00:02:03,200
+by writing down that sum.
+
+42
+00:02:03,200 --> 00:02:03,700
+So OK.
+
+43
+00:02:03,700 --> 00:02:06,559
+So after we've got the
+idea of the integrals--
+
+44
+00:02:06,559 --> 00:02:08,600
+that's how we get the idea
+for the integral test.
+
+45
+00:02:08,600 --> 00:02:10,840
+Now that we've got the
+idea for the integral test,
+
+46
+00:02:10,840 --> 00:02:11,550
+what do we do?
+
+47
+00:02:11,550 --> 00:02:16,140
+Well, we know that this
+series converges if and only
+
+48
+00:02:16,140 --> 00:02:18,280
+if the associated
+definite integral,
+
+49
+00:02:18,280 --> 00:02:21,120
+the associated improper
+definite integral converges.
+
+50
+00:02:21,120 --> 00:02:22,820
+So let's do the first one first.
+
+51
+00:02:22,820 --> 00:02:24,960
+What's the integral
+associated with it?
+
+52
+00:02:24,960 --> 00:02:28,100
+Well, we take the
+integrand, and, you know,
+
+53
+00:02:28,100 --> 00:02:32,730
+we-- frequently, we replace the
+variable n with the variable x,
+
+54
+00:02:32,730 --> 00:02:34,230
+although that doesn't
+really matter.
+
+55
+00:02:34,230 --> 00:02:39,370
+And so what we do, is we look at
+the integral of this integrand
+
+56
+00:02:39,370 --> 00:02:42,330
+over the same region.
+
+57
+00:02:42,330 --> 00:02:44,850
+So in this case,
+from 2 to infinity.
+
+58
+00:02:44,850 --> 00:02:48,710
+And so what we know is
+that this sum converges if
+
+59
+00:02:48,710 --> 00:02:51,160
+and only if this integral does.
+
+60
+00:02:51,160 --> 00:02:55,350
+So then, the reason this
+is a nice thing to do,
+
+61
+00:02:55,350 --> 00:02:57,040
+is that often
+there are integrals
+
+62
+00:02:57,040 --> 00:02:59,830
+that are easy to compute,
+while the associated series
+
+63
+00:02:59,830 --> 00:03:00,850
+are hard to compute.
+
+64
+00:03:00,850 --> 00:03:02,700
+So in this case,
+this is an integral
+
+65
+00:03:02,700 --> 00:03:05,370
+that we have tools to
+know, to compute with.
+
+66
+00:03:05,370 --> 00:03:07,980
+And in particular,
+the tool that we have,
+
+67
+00:03:07,980 --> 00:03:10,310
+is that there's a simple
+little substitution that
+
+68
+00:03:10,310 --> 00:03:11,460
+will work on this series.
+
+69
+00:03:11,460 --> 00:03:14,870
+So that's the substitution,
+u equals log x.
+
+70
+00:03:14,870 --> 00:03:20,430
+So we make the substitution
+u equals ln of x.
+
+71
+00:03:20,430 --> 00:03:29,180
+Then du is equal to
+1 over x times dx.
+
+72
+00:03:29,180 --> 00:03:34,950
+So this is the integral of--
+so 1 over x dx, that's du.
+
+73
+00:03:34,950 --> 00:03:38,787
+And so it's 1 over u du.
+
+74
+00:03:38,787 --> 00:03:40,370
+This is a definite
+integral, so I also
+
+75
+00:03:40,370 --> 00:03:41,760
+need to change my bounds.
+
+76
+00:03:41,760 --> 00:03:48,029
+So when x is 2, u is ln of
+2, although the lower bound
+
+77
+00:03:48,029 --> 00:03:50,570
+doesn't really matter very much
+when we do the integral test,
+
+78
+00:03:50,570 --> 00:03:52,980
+because you know, if you
+change it a little bit, that's
+
+79
+00:03:52,980 --> 00:03:55,680
+not going to change
+the, you know--
+
+80
+00:03:55,680 --> 00:03:57,810
+as long as you don't
+move it across a place
+
+81
+00:03:57,810 --> 00:04:00,870
+where the function explodes,
+all the interesting stuff
+
+82
+00:04:00,870 --> 00:04:04,480
+is whether the function is
+big as it goes to infinity.
+
+83
+00:04:04,480 --> 00:04:07,290
+So if you move a little
+round at the bottom,
+
+84
+00:04:07,290 --> 00:04:09,420
+you'll change its
+numerical value,
+
+85
+00:04:09,420 --> 00:04:11,760
+but you won't change whether
+it converges or diverges.
+
+86
+00:04:11,760 --> 00:04:13,590
+But in any case, ln of 2.
+
+87
+00:04:13,590 --> 00:04:15,530
+And then when x
+goes to infinity,
+
+88
+00:04:15,530 --> 00:04:18,663
+ln of x goes to infinity,
+so the upper bound is also u
+
+89
+00:04:18,663 --> 00:04:19,329
+equals infinity.
+
+90
+00:04:19,329 --> 00:04:21,180
+And now this is
+an easy integral.
+
+91
+00:04:21,180 --> 00:04:26,820
+This is just ln of
+u between-- well,
+
+92
+00:04:26,820 --> 00:04:30,100
+ln 2, which again, really
+doesn't matter, and infinity.
+
+93
+00:04:30,100 --> 00:04:31,970
+And we see that at
+the upper bound,
+
+94
+00:04:31,970 --> 00:04:34,560
+we get ln of infinity,
+which is infinity.
+
+95
+00:04:34,560 --> 00:04:38,750
+So this thing is infinity.
+
+96
+00:04:38,750 --> 00:04:42,930
+So our original series diverges.
+
+97
+00:04:46,271 --> 00:04:46,770
+OK.
+
+98
+00:04:46,770 --> 00:04:48,850
+So we've applied the
+integral test here,
+
+99
+00:04:48,850 --> 00:04:51,810
+and we've found that
+our series diverges.
+
+100
+00:04:51,810 --> 00:04:53,770
+What about this second one?
+
+101
+00:04:53,770 --> 00:04:56,800
+Well, here, we can again
+apply the integral test,
+
+102
+00:04:56,800 --> 00:04:58,110
+the similar-looking integrand.
+
+103
+00:04:58,110 --> 00:05:01,350
+And in fact, so we
+get-- so the integral
+
+104
+00:05:01,350 --> 00:05:03,470
+that we want to look at
+is the integral from 2
+
+105
+00:05:03,470 --> 00:05:11,120
+to infinity of 1 over x
+times log of x squared dx.
+
+106
+00:05:11,120 --> 00:05:13,680
+And the same substitution
+is going to work here.
+
+107
+00:05:13,680 --> 00:05:18,250
+So we're going to use the
+substitution u equals ln x,
+
+108
+00:05:18,250 --> 00:05:23,810
+du equals 1 over x times dx.
+
+109
+00:05:23,810 --> 00:05:27,790
+And the bounds are going to
+be the same. ln 2 to infinity.
+
+110
+00:05:27,790 --> 00:05:28,290
+OK.
+
+111
+00:05:28,290 --> 00:05:30,289
+But what happens when we
+make this substitution?
+
+112
+00:05:30,289 --> 00:05:33,280
+Well, the 1 over x
+dx is still the du.
+
+113
+00:05:33,280 --> 00:05:37,190
+But then here, this time, we
+have 1 over u squared, right?
+
+114
+00:05:37,190 --> 00:05:41,220
+Because we've got an ln of
+x squared, and u is ln x.
+
+115
+00:05:41,220 --> 00:05:41,940
+So OK.
+
+116
+00:05:41,940 --> 00:05:43,560
+So we get 1 over u squared.
+
+117
+00:05:43,560 --> 00:05:45,700
+So again, this is
+easy to integrate.
+
+118
+00:05:45,700 --> 00:05:50,580
+So this is 1 over u squared,
+so that's going to be minus 1
+
+119
+00:05:50,580 --> 00:05:57,150
+over u when we integrate it
+between ln 2 and infinity.
+
+120
+00:05:57,150 --> 00:05:57,650
+OK.
+
+121
+00:05:57,650 --> 00:06:01,560
+So we take the two values here,
+as u goes to infinity, minus 1
+
+122
+00:06:01,560 --> 00:06:03,470
+over u goes to 0.
+
+123
+00:06:03,470 --> 00:06:08,390
+So this is 0 minus, and now with
+the lower bound, it's minus 1
+
+124
+00:06:08,390 --> 00:06:14,420
+over ln 2, and
+this is just ln 2.
+
+125
+00:06:14,420 --> 00:06:18,870
+So this integral converges to
+a nice finite value, ln of 2,
+
+126
+00:06:18,870 --> 00:06:21,720
+so that means the sum
+converges as well.
+
+127
+00:06:21,720 --> 00:06:22,220
+All right?
+
+128
+00:06:22,220 --> 00:06:25,180
+And in fact, if you go back
+and look at the lecture video,
+
+129
+00:06:25,180 --> 00:06:26,990
+you'll see that you
+can actually bound
+
+130
+00:06:26,990 --> 00:06:30,160
+the value of the sum in
+terms of this value, ln of 2,
+
+131
+00:06:30,160 --> 00:06:34,530
+the value of the integral, and
+the first terms of the sum.
+
+132
+00:06:34,530 --> 00:06:36,452
+I realized that I should
+have said one thing
+
+133
+00:06:36,452 --> 00:06:38,160
+at the beginning,
+which is that we didn't
+
+134
+00:06:38,160 --> 00:06:42,070
+check that the hypotheses of the
+integral test are valid here.
+
+135
+00:06:42,070 --> 00:06:44,080
+So remember that the
+integral test only
+
+136
+00:06:44,080 --> 00:06:46,870
+applies if this
+function that you use
+
+137
+00:06:46,870 --> 00:06:50,550
+is a decreasing
+positive function
+
+138
+00:06:50,550 --> 00:06:52,070
+on the interval in question.
+
+139
+00:06:52,070 --> 00:06:54,174
+And I didn't actually
+check those conditions.
+
+140
+00:06:54,174 --> 00:06:55,840
+They're easy to see
+in this case, right?
+
+141
+00:06:55,840 --> 00:06:59,480
+Because for n bigger than 2,
+n is positive and increasing,
+
+142
+00:06:59,480 --> 00:07:02,060
+and log n is positive and
+increasing, so the product is
+
+143
+00:07:02,060 --> 00:07:05,370
+positive and increasing, so
+the 1 over it is positive
+
+144
+00:07:05,370 --> 00:07:06,310
+and decreasing.
+
+145
+00:07:06,310 --> 00:07:08,390
+So it's easy to
+check, in this case,
+
+146
+00:07:08,390 --> 00:07:12,180
+that the conditions of
+the integral test apply.
+
+147
+00:07:12,180 --> 00:07:15,717
+In the-- when you're doing
+this out in the real world,
+
+148
+00:07:15,717 --> 00:07:17,550
+if you ever want to
+apply the integral test,
+
+149
+00:07:17,550 --> 00:07:20,320
+that's something you should
+check yourself before you
+
+150
+00:07:20,320 --> 00:07:22,362
+go and apply it to anything.
+
+151
+00:07:22,362 --> 00:07:24,070
+Make sure that you
+really have a function
+
+152
+00:07:24,070 --> 00:07:25,820
+to which it does apply.
+
+153
+00:07:25,820 --> 00:07:28,040
+But then, once you have
+a function to which it
+
+154
+00:07:28,040 --> 00:07:30,780
+does apply, especially if
+it's a nice, easy-to-integrate
+
+155
+00:07:30,780 --> 00:07:33,060
+function like this, you
+can easily apply it.
+
+156
+00:07:33,060 --> 00:07:35,060
+And in this case, we
+applied it both directions.
+
+157
+00:07:35,060 --> 00:07:37,555
+We saw an integral where
+the integral diverges,
+
+158
+00:07:37,555 --> 00:07:39,430
+and an integral where
+the integral converges.
+
+159
+00:07:39,430 --> 00:07:42,860
+And so the corresponding sums,
+the first one will diverge
+
+160
+00:07:42,860 --> 00:07:45,440
+and the second
+one will converge.
+
+161
+00:07:45,440 --> 00:07:46,834
+I'll end there.
