@@ -5,15 +5,30 @@
   const STORAGE_YOUTUBE = "engineering-calc1-youtube-v1";
   const STORAGE_NOTES = "engineering-calc1-notes-v1";
   const STORAGE_UI = "engineering-calc1-ui-v1";
+  const SUPABASE_TABLE = "user_course_state";
+  const SYNCED_STORAGE_KEYS = new Set([STORAGE_PROGRESS, STORAGE_YOUTUBE, STORAGE_NOTES, STORAGE_UI]);
 
   const data = window.COURSE_MAP;
   const app = document.getElementById("app");
   const searchInput = document.getElementById("search-input");
   const searchOverlay = document.getElementById("search-overlay");
+  const authShell = document.getElementById("auth-shell");
+  const authModal = document.getElementById("auth-modal");
   const moduleNav = document.getElementById("module-nav");
   const progressCount = document.getElementById("progress-count");
   const progressMeta = document.getElementById("progress-meta");
   const progressBar = document.getElementById("progress-bar");
+  const supabaseConfig = window.CALC_SUPABASE_CONFIG || {};
+  const supabaseClient =
+    window.supabase && supabaseConfig.url && supabaseConfig.publishableKey
+      ? window.supabase.createClient(supabaseConfig.url, supabaseConfig.publishableKey, {
+          auth: {
+            autoRefreshToken: true,
+            persistSession: true,
+            detectSessionInUrl: true,
+          },
+        })
+      : null;
 
   if (!data) {
     app.innerHTML = "<section class=\"empty\"><h1>Course data is missing.</h1></section>";
@@ -36,6 +51,11 @@
   };
   let searchQuery = "";
   let searchOpen = false;
+  let currentUser = null;
+  let cloudStatus = supabaseClient ? "signed-out" : "offline";
+  let cloudMessage = supabaseClient ? "Sign in to sync" : "Supabase client unavailable";
+  let syncTimer = null;
+  let hydratingCloudState = false;
 
   function readStore(key) {
     try {
@@ -47,6 +67,7 @@
 
   function writeStore(key, value) {
     localStorage.setItem(key, JSON.stringify(value));
+    if (SYNCED_STORAGE_KEYS.has(key)) scheduleCloudSync();
   }
 
   function escapeHtml(value) {
@@ -56,6 +77,250 @@
       .replaceAll(">", "&gt;")
       .replaceAll("\"", "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function courseStateSnapshot() {
+    return {
+      progress,
+      youtube_links: youtubeLinks,
+      lesson_notes: lessonNotes,
+      ui_state: uiState,
+    };
+  }
+
+  function setCloudStatus(status, message) {
+    cloudStatus = status;
+    cloudMessage = message;
+    renderAuthShell();
+  }
+
+  function scheduleCloudSync() {
+    if (hydratingCloudState || !currentUser || !supabaseClient) return;
+    window.clearTimeout(syncTimer);
+    setCloudStatus("syncing", "Saving...");
+    syncTimer = window.setTimeout(() => {
+      saveCloudState();
+    }, 650);
+  }
+
+  async function saveCloudState() {
+    if (!currentUser || !supabaseClient) return;
+    window.clearTimeout(syncTimer);
+    setCloudStatus("syncing", "Saving...");
+
+    const { error } = await supabaseClient.from(SUPABASE_TABLE).upsert(
+      {
+        user_id: currentUser.id,
+        ...courseStateSnapshot(),
+      },
+      { onConflict: "user_id" }
+    );
+
+    if (error) {
+      setCloudStatus("error", "Sync setup needed");
+      console.error("Supabase sync failed:", error);
+      return;
+    }
+
+    setCloudStatus("synced", "Saved to Supabase");
+  }
+
+  async function loadCloudState() {
+    if (!currentUser || !supabaseClient) return;
+    setCloudStatus("syncing", "Loading save...");
+
+    const { data: row, error } = await supabaseClient
+      .from(SUPABASE_TABLE)
+      .select("progress,youtube_links,lesson_notes,ui_state,updated_at")
+      .eq("user_id", currentUser.id)
+      .maybeSingle();
+
+    if (error) {
+      setCloudStatus("error", "Run Supabase setup SQL");
+      console.error("Supabase load failed:", error);
+      return;
+    }
+
+    if (row) {
+      applyCloudState(row);
+      render();
+      setCloudStatus("synced", "Loaded cloud save");
+      saveCloudState();
+      return;
+    }
+
+    setCloudStatus("syncing", "Creating cloud save...");
+    await saveCloudState();
+  }
+
+  function applyCloudState(row) {
+    const mergedUi = {
+      collapsedParts: {},
+      searchFilter: "all",
+      ...(row.ui_state || {}),
+      ...uiState,
+      collapsedParts: {
+        ...((row.ui_state || {}).collapsedParts || {}),
+        ...(uiState.collapsedParts || {}),
+      },
+    };
+
+    hydratingCloudState = true;
+    progress = { ...(row.progress || {}), ...progress };
+    youtubeLinks = { ...(row.youtube_links || {}), ...youtubeLinks };
+    lessonNotes = { ...(row.lesson_notes || {}), ...lessonNotes };
+    uiState = mergedUi;
+    writeStore(STORAGE_PROGRESS, progress);
+    writeStore(STORAGE_YOUTUBE, youtubeLinks);
+    writeStore(STORAGE_NOTES, lessonNotes);
+    writeStore(STORAGE_UI, uiState);
+    hydratingCloudState = false;
+  }
+
+  function renderAuthShell() {
+    if (!authShell) return;
+
+    if (!supabaseClient) {
+      authShell.innerHTML = "<span class=\"sync-chip offline\">Local only</span>";
+      return;
+    }
+
+    if (!currentUser) {
+      authShell.innerHTML = `
+        <button class="button primary" type="button" data-open-auth>Sign In</button>
+      `;
+      return;
+    }
+
+    const email = currentUser.email || "Signed in";
+    authShell.innerHTML = `
+      <span class="sync-chip ${escapeHtml(cloudStatus)}" title="${escapeHtml(cloudMessage)}">
+        <b></b>
+        <span>${escapeHtml(shortEmail(email))}</span>
+      </span>
+      <button class="button compact" type="button" data-sync-now>Sync</button>
+      <button class="button compact" type="button" data-sign-out>Sign Out</button>
+    `;
+  }
+
+  function shortEmail(email) {
+    if (email.length <= 22) return email;
+    const [name, domain] = email.split("@");
+    if (!domain) return `${email.slice(0, 19)}...`;
+    return `${name.slice(0, 9)}...@${domain}`;
+  }
+
+  function openAuthModal(message = "") {
+    if (!authModal) return;
+    authModal.hidden = false;
+    authModal.innerHTML = `
+      <div class="auth-backdrop" data-close-auth></div>
+      <article class="auth-dialog" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+        <button class="auth-close" type="button" data-close-auth aria-label="Close sign in">Close</button>
+        <span class="label">Cloud Sync</span>
+        <h2 id="auth-title">Save your calculus dashboard</h2>
+        <p>Sign in to sync progress, lesson notes, YouTube overrides, and UI preferences across browsers.</p>
+        <form class="auth-form" data-auth-form>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+          <label>
+            <span>Password</span>
+            <input name="password" type="password" autocomplete="current-password" minlength="6" required>
+          </label>
+          <div class="action-row">
+            <button class="button primary" type="button" data-auth-action="sign-in">Sign In</button>
+            <button class="button" type="button" data-auth-action="sign-up">Create Account</button>
+          </div>
+        </form>
+        <p class="auth-note ${message ? "active" : ""}" data-auth-message>${escapeHtml(message)}</p>
+        <p class="quiet">Use the publishable key only in this frontend. Never put a Supabase secret key in browser code.</p>
+      </article>
+    `;
+    authModal.querySelector("input[name='email']")?.focus();
+  }
+
+  function closeAuthModal() {
+    if (!authModal) return;
+    authModal.hidden = true;
+    authModal.innerHTML = "";
+  }
+
+  function setAuthMessage(message) {
+    const node = authModal?.querySelector("[data-auth-message]");
+    if (!node) return;
+    node.textContent = message;
+    node.classList.toggle("active", Boolean(message));
+  }
+
+  async function handleAuthAction(action) {
+    if (!supabaseClient) return;
+    const form = authModal?.querySelector("[data-auth-form]");
+    if (!(form instanceof HTMLFormElement)) return;
+
+    const formData = new FormData(form);
+    const email = String(formData.get("email") || "").trim();
+    const password = String(formData.get("password") || "");
+    if (!email || password.length < 6) {
+      setAuthMessage("Use an email and a password with at least 6 characters.");
+      return;
+    }
+
+    setAuthMessage(action === "sign-up" ? "Creating account..." : "Signing in...");
+    const authCall =
+      action === "sign-up"
+        ? supabaseClient.auth.signUp({ email, password })
+        : supabaseClient.auth.signInWithPassword({ email, password });
+    const { data: authData, error } = await authCall;
+
+    if (error) {
+      setAuthMessage(error.message);
+      return;
+    }
+
+    if (authData.session) {
+      currentUser = authData.user;
+      closeAuthModal();
+      renderAuthShell();
+      await loadCloudState();
+      return;
+    }
+
+    setAuthMessage("Account created. Check your email if confirmation is enabled, then sign in.");
+  }
+
+  async function signOut() {
+    if (!supabaseClient) return;
+    await saveCloudState();
+    const { error } = await supabaseClient.auth.signOut({ scope: "local" });
+    if (error) {
+      setCloudStatus("error", error.message);
+      return;
+    }
+    currentUser = null;
+    setCloudStatus("signed-out", "Local only");
+  }
+
+  async function initSupabaseAuth() {
+    renderAuthShell();
+    if (!supabaseClient) return;
+
+    const { data: sessionData, error } = await supabaseClient.auth.getSession();
+    if (error) {
+      setCloudStatus("error", error.message);
+      return;
+    }
+
+    currentUser = sessionData.session?.user || null;
+    renderAuthShell();
+    if (currentUser) await loadCloudState();
+
+    supabaseClient.auth.onAuthStateChange((_event, session) => {
+      currentUser = session?.user || null;
+      renderAuthShell();
+      if (currentUser) loadCloudState();
+    });
   }
 
   function route() {
@@ -793,6 +1058,16 @@
       searchOpen = false;
       searchInput.value = "";
       renderSearchOverlay();
+      closeAuthModal();
+    }
+  });
+
+  document.addEventListener("submit", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLElement)) return;
+    if (target.hasAttribute("data-auth-form")) {
+      event.preventDefault();
+      handleAuthAction("sign-in");
     }
   });
 
@@ -819,6 +1094,32 @@
   document.addEventListener("click", (event) => {
     const target = event.target;
     if (!(target instanceof HTMLElement)) return;
+
+    if (target.closest("[data-open-auth]")) {
+      openAuthModal();
+      return;
+    }
+
+    if (target.closest("[data-close-auth]")) {
+      closeAuthModal();
+      return;
+    }
+
+    const authAction = target.closest("[data-auth-action]")?.getAttribute("data-auth-action");
+    if (authAction) {
+      handleAuthAction(authAction);
+      return;
+    }
+
+    if (target.closest("[data-sync-now]")) {
+      saveCloudState();
+      return;
+    }
+
+    if (target.closest("[data-sign-out]")) {
+      signOut();
+      return;
+    }
 
     const saveId = target.getAttribute("data-save-youtube");
     if (saveId) {
@@ -884,4 +1185,5 @@
 
   window.addEventListener("hashchange", render);
   render();
+  initSupabaseAuth();
 })();

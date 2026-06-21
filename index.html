@@ -23,6 +23,7 @@
         <a href="#/plan">Plan</a>
         <a href="course-map.json" target="_blank" rel="noopener">Map</a>
         <a href="ocw-source/index.html" target="_blank" rel="noopener">OCW</a>
+        <span id="auth-shell" class="auth-shell"></span>
       </nav>
     </header>
 
@@ -39,6 +40,7 @@
     <nav id="module-nav" class="module-rail" aria-label="Course modules"></nav>
 
     <section id="search-overlay" class="search-overlay" hidden></section>
+    <section id="auth-modal" class="auth-modal" hidden></section>
 
     <main id="app" tabindex="-1"></main>
 
@@ -53,6 +55,8 @@
       </p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
     <script src="site-data.js"></script>
     <script src="app.js"></script>
   </body>
