@@ -1,0 +1,185 @@
+{
+  "id": "precalc-readiness",
+  "title": "Pre-Calculus Readiness Check",
+  "description": "A fast 20-question diagnostic before Session 1. Use it to spot algebra, trig, functions, logs, and graph gaps before starting MIT calculus.",
+  "passingScore": 16,
+  "reviewResource": {
+    "source": "Paul's Online Math Notes",
+    "title": "Calculus I Review",
+    "url": "https://tutorial.math.lamar.edu/classes/calci/review.aspx"
+  },
+  "topics": [
+    "functions",
+    "factoring",
+    "rational-expressions",
+    "trig-values",
+    "unit-circle",
+    "logs",
+    "exponents",
+    "graph-transformations",
+    "solving-equations",
+    "word-problems"
+  ],
+  "questions": [
+    {
+      "id": "diagnostic-01",
+      "topic": "functions",
+      "prompt": "If f(x) = 2x^2 - 3, what is f(-2)?",
+      "choices": ["5", "11", "-11", "1"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/calci/Functions.aspx"
+    },
+    {
+      "id": "diagnostic-02",
+      "topic": "functions",
+      "prompt": "What is the domain of f(x) = 1 / (x - 4)?",
+      "choices": ["All real x except 4", "All real x", "x > 4", "x >= 4"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/calci/Functions.aspx"
+    },
+    {
+      "id": "diagnostic-03",
+      "topic": "factoring",
+      "prompt": "Factor x^2 - 9.",
+      "choices": ["(x - 3)(x + 3)", "(x - 9)(x + 1)", "(x - 3)^2", "x(x - 9)"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/Factoring.aspx"
+    },
+    {
+      "id": "diagnostic-04",
+      "topic": "factoring",
+      "prompt": "Factor x^2 + 5x + 6.",
+      "choices": ["(x + 2)(x + 3)", "(x + 1)(x + 6)", "(x - 2)(x - 3)", "(x + 5)(x + 1)"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/Factoring.aspx"
+    },
+    {
+      "id": "diagnostic-05",
+      "topic": "rational-expressions",
+      "prompt": "Simplify (x^2 - 1) / (x - 1), assuming x != 1.",
+      "choices": ["x + 1", "x - 1", "x^2 + 1", "1"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/RationalExpressions.aspx"
+    },
+    {
+      "id": "diagnostic-06",
+      "topic": "rational-expressions",
+      "prompt": "What restriction is needed for 3 / (x + 2)?",
+      "choices": ["x != -2", "x != 2", "x > -2", "x >= 0"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/RationalExpressions.aspx"
+    },
+    {
+      "id": "diagnostic-07",
+      "topic": "trig-values",
+      "prompt": "What is sin(pi / 6)?",
+      "choices": ["1/2", "sqrt(2)/2", "sqrt(3)/2", "1"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/calci/TrigFcns.aspx"
+    },
+    {
+      "id": "diagnostic-08",
+      "topic": "trig-values",
+      "prompt": "What is cos(pi)?",
+      "choices": ["-1", "0", "1", "1/2"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/calci/TrigFcns.aspx"
+    },
+    {
+      "id": "diagnostic-09",
+      "topic": "unit-circle",
+      "prompt": "Which quadrant contains an angle with sin(theta) > 0 and cos(theta) < 0?",
+      "choices": ["Quadrant II", "Quadrant I", "Quadrant III", "Quadrant IV"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/calci/TrigFcns.aspx"
+    },
+    {
+      "id": "diagnostic-10",
+      "topic": "unit-circle",
+      "prompt": "What is tan(theta) equal to when cos(theta) is not zero?",
+      "choices": ["sin(theta) / cos(theta)", "cos(theta) / sin(theta)", "sin(theta) cos(theta)", "1 / cos(theta)"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/calci/TrigFcns.aspx"
+    },
+    {
+      "id": "diagnostic-11",
+      "topic": "logs",
+      "prompt": "Rewrite log_b(x) = y in exponential form.",
+      "choices": ["b^y = x", "x^y = b", "b^x = y", "y^b = x"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/LogFunctions.aspx"
+    },
+    {
+      "id": "diagnostic-12",
+      "topic": "logs",
+      "prompt": "Simplify ln(e^5).",
+      "choices": ["5", "e", "ln(5)", "1"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/LogFunctions.aspx"
+    },
+    {
+      "id": "diagnostic-13",
+      "topic": "exponents",
+      "prompt": "Simplify x^3 * x^4.",
+      "choices": ["x^7", "x^12", "2x^7", "x"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/IntegerExponents.aspx"
+    },
+    {
+      "id": "diagnostic-14",
+      "topic": "exponents",
+      "prompt": "Simplify (x^2)^3.",
+      "choices": ["x^6", "x^5", "x^8", "x^9"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/IntegerExponents.aspx"
+    },
+    {
+      "id": "diagnostic-15",
+      "topic": "graph-transformations",
+      "prompt": "The graph of y = (x - 3)^2 is the graph of y = x^2 shifted how?",
+      "choices": ["Right 3", "Left 3", "Up 3", "Down 3"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/calci/CommonGraphs.aspx"
+    },
+    {
+      "id": "diagnostic-16",
+      "topic": "graph-transformations",
+      "prompt": "The graph of y = x^2 + 5 is the graph of y = x^2 shifted how?",
+      "choices": ["Up 5", "Down 5", "Right 5", "Left 5"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/calci/CommonGraphs.aspx"
+    },
+    {
+      "id": "diagnostic-17",
+      "topic": "solving-equations",
+      "prompt": "Solve 3x - 7 = 11.",
+      "choices": ["6", "4/3", "18", "-6"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/SolveLinear.aspx"
+    },
+    {
+      "id": "diagnostic-18",
+      "topic": "solving-equations",
+      "prompt": "Solve x^2 = 16.",
+      "choices": ["x = -4 or x = 4", "x = 4 only", "x = 8", "x = -8 or x = 8"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/SolveQuadraticEqnsI.aspx"
+    },
+    {
+      "id": "diagnostic-19",
+      "topic": "word-problems",
+      "prompt": "A car travels 150 miles in 3 hours. What is its average speed?",
+      "choices": ["50 miles per hour", "45 miles per hour", "153 miles per hour", "450 miles per hour"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/Applications.aspx"
+    },
+    {
+      "id": "diagnostic-20",
+      "topic": "word-problems",
+      "prompt": "If revenue is price times quantity, what is revenue when price is 8 and quantity is 25?",
+      "choices": ["200", "33", "17", "100"],
+      "answerIndex": 0,
+      "reviewUrl": "https://tutorial.math.lamar.edu/classes/alg/Applications.aspx"
+    }
+  ]
+}

@@ -33,7 +33,7 @@ window.COURSE_MAP = {
     "resourcesRoot": "ocw-source/resources",
     "staticResourcesRoot": "ocw-source/static_resources",
     "originalOfflineIndex": "ocw-source/index.html",
-    "orderedYoutubeLinks": "/Users/exce11ent1/.codex/attachments/3ef3e323-d18e-4873-86ce-4af08c4ca809/pasted-text.txt"
+    "orderedYoutubeLinks": "data/mit-18-01sc-youtube-links.md"
   },
   "counts": {
     "modules": 6,

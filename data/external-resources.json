@@ -1,0 +1,127 @@
+[
+  {
+    "id": "mit-18-01sc",
+    "source": "MIT OCW",
+    "role": "core-course",
+    "title": "MIT 18.01SC Single Variable Calculus",
+    "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+    "topicTags": ["limits", "derivatives", "integrals", "series", "exams"],
+    "license": "CC BY-NC-SA 4.0",
+    "useInApp": "link-and-local-ocw-files"
+  },
+  {
+    "id": "openstax-calculus-volume-1",
+    "source": "OpenStax",
+    "role": "textbook",
+    "title": "OpenStax Calculus Volume 1",
+    "url": "https://openstax.org/books/calculus-volume-1/pages/preface",
+    "topicTags": ["functions", "limits", "derivatives", "applications-of-derivatives", "integration", "applications-of-integration"],
+    "license": "CC BY 4.0",
+    "useInApp": "link-only",
+    "topicLinks": {
+      "review": "https://openstax.org/books/calculus-volume-1/pages/1-introduction",
+      "limits": "https://openstax.org/books/calculus-volume-1/pages/2-introduction",
+      "derivatives": "https://openstax.org/books/calculus-volume-1/pages/3-introduction",
+      "chain-rule": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule",
+      "related-rates": "https://openstax.org/books/calculus-volume-1/pages/4-1-related-rates",
+      "optimization": "https://openstax.org/books/calculus-volume-1/pages/4-7-applied-optimization-problems",
+      "integrals": "https://openstax.org/books/calculus-volume-1/pages/5-introduction",
+      "integration-techniques": "https://openstax.org/books/calculus-volume-1/pages/5-5-substitution",
+      "series": "https://openstax.org/books/calculus-volume-2/pages/5-introduction"
+    }
+  },
+  {
+    "id": "pauls-calculus-1",
+    "source": "Paul's Online Math Notes",
+    "role": "practice-drills",
+    "title": "Paul's Online Math Notes - Calculus I",
+    "url": "https://tutorial.math.lamar.edu/classes/calci/calci.aspx",
+    "topicTags": ["review", "limits", "derivatives", "applications-of-derivatives", "integrals", "applications-of-integrals"],
+    "license": "link-only",
+    "useInApp": "link-only",
+    "topicLinks": {
+      "review": "https://tutorial.math.lamar.edu/classes/alg/alg.aspx",
+      "functions": "https://tutorial.math.lamar.edu/classes/calci/review.aspx",
+      "limits": "https://tutorial.math.lamar.edu/classes/calci/limitsintro.aspx",
+      "derivatives": "https://tutorial.math.lamar.edu/classes/calci/derivativesintro.aspx",
+      "chain-rule": "https://tutorial.math.lamar.edu/classes/calci/chainrule.aspx",
+      "related-rates": "https://tutorial.math.lamar.edu/classes/calci/relatedrates.aspx",
+      "optimization": "https://tutorial.math.lamar.edu/classes/calci/optimization.aspx",
+      "integrals": "https://tutorial.math.lamar.edu/classes/calci/integralsintro.aspx",
+      "integration-techniques": "https://tutorial.math.lamar.edu/classes/calci/substitutionruleindefinite.aspx",
+      "series": "https://tutorial.math.lamar.edu/classes/calcII/SeriesIntro.aspx"
+    }
+  },
+  {
+    "id": "khan-calculus-1",
+    "source": "Khan Academy",
+    "role": "basic-rescue",
+    "title": "Khan Academy Calculus 1",
+    "url": "https://www.khanacademy.org/math/calculus-1",
+    "topicTags": ["limits", "derivatives", "integrals"],
+    "license": "link-only",
+    "useInApp": "link-only",
+    "topicLinks": {
+      "limits": "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity",
+      "derivatives": "https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules",
+      "chain-rule": "https://www.khanacademy.org/math/calculus-1/cs1-chain-rule",
+      "related-rates": "https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives",
+      "optimization": "https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives",
+      "integrals": "https://www.khanacademy.org/math/calculus-1/cs1-integrals"
+    }
+  },
+  {
+    "id": "professor-leonard-calculus-1",
+    "source": "Professor Leonard",
+    "role": "long-lecture",
+    "title": "Calculus 1 Full Length Videos",
+    "url": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5",
+    "topicTags": ["limits", "derivatives", "applications", "integrals"],
+    "license": "youtube-link-only",
+    "useInApp": "link-only",
+    "topicLinks": {
+      "limits": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5",
+      "derivatives": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5",
+      "chain-rule": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5",
+      "related-rates": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5",
+      "optimization": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5",
+      "integrals": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5"
+    }
+  },
+  {
+    "id": "threeblueonebrown-essence-calculus",
+    "source": "3Blue1Brown",
+    "role": "visual-intuition",
+    "title": "Essence of Calculus",
+    "url": "https://www.3blue1brown.com/lessons/essence-of-calculus/",
+    "topicTags": ["intuition", "derivatives", "integrals", "fundamental-theorem"],
+    "license": "link-only",
+    "useInApp": "link-only",
+    "topicLinks": {
+      "limits": "https://www.3blue1brown.com/lessons/limits",
+      "derivatives": "https://www.3blue1brown.com/lessons/derivatives",
+      "chain-rule": "https://www.3blue1brown.com/lessons/chain-rule",
+      "integrals": "https://www.3blue1brown.com/lessons/integrals",
+      "series": "https://www.3blue1brown.com/lessons/taylor-series"
+    }
+  },
+  {
+    "id": "ximera-calculus-1",
+    "source": "Ximera",
+    "role": "interactive-practice",
+    "title": "Ximera Calculus 1",
+    "url": "https://ximera.osu.edu/mooculus/calculus1",
+    "topicTags": ["functions", "limits", "derivatives", "chain-rule", "related-rates", "optimization", "integrals"],
+    "license": "link-only",
+    "useInApp": "link-only",
+    "topicLinks": {
+      "functions": "https://ximera.osu.edu/mooculus/calculus1/understandingFunctions",
+      "limits": "https://ximera.osu.edu/mooculus/calculus1/limits",
+      "derivatives": "https://ximera.osu.edu/mooculus/calculus1/derivatives",
+      "chain-rule": "https://ximera.osu.edu/mooculus/calculus1/chainRule",
+      "related-rates": "https://ximera.osu.edu/mooculus/calculus1/relatedRates",
+      "optimization": "https://ximera.osu.edu/mooculus/calculus1/optimization",
+      "integrals": "https://ximera.osu.edu/mooculus/calculus1/antiderivatives"
+    }
+  }
+]
