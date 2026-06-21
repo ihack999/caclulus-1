@@ -488,6 +488,7 @@ textarea {
 .reflection-panel,
 .video-card,
 .week-row,
+.resource-pack-card,
 .diagnostic-summary article,
 .diagnostic-question,
 .weak-topic-list,
@@ -1179,6 +1180,37 @@ textarea {
   font-weight: 720;
 }
 
+.resource-item em {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 650;
+  line-height: 1.32;
+}
+
+.resource-list-expanded {
+  gap: 10px;
+}
+
+.help-simple {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.mini-steps {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--ink);
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+
 .resource-item b {
   font-size: 0.78rem;
 }
@@ -1499,6 +1531,22 @@ textarea {
   font-size: 1.18rem;
 }
 
+.week-row p {
+  margin: 0;
+}
+
+.week-mission {
+  margin-top: 10px !important;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.week-detail {
+  display: grid;
+  gap: 12px;
+}
+
 .week-lessons {
   display: flex;
   flex-wrap: wrap;
@@ -1518,6 +1566,62 @@ textarea {
   font-size: 0.82rem;
   font-weight: 760;
   text-decoration: none;
+}
+
+.checkpoint-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.checkpoint-strip span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 6px 9px;
+  border: 1px solid rgba(15, 110, 97, 0.16);
+  border-radius: var(--radius);
+  background: #f3faf7;
+  color: var(--green-dark);
+  font-size: 0.8rem;
+  font-weight: 780;
+}
+
+.week-resource-shelf {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.66);
+}
+
+.week-resource-shelf summary {
+  min-height: 42px;
+  padding: 10px 12px;
+  color: var(--green-dark);
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 860;
+}
+
+.week-resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 0 12px 12px;
+}
+
+.resource-pack-card {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  padding: 14px;
+  background: #fff;
+}
+
+.resource-pack-card p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
 }
 
 .search-overlay {
@@ -1794,6 +1898,7 @@ textarea {
   .module-grid,
   .diagnostic-summary,
   .exam-grid,
+  .week-resource-grid,
   .video-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1847,6 +1952,7 @@ textarea {
   .diagnostic-summary,
   .diagnostic-choices,
   .exam-grid,
+  .week-resource-grid,
   .guided-studio,
   .video-grid {
     grid-template-columns: 1fr;

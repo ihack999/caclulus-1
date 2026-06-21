@@ -2,7 +2,7 @@
 
 This is a personal study dashboard built on top of the offline MIT OpenCourseWare 18.01SC Single Variable Calculus package.
 
-It does not rewrite the MIT course content. It organizes the local OCW pages and PDFs into a cleaner Engineering Calculus 1 study flow with modules, lessons, practice links, solution links, exam prep, local progress tracking, command search, lesson notes, ordered YouTube lesson clips, mastery states, a diagnostic check, Stuck Mode, Exam Mode, and an error notebook.
+It does not rewrite the MIT course content. It organizes the local OCW pages and PDFs into a cleaner Engineering Calculus 1 study flow with modules, lessons, practice links, solution links, exam prep, local progress tracking, command search, lesson notes, ordered YouTube lesson clips, mastery states, a diagnostic check, Stuck Mode, topic-specific resource packs, Exam Mode, and an error notebook.
 
 ## Run Locally
 
@@ -48,6 +48,7 @@ The browser app uses `supabase-config.js`, which contains only the Supabase URL 
 - `supabase-schema.sql` - one-time database table and RLS setup for cloud sync.
 - `data/mit-18-01sc-youtube-links.md` - ordered MIT 18.01SC YouTube embed list.
 - `data/external-resources.json` - link-only external resource stack for OpenStax, Paul’s Notes, Khan Academy, Professor Leonard, 3Blue1Brown, and Ximera.
+- `data/resource-packs.json` - topic and weekly resource packs with plain-English simplifications, first moves, and link-only resources by learning level.
 - `data/diagnostic-precalc.json` - 20-question pre-calculus readiness check.
 - `scripts/generate_course_map.py` - regenerates `course-map.json` and `site-data.js` from `ocw-source/`.
 - `scripts/import_youtube_links.py` - imports the ordered YouTube lesson list into `course-map.json` and `site-data.js`.
@@ -87,9 +88,11 @@ Watch -> Understand -> Read -> Practice -> Check -> Need Help -> Mastery -> Refl
 - `Watch` embeds the ordered MIT OCW YouTube clip sequence.
 - `Understand` opens Stuck Mode, a hint ladder that starts with strategy instead of revealing answers.
 - `Read`, `Practice`, and `Check` link the local MIT notes, problems, exams, and solutions.
-- `Need Help?` shows only matching external resources for that lesson topic.
+- `Need Help?` shows only matching external resources for that lesson topic, including plain-English simplification, first moves, visual intuition, rescue explanations, drills, interactive practice, and long lectures.
 - `Mastery` tracks status, confidence, review date, and recurring mistake tags.
 - `Reflection` stores your personal note for the lesson.
+
+The Weekly Plan also has a resource shelf for every week. Each shelf combines the topic packs needed for that week, so Week 5 emphasizes related rates and optimization while Week 14 emphasizes series and Taylor polynomials.
 
 ## Diagnostic, Exam Mode, And Notebook
 

@@ -16,7 +16,7 @@
     "title": "OpenStax Calculus Volume 1",
     "url": "https://openstax.org/books/calculus-volume-1/pages/preface",
     "topicTags": ["functions", "limits", "derivatives", "applications-of-derivatives", "integration", "applications-of-integration"],
-    "license": "CC BY 4.0",
+    "license": "CC BY-NC-SA 4.0",
     "useInApp": "link-only",
     "topicLinks": {
       "review": "https://openstax.org/books/calculus-volume-1/pages/1-introduction",

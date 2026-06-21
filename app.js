@@ -81,6 +81,7 @@
   let searchQuery = "";
   let searchOpen = false;
   let externalResources = [];
+  let resourcePacks = { levels: {}, topicPacks: {}, weeklyPacks: {} };
   let diagnosticData = null;
   let currentUser = null;
   let cloudStatus = supabaseClient ? "signed-out" : "offline";
@@ -391,12 +392,14 @@
   }
 
   async function loadSupplementalData() {
-    const [resources, diagnostic] = await Promise.all([
+    const [resources, diagnostic, packs] = await Promise.all([
       fetchJson("data/external-resources.json", []),
       fetchJson("data/diagnostic-precalc.json", null),
+      fetchJson("data/resource-packs.json", { levels: {}, topicPacks: {}, weeklyPacks: {} }),
     ]);
     externalResources = Array.isArray(resources) ? resources : [];
     diagnosticData = diagnostic;
+    resourcePacks = packs || { levels: {}, topicPacks: {}, weeklyPacks: {} };
     render();
   }
 
@@ -1070,6 +1073,13 @@
         "Substitute known values after differentiating.",
         "Solve for the missing rate and check units.",
       ],
+      "related-rates-optimization": [
+        "Draw the situation or define the quantity being optimized.",
+        "Write the equation connecting the variables.",
+        "Reduce to one unknown when possible.",
+        "Differentiate, then substitute known values or check critical points.",
+        "State the result with units and domain restrictions.",
+      ],
       optimization: [
         "Define the quantity you are maximizing or minimizing.",
         "Write constraints and reduce to one variable.",
@@ -1102,14 +1112,17 @@
   }
 
   function helpPanel(lesson) {
+    const pack = topicPackForLesson(lesson);
     const resources = resourceStackForLesson(lesson);
     return `
       <article class="studio-card help-card">
         <span class="label">Need help?</span>
-        <h2>Resource stack</h2>
+        <h2>${escapeHtml(pack?.title || "Resource stack")}</h2>
+        ${pack?.simple ? `<p class="help-simple">${escapeHtml(pack.simple)}</p>` : ""}
+        ${pack?.firstMoves?.length ? `<ol class="mini-steps">${pack.firstMoves.map((move) => `<li>${escapeHtml(move)}</li>`).join("")}</ol>` : ""}
         ${
           resources.length
-            ? `<div class="resource-list">${resources.map(helpResourceItem).join("")}</div>`
+            ? `<div class="resource-list resource-list-expanded">${resources.map(helpResourceItem).join("")}</div>`
             : "<p class=\"quiet\">Run through the MIT notes first. External resource matching loads when served locally.</p>"
         }
       </article>
@@ -1119,13 +1132,22 @@
   function helpResourceItem(resource) {
     return `
       <a class="resource-item" href="${escapeHtml(resource.url)}" target="_blank" rel="noopener">
-        <span>${escapeHtml(resource.label)}<small>${escapeHtml(resource.source)}</small></span>
+        <span>
+          ${escapeHtml(resource.label)}
+          <small>${escapeHtml(resource.levelLabel || resource.source)} / ${escapeHtml(resource.source)}</small>
+          ${resource.why ? `<em>${escapeHtml(resource.why)}</em>` : ""}
+        </span>
         <b class="${escapeHtml(resource.tone)}">Open</b>
       </a>
     `;
   }
 
   function resourceStackForLesson(lesson) {
+    const pack = topicPackForLesson(lesson);
+    if (pack?.resources?.length) {
+      return pack.resources.map(normalizePackResource).filter(Boolean);
+    }
+
     const topic = lessonTopicKey(lesson);
     const roleLabels = {
       textbook: ["Textbook explanation", "blue"],
@@ -1142,10 +1164,33 @@
         const url = resource.topicLinks?.[topic] || matchingTopicUrl(resource, topic);
         if (!url) return null;
         const [label, tone] = roleLabels[resource.role];
-        return { label, tone, source: resource.source, url };
+        return { label, tone, source: resource.source, url, levelLabel: label };
       })
       .filter(Boolean)
       .slice(0, 6);
+  }
+
+  function topicPackForLesson(lesson) {
+    const key = lessonTopicKey(lesson);
+    return resourcePacks.topicPacks?.[key] || resourcePacks.topicPacks?.review || null;
+  }
+
+  function normalizePackResource(resource) {
+    if (!resource?.url) return null;
+    return {
+      label: resource.label || resource.source || "Resource",
+      source: resource.source || "External",
+      url: resource.url,
+      why: resource.why || "",
+      levelLabel: resourcePacks.levels?.[resource.level] || humanTopic(resource.level || "resource"),
+      tone: toneForLevel(resource.level),
+    };
+  }
+
+  function toneForLevel(level) {
+    if (level === "rescue" || level === "drill" || level === "exam") return "amber";
+    if (level === "long") return "red";
+    return "blue";
   }
 
   function matchingTopicUrl(resource, topic) {
@@ -1159,15 +1204,24 @@
 
   function lessonTopicKey(lesson) {
     const text = `${lesson.lessonTitle} ${lesson.topic} ${lesson.partTitle || ""} ${lesson.moduleTitle || ""}`.toLowerCase();
+    if (text.includes("exam")) return "exam-prep";
     if (text.includes("chain rule")) return "chain-rule";
-    if (text.includes("related rates")) return "related-rates";
-    if (text.includes("optimization") || text.includes("max-min") || text.includes("linear approximation")) return "optimization";
-    if (text.includes("taylor") || text.includes("series")) return "series";
+    if (text.includes("implicit") || text.includes("inverse") || text.includes("exponential") || text.includes("logarithm")) return "implicit-exp-log";
+    if (text.includes("related rates")) return "related-rates-optimization";
+    if (text.includes("optimization") || text.includes("max-min")) return "related-rates-optimization";
+    if (text.includes("linear approximation") || text.includes("newton") || text.includes("mean value") || text.includes("graph")) return "applications";
+    if (text.includes("taylor") || text.includes("series")) return "series-taylor";
+    if (text.includes("l'hospital") || text.includes("improper")) return "improper-lhopital";
+    if (text.includes("parametric") || text.includes("polar")) return "parametric-polar";
+    if (text.includes("substitution") || text.includes("partial fractions") || text.includes("integration by parts") || text.includes("trig substitution") || text.includes("trigonometric powers")) return "integration-techniques";
+    if (text.includes("area") || text.includes("volume") || text.includes("arc length") || text.includes("surface area") || text.includes("probability")) return "applications-integrals";
+    if (text.includes("definite integral") || text.includes("fundamental theorem") || text.includes("ftc")) return "definite-integrals-ftc";
+    if (text.includes("antiderivative") || text.includes("differential equation")) return "antiderivatives";
     if (text.includes("limit") || text.includes("continuity")) return "limits";
-    if (text.includes("integral") || text.includes("antiderivative") || text.includes("fundamental theorem")) return "integrals";
-    if (text.includes("techniques") || text.includes("substitution") || text.includes("partial fractions") || text.includes("trig substitution")) return "integration-techniques";
+    if (text.includes("integral")) return "definite-integrals-ftc";
+    if (text.includes("product rule") || text.includes("quotient rule") || text.includes("trigonometric derivatives") || text.includes("differentiation rules")) return "derivative-rules";
     if (text.includes("derivative") || text.includes("differentiation")) return "derivatives";
-    return "review";
+    return "precalc";
   }
 
   function masteryPanel(lesson, state) {
@@ -1398,7 +1452,7 @@
           <a class="back-link" href="#/">Home</a>
           <span class="label">Recommended pacing</span>
           <h1>Weekly Plan</h1>
-          <p>Sixteen weeks from pre-calculus review to final exam prep.</p>
+          <p>Sixteen weeks from pre-calculus review to final exam prep, with specific resources for each stage.</p>
         </div>
       </section>
       <section class="week-list page-enter">
@@ -1593,21 +1647,56 @@
   function weekRow(week) {
     const refs = weekLessons(week);
     const done = completeItems(refs);
+    const pack = weeklyPack(week);
+    const packCards = (pack.packKeys || []).map((key) => weekPackCard(key)).filter(Boolean).join("");
     return `
       <article class="week-row">
         <div>
           <span class="label">${escapeHtml(week.week)}</span>
           <h2>${escapeHtml(week.title)}</h2>
           <p>${refs.length ? `${done}/${refs.length} complete` : "Warmup before Session 1"}</p>
+          ${pack.mission ? `<p class="week-mission">${escapeHtml(pack.mission)}</p>` : ""}
         </div>
-        <div class="week-lessons">
+        <div class="week-detail">
+          <div class="week-lessons">
+            ${
+              refs.length
+                ? refs.map((lesson) => `<a href="${lessonHref(lesson.id)}">${escapeHtml(cleanTitle(lesson.lessonTitle))}</a>`).join("")
+                : "<span>Algebra</span><span>Functions</span><span>Trigonometry</span><span>Logarithms</span>"
+            }
+          </div>
+          ${pack.checkpoints?.length ? `<div class="checkpoint-strip">${pack.checkpoints.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>` : ""}
           ${
-            refs.length
-              ? refs.map((lesson) => `<a href="${lessonHref(lesson.id)}">${escapeHtml(cleanTitle(lesson.lessonTitle))}</a>`).join("")
-              : "<span>Algebra</span><span>Functions</span><span>Trigonometry</span><span>Logarithms</span>"
+            packCards
+              ? `<details class="week-resource-shelf">
+                  <summary>Open resource shelf</summary>
+                  <div class="week-resource-grid">${packCards}</div>
+                </details>`
+              : ""
           }
         </div>
       </article>
+    `;
+  }
+
+  function weeklyPack(week) {
+    return resourcePacks.weeklyPacks?.[week.week] || { packKeys: [] };
+  }
+
+  function weekPackCard(key) {
+    const pack = resourcePacks.topicPacks?.[key];
+    if (!pack) return "";
+    return `
+      <section class="resource-pack-card">
+        <div>
+          <span class="label">${escapeHtml(pack.title)}</span>
+          <p>${escapeHtml(pack.simple || "")}</p>
+        </div>
+        ${pack.firstMoves?.length ? `<ol class="mini-steps">${pack.firstMoves.slice(0, 4).map((move) => `<li>${escapeHtml(move)}</li>`).join("")}</ol>` : ""}
+        <div class="resource-list resource-list-expanded">
+          ${(pack.resources || []).map(normalizePackResource).filter(Boolean).map(helpResourceItem).join("")}
+        </div>
+      </section>
     `;
   }
 

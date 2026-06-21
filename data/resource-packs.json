@@ -1,0 +1,223 @@
+{
+  "levels": {
+    "plain": "Plain-English simplification",
+    "visual": "Visual intuition",
+    "textbook": "Textbook clarity",
+    "rescue": "Basic rescue",
+    "drill": "Practice drills",
+    "interactive": "Interactive practice",
+    "long": "Long lecture",
+    "exam": "Exam mastery"
+  },
+  "topicPacks": {
+    "precalc": {
+      "title": "Pre-calculus rescue",
+      "simple": "Make algebra automatic before calculus starts. Calculus feels hard when factoring, trig values, logs, and graph transformations are slow.",
+      "firstMoves": ["Review functions and domains", "Drill factoring and rational simplification", "Memorize unit-circle anchors", "Practice logs and exponent rules"],
+      "resources": [
+        {"level": "drill", "label": "Paul's Algebra Review", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/alg/alg.aspx", "why": "Use this when algebra is the blocker."},
+        {"level": "drill", "label": "Paul's Calculus I Review", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/review.aspx", "why": "Targets the exact pre-calc skills needed for Calculus I."},
+        {"level": "textbook", "label": "OpenStax Functions and Graphs", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/1-introduction", "why": "Clean textbook base for functions, graphs, exponentials, and logs."},
+        {"level": "rescue", "label": "Khan Algebra Foundations", "source": "Khan Academy", "url": "https://www.khanacademy.org/math/algebra", "why": "Slow, friendly repair for algebra gaps."},
+        {"level": "interactive", "label": "Ximera Understanding Functions", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/understandingFunctions", "why": "Interactive function practice before limits."}
+      ]
+    },
+    "limits": {
+      "title": "Limits and continuity",
+      "simple": "A limit asks where the output is heading, not necessarily what the function equals there.",
+      "firstMoves": ["Try direct substitution", "If it breaks, factor or simplify", "Check left and right sides", "Only use formal rules after the picture makes sense"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Limits", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/2-introduction", "why": "Full chapter-level structure for limits."},
+        {"level": "rescue", "label": "Khan Limits and Continuity", "source": "Khan Academy", "url": "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity", "why": "Use this if MIT feels too compressed."},
+        {"level": "drill", "label": "Paul's Limits", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/limitsintro.aspx", "why": "Lots of worked examples and practice."},
+        {"level": "interactive", "label": "Ximera Limits", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/limits", "why": "Interactive checks for limit intuition."},
+        {"level": "visual", "label": "3Blue1Brown Limits", "source": "3Blue1Brown", "url": "https://www.3blue1brown.com/lessons/limits", "why": "Visual explanation before symbolic rules."},
+        {"level": "long", "label": "Professor Leonard Calculus I", "source": "Professor Leonard", "url": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5", "why": "Full classroom-style backup lecture."}
+      ]
+    },
+    "derivatives": {
+      "title": "Derivative meaning",
+      "simple": "A derivative is instantaneous rate of change: slope after zooming in until the curve looks straight.",
+      "firstMoves": ["Connect secant slope to tangent slope", "Track units", "Interpret sign and size", "Sketch before calculating"],
+      "resources": [
+        {"level": "visual", "label": "3Blue1Brown Derivatives", "source": "3Blue1Brown", "url": "https://www.3blue1brown.com/lessons/derivatives", "why": "Best first-pass intuition for what derivatives are."},
+        {"level": "textbook", "label": "OpenStax Derivatives", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/3-introduction", "why": "Formal chapter on derivative definitions and meaning."},
+        {"level": "rescue", "label": "Khan Derivative Basics", "source": "Khan Academy", "url": "https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules", "why": "Slow rebuild of derivative definition and basic rules."},
+        {"level": "drill", "label": "Paul's Derivatives", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/derivativesintro.aspx", "why": "Practice derivative setup and interpretation."},
+        {"level": "interactive", "label": "Ximera Derivatives", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/derivatives", "why": "Active checks instead of passive reading."}
+      ]
+    },
+    "derivative-rules": {
+      "title": "Derivative rules",
+      "simple": "Rules are shortcuts for patterns. Name the structure first, then apply the matching rule.",
+      "firstMoves": ["Simplify constants", "Identify sum, product, quotient, or trig form", "Apply one rule at a time", "Check by differentiating dimensions/units"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Differentiation Rules", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules", "why": "Clean rule list with examples."},
+        {"level": "textbook", "label": "OpenStax Trig Derivatives", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/3-5-derivatives-of-trigonometric-functions", "why": "Use for sine, cosine, tangent derivative rules."},
+        {"level": "rescue", "label": "Khan Basic Derivative Rules", "source": "Khan Academy", "url": "https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules", "why": "Simpler rule-by-rule walkthroughs."},
+        {"level": "drill", "label": "Paul's Differentiation Formulas", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/DiffFormulas.aspx", "why": "Formula reference plus practice."},
+        {"level": "interactive", "label": "Ximera Derivative Rules", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/derivatives", "why": "Interactive rule recognition."}
+      ]
+    },
+    "chain-rule": {
+      "title": "Chain rule",
+      "simple": "Differentiate the outside while leaving the inside alone, then multiply by the inside derivative.",
+      "firstMoves": ["Circle the inside function", "Name the outside function", "Differentiate outside first", "Multiply by inside derivative"],
+      "resources": [
+        {"level": "visual", "label": "3Blue1Brown Chain Rule", "source": "3Blue1Brown", "url": "https://www.3blue1brown.com/lessons/chain-rule", "why": "Makes composition feel natural."},
+        {"level": "textbook", "label": "OpenStax Chain Rule", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule", "why": "Formal examples and notation."},
+        {"level": "rescue", "label": "Khan Chain Rule", "source": "Khan Academy", "url": "https://www.khanacademy.org/math/calculus-1/cs1-chain-rule", "why": "Gentler practice on nested functions."},
+        {"level": "drill", "label": "Paul's Chain Rule", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/chainrule.aspx", "why": "Many chain rule drill examples."},
+        {"level": "interactive", "label": "Ximera Chain Rule", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/chainRule", "why": "Interactive recognition and practice."}
+      ]
+    },
+    "implicit-exp-log": {
+      "title": "Implicit, inverse, exponential, and logarithmic derivatives",
+      "simple": "When y is hidden inside an equation, differentiate both sides and remember every y-term brings dy/dx.",
+      "firstMoves": ["Differentiate both sides", "Attach dy/dx to y terms", "Collect dy/dx terms", "Solve algebraically"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Implicit Differentiation", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation", "why": "Formal implicit setup."},
+        {"level": "textbook", "label": "OpenStax Exponential and Log Derivatives", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions", "why": "Covers e, ln, and exponential/log rules."},
+        {"level": "drill", "label": "Paul's Implicit Differentiation", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/implicitdiff.aspx", "why": "Good algebra-heavy practice."},
+        {"level": "drill", "label": "Paul's Logarithmic Differentiation", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/logdiff.aspx", "why": "Use when products/powers get messy."},
+        {"level": "long", "label": "Professor Leonard Calculus I", "source": "Professor Leonard", "url": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5", "why": "Full-length explanation when MIT moves too fast."}
+      ]
+    },
+    "applications": {
+      "title": "Derivative applications",
+      "simple": "Applications ask what derivatives say about a situation: increasing, decreasing, steepness, best value, or rate.",
+      "firstMoves": ["Translate words to variables", "Write the quantity of interest", "Differentiate", "Interpret the derivative in context"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Applications of Derivatives", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/4-introduction", "why": "Chapter hub for derivative applications."},
+        {"level": "textbook", "label": "OpenStax Shape of a Graph", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph", "why": "Graph interpretation from derivatives."},
+        {"level": "drill", "label": "Paul's Applications of Derivatives", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/appsderivatives.aspx", "why": "Broad application practice."},
+        {"level": "rescue", "label": "Khan Applications of Derivatives", "source": "Khan Academy", "url": "https://www.khanacademy.org/math/calculus-1/cs1-applications-of-derivatives", "why": "Gentle application walkthroughs."},
+        {"level": "interactive", "label": "Ximera Optimization", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/optimization", "why": "Interactive application practice."}
+      ]
+    },
+    "related-rates-optimization": {
+      "title": "Related rates and optimization",
+      "simple": "Related rates differentiate a relationship in time. Optimization builds one-variable formulas, then finds best values.",
+      "firstMoves": ["Draw a picture", "Write the relationship", "Differentiate at the right time", "Check units, endpoints, and domain"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Related Rates", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/4-1-related-rates", "why": "Structured related-rates examples."},
+        {"level": "textbook", "label": "OpenStax Optimization", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/4-7-applied-optimization-problems", "why": "Formal optimization workflow."},
+        {"level": "drill", "label": "Paul's Related Rates", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/relatedrates.aspx", "why": "Classic related-rates practice."},
+        {"level": "drill", "label": "Paul's Optimization", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/optimization.aspx", "why": "Good domain/endpoints drill."},
+        {"level": "interactive", "label": "Ximera Related Rates", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/relatedRates", "why": "Interactive setup practice."},
+        {"level": "interactive", "label": "Ximera Optimization", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/optimization", "why": "Interactive optimization practice."}
+      ]
+    },
+    "antiderivatives": {
+      "title": "Antiderivatives and differential equations",
+      "simple": "An antiderivative reverses differentiation. The constant matters because many functions have the same derivative.",
+      "firstMoves": ["Match the derivative rule backward", "Add + C for indefinite integrals", "Use initial conditions to find C", "Check by differentiating"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Antiderivatives", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/4-10-antiderivatives", "why": "Connects derivative reversal to motion."},
+        {"level": "drill", "label": "Paul's Indefinite Integrals", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/indefiniteintegrals.aspx", "why": "Core antiderivative drills."},
+        {"level": "interactive", "label": "Ximera Antiderivatives", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/antiderivatives", "why": "Interactive reverse-derivative practice."},
+        {"level": "rescue", "label": "Khan Integrals", "source": "Khan Academy", "url": "https://www.khanacademy.org/math/calculus-1/cs1-integrals", "why": "Gentle intro to antiderivatives and integrals."}
+      ]
+    },
+    "definite-integrals-ftc": {
+      "title": "Definite integrals and the Fundamental Theorem",
+      "simple": "A definite integral accumulates signed area. The FTC says accumulation and differentiation undo each other.",
+      "firstMoves": ["Decide if it is area or accumulation", "Track bounds", "Use FTC when possible", "Check signs above/below the axis"],
+      "resources": [
+        {"level": "visual", "label": "3Blue1Brown Integrals", "source": "3Blue1Brown", "url": "https://www.3blue1brown.com/lessons/integrals", "why": "Visual accumulation intuition."},
+        {"level": "textbook", "label": "OpenStax Definite Integral", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral", "why": "Formal definite-integral definition."},
+        {"level": "textbook", "label": "OpenStax FTC", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/5-3-the-fundamental-theorem-of-calculus", "why": "FTC I and II explanation."},
+        {"level": "drill", "label": "Paul's Integrals", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/integralsintro.aspx", "why": "Integral practice and examples."},
+        {"level": "interactive", "label": "Ximera Integrals", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/integrals", "why": "Interactive accumulation practice."}
+      ]
+    },
+    "applications-integrals": {
+      "title": "Applications of integration",
+      "simple": "Integral applications are all accumulation with geometry or probability labels attached.",
+      "firstMoves": ["Draw the region or quantity", "Choose horizontal or vertical slices", "Write one representative slice", "Integrate slice over the interval"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Areas Between Curves", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/6-1-areas-between-curves", "why": "Area setup with bounds."},
+        {"level": "textbook", "label": "OpenStax Volumes by Slicing", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/6-2-determining-volumes-by-slicing", "why": "Volume setup by cross-sections."},
+        {"level": "textbook", "label": "OpenStax Shells", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/6-3-volumes-of-revolution-cylindrical-shells", "why": "Shell method and volume comparisons."},
+        {"level": "drill", "label": "Paul's Applications of Integrals", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/appsdefiniteintegrals.aspx", "why": "Applied integral practice."},
+        {"level": "interactive", "label": "Ximera Area Between Curves", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1/areaBetweenCurves", "why": "Interactive region setup."}
+      ]
+    },
+    "integration-techniques": {
+      "title": "Integration techniques",
+      "simple": "Technique problems are pattern recognition: substitution for chain-rule leftovers, parts for products, partial fractions for rational functions.",
+      "firstMoves": ["Try substitution first", "If product of different types, try parts", "If rational, factor denominator", "Check by differentiating the result"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Substitution", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/5-5-substitution", "why": "Core substitution method."},
+        {"level": "textbook", "label": "OpenStax Techniques of Integration", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-2/pages/3-introduction", "why": "Technique chapter hub."},
+        {"level": "drill", "label": "Paul's Substitution", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/substitutionruleindefinite.aspx", "why": "Substitution drill problems."},
+        {"level": "drill", "label": "Paul's Integration by Parts", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calcii/IntegrationByParts.aspx", "why": "Step-by-step parts practice."},
+        {"level": "drill", "label": "Paul's Partial Fractions", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calcii/PartialFractions.aspx", "why": "Rational integration practice."},
+        {"level": "long", "label": "Professor Leonard Calculus I", "source": "Professor Leonard", "url": "https://www.youtube.com/playlist?list=PLF797E961509B4EB5", "why": "Long-form backup for technique selection."}
+      ]
+    },
+    "parametric-polar": {
+      "title": "Parametric and polar curves",
+      "simple": "Parametric curves use time as a hidden input. Polar curves use radius and angle instead of x and y.",
+      "firstMoves": ["Track which variable is independent", "Convert when helpful", "Differentiate using the correct parameter", "Sketch before calculating area/length"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax Parametric Equations", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-2/pages/7-1-parametric-equations", "why": "Formal parametric curve foundation."},
+        {"level": "textbook", "label": "OpenStax Polar Coordinates", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-2/pages/7-3-polar-coordinates", "why": "Polar graphing and coordinate setup."},
+        {"level": "drill", "label": "Paul's Parametric Equations", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calcii/parametriceqn.aspx", "why": "Parametric practice."},
+        {"level": "drill", "label": "Paul's Polar Coordinates", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calcii/polarcoordinates.aspx", "why": "Polar graph and calculus drills."}
+      ]
+    },
+    "improper-lhopital": {
+      "title": "L'Hospital's rule and improper integrals",
+      "simple": "Use L'Hospital only for indeterminate forms. Improper integrals are limit problems wearing integral clothing.",
+      "firstMoves": ["Confirm the indeterminate form", "Differentiate numerator and denominator separately", "For improper integrals, replace bad bound with a limit", "Compare to known p-integrals when possible"],
+      "resources": [
+        {"level": "textbook", "label": "OpenStax L'Hospital's Rule", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/4-8-lhopitals-rule", "why": "Rules and indeterminate forms."},
+        {"level": "textbook", "label": "OpenStax Improper Integrals", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-2/pages/3-7-improper-integrals", "why": "Improper integrals as limits."},
+        {"level": "drill", "label": "Paul's L'Hospital's Rule", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/lhospitalsrule.aspx", "why": "Indeterminate form practice."},
+        {"level": "drill", "label": "Paul's Improper Integrals", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calcii/improperintegrals.aspx", "why": "Improper integral setup and comparison."}
+      ]
+    },
+    "series-taylor": {
+      "title": "Series and Taylor polynomials",
+      "simple": "A series is an infinite sum. A Taylor series approximates a function using derivative information at one point.",
+      "firstMoves": ["Identify the series type", "Check convergence before manipulating", "For power series, find center and radius", "For Taylor, compute derivatives at the center"],
+      "resources": [
+        {"level": "visual", "label": "3Blue1Brown Taylor Series", "source": "3Blue1Brown", "url": "https://www.3blue1brown.com/lessons/taylor-series", "why": "Visual reason Taylor series work."},
+        {"level": "textbook", "label": "OpenStax Sequences and Series", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-2/pages/5-introduction", "why": "Full series chapter hub."},
+        {"level": "textbook", "label": "OpenStax Taylor and Maclaurin Series", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-2/pages/6-3-taylor-and-maclaurin-series", "why": "Taylor formula and examples."},
+        {"level": "drill", "label": "Paul's Series", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calcii/SeriesIntro.aspx", "why": "Series convergence drill practice."},
+        {"level": "drill", "label": "Paul's Taylor Series", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calcii/TaylorSeries.aspx", "why": "Taylor polynomial practice."}
+      ]
+    },
+    "exam-prep": {
+      "title": "Exam mastery",
+      "simple": "Exam prep is retrieval practice: attempt first, grade second, tag mistakes third.",
+      "firstMoves": ["Start a timed attempt", "Hide solutions", "Write what rule each problem tests", "After grading, tag mistakes and redo the weakest type"],
+      "resources": [
+        {"level": "exam", "label": "MIT Local Exams in Exam Mode", "source": "This dashboard", "url": "#/exam-mode", "why": "Timed MIT exam PDFs with solutions hidden until attempt."},
+        {"level": "drill", "label": "Paul's Calculus I Practice", "source": "Paul's Notes", "url": "https://tutorial.math.lamar.edu/classes/calci/calci.aspx", "why": "Targeted pre-exam drills."},
+        {"level": "textbook", "label": "OpenStax Calculus Volume 1", "source": "OpenStax", "url": "https://openstax.org/books/calculus-volume-1/pages/preface", "why": "Use chapter reviews when a whole topic is weak."},
+        {"level": "interactive", "label": "Ximera Calculus 1", "source": "Ximera", "url": "https://ximera.osu.edu/mooculus/calculus1", "why": "Interactive checks before a timed attempt."}
+      ]
+    }
+  },
+  "weeklyPacks": {
+    "Week 0": {"mission": "Repair pre-calculus weak spots before MIT starts.", "packKeys": ["precalc"], "checkpoints": ["Finish the readiness check", "Review every missed diagnostic topic", "Do 20 minutes of algebra/trig drills"]},
+    "Week 1": {"mission": "Make limits and derivative meaning visual before memorizing rules.", "packKeys": ["limits", "derivatives"], "checkpoints": ["Explain derivative as slope in one sentence", "Do limit simplification drills", "Watch the first MIT clips before reading notes"]},
+    "Week 2": {"mission": "Turn derivative rules into fast pattern recognition.", "packKeys": ["derivative-rules", "chain-rule"], "checkpoints": ["Name the rule before differentiating", "Drill trig derivatives", "Finish chain rule practice"]},
+    "Week 3": {"mission": "Handle hidden variables and exponential/log derivatives, then test yourself.", "packKeys": ["implicit-exp-log", "chain-rule", "exam-prep"], "checkpoints": ["Differentiate implicit equations cleanly", "Practice log/exponential derivatives", "Attempt Exam 1 in Exam Mode"]},
+    "Week 4": {"mission": "Use derivatives to understand approximation and graph behavior.", "packKeys": ["applications", "derivatives"], "checkpoints": ["Sketch with first/second derivative signs", "Practice linear approximation", "Tag graphing mistakes"]},
+    "Week 5": {"mission": "Master word-problem setup for related rates and optimization.", "packKeys": ["related-rates-optimization", "applications"], "checkpoints": ["Draw every related-rates problem", "State optimization domains", "Redo the weakest setup type"]},
+    "Week 6": {"mission": "Connect derivative theory, antiderivatives, and exam readiness.", "packKeys": ["applications", "antiderivatives", "exam-prep"], "checkpoints": ["Use MVT language correctly", "Practice antiderivative checks", "Attempt Exam 2 in Exam Mode"]},
+    "Week 7": {"mission": "Build definite integral intuition from area and accumulation.", "packKeys": ["definite-integrals-ftc"], "checkpoints": ["Explain signed area", "Compute basic definite integrals", "Use FTC without mixing up bounds"]},
+    "Week 8": {"mission": "Turn FTC and integral applications into geometry setup skills.", "packKeys": ["definite-integrals-ftc", "applications-integrals"], "checkpoints": ["Draw regions before integrating", "Choose washer/shell/slice method", "Check units of final answer"]},
+    "Week 9": {"mission": "Practice mixed integral applications and then take Exam 3.", "packKeys": ["applications-integrals", "definite-integrals-ftc", "exam-prep"], "checkpoints": ["Do average value and probability examples", "Practice numerical integration", "Attempt Exam 3 in Exam Mode"]},
+    "Week 10": {"mission": "Learn substitution and trig patterns as technique selection.", "packKeys": ["integration-techniques"], "checkpoints": ["Try u-sub first", "Memorize basic trig identities", "Check antiderivatives by differentiating"]},
+    "Week 11": {"mission": "Choose between partial fractions, parts, arc length, and surface area.", "packKeys": ["integration-techniques", "applications-integrals"], "checkpoints": ["Factor rational denominators", "Use LIATE for parts as a guide", "Draw geometry for arc/surface problems"]},
+    "Week 12": {"mission": "Switch coordinate systems and then attempt Exam 4.", "packKeys": ["parametric-polar", "applications-integrals", "exam-prep"], "checkpoints": ["Sketch parametric direction", "Convert polar when helpful", "Attempt Exam 4 in Exam Mode"]},
+    "Week 13": {"mission": "Treat L'Hospital and improper integrals as limit problems.", "packKeys": ["improper-lhopital", "limits"], "checkpoints": ["Confirm indeterminate forms", "Rewrite improper integrals with limits", "Practice comparison tests for integrals"]},
+    "Week 14": {"mission": "Make series tests and Taylor approximations feel systematic.", "packKeys": ["series-taylor", "improper-lhopital"], "checkpoints": ["Identify series type", "Choose convergence test", "Build Taylor polynomials from derivatives"]},
+    "Week 15": {"mission": "Use final prep as a feedback loop: attempt, grade, tag, redo.", "packKeys": ["exam-prep", "limits", "derivatives", "definite-integrals-ftc", "series-taylor"], "checkpoints": ["Attempt a final under time", "Tag every error", "Redo top two mistake patterns"]}
+  }
+}
